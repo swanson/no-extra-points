@@ -1,0 +1,4010 @@
+{
+  "meta": {
+    "last_modified": "2018-11-23 15:31:42 -0500",
+    "week": 24
+  },
+  "projections": [
+    {
+      "number": "7",
+      "team_abbr": "o",
+      "player": "Trevor Harris",
+      "position": "QB",
+      "id": "trevor-harris",
+      "salary": "16900",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 13.3,
+      "median": 17.2,
+      "high": 27.4,
+      "contributing_matchups": [
+        {
+          "player": "Zach Collaros",
+          "season": "2015",
+          "week": "10",
+          "opponent": "MTL",
+          "fpts": 18.8
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2015",
+          "week": "4",
+          "opponent": "MTL",
+          "fpts": 16.8
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2015",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 17.6
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2017",
+          "week": "3",
+          "opponent": "CGY",
+          "fpts": 13.3
+        },
+        {
+          "player": "Trevor Harris",
+          "season": "2017",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 27.2
+        },
+        {
+          "player": "Trevor Harris",
+          "season": "2017",
+          "week": "2",
+          "opponent": "CGY",
+          "fpts": 28.0
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "17",
+          "opponent": "MTL",
+          "fpts": 13.5
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "22",
+          "opponent": "BC",
+          "fpts": 28.8
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 30.2
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 29.8
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 13.2
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "15",
+          "opponent": "HAM",
+          "fpts": 21.8
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2015",
+          "week": "13",
+          "opponent": "EDM",
+          "fpts": 8.0
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2016",
+          "week": "10",
+          "opponent": "HAM",
+          "fpts": 20.0
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2015",
+          "week": "9",
+          "opponent": "EDM",
+          "fpts": 35.2
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2017",
+          "week": "4",
+          "opponent": "TOR",
+          "fpts": 9.3
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2017",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 13.8
+        },
+        {
+          "player": "Ricky Ray",
+          "season": "2017",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 9.8
+        },
+        {
+          "player": "Ricky Ray",
+          "season": "2017",
+          "week": "7",
+          "opponent": "CGY",
+          "fpts": 6.6
+        },
+        {
+          "player": "Ricky Ray",
+          "season": "2017",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 15.9
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "team_abbr": "c",
+      "player": "Bo Levi Mitchell",
+      "position": "QB",
+      "id": "bo-levi-mitchell",
+      "salary": "15600",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 7.1,
+      "median": 15.8,
+      "high": 23.6,
+      "contributing_matchups": [
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 6.2
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 28.6
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 19.2
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 0.5
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 9.9
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 1.8
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 32.9
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2017",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 25.4
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 21.5
+        },
+        {
+          "player": "Bo Levi Mitchell",
+          "season": "2017",
+          "week": "23",
+          "opponent": "TOR",
+          "fpts": 24.9
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2017",
+          "week": "4",
+          "opponent": "BC",
+          "fpts": 22.6
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2015",
+          "week": "14",
+          "opponent": "MTL",
+          "fpts": 11.7
+        },
+        {
+          "player": "Darian Durant",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 12.3
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "21",
+          "opponent": "ORB",
+          "fpts": 21.1
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2015",
+          "week": "13",
+          "opponent": "MTL",
+          "fpts": 6.6
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "15",
+          "opponent": "ORB",
+          "fpts": 9.3
+        },
+        {
+          "player": "Kevin Glenn",
+          "season": "2017",
+          "week": "17",
+          "opponent": "ORB",
+          "fpts": 23.5
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 3.7
+        },
+        {
+          "player": "Zach Collaros",
+          "season": "2017",
+          "week": "1",
+          "opponent": "TOR",
+          "fpts": 7.2
+        },
+        {
+          "player": "Darian Durant",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 23.9
+        }
+      ]
+    },
+    {
+      "number": "85",
+      "team_abbr": "o",
+      "player": "Diontae Spencer",
+      "position": "WR",
+      "id": "diontae-spencer",
+      "salary": "12100",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 10.8,
+      "median": 17.7,
+      "high": 21.8,
+      "contributing_matchups": [
+        {
+          "player": "Trent Guy",
+          "season": "2014",
+          "week": "12",
+          "opponent": "CGY",
+          "fpts": 12.3
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 10.9
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 33.5
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "10",
+          "opponent": "MTL",
+          "fpts": 10.3
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 23.4
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "6",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 8.6
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 37.2
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 15.3
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 13.9
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 20.7
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "2",
+          "opponent": "CGY",
+          "fpts": 23.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2014",
+          "week": "23",
+          "opponent": "HAM",
+          "fpts": 21.3
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 19.5
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "3",
+          "opponent": "CGY",
+          "fpts": 44.4
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "21",
+          "opponent": "BC",
+          "fpts": 8.3
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "13",
+          "opponent": "CGY",
+          "fpts": 2.6
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "11",
+          "opponent": "MTL",
+          "fpts": 19.1
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "7",
+          "opponent": "HAM",
+          "fpts": 19.9
+        },
+        {
+          "player": "Tori Gurley",
+          "season": "2015",
+          "week": "18",
+          "opponent": "MTL",
+          "fpts": 1.2
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "team_abbr": "c",
+      "player": "Eric Rogers",
+      "position": "WR",
+      "id": "eric-rogers",
+      "salary": "10900",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 4.5,
+      "median": 10.9,
+      "high": 14.8,
+      "contributing_matchups": [
+        {
+          "player": "Juron Criner",
+          "season": "2017",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 5.1
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 3.3
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 32.3
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "13",
+          "opponent": "TOR",
+          "fpts": 4.9
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 2.6
+        },
+        {
+          "player": "Tori Gurley",
+          "season": "2015",
+          "week": "16",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Tori Gurley",
+          "season": "2015",
+          "week": "18",
+          "opponent": "MTL",
+          "fpts": 1.2
+        },
+        {
+          "player": "Kevin Elliott",
+          "season": "2015",
+          "week": "18",
+          "opponent": "MTL",
+          "fpts": 10.5
+        },
+        {
+          "player": "Kevin Elliott",
+          "season": "2015",
+          "week": "16",
+          "opponent": "MTL",
+          "fpts": 1.2
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "4",
+          "opponent": "ORB",
+          "fpts": 11.3
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 11.2
+        },
+        {
+          "player": "Terrence Toliver",
+          "season": "2015",
+          "week": "10",
+          "opponent": "MTL",
+          "fpts": 14.4
+        },
+        {
+          "player": "Terrence Toliver",
+          "season": "2015",
+          "week": "4",
+          "opponent": "MTL",
+          "fpts": 19.6
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 12.1
+        },
+        {
+          "player": "Juron Criner",
+          "season": "2017",
+          "week": "15",
+          "opponent": "SSK",
+          "fpts": 1.4
+        },
+        {
+          "player": "Juron Criner",
+          "season": "2017",
+          "week": "17",
+          "opponent": "SSK",
+          "fpts": 6.2
+        },
+        {
+          "player": "B.J. Cunningham",
+          "season": "2015",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 9.5
+        },
+        {
+          "player": "Kenny Stafford",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 16.1
+        },
+        {
+          "player": "Juron Criner",
+          "season": "2017",
+          "week": "21",
+          "opponent": "SSK",
+          "fpts": 27.9
+        },
+        {
+          "player": "B.J. Cunningham",
+          "season": "2015",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 13.4
+        }
+      ]
+    },
+    {
+      "number": "88",
+      "team_abbr": "o",
+      "player": "Brad Sinopoli",
+      "position": "WR",
+      "id": "brad-sinopoli",
+      "salary": "10600",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 10.1,
+      "median": 13.5,
+      "high": 15.2,
+      "contributing_matchups": [
+        {
+          "player": "Nick Moore",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 5.8
+        },
+        {
+          "player": "Brad Sinopoli",
+          "season": "2017",
+          "week": "2",
+          "opponent": "CGY",
+          "fpts": 27.1
+        },
+        {
+          "player": "Brad Sinopoli",
+          "season": "2017",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 15.8
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 11.9
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 6.8
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 14.1
+        },
+        {
+          "player": "Andrew Fantuz",
+          "season": "2016",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 31.7
+        },
+        {
+          "player": "Andrew Fantuz",
+          "season": "2016",
+          "week": "13",
+          "opponent": "MTL",
+          "fpts": 10.5
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2014",
+          "week": "2",
+          "opponent": "ORB",
+          "fpts": 13.8
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2015",
+          "week": "3",
+          "opponent": "MTL",
+          "fpts": 14.1
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 13.1
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 8.8
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2014",
+          "week": "19",
+          "opponent": "CGY",
+          "fpts": 14.8
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2015",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 12.5
+        },
+        {
+          "player": "Nik Lewis",
+          "season": "2017",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 7.2
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 11.6
+        },
+        {
+          "player": "Courtney Taylor",
+          "season": "2014",
+          "week": "6",
+          "opponent": "CGY",
+          "fpts": 15.0
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2015",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 16.7
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2015",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 8.5
+        },
+        {
+          "player": "Nik Lewis",
+          "season": "2016",
+          "week": "19",
+          "opponent": "CGY",
+          "fpts": 17.4
+        }
+      ]
+    },
+    {
+      "number": "82",
+      "team_abbr": "o",
+      "player": "Greg Ellingson",
+      "position": "WR",
+      "id": "greg-ellingson",
+      "salary": "10200",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 7.8,
+      "median": 12.8,
+      "high": 19.1,
+      "contributing_matchups": [
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "6",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 8.6
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 10.9
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 33.5
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "2",
+          "opponent": "CGY",
+          "fpts": 23.3
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 15.3
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 23.4
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "10",
+          "opponent": "MTL",
+          "fpts": 10.3
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 11.7
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 4.3
+        },
+        {
+          "player": "Terrence Toliver",
+          "season": "2016",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 42.3
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 13.9
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2015",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 14.1
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 19.5
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2016",
+          "week": "4",
+          "opponent": "MTL",
+          "fpts": 3.8
+        },
+        {
+          "player": "Terrence Toliver",
+          "season": "2016",
+          "week": "13",
+          "opponent": "MTL",
+          "fpts": 6.0
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2015",
+          "week": "11",
+          "opponent": "MTL",
+          "fpts": 3.5
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2016",
+          "week": "21",
+          "opponent": "BC",
+          "fpts": 8.3
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2016",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 18.9
+        },
+        {
+          "player": "Terrence Toliver",
+          "season": "2016",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 6.3
+        }
+      ]
+    },
+    {
+      "number": "29",
+      "team_abbr": "o",
+      "player": "William Powell",
+      "position": "RB",
+      "id": "william-powell",
+      "salary": "9900",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 9.3,
+      "median": 13.3,
+      "high": 15.6,
+      "contributing_matchups": [
+        {
+          "player": "John White",
+          "season": "2014",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 3.1
+        },
+        {
+          "player": "John White",
+          "season": "2014",
+          "week": "22",
+          "opponent": "CGY",
+          "fpts": 6.3
+        },
+        {
+          "player": "Anthony Allen",
+          "season": "2014",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 14.2
+        },
+        {
+          "player": "John White",
+          "season": "2014",
+          "week": "3",
+          "opponent": "ORB",
+          "fpts": 15.9
+        },
+        {
+          "player": "William Powell",
+          "season": "2017",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 10.6
+        },
+        {
+          "player": "Jon Cornish",
+          "season": "2014",
+          "week": "9",
+          "opponent": "ORB",
+          "fpts": 10.4
+        },
+        {
+          "player": "Jon Cornish",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 13.6
+        },
+        {
+          "player": "Tyrell Sutton",
+          "season": "2015",
+          "week": "2",
+          "opponent": "CGY",
+          "fpts": 16.1
+        },
+        {
+          "player": "Tyrell Sutton",
+          "season": "2015",
+          "week": "6",
+          "opponent": "CGY",
+          "fpts": 7.7
+        },
+        {
+          "player": "Anthony Allen",
+          "season": "2014",
+          "week": "13",
+          "opponent": "ORB",
+          "fpts": 15.2
+        },
+        {
+          "player": "William Powell",
+          "season": "2017",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 14.6
+        },
+        {
+          "player": "Mossis Madu",
+          "season": "2016",
+          "week": "15",
+          "opponent": "BC",
+          "fpts": 16.5
+        },
+        {
+          "player": "Keola Antolin",
+          "season": "2014",
+          "week": "16",
+          "opponent": "ORB",
+          "fpts": 29.6
+        },
+        {
+          "player": "Mossis Madu",
+          "season": "2016",
+          "week": "17",
+          "opponent": "HAM",
+          "fpts": 15.5
+        },
+        {
+          "player": "Mossis Madu",
+          "season": "2016",
+          "week": "18",
+          "opponent": "HAM",
+          "fpts": 21.9
+        },
+        {
+          "player": "Jon Cornish",
+          "season": "2015",
+          "week": "16",
+          "opponent": "EDM",
+          "fpts": 11.3
+        },
+        {
+          "player": "Brandon Whitaker",
+          "season": "2014",
+          "week": "1",
+          "opponent": "CGY",
+          "fpts": 7.6
+        },
+        {
+          "player": "Brandon Whitaker",
+          "season": "2014",
+          "week": "13",
+          "opponent": "CGY",
+          "fpts": 13.0
+        },
+        {
+          "player": "Trent Richardson",
+          "season": "2017",
+          "week": "18",
+          "opponent": "CGY",
+          "fpts": 5.2
+        },
+        {
+          "player": "Andrew Harris",
+          "season": "2015",
+          "week": "11",
+          "opponent": "MTL",
+          "fpts": 9.8
+        }
+      ]
+    },
+    {
+      "number": "89",
+      "team_abbr": "c",
+      "player": "DaVaris Daniels",
+      "position": "WR",
+      "id": "davaris-daniels",
+      "salary": "9600",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 11.9,
+      "median": 16.6,
+      "high": 23.6,
+      "contributing_matchups": [
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 12.1
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 11.2
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 6.0
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 35.9
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 14.9
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 36.0
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 15.5
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 11.0
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "3",
+          "opponent": "ORB",
+          "fpts": 19.2
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "6",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 8.6
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 21.7
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2016",
+          "week": "14",
+          "opponent": "EDM",
+          "fpts": 40.1
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 16.8
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2016",
+          "week": "18",
+          "opponent": "EDM",
+          "fpts": 40.8
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 12.8
+        },
+        {
+          "player": "S.J. Green",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 19.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 19.4
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 29.3
+        },
+        {
+          "player": "S.J. Green",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 5.3
+        }
+      ]
+    },
+    {
+      "number": "83",
+      "team_abbr": "c",
+      "player": "Markeith Ambles",
+      "position": "WR",
+      "id": "markeith-ambles",
+      "salary": "9100",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 4.6,
+      "median": 11.7,
+      "high": 15.9,
+      "contributing_matchups": [
+        {
+          "player": "Juron Criner",
+          "season": "2017",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 5.1
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 32.3
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 3.3
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "13",
+          "opponent": "TOR",
+          "fpts": 4.9
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 11.2
+        },
+        {
+          "player": "DeVier Posey",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 12.1
+        },
+        {
+          "player": "Adarius Bowman",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 2.6
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2015",
+          "week": "11",
+          "opponent": "MTL",
+          "fpts": 3.5
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 15.5
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 11.0
+        },
+        {
+          "player": "Kevin Elliott",
+          "season": "2015",
+          "week": "18",
+          "opponent": "MTL",
+          "fpts": 10.5
+        },
+        {
+          "player": "Tori Gurley",
+          "season": "2015",
+          "week": "18",
+          "opponent": "MTL",
+          "fpts": 1.2
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2015",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 14.1
+        },
+        {
+          "player": "Kevin Elliott",
+          "season": "2015",
+          "week": "16",
+          "opponent": "MTL",
+          "fpts": 1.2
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 15.8
+        },
+        {
+          "player": "Tori Gurley",
+          "season": "2015",
+          "week": "16",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 20.5
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 21.7
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 21.9
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 12.8
+        }
+      ]
+    },
+    {
+      "number": "25",
+      "team_abbr": "c",
+      "player": "Don Jackson",
+      "position": "RB",
+      "id": "don-jackson",
+      "salary": "8600",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 7.6,
+      "median": 11.0,
+      "high": 14.8,
+      "contributing_matchups": [
+        {
+          "player": "LaDarius Perkins",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 2.0
+        },
+        {
+          "player": "LaDarius Perkins",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 10.2
+        },
+        {
+          "player": "Shakir Bell",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 10.0
+        },
+        {
+          "player": "C.J. Gable",
+          "season": "2015",
+          "week": "21",
+          "opponent": "TOR",
+          "fpts": 13.4
+        },
+        {
+          "player": "Shakir Bell",
+          "season": "2015",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 6.0
+        },
+        {
+          "player": "C.J. Gable",
+          "season": "2015",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 3.1
+        },
+        {
+          "player": "Cameron Marshall",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 25.4
+        },
+        {
+          "player": "Cameron Marshall",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 9.2
+        },
+        {
+          "player": "LaDarius Perkins",
+          "season": "2017",
+          "week": "8",
+          "opponent": "ORB",
+          "fpts": 20.7
+        },
+        {
+          "player": "Paris Cotton",
+          "season": "2015",
+          "week": "3",
+          "opponent": "MTL",
+          "fpts": 8.3
+        },
+        {
+          "player": "Cameron Marshall",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 12.8
+        },
+        {
+          "player": "Jon Cornish",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 13.6
+        },
+        {
+          "player": "Trent Richardson",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 2.0
+        },
+        {
+          "player": "John White",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 18.4
+        },
+        {
+          "player": "Chad Simpson",
+          "season": "2015",
+          "week": "19",
+          "opponent": "MTL",
+          "fpts": 13.9
+        },
+        {
+          "player": "Tyrell Sutton",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 7.7
+        },
+        {
+          "player": "Tyrell Sutton",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 20.0
+        },
+        {
+          "player": "LaDarius Perkins",
+          "season": "2017",
+          "week": "10",
+          "opponent": "SSK",
+          "fpts": 11.8
+        },
+        {
+          "player": "Jon Cornish",
+          "season": "2015",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 17.4
+        },
+        {
+          "player": "Michael Ford",
+          "season": "2015",
+          "week": "17",
+          "opponent": "MTL",
+          "fpts": 7.3
+        }
+      ]
+    },
+    {
+      "number": "80",
+      "team_abbr": "c",
+      "player": "Marken Michel",
+      "position": "WR",
+      "id": "marken-michel",
+      "salary": "8000",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 5.8,
+      "median": 8.6,
+      "high": 22.7,
+      "contributing_matchups": [
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "8",
+          "opponent": "EDM",
+          "fpts": 5.8
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "16",
+          "opponent": "EDM",
+          "fpts": 9.1
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 14.1
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 21.5
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "15",
+          "opponent": "TOR",
+          "fpts": 7.5
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "4",
+          "opponent": "HAM",
+          "fpts": 8.0
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 26.4
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "13",
+          "opponent": "HAM",
+          "fpts": 7.9
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "6",
+          "opponent": "SSK",
+          "fpts": 28.5
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 0.0
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "9",
+          "opponent": "ORB",
+          "fpts": 32.1
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "2",
+          "opponent": "ORB",
+          "fpts": 16.3
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2014",
+          "week": "20",
+          "opponent": "CGY",
+          "fpts": 19.9
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2014",
+          "week": "6",
+          "opponent": "CGY",
+          "fpts": 5.7
+        },
+        {
+          "player": "AJ Guyton",
+          "season": "2014",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 27.8
+        },
+        {
+          "player": "AJ Guyton",
+          "season": "2014",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 4.6
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "10",
+          "opponent": "WPG",
+          "fpts": 5.8
+        },
+        {
+          "player": "Duron Carter",
+          "season": "2016",
+          "week": "1",
+          "opponent": "WPG",
+          "fpts": 35.2
+        },
+        {
+          "player": "AJ Guyton",
+          "season": "2014",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 5.5
+        },
+        {
+          "player": "Emmanuel Arceneaux",
+          "season": "2014",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 7.2
+        }
+      ]
+    },
+    {
+      "number": "84",
+      "team_abbr": "c",
+      "player": "Reginald Begelton",
+      "position": "WR",
+      "id": "reginald-begelton",
+      "salary": "8000",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 7.3,
+      "median": 10.6,
+      "high": 24.5,
+      "contributing_matchups": [
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 24.0
+        },
+        {
+          "player": "Vidal Hazelton",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 7.4
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 17.4
+        },
+        {
+          "player": "DaVaris Daniels",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 6.8
+        },
+        {
+          "player": "Vidal Hazelton",
+          "season": "2017",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 33.6
+        },
+        {
+          "player": "Vidal Hazelton",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 10.5
+        },
+        {
+          "player": "DaVaris Daniels",
+          "season": "2017",
+          "week": "23",
+          "opponent": "TOR",
+          "fpts": 26.0
+        },
+        {
+          "player": "DaVaris Daniels",
+          "season": "2017",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 34.4
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "13",
+          "opponent": "TOR",
+          "fpts": 7.8
+        },
+        {
+          "player": "Armanti Edwards",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 32.1
+        },
+        {
+          "player": "DaVaris Daniels",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 17.6
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 2.2
+        },
+        {
+          "player": "Armanti Edwards",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 10.7
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 5.9
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 8.5
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 28.3
+        },
+        {
+          "player": "Marquay McDaniel",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 3.9
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 8.7
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 12.8
+        }
+      ]
+    },
+    {
+      "number": "81",
+      "team_abbr": "c",
+      "player": "Chris Matthews",
+      "position": "WR",
+      "id": "chris-matthews",
+      "salary": "7400",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 5.4,
+      "median": 7.7,
+      "high": 13.4,
+      "contributing_matchups": [
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 8.5
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 28.3
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "14",
+          "opponent": "TOR",
+          "fpts": 7.5
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "8",
+          "opponent": "TOR",
+          "fpts": 7.5
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 5.9
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 20.9
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 3.8
+        },
+        {
+          "player": "Lemar Durant",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 3.0
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Caleb Holley",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 6.2
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 17.4
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 24.0
+        },
+        {
+          "player": "Caleb Holley",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 16.6
+        },
+        {
+          "player": "Caleb Holley",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 10.5
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "13",
+          "opponent": "TOR",
+          "fpts": 7.8
+        },
+        {
+          "player": "D'haquille Williams",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 2.2
+        },
+        {
+          "player": "DaVaris Daniels",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 6.8
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2015",
+          "week": "10",
+          "opponent": "MTL",
+          "fpts": 12.3
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2015",
+          "week": "4",
+          "opponent": "MTL",
+          "fpts": 9.2
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "team_abbr": "o",
+      "player": "Dominique Davis",
+      "position": "QB",
+      "id": "dominique-davis",
+      "salary": "7000",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 3.7,
+      "median": 7.6,
+      "high": 11.4,
+      "contributing_matchups": [
+        {
+          "player": "Brian Brohm",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 7.4
+        },
+        {
+          "player": "Trevor Harris",
+          "season": "2014",
+          "week": "3",
+          "opponent": "CGY",
+          "fpts": 2.3
+        },
+        {
+          "player": "Tino Sunseri",
+          "season": "2014",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 23.7
+        },
+        {
+          "player": "Keith Price",
+          "season": "2015",
+          "week": "20",
+          "opponent": "MTL",
+          "fpts": 9.9
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2014",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 8.8
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2014",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 35.1
+        },
+        {
+          "player": "Matt Nichols",
+          "season": "2014",
+          "week": "22",
+          "opponent": "CGY",
+          "fpts": 4.5
+        },
+        {
+          "player": "Jeremiah Masoli",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 2.3
+        },
+        {
+          "player": "Jeremiah Masoli",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 3.2
+        },
+        {
+          "player": "Keith Price",
+          "season": "2015",
+          "week": "19",
+          "opponent": "CGY",
+          "fpts": 12.0
+        },
+        {
+          "player": "Brandon Bridge",
+          "season": "2017",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 0.4
+        },
+        {
+          "player": "Brandon Bridge",
+          "season": "2017",
+          "week": "14",
+          "opponent": "CGY",
+          "fpts": 7.8
+        },
+        {
+          "player": "Brandon Bridge",
+          "season": "2017",
+          "week": "18",
+          "opponent": "CGY",
+          "fpts": 8.0
+        },
+        {
+          "player": "James Franklin",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 6.7
+        },
+        {
+          "player": "Drew Willy",
+          "season": "2017",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 11.2
+        },
+        {
+          "player": "James Franklin",
+          "season": "2015",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 3.8
+        },
+        {
+          "player": "Trevor Harris",
+          "season": "2014",
+          "week": "20",
+          "opponent": "ORB",
+          "fpts": 20.0
+        },
+        {
+          "player": "Robert Marve",
+          "season": "2015",
+          "week": "3",
+          "opponent": "MTL",
+          "fpts": 0.1
+        },
+        {
+          "player": "Mitchell Gale",
+          "season": "2016",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 6.1
+        },
+        {
+          "player": "Brett Smith",
+          "season": "2015",
+          "week": "20",
+          "opponent": "MTL",
+          "fpts": 23.6
+        }
+      ]
+    },
+    {
+      "number": "84",
+      "team_abbr": "o",
+      "player": "RJ Harris",
+      "position": "WR",
+      "id": "rj-harris",
+      "salary": "6300",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 6.8,
+      "median": 11.5,
+      "high": 14.3,
+      "contributing_matchups": [
+        {
+          "player": "Greg Ellingson",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 13.1
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 8.8
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 5.8
+        },
+        {
+          "player": "Marcus Henry",
+          "season": "2014",
+          "week": "9",
+          "opponent": "CGY",
+          "fpts": 5.7
+        },
+        {
+          "player": "Marcus Henry",
+          "season": "2014",
+          "week": "7",
+          "opponent": "CGY",
+          "fpts": 12.5
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2014",
+          "week": "18",
+          "opponent": "CGY",
+          "fpts": 27.9
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2014",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 6.8
+        },
+        {
+          "player": "John Chiles",
+          "season": "2014",
+          "week": "3",
+          "opponent": "CGY",
+          "fpts": 5.4
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 6.8
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 14.1
+        },
+        {
+          "player": "Andy Fantuz",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 11.9
+        },
+        {
+          "player": "Courtney Taylor",
+          "season": "2014",
+          "week": "6",
+          "opponent": "CGY",
+          "fpts": 15.0
+        },
+        {
+          "player": "Chris Getzlaf",
+          "season": "2014",
+          "week": "18",
+          "opponent": "CGY",
+          "fpts": 25.6
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 11.6
+        },
+        {
+          "player": "Chris Getzlaf",
+          "season": "2014",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 6.7
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2014",
+          "week": "19",
+          "opponent": "CGY",
+          "fpts": 14.8
+        },
+        {
+          "player": "Fred Stamps",
+          "season": "2014",
+          "week": "22",
+          "opponent": "CGY",
+          "fpts": 4.7
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 27.3
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2014",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 8.8
+        },
+        {
+          "player": "Fred Stamps",
+          "season": "2014",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 11.3
+        }
+      ]
+    },
+    {
+      "number": "82",
+      "team_abbr": "c",
+      "player": "Juwan Brescacin",
+      "position": "WR",
+      "id": "juwan-brescacin",
+      "salary": "5600",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 2.8,
+      "median": 5.6,
+      "high": 8.3,
+      "contributing_matchups": [
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 10.8
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "5",
+          "opponent": "BC",
+          "fpts": 4.0
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 8.2
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "4",
+          "opponent": "TOR",
+          "fpts": 6.7
+        },
+        {
+          "player": "Jasper Collins",
+          "season": "2017",
+          "week": "4",
+          "opponent": "BC",
+          "fpts": 12.4
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 3.8
+        },
+        {
+          "player": "Nic Demski",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 1.8
+        },
+        {
+          "player": "Nic Demski",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 6.0
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 20.9
+        },
+        {
+          "player": "Kenny Shaw",
+          "season": "2017",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 3.1
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 8.5
+        },
+        {
+          "player": "Juwan Brescacin",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 6.1
+        },
+        {
+          "player": "Marco Iannuzzi",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Marco Iannuzzi",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 3.1
+        },
+        {
+          "player": "Shaquille Johnson",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 1.9
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 8.1
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 28.3
+        },
+        {
+          "player": "Nic Demski",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 0.2
+        },
+        {
+          "player": "Shaquille Johnson",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 5.1
+        }
+      ]
+    },
+    {
+      "number": "1",
+      "team_abbr": "c",
+      "player": "Lemar Durant",
+      "position": "WR",
+      "id": "lemar-durant",
+      "salary": "5300",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 2.8,
+      "median": 6.1,
+      "high": 8.7,
+      "contributing_matchups": [
+        {
+          "player": "Shawn Gore",
+          "season": "2015",
+          "week": "11",
+          "opponent": "MTL",
+          "fpts": 6.2
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2017",
+          "week": "5",
+          "opponent": "BC",
+          "fpts": 8.7
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 2.0
+        },
+        {
+          "player": "Shawn Gore",
+          "season": "2015",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 6.1
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2017",
+          "week": "19",
+          "opponent": "BC",
+          "fpts": 0.0
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2017",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 3.7
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2017",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 1.9
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 12.4
+        },
+        {
+          "player": "Ernest Jackson",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 8.8
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 3.0
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2017",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 5.0
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2017",
+          "week": "4",
+          "opponent": "TOR",
+          "fpts": 6.0
+        },
+        {
+          "player": "Ernest Jackson",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 11.1
+        },
+        {
+          "player": "Jake Harty",
+          "season": "2017",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 3.4
+        },
+        {
+          "player": "Ernest Jackson",
+          "season": "2017",
+          "week": "14",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Jake Harty",
+          "season": "2017",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 12.8
+        },
+        {
+          "player": "Ernest Jackson",
+          "season": "2017",
+          "week": "9",
+          "opponent": "TOR",
+          "fpts": 7.3
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2015",
+          "week": "19",
+          "opponent": "MTL",
+          "fpts": 7.4
+        },
+        {
+          "player": "Ernest Jackson",
+          "season": "2017",
+          "week": "8",
+          "opponent": "TOR",
+          "fpts": 19.7
+        },
+        {
+          "player": "Cory Watson",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 2.3
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "team_abbr": "c",
+      "player": "Terry Williams",
+      "position": "RB",
+      "id": "terry-williams",
+      "salary": "4900",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 4.1,
+      "median": 6.4,
+      "high": 10.3,
+      "contributing_matchups": [
+        {
+          "player": "Tim Brown",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 4.2
+        },
+        {
+          "player": "Tim Brown",
+          "season": "2015",
+          "week": "6",
+          "opponent": "MTL",
+          "fpts": 6.1
+        },
+        {
+          "player": "Tim Brown",
+          "season": "2015",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 5.1
+        },
+        {
+          "player": "Tim Brown",
+          "season": "2015",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 2.3
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 10.4
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 13.3
+        },
+        {
+          "player": "Keola Antolin",
+          "season": "2015",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 2.6
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 15.1
+        },
+        {
+          "player": "Christion Jones",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 8.3
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 20.4
+        },
+        {
+          "player": "Christion Jones",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 3.7
+        },
+        {
+          "player": "Martese Jackson",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 3.2
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "23",
+          "opponent": "TOR",
+          "fpts": 5.4
+        },
+        {
+          "player": "Martese Jackson",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 9.1
+        },
+        {
+          "player": "Christion Jones",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 13.4
+        },
+        {
+          "player": "Christion Jones",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 6.3
+        },
+        {
+          "player": "Shaquille Murray-Lawrence",
+          "season": "2015",
+          "week": "9",
+          "opponent": "MTL",
+          "fpts": 1.5
+        },
+        {
+          "player": "Stefan Logan",
+          "season": "2015",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 10.2
+        },
+        {
+          "player": "Stefan Logan",
+          "season": "2015",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 7.4
+        },
+        {
+          "player": "Shaquille Murray-Lawrence",
+          "season": "2015",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 6.5
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "team_abbr": "o",
+      "player": "Dominique Rhymes",
+      "position": "WR",
+      "id": "dominique-rhymes",
+      "salary": "4800",
+      "opponent": "CGY",
+      "opponent_ranks": {
+        "wr_recs": 22.0,
+        "wr_yards": 257.3,
+        "wr_tds": 0.7,
+        "rb_yards": 102.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.7,
+        "qb_yards": 257.3,
+        "qb_tds": 0.7,
+        "qb_attempts": 34.7,
+        "wr_recs_rank": "7th",
+        "wr_yards_rank": "6th",
+        "wr_tds_rank": "2nd",
+        "rb_yards_rank": "3rd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "3rd",
+        "qb_yards_rank": "6th",
+        "qb_tds_rank": "2nd",
+        "qb_attempts_rank": "7th"
+      },
+      "low": 5.2,
+      "median": 7.8,
+      "high": 13.5,
+      "contributing_matchups": [
+        {
+          "player": "Fred Stamps",
+          "season": "2014",
+          "week": "22",
+          "opponent": "CGY",
+          "fpts": 4.7
+        },
+        {
+          "player": "Chris Getzlaf",
+          "season": "2014",
+          "week": "15",
+          "opponent": "CGY",
+          "fpts": 6.7
+        },
+        {
+          "player": "Fred Stamps",
+          "season": "2014",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 8.4
+        },
+        {
+          "player": "Fred Stamps",
+          "season": "2014",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 11.3
+        },
+        {
+          "player": "Chris Getzlaf",
+          "season": "2014",
+          "week": "18",
+          "opponent": "CGY",
+          "fpts": 25.6
+        },
+        {
+          "player": "Rory Kohlert",
+          "season": "2014",
+          "week": "19",
+          "opponent": "CGY",
+          "fpts": 2.1
+        },
+        {
+          "player": "Rory Kohlert",
+          "season": "2014",
+          "week": "17",
+          "opponent": "CGY",
+          "fpts": 13.6
+        },
+        {
+          "player": "Brandon London",
+          "season": "2014",
+          "week": "13",
+          "opponent": "CGY",
+          "fpts": 5.4
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2014",
+          "week": "8",
+          "opponent": "CGY",
+          "fpts": 27.3
+        },
+        {
+          "player": "Khalil Paden",
+          "season": "2014",
+          "week": "9",
+          "opponent": "CGY",
+          "fpts": 6.6
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2014",
+          "week": "23",
+          "opponent": "CGY",
+          "fpts": 8.8
+        },
+        {
+          "player": "Matt Carter",
+          "season": "2014",
+          "week": "7",
+          "opponent": "CGY",
+          "fpts": 18.4
+        },
+        {
+          "player": "Bakari Grant",
+          "season": "2014",
+          "week": "4",
+          "opponent": "CGY",
+          "fpts": 3.3
+        },
+        {
+          "player": "Matt Carter",
+          "season": "2014",
+          "week": "9",
+          "opponent": "CGY",
+          "fpts": 0.0
+        },
+        {
+          "player": "Shamawd Chambers",
+          "season": "2014",
+          "week": "11",
+          "opponent": "CGY",
+          "fpts": 5.5
+        },
+        {
+          "player": "Shamawd Chambers",
+          "season": "2014",
+          "week": "10",
+          "opponent": "CGY",
+          "fpts": 7.2
+        },
+        {
+          "player": "Dobson Collins",
+          "season": "2014",
+          "week": "9",
+          "opponent": "CGY",
+          "fpts": 9.4
+        },
+        {
+          "player": "Shamawd Chambers",
+          "season": "2014",
+          "week": "5",
+          "opponent": "CGY",
+          "fpts": 17.8
+        },
+        {
+          "player": "Dobson Collins",
+          "season": "2014",
+          "week": "7",
+          "opponent": "CGY",
+          "fpts": 1.4
+        },
+        {
+          "player": "Spencer Watt",
+          "season": "2014",
+          "week": "12",
+          "opponent": "CGY",
+          "fpts": 13.5
+        }
+      ]
+    },
+    {
+      "number": "87",
+      "team_abbr": "c",
+      "player": "Richard Sindani",
+      "position": "WR",
+      "id": "richard-sindani",
+      "salary": "4200",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 1.9,
+      "median": 3.7,
+      "high": 5.4,
+      "contributing_matchups": [
+        {
+          "player": "Malcolm Williams",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 4.6
+        },
+        {
+          "player": "Mike Jones",
+          "season": "2017",
+          "week": "4",
+          "opponent": "BC",
+          "fpts": 9.1
+        },
+        {
+          "player": "Matt Coates",
+          "season": "2017",
+          "week": "5",
+          "opponent": "BC",
+          "fpts": 0.2
+        },
+        {
+          "player": "Juwan Brescacin",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 6.1
+        },
+        {
+          "player": "Kevin Elliott",
+          "season": "2017",
+          "week": "1",
+          "opponent": "TOR",
+          "fpts": 3.8
+        },
+        {
+          "player": "Mitchell Baines",
+          "season": "2017",
+          "week": "14",
+          "opponent": "BC",
+          "fpts": 3.4
+        },
+        {
+          "player": "Matt Coates",
+          "season": "2017",
+          "week": "19",
+          "opponent": "BC",
+          "fpts": 5.2
+        },
+        {
+          "player": "Mike Jones",
+          "season": "2017",
+          "week": "1",
+          "opponent": "TOR",
+          "fpts": 11.0
+        },
+        {
+          "player": "Cody Hoffman",
+          "season": "2017",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 1.7
+        },
+        {
+          "player": "Juwan Brescacin",
+          "season": "2017",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 3.9
+        },
+        {
+          "player": "Juwan Brescacin",
+          "season": "2017",
+          "week": "23",
+          "opponent": "TOR",
+          "fpts": 6.3
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 4.0
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 8.1
+        },
+        {
+          "player": "Mike Jones",
+          "season": "2017",
+          "week": "11",
+          "opponent": "TOR",
+          "fpts": 3.2
+        },
+        {
+          "player": "Dominique Rhymes",
+          "season": "2017",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Marco Iannuzzi",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 3.1
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "6",
+          "opponent": "TOR",
+          "fpts": 2.0
+        },
+        {
+          "player": "Marco Iannuzzi",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "22",
+          "opponent": "TOR",
+          "fpts": 3.5
+        },
+        {
+          "player": "Rob Bagg",
+          "season": "2017",
+          "week": "16",
+          "opponent": "TOR",
+          "fpts": 0.0
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "team_abbr": "c",
+      "player": "Bakari Grant",
+      "position": "WR",
+      "id": "bakari-grant",
+      "salary": "4000",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 4.0,
+      "median": 7.4,
+      "high": 8.9,
+      "contributing_matchups": [
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 20.9
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 3.8
+        },
+        {
+          "player": "Jasper Collins",
+          "season": "2017",
+          "week": "4",
+          "opponent": "BC",
+          "fpts": 12.4
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "20",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "5",
+          "opponent": "BC",
+          "fpts": 4.0
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 28.3
+        },
+        {
+          "player": "Nick Moore",
+          "season": "2017",
+          "week": "2",
+          "opponent": "TOR",
+          "fpts": 5.9
+        },
+        {
+          "player": "Reginald Begelton",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 0.0
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 10.8
+        },
+        {
+          "player": "Jeff Fuller",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 8.7
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 8.5
+        },
+        {
+          "player": "Lemar Durant",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 3.0
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "14",
+          "opponent": "TOR",
+          "fpts": 7.5
+        },
+        {
+          "player": "Tiquan Underwood",
+          "season": "2017",
+          "week": "8",
+          "opponent": "TOR",
+          "fpts": 7.5
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "4",
+          "opponent": "TOR",
+          "fpts": 6.7
+        },
+        {
+          "player": "Julian Feoli Gudino",
+          "season": "2017",
+          "week": "18",
+          "opponent": "TOR",
+          "fpts": 8.2
+        },
+        {
+          "player": "Kenny Shaw",
+          "season": "2017",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 3.1
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2015",
+          "week": "13",
+          "opponent": "MTL",
+          "fpts": 4.6
+        },
+        {
+          "player": "Clarence Denmark",
+          "season": "2015",
+          "week": "3",
+          "opponent": "MTL",
+          "fpts": 9.3
+        },
+        {
+          "player": "L'Damian Washington",
+          "season": "2017",
+          "week": "17",
+          "opponent": "BC",
+          "fpts": 7.2
+        }
+      ]
+    },
+    {
+      "number": "32",
+      "team_abbr": "c",
+      "player": "Romar Morris",
+      "position": "RB",
+      "id": "romar-morris",
+      "salary": "2500",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 5.3,
+      "median": 8.7,
+      "high": 13.8,
+      "contributing_matchups": [
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "9",
+          "opponent": "BC",
+          "fpts": 10.4
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "13",
+          "opponent": "BC",
+          "fpts": 13.3
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "23",
+          "opponent": "TOR",
+          "fpts": 5.4
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 15.1
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 20.4
+        },
+        {
+          "player": "Martese Jackson",
+          "season": "2017",
+          "week": "2",
+          "opponent": "BC",
+          "fpts": 3.2
+        },
+        {
+          "player": "Martese Jackson",
+          "season": "2017",
+          "week": "20",
+          "opponent": "BC",
+          "fpts": 9.1
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2015",
+          "week": "8",
+          "opponent": "MTL",
+          "fpts": 13.4
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2015",
+          "week": "19",
+          "opponent": "MTL",
+          "fpts": 6.6
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2016",
+          "week": "3",
+          "opponent": "EDM",
+          "fpts": 4.6
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2016",
+          "week": "10",
+          "opponent": "EDM",
+          "fpts": 19.5
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2016",
+          "week": "19",
+          "opponent": "EDM",
+          "fpts": 4.9
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2015",
+          "week": "10",
+          "opponent": "TOR",
+          "fpts": 29.7
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2015",
+          "week": "1",
+          "opponent": "TOR",
+          "fpts": 4.6
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2016",
+          "week": "4",
+          "opponent": "BC",
+          "fpts": 7.4
+        },
+        {
+          "player": "Roy Finch",
+          "season": "2017",
+          "week": "1",
+          "opponent": "ORB",
+          "fpts": 6.8
+        },
+        {
+          "player": "Kendial Lawrence",
+          "season": "2016",
+          "week": "9",
+          "opponent": "HAM",
+          "fpts": 8.2
+        },
+        {
+          "player": "Stefan Logan",
+          "season": "2017",
+          "week": "3",
+          "opponent": "BC",
+          "fpts": 3.8
+        },
+        {
+          "player": "Stefan Logan",
+          "season": "2017",
+          "week": "12",
+          "opponent": "BC",
+          "fpts": 10.0
+        },
+        {
+          "player": "Steven Miller",
+          "season": "2015",
+          "week": "7",
+          "opponent": "TOR",
+          "fpts": 16.9
+        }
+      ]
+    },
+    {
+      "number": "88",
+      "team_abbr": "c",
+      "player": "Kamar Jorden",
+      "position": "WR",
+      "id": "kamar-jorden",
+      "salary": "2500",
+      "opponent": "OTT",
+      "opponent_ranks": {
+        "wr_recs": 27.7,
+        "wr_yards": 310.3,
+        "wr_tds": 0.3,
+        "rb_yards": 76.3,
+        "rb_rec_yds": 0.0,
+        "rb_tds": 0.3,
+        "qb_yards": 310.3,
+        "qb_tds": 0.3,
+        "qb_attempts": 45.0,
+        "wr_recs_rank": "9th",
+        "wr_yards_rank": "8th",
+        "wr_tds_rank": "1st",
+        "rb_yards_rank": "2nd",
+        "rb_rec_yds_rank": "1st",
+        "rb_tds_rank": "1st",
+        "qb_yards_rank": "8th",
+        "qb_tds_rank": "1st",
+        "qb_attempts_rank": "9th"
+      },
+      "low": 15.4,
+      "median": 20.0,
+      "high": 28.7,
+      "contributing_matchups": [
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "6",
+          "opponent": "MTL",
+          "fpts": 16.3
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "2",
+          "opponent": "MTL",
+          "fpts": 8.6
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 19.4
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 29.3
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 6.0
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "16",
+          "opponent": "BC",
+          "fpts": 35.9
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "3",
+          "opponent": "TOR",
+          "fpts": 36.0
+        },
+        {
+          "player": "Greg Ellingson",
+          "season": "2017",
+          "week": "5",
+          "opponent": "TOR",
+          "fpts": 14.9
+        },
+        {
+          "player": "Brandon Zylstra",
+          "season": "2017",
+          "week": "6",
+          "opponent": "BC",
+          "fpts": 27.6
+        },
+        {
+          "player": "Brandon Zylstra",
+          "season": "2017",
+          "week": "1",
+          "opponent": "BC",
+          "fpts": 25.2
+        },
+        {
+          "player": "Brandon Zylstra",
+          "season": "2017",
+          "week": "18",
+          "opponent": "BC",
+          "fpts": 10.4
+        },
+        {
+          "player": "Brandon Zylstra",
+          "season": "2017",
+          "week": "13",
+          "opponent": "TOR",
+          "fpts": 16.4
+        },
+        {
+          "player": "Brandon Zylstra",
+          "season": "2017",
+          "week": "17",
+          "opponent": "TOR",
+          "fpts": 31.9
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "1",
+          "opponent": "EDM",
+          "fpts": 48.9
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "7",
+          "opponent": "EDM",
+          "fpts": 22.6
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "7",
+          "opponent": "BC",
+          "fpts": 15.5
+        },
+        {
+          "player": "Naaman Roosevelt",
+          "season": "2017",
+          "week": "8",
+          "opponent": "BC",
+          "fpts": 11.0
+        },
+        {
+          "player": "Eric Rogers",
+          "season": "2015",
+          "week": "16",
+          "opponent": "EDM",
+          "fpts": 17.7
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "10",
+          "opponent": "BC",
+          "fpts": 20.6
+        },
+        {
+          "player": "Chris Williams",
+          "season": "2016",
+          "week": "15",
+          "opponent": "BC",
+          "fpts": 28.5
+        }
+      ]
+    }
+  ]
+}
