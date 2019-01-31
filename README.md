@@ -1,11 +1,9 @@
-# SlotbackLabs
+# NoExtraPoints
 
-Advanced Canadian Football (CFL) Stats and Fantasy Analytics
+Advanced Alliance of American Football (AAF) Stats and Fantasy Analytics
 
-[Live site](https://slotbacklabs.com)
+[Live site](https://noextrapoints.com)
 
 <a href="https://www.netlify.com">
   <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
 </a>
-
-![](https://i.imgur.com/xR9MfCO.png)
