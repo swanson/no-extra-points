@@ -1,37 +1,106 @@
 ---
-layout: airyards
-title: Air Yards
+layout: default
+title: Boxscores
 permalink: /
-nav: air-yards
+nav: boxscores
 ---
 
-{% assign all_data = site.data.airyards.data | sort:"air_yards_per_game" | reverse %}
+{% assign game_data = site.data.games %}
 
-{% for data in all_data %}
-  <tr class="hover:bg-blue-light">
-    {% assign team = data["number"] | slice:0 | downcase %}
-    {% assign number = data["number"] | slice:1,data["number"].size %}
-    {% if data["number"] == "FA" %}
-      {% assign number = "FA" %}
-    {% endif %}
-    {% assign last_name = data["player"] | split:" " | last %}
+<div class="p-8">
+  {% for game in game_data.games %}
+    <div class="flex-col mb-8">
+      <h1>{{ game["week"] }}</h1>
+      <h2>{{ game["home_team"] }} vs {{ game["away_team"] }}</h2>
+      <h3>{{ game["home_score"] }} - {{ game["away_score"] }}</h3>
 
-    <td class="cursor-pointer select-none" data-value="{{ last_name }}">
-      <div class="jersey jersey-{{ team }}">{{ number }}</div>
-    </td>
-    <td class="text-left" data-value="{{ last_name }}">
-      {{ data["player"] }}
-    </td>
-    <td class="text-center">{{ data["games"] }}</td>
-    <td class="text-center">{{ data["receptions"] }}</td>
-    <td class="text-center">{{ data["targets"] }}</td>
-    <td class="text-center">{{ data["yards"] }}</td>
-    <td class="text-center">{{ data["td"] }}</td>
-    <td class="text-center">{{ data["yac"] }}</td>
-    <td class="text-center">{{ data["air_yards"] }}</td>
-    <td class="text-center">{{ data["targets_per_game"] }}</td>
-    <td class="text-center">{{ data["air_yards_per_game"] }}</td>
-    <td class="text-center">{{ data["racr"] }}</td>
-    <td class="text-center">{{ data["wopr"] }}</td>
-  </tr>
-{% endfor %}
+      <div class="flex">
+        <div class="flex-1">
+          <div class="flex my-2">{{ game["home_team"] }}</div>
+          <div class="flex font-bold mb-1">Passing</div>
+          {% assign passing_stats_home = game["home_stats"] | sort: "pass_yards" | reverse %}
+          {% for stats in passing_stats_home %}
+            {% if stats["pass_attempts"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["pass_complete"] }} / {{ stats["pass_attempts"] }}
+                {{ stats["pass_yards"] }} yds
+                {{ stats["pass_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+
+          <div class="flex font-bold mb-1 mt-4">Rushing</div>
+          {% assign rushing_stats_home = game["home_stats"] | sort: "rush_yards" | reverse %}
+          {% for stats in rushing_stats_home %}
+            {% if stats["rush_attempts"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["rush_attempts"] }} carries
+                {{ stats["rush_yards"] }} yds
+                {{ stats["rush_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+
+          <div class="flex font-bold mb-1 mt-4">Receiving</div>
+          {% assign receiving_stats_home = game["home_stats"] | sort: "receiving_yards" | reverse %}
+          {% for stats in receiving_stats_home %}
+            {% if stats["targets"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["catches"] }} catches
+                {{ stats["targets"] }} targets
+                {{ stats["receiving_yards"] }} yds
+                {{ stats["receiving_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="flex-1">
+          <div class="flex my-2">{{ game["away_team"] }}</div>
+          <div class="flex font-bold mb-1">Passing</div>
+          {% assign passing_stats = game["away_stats"] | sort: "pass_yards" | reverse %}
+          {% for stats in passing_stats %}
+            {% if stats["pass_attempts"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["pass_complete"] }} / {{ stats["pass_attempts"] }}
+                {{ stats["pass_yards"] }} yds
+                {{ stats["pass_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+
+          <div class="flex font-bold mb-1 mt-4">Rushing</div>
+          {% assign rushing_stats = game["away_stats"] | sort: "rush_yards" | reverse %}
+          {% for stats in rushing_stats %}
+            {% if stats["rush_attempts"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["rush_attempts"] }} carries
+                {{ stats["rush_yards"] }} yds
+                {{ stats["rush_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+
+          <div class="flex font-bold mb-1 mt-4">Receiving</div>
+          {% assign receiving_stats = game["away_stats"] | sort: "receiving_yards" | reverse %}
+          {% for stats in receiving_stats %}
+            {% if stats["targets"] > 0 %}
+              <div class="flex mb-1">
+                {{ stats["player"]["name"] }}
+                {{ stats["catches"] }} catches
+                {{ stats["targets"] }} targets
+                {{ stats["receiving_yards"] }} yds
+                {{ stats["receiving_td"] }} TD
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
