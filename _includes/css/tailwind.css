@@ -37,16 +37,6 @@
  */
 
 /**
- * This injects all of Tailwind's utility classes, generated based on your
- * config file.
- *
- * If using `postcss-import`, use this import instead:
- *
- * @import "tailwindcss/utilities";
- */
-@tailwind utilities;
-
-/**
  * Here you would add any custom utilities you need that don't come out of the
  * box with Tailwind.
  *
@@ -62,7 +52,7 @@
  */
 
 body {
-  @apply bg-grey;
+  @apply bg-grey-lighter;
   @apply font-sans;
 }
 
@@ -99,6 +89,34 @@ a {
   @apply shadow-lg;
   @apply mb-16;
   min-height: 500px;
+}
+
+.boxscore-table {
+  @apply w-full mt-4;
+}
+
+.boxscore-table thead {
+  @apply border-t border-b border-grey-light;
+}
+
+.boxscore-table tr {
+  height: 32px;
+}
+
+.boxscore-table th {
+  @apply text-xs font-bold text-right p-0;
+}
+
+.boxscore-table td {
+  @apply text-sm text-right border-b border-grey-light;
+}
+
+.boxscore-table td:first-child {
+  @apply text-left;
+}
+
+.boxscore-table tr:nth-child(even) {
+  @apply bg-grey-lighter;
 }
 
 .bg-texture-red {
@@ -197,3 +215,13 @@ th[data-sorted="true"] {
   @apply underline;
   text-decoration-style: dotted;
 }
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+@tailwind utilities;

@@ -81,6 +81,7 @@ def add_player(players, node)
     number: node.jersey_number,
     team: node.team&.abbreviation,
     id: player_id(node),
+    short_name: node.name.given_name.chars.first + ". " + node.name.family_name,
   }
 end
 
@@ -255,7 +256,7 @@ def stats_for_player(game, player)
 
         stats[:pass_attempts] += 1
         stats[:pass_complete] += 1 if play[:completion]
-        stats[:pass_yards] += play[:yardage]
+        stats[:pass_yards] += play[:yardage] unless play[:turnover]
         stats[:pass_td] += 1 if play[:touchdown] && !play[:turnover]
         stats[:interceptions] += 1 if play[:interception]
       else
@@ -263,7 +264,7 @@ def stats_for_player(game, player)
 
         stats[:targets] += 1
         stats[:catches] += 1 if play[:completion]
-        stats[:receiving_yards] += play[:yardage]
+        stats[:receiving_yards] += play[:yardage] unless play[:turnover]
         stats[:receiving_td] += 1 if play[:touchdown] && !play[:turnover]
       end
     end
@@ -273,7 +274,7 @@ def stats_for_player(game, player)
         any_stats = true
 
         stats[:rush_attempts] += 1
-        stats[:rush_yards] += play[:yardage]
+        stats[:rush_yards] += play[:yardage] unless play[:turnover]
         stats[:rush_td] +=1 if play[:touchdown] && !play[:turnover]
         stats[:fumbles] += 1 if play[:lost_fumble]
       end
@@ -313,5 +314,5 @@ File.write(path, JSON.pretty_generate({
   meta: {
     last_modified: Time.now,
   },
-  games: games,
+  games: games.reverse,
 }))
