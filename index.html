@@ -60,7 +60,6 @@ nav: boxscores
               <th>YDS</th>
               <th>AVG</th>
               <th>TD</th>
-              <th>FUM</th>
             </thead>
             <tbody>
               {% assign rushing_stats = game["away_stats"] | sort: "rush_yards" | reverse %}
@@ -72,7 +71,6 @@ nav: boxscores
                   <td>{{ stats["rush_yards"] }}</td>
                   <td>-</td>
                   <td>{{ stats["rush_td"] }}</td>
-                  <td>{{ stats["fumbles"] }}</td>
                 </tr>
                 {% endif %}
               {% endfor %}
@@ -145,7 +143,6 @@ nav: boxscores
                 <th>YDS</th>
                 <th>AVG</th>
                 <th>TD</th>
-                <th>FUM</th>
               </thead>
               <tbody>
                 {% assign rushing_stats = game["home_stats"] | sort: "rush_yards" | reverse %}
@@ -157,7 +154,6 @@ nav: boxscores
                     <td>{{ stats["rush_yards"] }}</td>
                     <td>-</td>
                     <td>{{ stats["rush_td"] }}</td>
-                    <td>{{ stats["fumbles"] }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
