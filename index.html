@@ -24,7 +24,7 @@ nav: boxscores
       </div>
 
       <div class="flex mt-4">
-        <div class="flex-1 mr-8">
+        <div class="flex-1 mr-4">
           <div class="flex font-bold my-2">{{ game["away_team"] }} &ndash; Passing</div>
           <table class="boxscore-table">
             <thead>
@@ -33,7 +33,7 @@ nav: boxscores
               <th>YDS</th>
               <th>AVG</th>
               <th>TD</th>
-              <th>INT</th>
+              <th class="px-2">INT</th>
             </thead>
             <tbody>
               {% assign passing_stats = game["away_stats"] | sort: "pass_yards" | reverse %}
@@ -45,7 +45,7 @@ nav: boxscores
                   <td>{{ stats["pass_yards"] }}</td>
                   <td>-</td>
                   <td>{{ stats["pass_td"] }}</td>
-                  <td>{{ stats["interceptions"] }}</td>
+                  <td class="px-2">{{ stats["interceptions"] }}</td>
                 </tr>
                 {% endif %}
               {% endfor %}
@@ -59,7 +59,7 @@ nav: boxscores
               <th>CAR</th>
               <th>YDS</th>
               <th>AVG</th>
-              <th>TD</th>
+              <th class="px-2">TD</th>
             </thead>
             <tbody>
               {% assign rushing_stats = game["away_stats"] | sort: "rush_yards" | reverse %}
@@ -70,7 +70,7 @@ nav: boxscores
                   <td>{{ stats["rush_attempts"] }}</td>
                   <td>{{ stats["rush_yards"] }}</td>
                   <td>-</td>
-                  <td>{{ stats["rush_td"] }}</td>
+                  <td class="px-2">{{ stats["rush_td"] }}</td>
                 </tr>
                 {% endif %}
               {% endfor %}
@@ -85,7 +85,7 @@ nav: boxscores
               <th>YDS</th>
               <th>AVG</th>
               <th>TD</th>
-              <th>TGTS</th>
+              <th class="px-2">TGTS</th>
             </thead>
             <tbody>
               {% assign receiving_stats = game["away_stats"] | sort: "receiving_yards" | reverse %}
@@ -97,7 +97,7 @@ nav: boxscores
                   <td>{{ stats["receiving_yards"] }}</td>
                   <td>-</td>
                   <td>{{ stats["receiving_td"] }}</td>
-                  <td>{{ stats["targets"] }}</td>
+                  <td class="px-2">{{ stats["targets"] }}</td>
                 </tr>
                 {% endif %}
               {% endfor %}
@@ -107,7 +107,7 @@ nav: boxscores
 
 
 
-        <div class="flex-1 mr-8">
+        <div class="flex-1 ml-4">
             <div class="flex font-bold my-2">{{ game["home_team"] }} &ndash; Passing</div>
             <table class="boxscore-table">
               <thead>
@@ -116,7 +116,7 @@ nav: boxscores
                 <th>YDS</th>
                 <th>AVG</th>
                 <th>TD</th>
-                <th>INT</th>
+                <th class="px-2">INT</th>
               </thead>
               <tbody>
                 {% assign passing_stats = game["home_stats"] | sort: "pass_yards" | reverse %}
@@ -128,7 +128,7 @@ nav: boxscores
                     <td>{{ stats["pass_yards"] }}</td>
                     <td>-</td>
                     <td>{{ stats["pass_td"] }}</td>
-                    <td>{{ stats["interceptions"] }}</td>
+                    <td class="px-2">{{ stats["interceptions"] }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -142,7 +142,7 @@ nav: boxscores
                 <th>CAR</th>
                 <th>YDS</th>
                 <th>AVG</th>
-                <th>TD</th>
+                <th class="px-2">TD</th>
               </thead>
               <tbody>
                 {% assign rushing_stats = game["home_stats"] | sort: "rush_yards" | reverse %}
@@ -153,7 +153,7 @@ nav: boxscores
                     <td>{{ stats["rush_attempts"] }}</td>
                     <td>{{ stats["rush_yards"] }}</td>
                     <td>-</td>
-                    <td>{{ stats["rush_td"] }}</td>
+                    <td class="px-2">{{ stats["rush_td"] }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -168,7 +168,7 @@ nav: boxscores
                 <th>YDS</th>
                 <th>AVG</th>
                 <th>TD</th>
-                <th>TGTS</th>
+                <th class="px-2">TGTS</th>
               </thead>
               <tbody>
                 {% assign receiving_stats = game["home_stats"] | sort: "receiving_yards" | reverse %}
@@ -180,7 +180,7 @@ nav: boxscores
                     <td>{{ stats["receiving_yards"] }}</td>
                     <td>-</td>
                     <td>{{ stats["receiving_td"] }}</td>
-                    <td>{{ stats["targets"] }}</td>
+                    <td class="px-2">{{ stats["targets"] }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}

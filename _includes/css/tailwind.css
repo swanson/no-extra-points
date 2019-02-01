@@ -104,7 +104,7 @@ a {
 }
 
 .boxscore-table th {
-  @apply text-xs font-bold text-right p-0;
+  @apply text-xs font-bold text-right;
 }
 
 .boxscore-table td {
