@@ -1,6 +1,31 @@
 require_relative "./aaf"
 require "pry"
 
+ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
+  query {
+    playersConnection(first: 5000) {
+      nodes {
+        id
+        avatar {
+          id
+          url
+        }
+        name {
+          familyName
+          givenName
+          suffix
+        }
+        jerseyNumber
+        position
+        team {
+          id
+          abbreviation
+        }
+      }
+    }
+  }
+GRAPHQL
+
 ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
   query {
     gamesConnection {
@@ -18,34 +43,10 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
         homeTeam {
           name
           abbreviation
-          playersConnection(first: 1000) {
-            nodes {
-              id
-              name {
-                familyName
-                givenName
-                suffix
-              }
-              jerseyNumber
-              position
-            }
-          }
         }
         awayTeam {
           name
           abbreviation
-          playersConnection(first: 1000) {
-            nodes {
-              id
-              name {
-                familyName
-                givenName
-                suffix
-              }
-              jerseyNumber
-              position
-            }
-          }
         }
         playsConnection(first: 5000) {
           nodes {
@@ -67,6 +68,26 @@ GRAPHQL
 
 games = []
 players = []
+
+def player_id(node)
+  "#{node.jersey_number}-#{node.name.given_name.chars.first}.#{node.name.family_name}"
+end
+
+def add_player(players, node)
+  players << {
+    guid: node.id,
+    name: node.name.given_name + " " + node.name.family_name,
+    position: node.position,
+    number: node.jersey_number,
+    team: node.team&.abbreviation,
+    id: player_id(node),
+  }
+end
+
+result = AAF::Client.query(ALL_PLAYERS)
+result.data.players_connection.nodes.each do |node|
+  add_player(players, node)
+end
 
 result = AAF::Client.query(ALL_GAMES)
 
@@ -94,34 +115,6 @@ def add_game(games, node)
   game
 end
 
-def track_position?(node)
-  [
-    "QUARTERBACK",
-    "WIDE_RECEIVER",
-    "TIGHT_END",
-    "RUNNING_BACK",
-  ].include?(node.position)
-end
-
-def player_id(node)
-  "#{node.jersey_number}-#{node.name.given_name.chars.first}.#{node.name.family_name}"
-end
-
-def add_players(players, team)
-  team.players_connection.nodes.each do |node|
-    next unless track_position?(node)
-
-    players << {
-      guid: node.id,
-      name: node.name.given_name + " " + node.name.family_name,
-      position: node.position,
-      number: node.jersey_number,
-      team: team.abbreviation,
-      id: player_id(node),
-    }
-  end
-end
-
 def yard_side(game, node)
   if node.yard_line_team == "HOME_TEAM"
     game[:home_abbr]
@@ -131,7 +124,8 @@ def yard_side(game, node)
 end
 
 def find_by_pid(players, pid)
-  players.select{|p| p[:id] == pid}
+  # binding.pry if pid.include? "Walker"
+  players.select{|p| p[:id].gsub(",", "").strip == pid.gsub(",", "").strip}
 end
 
 def get_yardage(desc)
@@ -144,17 +138,24 @@ def get_yardage(desc)
   end
 end
 
+def clean_up(description)
+  description
+    .gsub("20O", "20")
+end
+
 def parse_play_description!(all_players, play)
-  desc = play[:description]
+  desc = clean_up(play[:description])
 
   run_play = /left|right/mi
   pass_play = /pass/mi
   td_play = /TOUCHDOWN/m
   conv_play = /CONVERSION ATTEMPT/m
   conv_success = /ATTEMPT SUCCEEDS/m
+  interception = /INTERCEPTED/m
+  lost_fumble = /RECOVERED/m
 
   incomplete = /pass incomplete/mi
-  pid_format = /(\d{1,2}-[a-z\.]+)/mi
+  pid_format = /(\d{1,2}-[a-zA-Z\.-]+[a-zA-Z],?( Jr.)?( Sr.)?( I{2,})?( IV)?)/m
 
   pids = desc.scan(pid_format)
   players = pids.map{|p| find_by_pid(all_players, p.first)}.flatten.compact
@@ -164,6 +165,9 @@ def parse_play_description!(all_players, play)
     conversion_attempt: desc.match?(conv_play),
     conversion_success: desc.match?(conv_success),
     yardage: get_yardage(desc),
+    interception: desc.match?(interception),
+    lost_fumble: desc.match?(lost_fumble),
+    turnover: desc.match?(interception) || desc.match?(lost_fumble),
   })
 
   if desc.match?(run_play) && !desc.match?(pass_play)
@@ -182,6 +186,10 @@ def parse_play_description!(all_players, play)
   end
 end
 
+def nullified?(play)
+  play.has_penalty && play.description.include?("No Play")
+end
+
 def add_plays(game, players, node)
   node.plays_connection.nodes.each do |node|
     play = {
@@ -190,7 +198,7 @@ def add_plays(game, players, node)
       distance: node.yards_to_go,
       yard_line: node.yard_line,
       yard_side: yard_side(game, node),
-      penalty: node.has_penalty,
+      nullified: node.has_penalty,
     }
 
     parse_play_description!(players, play)
@@ -228,13 +236,15 @@ def stats_for_player(game, player)
     targets: 0,
     catches: 0,
     receiving_yards: 0,
-    receiving_td: 0
+    receiving_td: 0,
+    fumbles: 0,
+    interceptions: 0,
   }
 
   any_stats = false
 
   game[:plays].each do |play|
-    next if play[:penalty]
+    next if play[:nullified]
 
     role = player_involved?(play, player[:id])
     next unless role
@@ -246,14 +256,15 @@ def stats_for_player(game, player)
         stats[:pass_attempts] += 1
         stats[:pass_complete] += 1 if play[:completion]
         stats[:pass_yards] += play[:yardage]
-        stats[:pass_td] += 1 if play[:touchdown]
+        stats[:pass_td] += 1 if play[:touchdown] && !play[:turnover]
+        stats[:interceptions] += 1 if play[:interception]
       else
         any_stats = true
 
         stats[:targets] += 1
         stats[:catches] += 1 if play[:completion]
         stats[:receiving_yards] += play[:yardage]
-        stats[:receiving_td] += 1 if play[:touchdown]
+        stats[:receiving_td] += 1 if play[:touchdown] && !play[:turnover]
       end
     end
 
@@ -263,7 +274,8 @@ def stats_for_player(game, player)
 
         stats[:rush_attempts] += 1
         stats[:rush_yards] += play[:yardage]
-        stats[:rush_td] +=1 if play[:touchdown]
+        stats[:rush_td] +=1 if play[:touchdown] && !play[:turnover]
+        stats[:fumbles] += 1 if play[:lost_fumble]
       end
     end
   end
@@ -290,9 +302,6 @@ result.data.games_connection.nodes.each do |node|
   next unless status == "COMPLETE"
 
   game = add_game(games, node)
-  add_players(players, node.home_team)
-  add_players(players, node.away_team)
-
   add_plays(game, players, node)
 
   add_stats(game, players, node.home_team, true)

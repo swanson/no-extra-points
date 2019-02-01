@@ -1,0 +1,7559 @@
+{
+  "meta": {
+    "last_modified": "2019-01-31 19:13:51 -0500"
+  },
+  "players": [
+    {
+      "guid": "MgCG14Z9KKV9NtZLPR6T1Bed9jp2",
+      "name": "Jason Matovu",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": "SD",
+      "id": "29-J.Matovu"
+    },
+    {
+      "guid": "MgERAms81iEeTsMuaZcRaTvbqPjW",
+      "name": "Sheldon Price",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-S.Price"
+    },
+    {
+      "guid": "MgE2HTkeT3QIHVyFQMQ3gE8i_-b_",
+      "name": "Marquez White",
+      "position": "CORNERBACK",
+      "number": 27,
+      "team": "ORL",
+      "id": "27-M.White"
+    },
+    {
+      "guid": "MgIAukHeRvwaeV8prD0YeuHEMNYO",
+      "name": "Jeremiah Kolone",
+      "position": "CENTER",
+      "number": 62,
+      "team": "SD",
+      "id": "62-J.Kolone"
+    },
+    {
+      "guid": "MgJEvTwYCxuwX-RrkjWspj8Rl8xg",
+      "name": "Gerard Kough",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-G.Kough"
+    },
+    {
+      "guid": "MgJqG6zT49P9dp7Xyj9p5zOayQS2",
+      "name": "Max Redfield",
+      "position": "DEFENSIVE_BACK",
+      "number": 20,
+      "team": "BIR",
+      "id": "20-M.Redfield"
+    },
+    {
+      "guid": "MgK9kTJIxomfcGljO8Pd9SWUKt7r",
+      "name": "Tee Sims",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-T.Sims"
+    },
+    {
+      "guid": "MgLR8SHYsqh4RsMbHzNZBHjxQVPB",
+      "name": "Arthur Miley",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 93,
+      "team": "SA",
+      "id": "93-A.Miley"
+    },
+    {
+      "guid": "MgLTMHzHNb0_2GiRCoSi__i_zAPL",
+      "name": "Macklin Weaver",
+      "position": "DEFENSIVE_END",
+      "number": 78,
+      "team": "MEM",
+      "id": "78-M.Weaver"
+    },
+    {
+      "guid": "MgLWxeamrKkAGw2aodlcvnvYArtZ",
+      "name": "Richard Johnson",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-R.Johnson"
+    },
+    {
+      "guid": "MgL4D_RHJ9sR9_cgr7jc_wknKh73",
+      "name": "Sam Mobley",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "SL",
+      "id": "81-S.Mobley"
+    },
+    {
+      "guid": "MgN1cIPKCmI-ujhYsuQVuLOqe2Xd",
+      "name": "Darius Hamilton",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 91,
+      "team": "SL",
+      "id": "91-D.Hamilton"
+    },
+    {
+      "guid": "MgPZgYhRw_h7WHnLFMRIFKZ1ybXj",
+      "name": "Beau Nunn",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 67,
+      "team": "SD",
+      "id": "67-B.Nunn"
+    },
+    {
+      "guid": "MgSBuTO_lMSM8QMHzELn3XamvjiG",
+      "name": "Kyle Allen",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": "SA",
+      "id": "-K.Allen"
+    },
+    {
+      "guid": "MgScDthiAkbMTa0nRqP2xaxVF5BI",
+      "name": "Kyle Lewis",
+      "position": "WIDE_RECEIVER",
+      "number": 80,
+      "team": "SD",
+      "id": "80-K.Lewis"
+    },
+    {
+      "guid": "MgSj4481sY93WwxAGhBfzniulf4R",
+      "name": "Eddy Wilson",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 97,
+      "team": "SL",
+      "id": "97-E.Wilson"
+    },
+    {
+      "guid": "MgT56rsYAvlu70T8IUGLqULDIn4W",
+      "name": "Josh Stewart",
+      "position": "WIDE_RECEIVER",
+      "number": 80,
+      "team": "SA",
+      "id": "80-J.Stewart"
+    },
+    {
+      "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",
+      "name": "Dres Anderson",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "SL",
+      "id": "16-D.Anderson"
+    },
+    {
+      "guid": "MgV7dQOs3c-AMiIJZq72jBNirPW1",
+      "name": "Bijhon Jackson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 99,
+      "team": "ATL",
+      "id": "99-B.Jackson"
+    },
+    {
+      "guid": "MgWqgIYh39TaLl2VCdS8tsfiVWxV",
+      "name": "D'Ernest Johnson",
+      "position": "RUNNING_BACK",
+      "number": 22,
+      "team": "ORL",
+      "id": "22-D.Johnson"
+    },
+    {
+      "guid": "MgW3zRnhlSq5R_zp0ZBnRchal0Pf",
+      "name": "Andrew Franks",
+      "position": "KICKER",
+      "number": null,
+      "team": null,
+      "id": "-A.Franks"
+    },
+    {
+      "guid": "MgXuu1IplE-oQRh9H5EBHX0Uzs_J",
+      "name": "Seantavius Jones",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": "ATL",
+      "id": "15-S.Jones"
+    },
+    {
+      "guid": "MgZYXUVetNMlphzXZqUkclkPXxSU",
+      "name": "Justin Crawford",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Crawford"
+    },
+    {
+      "guid": "Mgb6njnN7L9Y8SctK2Z03w0MjiZB",
+      "name": "DeQuan Hampton",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-D.Hampton"
+    },
+    {
+      "guid": "Mgb_UtvY7qtHpPKINg1QkU5ov9OJ",
+      "name": "Stehly Reden",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "SA",
+      "id": "89-S.Reden"
+    },
+    {
+      "guid": "MgdbsJo7PaBTpUrq4dHfluUdIOrD",
+      "name": "Kerron Johnson",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "ATL",
+      "id": "56-K.Johnson"
+    },
+    {
+      "guid": "MghSUHYRqwTW4053LOLCr2TyHXYJ",
+      "name": "Anthony Rhone",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "MEM",
+      "id": "52-A.Rhone"
+    },
+    {
+      "guid": "MghafSFsmMJEqEbj9V32CpQYylAK",
+      "name": "Deandre Goolsby",
+      "position": "TIGHT_END",
+      "number": 88,
+      "team": "ORL",
+      "id": "88-D.Goolsby"
+    },
+    {
+      "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
+      "name": "Larry Rose",
+      "position": "RUNNING_BACK",
+      "number": 32,
+      "team": "ARI",
+      "id": "32-L.Rose"
+    },
+    {
+      "guid": "MgjpAyExMzLNbPjMGNzANIHWSUym",
+      "name": "Trevin Wallace",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-T.Wallace"
+    },
+    {
+      "guid": "MgjtkbP2unzKQnno0SXC4gRV2HeA",
+      "name": "Bret Piekarski",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-B.Piekarski"
+    },
+    {
+      "guid": "MgkxB0OP16GMM50zfEtnGoB8sacS",
+      "name": "Jordan Wade",
+      "position": "NOSE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-J.Wade"
+    },
+    {
+      "guid": "MglErVn9cVAf31_7X0PHzXvzfnMD",
+      "name": "Ryan White",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": "BIR",
+      "id": "31-R.White"
+    },
+    {
+      "guid": "MglF1rubW5wGwFEYW6-k_ApoEvKF",
+      "name": "Elliott Fry",
+      "position": "KICKER",
+      "number": 2,
+      "team": "ORL",
+      "id": "2-E.Fry"
+    },
+    {
+      "guid": "MgmkmJ4jpGi6EyE3gGzwe6QY9UcF",
+      "name": "Drew Ferris",
+      "position": "LONG_SNAPPER",
+      "number": 53,
+      "team": "ORL",
+      "id": "53-D.Ferris"
+    },
+    {
+      "guid": "Mgobi2IrFD8T0aerGf3iuxz91ats",
+      "name": "Tobenna Okeke",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "SD",
+      "id": "52-T.Okeke"
+    },
+    {
+      "guid": "MgpGxvTYhjpngOLYFMnMatMA0fxW",
+      "name": "Chase Dutra",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": "SA",
+      "id": "30-C.Dutra"
+    },
+    {
+      "guid": "MgpxSPwmJeg_Iys4D8VYJYkhtr7x",
+      "name": "Mike Fafaul",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Fafaul"
+    },
+    {
+      "guid": "MgqQdg0oBdo6-ATApRc_eJ7uh9XY",
+      "name": "Jeremi Hall",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Hall"
+    },
+    {
+      "guid": "MgtYjKSTMEzdy0p8UPJMVYxRWv2i",
+      "name": "Jonathan Ray",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Ray"
+    },
+    {
+      "guid": "MgvVfvxymlWgImGnz56K_FNGZ-If",
+      "name": "Christian Morris",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 71,
+      "team": "MEM",
+      "id": "71-C.Morris"
+    },
+    {
+      "guid": "MgwqMKfv5BnTJ20dMzckYEoLUxLM",
+      "name": "Tristan Nickelson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-T.Nickelson"
+    },
+    {
+      "guid": "MgxG_MZnCIzQe61Rs-52kwgWmlWe",
+      "name": "Colin Jeter",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-C.Jeter"
+    },
+    {
+      "guid": "Mgye7aNTQYHCRc3gzpTGIxQ5KdM8",
+      "name": "Cole Mosier",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Mosier"
+    },
+    {
+      "guid": "MgyosxERxidvUANN873QkrQom9WQ",
+      "name": "Nick Orr",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": "SA",
+      "id": "24-N.Orr"
+    },
+    {
+      "guid": "Mg0jNrHGMRybD2Iu5GBk67U0RDyk",
+      "name": "Dajuan Drennon",
+      "position": "LINEBACKER",
+      "number": 98,
+      "team": "ATL",
+      "id": "98-D.Drennon"
+    },
+    {
+      "guid": "Mg1p3MP9tB2prEj51rNG2Y_qLKlj",
+      "name": "Tracy Sprinkle",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "ATL",
+      "id": "90-T.Sprinkle"
+    },
+    {
+      "guid": "Mg4AHqskdCcKzLq-LxVL4JwlkGWh",
+      "name": "Mark Herndon",
+      "position": "RUNNING_BACK",
+      "number": 25,
+      "team": "ORL",
+      "id": "25-M.Herndon"
+    },
+    {
+      "guid": "Mg5bRgWKUNuTQo9LuJZeuw-H4U2J",
+      "name": "Akil Blount",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-A.Blount"
+    },
+    {
+      "guid": "Mg5pmFv_IbDbejfUsLji-uwwKVUv",
+      "name": "Ladarius Perkins",
+      "position": "RUNNING_BACK",
+      "number": 41,
+      "team": "BIR",
+      "id": "41-L.Perkins"
+    },
+    {
+      "guid": "Mg6NHOuo-xowFOtx56_twuQSS-7e",
+      "name": "Blake Muir",
+      "position": "OFFENSIVE_GUARD",
+      "number": 63,
+      "team": "ARI",
+      "id": "63-B.Muir"
+    },
+    {
+      "guid": "Mg7ESCLcQeEi-Z0oZGFiwY2--zlS",
+      "name": "Josh Woodrum",
+      "position": "QUARTERBACK",
+      "number": 6,
+      "team": "SL",
+      "id": "6-J.Woodrum"
+    },
+    {
+      "guid": "Mg7KZ4doBDfEjg2LSinsTWCudXL7",
+      "name": "Aaron Cox",
+      "position": "CENTER",
+      "number": 69,
+      "team": "BIR",
+      "id": "69-A.Cox"
+    },
+    {
+      "guid": "Mg7iML5KjqG_V2bNXLtowoKbJciw",
+      "name": "Jordan Sterns",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": "SL",
+      "id": "31-J.Sterns"
+    },
+    {
+      "guid": "Mg75ca9Rojj06Ghmw3rHqbBqeqX4",
+      "name": "D'Maujeric Tucker",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Tucker"
+    },
+    {
+      "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
+      "name": "Devin Lucien",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "MEM",
+      "id": "13-D.Lucien"
+    },
+    {
+      "guid": "Mg89OyTmItplfDaiI18qnQn6A-Kr",
+      "name": "Brandon Barnes",
+      "position": "TIGHT_END",
+      "number": 80,
+      "team": "MEM",
+      "id": "80-B.Barnes"
+    },
+    {
+      "guid": "Mg_WjBJbfsSmhgblX-ChTqgx2QNj",
+      "name": "Denard Robinson",
+      "position": "RUNNING_BACK",
+      "number": 25,
+      "team": "ATL",
+      "id": "25-D.Robinson"
+    },
+    {
+      "guid": "Mg_iWUx6iDiql9d09kaUxijp2Qvy",
+      "name": "Daniel Williams",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-D.Williams"
+    },
+    {
+      "guid": "MhBI-Pbg66pZLyiBEdmJWnYxs-_k",
+      "name": "Chris Cooper",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "MEM",
+      "id": "-C.Cooper"
+    },
+    {
+      "guid": "MhBxiog4xuMVaWsCF5p0OLGCyFY9",
+      "name": "D.J. Olmstead",
+      "position": "SAFETY",
+      "number": 24,
+      "team": "SL",
+      "id": "24-D.Olmstead"
+    },
+    {
+      "guid": "MhCa7JbTmkeS_XZiwQNVy6GSLB-j",
+      "name": "Aaron Peck",
+      "position": "TIGHT_END",
+      "number": 86,
+      "team": "SD",
+      "id": "86-A.Peck"
+    },
+    {
+      "guid": "MhDFu93ITq-CevdW95v4Kc1f0XYS",
+      "name": "John Lotulelei",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "SD",
+      "id": "53-J.Lotulelei"
+    },
+    {
+      "guid": "MhEZelCl97D7TF9-DI8G1vsfNLo1",
+      "name": "Jonathan Thomas",
+      "position": "LINEBACKER",
+      "number": 47,
+      "team": "SD",
+      "id": "47-J.Thomas"
+    },
+    {
+      "guid": "MhEdk0XQnfjfHbj3AB3JlgfakHH9",
+      "name": "Connor Davis",
+      "position": "TIGHT_END",
+      "number": 88,
+      "team": "BIR",
+      "id": "88-C.Davis"
+    },
+    {
+      "guid": "MhHbC89j7CdhUzkwAul8Nf1HY3Kg",
+      "name": "Corey Griffin",
+      "position": "DEFENSIVE_BACK",
+      "number": 41,
+      "team": "ATL",
+      "id": "41-C.Griffin"
+    },
+    {
+      "guid": "MhKiADbmef9XHgpPMgCoVckGIp2U",
+      "name": "Jerron Searles",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Searles"
+    },
+    {
+      "guid": "MhK9AtjT2Jgazz2GS4vPmJ0i24BK",
+      "name": "Brant Weiss",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 71,
+      "team": "ARI",
+      "id": "71-B.Weiss"
+    },
+    {
+      "guid": "MhRQzyUycetqOizQ1Vs40TWVAN4F",
+      "name": "Darius Price",
+      "position": "SAFETY",
+      "number": 37,
+      "team": null,
+      "id": "37-D.Price"
+    },
+    {
+      "guid": "MhRTrUtStQOpZRmQASCkBgV0fhIJ",
+      "name": "Reece Horn",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "MEM",
+      "id": "17-R.Horn"
+    },
+    {
+      "guid": "MhRrE7TJMml0ICJWdg0oxY1ej5KJ",
+      "name": "Lord Hyeamang",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "SL",
+      "id": "90-L.Hyeamang"
+    },
+    {
+      "guid": "MhUElmUUm5ItoKzS_lLIuWNenhRM",
+      "name": "De'Mornay Pierson-El",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": "SL",
+      "id": "15-D.Pierson-El"
+    },
+    {
+      "guid": "MhVhEHFFQlF7A5GLJO-FnO9qqdS_",
+      "name": "Jacob Ohnesorge",
+      "position": "CENTER",
+      "number": 62,
+      "team": "ARI",
+      "id": "62-J.Ohnesorge"
+    },
+    {
+      "guid": "MhWfGz0IuyCRkiX-EAi-eMNBCiyi",
+      "name": "Brandon Shed",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": "SA",
+      "id": "15-B.Shed"
+    },
+    {
+      "guid": "MhXXYTcp3J_Bg-ltsVTWdyhhWH2I",
+      "name": "Emeka Etta",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-E.Etta"
+    },
+    {
+      "guid": "MhYd0quRVpYdaoynxBhhWHlkXDm-",
+      "name": "Terrence Fullum",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-T.Fullum"
+    },
+    {
+      "guid": "Mhae4YbkwNXC-4Yrzoh1X2f8s44n",
+      "name": "Davon Jones",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Jones"
+    },
+    {
+      "guid": "Mhbe28QXW-wYnR-q3KPOP8y4ydgD",
+      "name": "Tim Cook",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": "ARI",
+      "id": "20-T.Cook"
+    },
+    {
+      "guid": "Mhdn8esuPq7eEeYBQIB_CSgwTcEl",
+      "name": "Josh Allen",
+      "position": "OFFENSIVE_GUARD",
+      "number": 65,
+      "team": "ARI",
+      "id": "65-J.Allen"
+    },
+    {
+      "guid": "Mhd4nQ7nDi7DI0S3XLwGMEEnOFhi",
+      "name": "Ehijele Ubuane",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": "ATL",
+      "id": "-E.Ubuane"
+    },
+    {
+      "guid": "Mhd9sZ6dhpsox1hTuBLQTkDRU2yr",
+      "name": "Jaleel Wadood",
+      "position": "DEFENSIVE_BACK",
+      "number": 33,
+      "team": "BIR",
+      "id": "33-J.Wadood"
+    },
+    {
+      "guid": "MheK8JqjH6SFV4S3kSGVMteLMTB5",
+      "name": "Max Shortell",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Shortell"
+    },
+    {
+      "guid": "MhemRJ6Tiic27yRsPTqCtt8tf4V9",
+      "name": "Chris Davis",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "BIR",
+      "id": "21-C.Davis"
+    },
+    {
+      "guid": "MhfHjhH_iXgUHA8gmKv5dJDxJJ-s",
+      "name": "Terrance Bullitt",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": "ARI",
+      "id": "57-T.Bullitt"
+    },
+    {
+      "guid": "MhfUsZoRzun-PJwfaZuaJS10nFTd",
+      "name": "Brian Tyms",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "ORL",
+      "id": "81-B.Tyms"
+    },
+    {
+      "guid": "MhgqfzLQkDOkaSOSvzGtJFE3IdBh",
+      "name": "Shakir Soto",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 92,
+      "team": "SD",
+      "id": "92-S.Soto"
+    },
+    {
+      "guid": "Mhg3wIO91JpGBFgtUAT2wNuhDQqU",
+      "name": "Rykeem Yates",
+      "position": "DEFENSIVE_END",
+      "number": 92,
+      "team": "ARI",
+      "id": "92-R.Yates"
+    },
+    {
+      "guid": "MhhKX-OyeMe8z_-2mAeojTPQur7g",
+      "name": "Riley Smith",
+      "position": "WIDE_RECEIVER",
+      "number": 11,
+      "team": null,
+      "id": "11-R.Smith"
+    },
+    {
+      "guid": "MhiMoIk6bW2zu_gGHNyXJFPCDnq3",
+      "name": "Jeff Locke",
+      "position": "PUNTER",
+      "number": 9,
+      "team": "ARI",
+      "id": "9-J.Locke"
+    },
+    {
+      "guid": "Mhi41yENNlcz1sVkflv1ixHGha0R",
+      "name": "K.J. Dillon",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Dillon"
+    },
+    {
+      "guid": "MhjrPNg3Th83Fa4GrYCq9kPiquBj",
+      "name": "Wyatt Demps",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-W.Demps"
+    },
+    {
+      "guid": "Mhj_4rkI0CzDr8Wz21B6SbUBg6WE",
+      "name": "Will Hill III",
+      "position": "SAFETY",
+      "number": 33,
+      "team": "ORL",
+      "id": "33-W.Hill III"
+    },
+    {
+      "guid": "MhnRD2KyMghO2O5oifX6UfTPA-hF",
+      "name": "Darrius Sims",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Sims"
+    },
+    {
+      "guid": "MhocAYjGVoZxKY6WFzWS5J6OFp2C",
+      "name": "Mark Chapman",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-M.Chapman"
+    },
+    {
+      "guid": "MhpHag7p4YeIOSta1JLi-f2MOaYf",
+      "name": "Ed Shockley",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "SL",
+      "id": "52-E.Shockley"
+    },
+    {
+      "guid": "MhpQ_EdOOdPGE72Xu2X1U6pw4jKi",
+      "name": "Terrell Newby",
+      "position": "RUNNING_BACK",
+      "number": 34,
+      "team": "SL",
+      "id": "34-T.Newby"
+    },
+    {
+      "guid": "MhrAJwyKga3UBoK-J_v307TucpTf",
+      "name": "Troy Cook",
+      "position": "QUARTERBACK",
+      "number": 10,
+      "team": "MEM",
+      "id": "10-T.Cook"
+    },
+    {
+      "guid": "MhrBtCbm_qn_HSYiFhYXEq38pJdT",
+      "name": "Darrell Brown",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 75,
+      "team": "BIR",
+      "id": "75-D.Brown"
+    },
+    {
+      "guid": "Mhsex9LIfwjmXiRumDhEeIOQEHT-",
+      "name": "Anthony Fabiano",
+      "position": "CENTER",
+      "number": null,
+      "team": "BIR",
+      "id": "-A.Fabiano"
+    },
+    {
+      "guid": "MhyVle_UIu23yo8WANee4OUPncIR",
+      "name": "David Cobb",
+      "position": "RUNNING_BACK",
+      "number": 27,
+      "team": "SA",
+      "id": "27-D.Cobb"
+    },
+    {
+      "guid": "MhzP0aA2c-CRwb4WGKX7KwkhMAmQ",
+      "name": "Dale Warren",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "MEM",
+      "id": "56-D.Warren"
+    },
+    {
+      "guid": "Mhzo-OpymD_Jow1eCzvDo9sbEjnw",
+      "name": "Tajh Boyd",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Boyd"
+    },
+    {
+      "guid": "Mh0pIV2IL7CTU-ncdDKlA5oBhNTb",
+      "name": "Tanner Carew",
+      "position": "LONG_SNAPPER",
+      "number": 48,
+      "team": "SL",
+      "id": "48-T.Carew"
+    },
+    {
+      "guid": "Mh1KV4LFnie8R1rZBHq3ebBajpq1",
+      "name": "Jessamen Dunker",
+      "position": "OFFENSIVE_GUARD",
+      "number": 66,
+      "team": "MEM",
+      "id": "66-J.Dunker"
+    },
+    {
+      "guid": "Mh1WXZqUF1Wf7MgLOzjBycN-X61J",
+      "name": "Isaiah Williams",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": "ATL",
+      "id": "-I.Williams"
+    },
+    {
+      "guid": "Mh1hA77CIc6tPWyyoMImrXol5dzm",
+      "name": "Kendall James",
+      "position": "DEFENSIVE_BACK",
+      "number": 36,
+      "team": "SD",
+      "id": "36-K.James"
+    },
+    {
+      "guid": "Mh1sgoQ421Wb8jZjFJioCf5Rk9ZK",
+      "name": "Joel Lanning",
+      "position": "LINEBACKER",
+      "number": 43,
+      "team": "SA",
+      "id": "43-J.Lanning"
+    },
+    {
+      "guid": "Mh30aCIahdd0v_dHtleKosHCcH_u",
+      "name": "Brian Folkerts",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 67,
+      "team": "SA",
+      "id": "67-B.Folkerts"
+    },
+    {
+      "guid": "Mh4kgl2UUnbamG-mjy5EcJbERn4g",
+      "name": "Nick Seither",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-N.Seither"
+    },
+    {
+      "guid": "Mh7FVYNZbZa5oyH8N9aZu-nZ-xrN",
+      "name": "Tim Gardner",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": "SL",
+      "id": "-T.Gardner"
+    },
+    {
+      "guid": "Mh8vB0Pas1v1A7RacRJqA8wdnaN4",
+      "name": "Leon Brown",
+      "position": "OFFENSIVE_GUARD",
+      "number": 72,
+      "team": "BIR",
+      "id": "72-L.Brown"
+    },
+    {
+      "guid": "Mh9sQii3kGiWgZmasVCQ-BSYQjPh",
+      "name": "Malachi Hoskins",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "SL",
+      "id": "53-M.Hoskins"
+    },
+    {
+      "guid": "Mh_pk5lXHvF6VMEd-v1ykNjkicK1",
+      "name": "Jevon Floyd",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Floyd"
+    },
+    {
+      "guid": "MiBGDJCGjTw-gfUvLuRS0X2Sk1hC",
+      "name": "Dwayne Thomas",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Thomas"
+    },
+    {
+      "guid": "MiCHa8E_-TOZ6Vdzl2vPkpsBAsI2",
+      "name": "Malik Earl",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "SA",
+      "id": "17-M.Earl"
+    },
+    {
+      "guid": "MiCJujrFIHJ0GIeUNSd2w-8akf_T",
+      "name": "Chequan Burkett",
+      "position": "LINEBACKER",
+      "number": 40,
+      "team": "ORL",
+      "id": "40-C.Burkett"
+    },
+    {
+      "guid": "MiEGxsWBqQdcjDZCVaBOcKrd785I",
+      "name": "Jarelle Miller",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-J.Miller"
+    },
+    {
+      "guid": "MiEP6HDNIzoGQrccCFPd3cks65FI",
+      "name": "Sergio Castillo, Jr.",
+      "position": "KICKER",
+      "number": null,
+      "team": null,
+      "id": "-S.Castillo, Jr."
+    },
+    {
+      "guid": "MiFkE6gPB3L2xruNmDBrPXhKCGwz",
+      "name": "Josh Barge",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Barge"
+    },
+    {
+      "guid": "MiGF1erF3I3g_4ETvA1oB4Wl8OYZ",
+      "name": "Josh Carraway",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "SA",
+      "id": "-J.Carraway"
+    },
+    {
+      "guid": "MiHUI6U2HGfaMX3s0w6-GEg1ERms",
+      "name": "Joseph Fauria",
+      "position": "TIGHT_END",
+      "number": 80,
+      "team": "ARI",
+      "id": "80-J.Fauria"
+    },
+    {
+      "guid": "MiH5desQbVsBIW7X3zPf5Pi0_ByP",
+      "name": "Jordan Martin",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": "SD",
+      "id": "30-J.Martin"
+    },
+    {
+      "guid": "MiIK7hSbu0NBdYcQyeRrXYckoMiR",
+      "name": "Justin Thomas",
+      "position": "WIDE_RECEIVER",
+      "number": 88,
+      "team": "ATL",
+      "id": "88-J.Thomas"
+    },
+    {
+      "guid": "MiJkOAgYciHpQ3gebRyVrMzvL3zp",
+      "name": "Juwan Offray",
+      "position": "DEFENSIVE_BACK",
+      "number": 22,
+      "team": null,
+      "id": "22-J.Offray"
+    },
+    {
+      "guid": "MiLQnNO03Xr89V-GjEkKHYncHA7e",
+      "name": "Tyler Foreman",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Foreman"
+    },
+    {
+      "guid": "MiOKnEffo-oTuF3op_wsSY5L8lQx",
+      "name": "Jordan Thomas",
+      "position": "DEFENSIVE_BACK",
+      "number": 37,
+      "team": "SA",
+      "id": "37-J.Thomas"
+    },
+    {
+      "guid": "MiSSZT8KHTyWVc1bPk3q0eGMfHjP",
+      "name": "Keith Jr. Rucker",
+      "position": "RUNNING_BACK",
+      "number": 42,
+      "team": null,
+      "id": "42-K.Rucker"
+    },
+    {
+      "guid": "MiSSchzAk2PIj0Zqb_HcDID0EvF5",
+      "name": "Sam Lee",
+      "position": "OFFENSIVE_GUARD",
+      "number": 64,
+      "team": null,
+      "id": "64-S.Lee"
+    },
+    {
+      "guid": "MiTaXAaxBrK7e-nfNxsbQ0dX_xW-",
+      "name": "Duke Thomas",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "SA",
+      "id": "21-D.Thomas"
+    },
+    {
+      "guid": "MiTzNKKRkJT4X0DgdY57968YTPMe",
+      "name": "Quentin Jones",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-Q.Jones"
+    },
+    {
+      "guid": "MiT1Etv9FuPxkQp0mxJawge7P_kY",
+      "name": "Fred Lauina",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 61,
+      "team": "SA",
+      "id": "61-F.Lauina"
+    },
+    {
+      "guid": "MiUKbbFISV5aL8sntaxSOLtUpPRE",
+      "name": "Logan Woodside",
+      "position": "QUARTERBACK",
+      "number": 5,
+      "team": "SA",
+      "id": "5-L.Woodside"
+    },
+    {
+      "guid": "MiXeTkxtRxz_zYaSRFveBnsnk3T0",
+      "name": "Siupeli Anau",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 93,
+      "team": "ARI",
+      "id": "93-S.Anau"
+    },
+    {
+      "guid": "Mib4KuU5ng4p2kGTYg_G09C2HAOU",
+      "name": "Brandon Maiden",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": "MEM",
+      "id": "28-B.Maiden"
+    },
+    {
+      "guid": "Miebs6BRKoIVuFZmzdTvjE_KPryQ",
+      "name": "Xavier Thigpen",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-X.Thigpen"
+    },
+    {
+      "guid": "MiemAUleqk9-iEq5h_rPP1ZPQ4Q_",
+      "name": "Olubunmi Rotimi",
+      "position": "DEFENSIVE_END",
+      "number": 94,
+      "team": "ARI",
+      "id": "94-O.Rotimi"
+    },
+    {
+      "guid": "MigKDkAl3bx5SCDY6r6xia1_JWDT",
+      "name": "Josh Banderas",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "SL",
+      "id": "53-J.Banderas"
+    },
+    {
+      "guid": "MiioXQGA7mPUQv4ha3OzvQgL1VOE",
+      "name": "Ryan Moeller",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "SD",
+      "id": "25-R.Moeller"
+    },
+    {
+      "guid": "Mij2Jx8AEA6W0JubI8Fsp4oEigoB",
+      "name": "Kaelin Burnett",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "ARI",
+      "id": "50-K.Burnett"
+    },
+    {
+      "guid": "MikbeY1g8r6YvdMAmSBt6j0YU03G",
+      "name": "Trevon Mathis",
+      "position": "CORNERBACK",
+      "number": 37,
+      "team": null,
+      "id": "37-T.Mathis"
+    },
+    {
+      "guid": "Mis-YIQLxrH4Rg3HbXE8-lDnC0x-",
+      "name": "Richard Ash",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 97,
+      "team": "SA",
+      "id": "97-R.Ash"
+    },
+    {
+      "guid": "MitVRWw0KSSi2w79L9EEDxqtJuwj",
+      "name": "Trevor Reilly",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": "SL",
+      "id": "59-T.Reilly"
+    },
+    {
+      "guid": "MiwK6SsD2tW-Q-Dsf5kGxwN2xR5I",
+      "name": "Vincent Hunter",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-V.Hunter"
+    },
+    {
+      "guid": "MixOaBUiaLXdlz-0Pnm-J1R281Lu",
+      "name": "Steven Rowzee",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-S.Rowzee"
+    },
+    {
+      "guid": "Mi2Uk_qq7VyP3EeqxWC3evvZEWGD",
+      "name": "Owen Obasuyi",
+      "position": "DEFENSIVE_END",
+      "number": 99,
+      "team": "ARI",
+      "id": "99-O.Obasuyi"
+    },
+    {
+      "guid": "Mi3cqUcUm2iuhMnvmTiOPyojeohI",
+      "name": "Tarris Batiste",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Batiste"
+    },
+    {
+      "guid": "Mi6oBte4WUDKmKEi-ajXDWn3KUQK",
+      "name": "Torian White",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-T.White"
+    },
+    {
+      "guid": "Mi7ccT7bX3GYrTH7fXILFioT7Co0",
+      "name": "Justin Martin",
+      "position": "DEFENSIVE_BACK",
+      "number": 33,
+      "team": "MEM",
+      "id": "33-J.Martin"
+    },
+    {
+      "guid": "Mi_pMiDyQeWdyVDuRvg-wziqaXXL",
+      "name": "Jeremiah Poutasi",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 73,
+      "team": "SL",
+      "id": "73-J.Poutasi"
+    },
+    {
+      "guid": "Mi_sQVpgvoNZE1fQJTlxt_mJfHMw",
+      "name": "Eric Cotton",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-E.Cotton"
+    },
+    {
+      "guid": "MjCbFwDLSUQj65eDBYXAoISf1FYl",
+      "name": "Jonathan Massaquoi",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": "BIR",
+      "id": "57-J.Massaquoi"
+    },
+    {
+      "guid": "MjHJoy-75Mg8y7X0apSGtbyFf3In",
+      "name": "Juwan Thompson",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Thompson"
+    },
+    {
+      "guid": "MjI-U3aT6QuhzNKk_CLN34rcj0tv",
+      "name": "Nick Folk",
+      "position": "KICKER",
+      "number": 2,
+      "team": "ARI",
+      "id": "2-N.Folk"
+    },
+    {
+      "guid": "MjKEarUnBjp5K_Xv3fOeiqSMdZSs",
+      "name": "Von Pearson",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-V.Pearson"
+    },
+    {
+      "guid": "MjKKI3BAcU-WgrJVwH3MIZ-367uj",
+      "name": "Allen Edwards",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-A.Edwards"
+    },
+    {
+      "guid": "MjKSji5OdJpV6gwZcH7chWvdOcHu",
+      "name": "Nicholas Dooley",
+      "position": "LONG_SNAPPER",
+      "number": 48,
+      "team": "ARI",
+      "id": "48-N.Dooley"
+    },
+    {
+      "guid": "MjKjeAoWqqRFtatWSAqegRmvN7n9",
+      "name": "Nyles Morgan",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "ARI",
+      "id": "55-N.Morgan"
+    },
+    {
+      "guid": "MjL3QB7NXJ5jXgkIctkTAhxhBnIS",
+      "name": "Jerome Couplin III",
+      "position": "SAFETY",
+      "number": 21,
+      "team": "ORL",
+      "id": "21-J.Couplin III"
+    },
+    {
+      "guid": "MjL4K3p8j9B_J8SUJGxnomWfozap",
+      "name": "Nick Novak",
+      "position": "KICKER",
+      "number": 9,
+      "team": "BIR",
+      "id": "9-N.Novak"
+    },
+    {
+      "guid": "MjPUgyYv0s1_AgkQGNfjKv1dah8S",
+      "name": "Khaliel Rodgers",
+      "position": "CENTER",
+      "number": 64,
+      "team": "SD",
+      "id": "64-K.Rodgers"
+    },
+    {
+      "guid": "MjQSqlh3KaGxL1qtnxuKX6TkEK0Q",
+      "name": "Tyson Graham, Jr.",
+      "position": "DEFENSIVE_BACK",
+      "number": 32,
+      "team": "ATL",
+      "id": "32-T.Graham, Jr."
+    },
+    {
+      "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
+      "name": "Brian Brown",
+      "position": "WIDE_RECEIVER",
+      "number": 83,
+      "team": "SD",
+      "id": "83-B.Brown"
+    },
+    {
+      "guid": "MjQz3RHcgjyoXXVYFkrbYJBL3yvn",
+      "name": "Zac Stacy",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": "MEM",
+      "id": "20-Z.Stacy"
+    },
+    {
+      "guid": "MjSJ1RcFtpyTDViwO_xDf7_G7YUj",
+      "name": "Larry Webster",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-L.Webster"
+    },
+    {
+      "guid": "MjStDBZ3Qk3C9FX5GEv32sq45rz-",
+      "name": "Ray Buchanan, Jr.",
+      "position": "DEFENSIVE_BACK",
+      "number": 34,
+      "team": null,
+      "id": "34-R.Buchanan, Jr."
+    },
+    {
+      "guid": "MjS637_1xxInORNJ0-OHkgITq4Ww",
+      "name": "Henry Poggi",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-H.Poggi"
+    },
+    {
+      "guid": "MjT3Ibs2gAHk1nuIrDkAjM1-JqwC",
+      "name": "Dominick Sanders",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": "ATL",
+      "id": "30-D.Sanders"
+    },
+    {
+      "guid": "MjUIRMvaPI4FT1z7R7-CQZ5Ae8xx",
+      "name": "Dominick Jackson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "BIR",
+      "id": "77-D.Jackson"
+    },
+    {
+      "guid": "MjUStyI1sArDaWGA-vPCybVogATX",
+      "name": "Ruben Carter",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-R.Carter"
+    },
+    {
+      "guid": "MjWWVoWwz8J4B7784dBk44BgtJxS",
+      "name": "Raekwon Williams",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-R.Williams"
+    },
+    {
+      "guid": "MjXZxYI0XcBLno_hFxEcnALzUhor",
+      "name": "Da'Sean Downey",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": "ARI",
+      "id": "59-D.Downey"
+    },
+    {
+      "guid": "MjXdmPSVyxHRQlstB6gfeClo3q06",
+      "name": "Travell Dixon",
+      "position": "CORNERBACK",
+      "number": 27,
+      "team": "MEM",
+      "id": "27-T.Dixon"
+    },
+    {
+      "guid": "MjY5CmGhpwYjtMmbmEGJzRNLrZ-7",
+      "name": "Demetrius Rhaney",
+      "position": "CENTER",
+      "number": 65,
+      "team": "MEM",
+      "id": "65-D.Rhaney"
+    },
+    {
+      "guid": "MjZlSwRKUoq9gGgsxflHOxl3mZXD",
+      "name": "Standish Dobard",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-S.Dobard"
+    },
+    {
+      "guid": "MjajlDiLW-LfvEx-7PcGuWCY_a_9",
+      "name": "Casey Sayles",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "BIR",
+      "id": "90-C.Sayles"
+    },
+    {
+      "guid": "Mja_QOsZA9ZvQ1mWK2siMETujQIa",
+      "name": "Torez Jones",
+      "position": "DEFENSIVE_BACK",
+      "number": 43,
+      "team": null,
+      "id": "43-T.Jones"
+    },
+    {
+      "guid": "Mjb2jnxcjf48Z_VuUf0AOWS9G0pS",
+      "name": "Marcus Oliver",
+      "position": "LINEBACKER",
+      "number": 43,
+      "team": "ATL",
+      "id": "43-M.Oliver"
+    },
+    {
+      "guid": "MjcxiqlME9myPoE0wZ0YAXnMqABh",
+      "name": "Donte Wilkins",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 76,
+      "team": "SD",
+      "id": "76-D.Wilkins"
+    },
+    {
+      "guid": "MjettGyZJjFuU3x_kJi48USJ-Rrp",
+      "name": "Louis Murphy, Jr.",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "ORL",
+      "id": "18-L.Murphy, Jr."
+    },
+    {
+      "guid": "MjfFm3qy7C99xfI0wgp88d6LBumx",
+      "name": "Andrew Lauderdale",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 76,
+      "team": "ARI",
+      "id": "76-A.Lauderdale"
+    },
+    {
+      "guid": "MjfbSZcoG6ttDSYdlouAe3MaKcGV",
+      "name": "Patrick Smith",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-P.Smith"
+    },
+    {
+      "guid": "Mjf3oK192Yf9-JBH2MadPHITtizL",
+      "name": "P.J. Davis, Jr.",
+      "position": "LINEBACKER",
+      "number": 40,
+      "team": "ATL",
+      "id": "40-P.Davis, Jr."
+    },
+    {
+      "guid": "MjiTEx33U92uj4oT_o0nS86vlwP9",
+      "name": "Trent Richardson",
+      "position": "RUNNING_BACK",
+      "number": 33,
+      "team": "BIR",
+      "id": "33-T.Richardson"
+    },
+    {
+      "guid": "MjinTzbjLDxcB4mcqqETl2z0bjAN",
+      "name": "Shaan Washington",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "SA",
+      "id": "54-S.Washington"
+    },
+    {
+      "guid": "MjjRft2dZs6vQ0toXQw0J-rgXfk6",
+      "name": "Julian Wilson",
+      "position": "CORNERBACK",
+      "number": 22,
+      "team": "MEM",
+      "id": "22-J.Wilson"
+    },
+    {
+      "guid": "MjjUcaSzCZ359GSkg5RnQRTeVqoy",
+      "name": "Jamar Summers",
+      "position": "DEFENSIVE_BACK",
+      "number": 26,
+      "team": "BIR",
+      "id": "26-J.Summers"
+    },
+    {
+      "guid": "MjlzGxvF4or3JZhlJzXAIe7rxfIV",
+      "name": "Tray Mitchell",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Mitchell"
+    },
+    {
+      "guid": "MjmNpz-QRcRuBjmG1NqKZEPZqbFD",
+      "name": "Manase Hungalu",
+      "position": "LINEBACKER",
+      "number": 42,
+      "team": "ARI",
+      "id": "42-M.Hungalu"
+    },
+    {
+      "guid": "MjmUlUJpVkpcVKoUaQVKHAt7JDDK",
+      "name": "Nick McBeath",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-N.McBeath"
+    },
+    {
+      "guid": "Mjm7GuvilNa_rDO27SpIoJun0tWl",
+      "name": "Michael German",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-M.German"
+    },
+    {
+      "guid": "MjnRSiLQsYyZvE5hxod1B0h_Ignj",
+      "name": "Zach Mettenberger",
+      "position": "QUARTERBACK",
+      "number": 8,
+      "team": "MEM",
+      "id": "8-Z.Mettenberger"
+    },
+    {
+      "guid": "MjngQmYiBwM6gV81ywwGubbGhtPi",
+      "name": "Jamal Morrow",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Morrow"
+    },
+    {
+      "guid": "Mjn4sbz7tEuTflG9neGzH9hspZ3g",
+      "name": "Nick James",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 93,
+      "team": "BIR",
+      "id": "93-N.James"
+    },
+    {
+      "guid": "MjpjYSya6_frsZ8aGk_iDyL66DDV",
+      "name": "Cam Clear",
+      "position": "TIGHT_END",
+      "number": 85,
+      "team": "SA",
+      "id": "85-C.Clear"
+    },
+    {
+      "guid": "MjqXp-M0egZj0qqf9VW--WdOhYOU",
+      "name": "James Quick",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "ATL",
+      "id": "17-J.Quick"
+    },
+    {
+      "guid": "MjqnGtX-7SIhXO8AZjdUfXAvyZXe",
+      "name": "Trevor Darling",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 73,
+      "team": "ORL",
+      "id": "73-T.Darling"
+    },
+    {
+      "guid": "MjqnXmMJEdLKpPtCNYRWZ0wq1Gc2",
+      "name": "Cole Murphy",
+      "position": "KICKER",
+      "number": 1,
+      "team": "SD",
+      "id": "1-C.Murphy"
+    },
+    {
+      "guid": "MjquUzmUIZnqHhbruSI6F3VJcgjM",
+      "name": "John Crockett",
+      "position": "RUNNING_BACK",
+      "number": 23,
+      "team": "ARI",
+      "id": "23-J.Crockett"
+    },
+    {
+      "guid": "MjrhgV2eDw3pYxKRXEq5SDPMtlCx",
+      "name": "Lamarcus Brutus",
+      "position": "DEFENSIVE_BACK",
+      "number": 42,
+      "team": null,
+      "id": "42-L.Brutus"
+    },
+    {
+      "guid": "MjtAZrxLyBlkfkFCFHZGOZvBqksT",
+      "name": "Deion Barnes",
+      "position": "LINEBACKER",
+      "number": 94,
+      "team": "SA",
+      "id": "94-D.Barnes"
+    },
+    {
+      "guid": "MjtJFyDFyCBfC5W0S6p9hDgd-FeX",
+      "name": "Brandaun Addison",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-B.Addison"
+    },
+    {
+      "guid": "Mjwho2KhxUh6xpMCmX3U-V_km0UF",
+      "name": "Damore'ea Stringfellow",
+      "position": "WIDE_RECEIVER",
+      "number": 82,
+      "team": "MEM",
+      "id": "82-D.Stringfellow"
+    },
+    {
+      "guid": "MjyDoE6XdieFJo8cbTXtdiNJRLtA",
+      "name": "Xavier Woodson-Luster",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "BIR",
+      "id": "-X.Woodson-Luster"
+    },
+    {
+      "guid": "Mjyq5wLfsEkk7RkDLR-Jk5w-CUZh",
+      "name": "Anthony Johnson",
+      "position": "LINEBACKER",
+      "number": 96,
+      "team": "MEM",
+      "id": "96-A.Johnson"
+    },
+    {
+      "guid": "MjzQoOJMiVqzFpvz--rTviHwNkmt",
+      "name": "Kevon Perry",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-K.Perry"
+    },
+    {
+      "guid": "Mjz3Gg5PbLKgZjei_wzFxDaumNbc",
+      "name": "Tyler Howell",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 76,
+      "team": "BIR",
+      "id": "76-T.Howell"
+    },
+    {
+      "guid": "Mj09y7N3TXNHn5Vzr-OfZsXRm-i7",
+      "name": "Desmond Lawrence",
+      "position": "DEFENSIVE_BACK",
+      "number": 23,
+      "team": "ATL",
+      "id": "23-D.Lawrence"
+    },
+    {
+      "guid": "Mj1DMcYW0j7JGYex0aEfgafYIUFK",
+      "name": "Patrick O'Brien",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-P.O'Brien"
+    },
+    {
+      "guid": "Mj1gHmUAI-1sXv1ol1CgUBzA6F2o",
+      "name": "Demetrius Wright",
+      "position": "DEFENSIVE_BACK",
+      "number": 34,
+      "team": "SD",
+      "id": "34-D.Wright"
+    },
+    {
+      "guid": "Mj2uJ7S4mEtM1SE4Q8O3AsRdT25G",
+      "name": "Tarvarus McFadden",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "ORL",
+      "id": "-T.McFadden"
+    },
+    {
+      "guid": "Mj3dMClc5usg5uVw2PwJf89TqVo1",
+      "name": "Erik Powell",
+      "position": "KICKER",
+      "number": null,
+      "team": "ARI",
+      "id": "-E.Powell"
+    },
+    {
+      "guid": "Mj3fRB3AVS12OCsIskMz_0PDffQy",
+      "name": "Quinn McQueary",
+      "position": "QUARTERBACK",
+      "number": 8,
+      "team": null,
+      "id": "8-Q.McQueary"
+    },
+    {
+      "guid": "Mj4hv2Hm12xSXTnn3BoNYYgfyBFk",
+      "name": "Ro'Derrick Hoskins",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "ATL",
+      "id": "55-R.Hoskins"
+    },
+    {
+      "guid": "Mj5pOTGcvyOmaO0TbbVJJ4EhAc5d",
+      "name": "Deondre Clark",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-D.Clark"
+    },
+    {
+      "guid": "Mj7ae1JajuQ1Cu3fDYh2lob5nQC3",
+      "name": "Jahmahl Pardner",
+      "position": "DEFENSIVE_BACK",
+      "number": 26,
+      "team": null,
+      "id": "26-J.Pardner"
+    },
+    {
+      "guid": "Mj9F5xyM8PKgbiVlX-pLT_8se18T",
+      "name": "Donnie Alexander",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Alexander"
+    },
+    {
+      "guid": "Mj-ofVLerC35StIvJi5yLK-5Tu4E",
+      "name": "Jacob Flores",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 57,
+      "team": "ATL",
+      "id": "57-J.Flores"
+    },
+    {
+      "guid": "Mj-sLF2G2VVDeZF5AfR9EPuWmTlP",
+      "name": "Handsome Tanielu",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 92,
+      "team": "SL",
+      "id": "92-H.Tanielu"
+    },
+    {
+      "guid": "MkBLIHzSaiLRL6JN37AMVzjbxHJs",
+      "name": "Cyril Richardson",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 73,
+      "team": "SA",
+      "id": "73-C.Richardson"
+    },
+    {
+      "guid": "MkC7GxwD0CX0H67Q0a5BtAMszQc8",
+      "name": "Dalton Sturm",
+      "position": "QUARTERBACK",
+      "number": 1,
+      "team": "SA",
+      "id": "1-D.Sturm"
+    },
+    {
+      "guid": "MkD_f2oSwngvTAwTZC9ko8z3OJ_z",
+      "name": "Totauhelotu Lotulelei",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "ATL",
+      "id": "55-T.Lotulelei"
+    },
+    {
+      "guid": "MkEgTTPxw7RWx53RufwCDiGZzDC_",
+      "name": "Izaah Burks Sr.",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 97,
+      "team": "ORL",
+      "id": "97-I.Burks Sr."
+    },
+    {
+      "guid": "MkFU8cQx1EJI_YUbuoLT4EofzGiy",
+      "name": "Jahleel Pinner",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Pinner"
+    },
+    {
+      "guid": "MkF2Rr25HqHiwa4dtiC6UusOl4L6",
+      "name": "Tre' Dempsey",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": "ORL",
+      "id": "24-T.Dempsey"
+    },
+    {
+      "guid": "MkF5UPgoj0KxTC06w0oSTc74NNC8",
+      "name": "Marcus McDade",
+      "position": "QUARTERBACK",
+      "number": 4,
+      "team": "BIR",
+      "id": "4-M.McDade"
+    },
+    {
+      "guid": "MkHlfCZLP67rG0xxUm_gXvQAcM6j",
+      "name": "LaDarius Gunter",
+      "position": "CORNERBACK",
+      "number": 37,
+      "team": "ORL",
+      "id": "37-L.Gunter"
+    },
+    {
+      "guid": "MkIXfJglRRA0iltTZxoLAcCKfXF2",
+      "name": "John Kling, IV",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 70,
+      "team": "ATL",
+      "id": "70-J.Kling, IV"
+    },
+    {
+      "guid": "MkJMDPRcAWuVYc46bWXas4yu9jXr",
+      "name": "Brandon Watts",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "ATL",
+      "id": "58-B.Watts"
+    },
+    {
+      "guid": "MkJMaeehojJ_G2FTn43DdskqOBtE",
+      "name": "Richard Mullaney",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "ARI",
+      "id": "16-R.Mullaney"
+    },
+    {
+      "guid": "MkKiYsdB6-9k7IVdDdChotEL0-2M",
+      "name": "Michael Dunn",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 67,
+      "team": "BIR",
+      "id": "67-M.Dunn"
+    },
+    {
+      "guid": "MkLXRKGbt4IbAzqpg2xsAXH6m8QJ",
+      "name": "Dillon DeBoer",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 65,
+      "team": "SA",
+      "id": "65-D.DeBoer"
+    },
+    {
+      "guid": "MkMUzgjHasbVTOrkkaW4WMdDNQpg",
+      "name": "Ronald Powell",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": null,
+      "id": "57-R.Powell"
+    },
+    {
+      "guid": "MkNfF7_OK-QwvC5-Dx2hmIVAphkv",
+      "name": "Josh Frazier",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 71,
+      "team": "BIR",
+      "id": "71-J.Frazier"
+    },
+    {
+      "guid": "MkOIaSl-oJtwuqL38tjwbJzFiJO6",
+      "name": "Patrick Lewis",
+      "position": "CENTER",
+      "number": 67,
+      "team": "ARI",
+      "id": "67-P.Lewis"
+    },
+    {
+      "guid": "MkOzFmoWmuILtBelKePQMW-w1wWf",
+      "name": "Will Sutton",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 98,
+      "team": "ARI",
+      "id": "98-W.Sutton"
+    },
+    {
+      "guid": "MkPvvbYvaVNNPxdSnPAYxFKkEa0Y",
+      "name": "John Wolford",
+      "position": "QUARTERBACK",
+      "number": 7,
+      "team": "ARI",
+      "id": "7-J.Wolford"
+    },
+    {
+      "guid": "MkP_uz_DSRzxYSrPTiGPWjrkd-_E",
+      "name": "Khalil Sommerville",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-K.Sommerville"
+    },
+    {
+      "guid": "MkRvs50RQRGXbJm64wTLX3gQnz4A",
+      "name": "Kishawn McClain",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.McClain"
+    },
+    {
+      "guid": "MkSQkA0DlgEoiwU955Ir2v-_UhEF",
+      "name": "Darius Prince",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "SA",
+      "id": "81-D.Prince"
+    },
+    {
+      "guid": "MkW3afIp4biLQiqYfgWhj2RcHmI1",
+      "name": "Alex Thompson",
+      "position": "OFFENSIVE_GUARD",
+      "number": 68,
+      "team": "ARI",
+      "id": "68-A.Thompson"
+    },
+    {
+      "guid": "MkXtS_Yu0mkc3BP5bNBQeSCOTJvC",
+      "name": "Wes Saxton, Jr. ",
+      "position": "TIGHT_END",
+      "number": 83,
+      "team": "BIR",
+      "id": "83-W.Saxton, Jr. "
+    },
+    {
+      "guid": "MkYFZD_vooeNd5rYhhyauGmZ65Ig",
+      "name": "Robenson Therezie",
+      "position": "DEFENSIVE_BACK",
+      "number": 37,
+      "team": "BIR",
+      "id": "37-R.Therezie"
+    },
+    {
+      "guid": "MkZJF1waAwouyNHEi72lZjZY8cYs",
+      "name": "Will Corbin",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 60,
+      "team": "ATL",
+      "id": "60-W.Corbin"
+    },
+    {
+      "guid": "MkaKPrCJvNGq7VTCihiEO1Z0tZGZ",
+      "name": "Kennan Gilchrist",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "SA",
+      "id": "50-K.Gilchrist"
+    },
+    {
+      "guid": "Mka3hqCcPg8RPgiOd2r3sESpFRKC",
+      "name": "Beniquez Brown",
+      "position": "LINEBACKER",
+      "number": 42,
+      "team": "BIR",
+      "id": "42-B.Brown"
+    },
+    {
+      "guid": "MkbX_xWnJp95GAQTKMA5wPcCLQGl",
+      "name": "Austin Davis",
+      "position": "CENTER",
+      "number": 78,
+      "team": "SL",
+      "id": "78-A.Davis"
+    },
+    {
+      "guid": "MkbxRbqeS8-lrr6vHeEQ-3-cu_dq",
+      "name": "Darreus Rogers",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-D.Rogers"
+    },
+    {
+      "guid": "MkcEbJllIJSQCRhYW1W77tJxip7y",
+      "name": "Brett Harrington",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-B.Harrington"
+    },
+    {
+      "guid": "MkcKXcf7f_eyvvJHZrhSluKNgltE",
+      "name": "Brad Wing",
+      "position": "PUNTER",
+      "number": 4,
+      "team": "MEM",
+      "id": "4-B.Wing"
+    },
+    {
+      "guid": "MkcMD9m-iLz97_DMYhwi4YmjXIBw",
+      "name": "Pierce Burton",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 70,
+      "team": "ARI",
+      "id": "70-P.Burton"
+    },
+    {
+      "guid": "Mkc9kzRcckURCNXUWL-BkPIv-4il",
+      "name": "Frankie Hammond",
+      "position": "WIDE_RECEIVER",
+      "number": 85,
+      "team": "ORL",
+      "id": "85-F.Hammond"
+    },
+    {
+      "guid": "Mkd9QS5K8m9c-Y5kY-lcDXvRiPYP",
+      "name": "Jevoni Robinson",
+      "position": "TIGHT_END",
+      "number": 86,
+      "team": null,
+      "id": "86-J.Robinson"
+    },
+    {
+      "guid": "MkhAyNWgFdmZrjBKxOfkJ9Z5g5aN",
+      "name": "Luke Carrezola",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "SL",
+      "id": "55-L.Carrezola"
+    },
+    {
+      "guid": "MkiXHB9MYn5EIMB45S7Fibn3RG3M",
+      "name": "Sean Price",
+      "position": "TIGHT_END",
+      "number": 80,
+      "team": "ORL",
+      "id": "80-S.Price"
+    },
+    {
+      "guid": "Mki6XGMB8nRhVemvmE-I16y7VC2Y",
+      "name": "Terry Poole",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 79,
+      "team": "SD",
+      "id": "79-T.Poole"
+    },
+    {
+      "guid": "MkjhquuLZmtzn4_brkLH6sX2ya9I",
+      "name": "Storm Johnson",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-S.Johnson"
+    },
+    {
+      "guid": "MkkS1t4MfWCBJuj2w6umSNKEyKi3",
+      "name": "Keyarris Garrett",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": null,
+      "id": "16-K.Garrett"
+    },
+    {
+      "guid": "MklCl8M9uuH0MDUhvoF43H6Edc9X",
+      "name": "Jake Bennett",
+      "position": "CENTER",
+      "number": 67,
+      "team": "SL",
+      "id": "67-J.Bennett"
+    },
+    {
+      "guid": "Mkl1fekYQyARJiPW-09_ZPQKEFRg",
+      "name": "Aaron Tiller",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 56,
+      "team": "SL",
+      "id": "56-A.Tiller"
+    },
+    {
+      "guid": "Mkl7PLMTcKG1Saz-J9vQZs0Lm33O",
+      "name": "Lene Maiava",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "ARI",
+      "id": "77-L.Maiava"
+    },
+    {
+      "guid": "MkmAhau0FGwzGtqivpJVBbM_Rv34",
+      "name": "Jahad Thomas",
+      "position": "RUNNING_BACK",
+      "number": 35,
+      "team": "SD",
+      "id": "35-J.Thomas"
+    },
+    {
+      "guid": "MknoSN9MGmBuZzYLHMocyN2vdMN3",
+      "name": "James Clark",
+      "position": "WIDE_RECEIVER",
+      "number": 10,
+      "team": "ATL",
+      "id": "10-J.Clark"
+    },
+    {
+      "guid": "MkohyLOj9_zKp54BQfFbnxbnkYZ0",
+      "name": "Edmond Robinson",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "ARI",
+      "id": "51-E.Robinson"
+    },
+    {
+      "guid": "MkpKbd9cizc4HjHP8RKBiKXmRtUz",
+      "name": "Peter Pujals",
+      "position": "QUARTERBACK",
+      "number": 6,
+      "team": "ATL",
+      "id": "6-P.Pujals"
+    },
+    {
+      "guid": "MkpRgd5SNWd31jHiLxntSELkwYKP",
+      "name": "Terrell Watson",
+      "position": "RUNNING_BACK",
+      "number": 39,
+      "team": "SD",
+      "id": "39-T.Watson"
+    },
+    {
+      "guid": "MkqMYSDOCwYiENAjqHg_YhuvD83Z",
+      "name": "Josh Hicks",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Hicks"
+    },
+    {
+      "guid": "MkqYGrctDmwR1nAp46EB0bXTETkV",
+      "name": "Jake Pruehs",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-J.Pruehs"
+    },
+    {
+      "guid": "MkqgsJ6ZbkE39s1vJOg18dk0x6js",
+      "name": "Cameron Hunt",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Hunt"
+    },
+    {
+      "guid": "MkqxH3tmgRjdgZI36Hf2opcOJk1k",
+      "name": "Cardon Malan",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-C.Malan"
+    },
+    {
+      "guid": "MkuhXzPHad-9odU8r4-rFWYja8bW",
+      "name": "Deji Olatoye",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": null,
+      "id": "30-D.Olatoye"
+    },
+    {
+      "guid": "MkvzH1IWrdOJqrffsmSAd6WeQDFB",
+      "name": "Rahim Moore",
+      "position": "DEFENSIVE_BACK",
+      "number": 45,
+      "team": "ARI",
+      "id": "45-R.Moore"
+    },
+    {
+      "guid": "MkwDjBey9s02eC6m1R-oHOG1efP1",
+      "name": "Tyler Smith",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-T.Smith"
+    },
+    {
+      "guid": "MkwHVzLUwv_wiwkQRXlTNyiFi2XC",
+      "name": "Ross Westphal",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-R.Westphal"
+    },
+    {
+      "guid": "MkxBjhO0jzqaUMmsO6TTxKSu6N3E",
+      "name": "Roubbens Joseph",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-R.Joseph"
+    },
+    {
+      "guid": "Mkx2-mFilsdWEJgPVw9TAjSpiwv_",
+      "name": "Tuni Kanuch",
+      "position": "OFFENSIVE_GUARD",
+      "number": 66,
+      "team": "SL",
+      "id": "66-T.Kanuch"
+    },
+    {
+      "guid": "Mkx9r6BXgdvWzG0NopuGDR4ilFOQ",
+      "name": "Randell Johnson",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": null,
+      "id": "58-R.Johnson"
+    },
+    {
+      "guid": "MkzIl91SX6ZFq3UzNV4EysOWzCu6",
+      "name": "Jaylen Dunlap",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Dunlap"
+    },
+    {
+      "guid": "Mkzk3MIyF7JAQcd78N4W7Duh2SUq",
+      "name": "Ervin Philips",
+      "position": "WIDE_RECEIVER",
+      "number": 82,
+      "team": "ATL",
+      "id": "82-E.Philips"
+    },
+    {
+      "guid": "Mk1qwbGlrOwQBZm9EYetpcsjzrC5",
+      "name": "Waylon Roberson",
+      "position": "NOSE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-W.Roberson"
+    },
+    {
+      "guid": "Mk2OY7XvZNBTi5qa4To3q9OFb_T3",
+      "name": "Gabe Kuhn",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-G.Kuhn"
+    },
+    {
+      "guid": "Mk2gkzxj_w_dg5DQE9urOe0r6Vc-",
+      "name": "Darrien Howard",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-D.Howard"
+    },
+    {
+      "guid": "Mk31NQorG5PlTlANIMq5dBhc5-pv",
+      "name": "Carl Bradford",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "ARI",
+      "id": "52-C.Bradford"
+    },
+    {
+      "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
+      "name": "Greg Ward, Jr.",
+      "position": "WIDE_RECEIVER",
+      "number": 84,
+      "team": "SA",
+      "id": "84-G.Ward, Jr."
+    },
+    {
+      "guid": "Mk4btJq-d4YzQTHkylrHA2NI6zpB",
+      "name": "Tyler Rausa",
+      "position": "KICKER",
+      "number": null,
+      "team": null,
+      "id": "-T.Rausa"
+    },
+    {
+      "guid": "Mk5lf0dU6nBJfH5Gbsl59VPbwcyu",
+      "name": "Montay Crockett",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "ATL",
+      "id": "13-M.Crockett"
+    },
+    {
+      "guid": "Mk7hZyGCJ7bnNb-7ijoZe9OOp7xr",
+      "name": "DeMarquis Gates",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "MEM",
+      "id": "58-D.Gates"
+    },
+    {
+      "guid": "Mk89K-_XSttRr99vKxRgD3AB_lK3",
+      "name": "Van Smith",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-V.Smith"
+    },
+    {
+      "guid": "MlAT5D6p76Uz5RTe1GYB6Adeh_Db",
+      "name": "Scott Daly",
+      "position": "LONG_SNAPPER",
+      "number": 49,
+      "team": "SA",
+      "id": "49-S.Daly"
+    },
+    {
+      "guid": "MlDc1LxRezKdidw5xR-yRCM7lghC",
+      "name": "Darion Monroe",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Monroe"
+    },
+    {
+      "guid": "MlHIFHi_BP6hN2Aylaujtbk5d8gr",
+      "name": "Alex Carter",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "SD",
+      "id": "-A.Carter"
+    },
+    {
+      "guid": "MlH_20gKM-v1ExEgCAOPZ2TmxnrB",
+      "name": "Darrian Bass",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Bass"
+    },
+    {
+      "guid": "MlJQCUtZh6-pHQ2nKuweImP9k1n-",
+      "name": "Connor Jessop",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-C.Jessop"
+    },
+    {
+      "guid": "MlJUq9TyJrTCtKXclx0gyLtrRYZT",
+      "name": "Stephen Garcia",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-S.Garcia"
+    },
+    {
+      "guid": "MlJV7x0sNtdfifjvl82FTTLBJ2iW",
+      "name": "Dillion Winfrey",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Winfrey"
+    },
+    {
+      "guid": "MlMxaRMpNWkvxgV_Y4wYiIqBTGKA",
+      "name": "Ermon Lane",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-E.Lane"
+    },
+    {
+      "guid": "MlOCeTP1qVZH1pnnHwrDmpvGpJMm",
+      "name": "D'Joun Smith",
+      "position": "CORNERBACK",
+      "number": 31,
+      "team": "ORL",
+      "id": "31-D.Smith"
+    },
+    {
+      "guid": "MlPDl_dJ8RftbPklQxXClb3FO1tK",
+      "name": "Gelen Robinson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 98,
+      "team": "SD",
+      "id": "98-G.Robinson"
+    },
+    {
+      "guid": "MlSldhfyU9d1hJ60yfcsiYX3AVSn",
+      "name": "Deondre Barnett",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "MEM",
+      "id": "51-D.Barnett"
+    },
+    {
+      "guid": "MlSvEgwulzdLjauNKjJ8sXValDh4",
+      "name": "Austin Jordan",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-A.Jordan"
+    },
+    {
+      "guid": "MlTVR_U-lT1XAjLokL1L5WpI3Dso",
+      "name": "Steve Williams",
+      "position": "CORNERBACK",
+      "number": 23,
+      "team": "SL",
+      "id": "23-S.Williams"
+    },
+    {
+      "guid": "MlTgQEcJuGu0hOgEZOMesDyRydxp",
+      "name": "Sterling Moore",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "ARI",
+      "id": "25-S.Moore"
+    },
+    {
+      "guid": "MlTlE6dPT6SW4l29TJkEmUOJcN7R",
+      "name": "Anthony Sarao",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "SD",
+      "id": "56-A.Sarao"
+    },
+    {
+      "guid": "MlU5CGWJGoRvhkO1dJL3PNeNWeWM",
+      "name": "Trae Moxley",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 60,
+      "team": "ATL",
+      "id": "60-T.Moxley"
+    },
+    {
+      "guid": "MlVa3Jfxajga4CWX5BAlQz1ZB37o",
+      "name": "Wayne Capers",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-W.Capers"
+    },
+    {
+      "guid": "MlV-02inUXrsEEpYRJOewDTYBKEj",
+      "name": "Ishmael Hyman",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "ORL",
+      "id": "13-I.Hyman"
+    },
+    {
+      "guid": "MlWiOHQV6kfVOdgNTkyEH8QWGcNt",
+      "name": "Keith Reaser",
+      "position": "CORNERBACK",
+      "number": 39,
+      "team": "ORL",
+      "id": "39-K.Reaser"
+    },
+    {
+      "guid": "MlXaLaWuPQ2SGJ1WLuA-Jg1fk-mA",
+      "name": "Mike Purcell",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 98,
+      "team": "SL",
+      "id": "98-M.Purcell"
+    },
+    {
+      "guid": "MlYbA1bE5pTsO11ZvxV5Nn1xsrYI",
+      "name": "Ryan Timmons",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": "MEM",
+      "id": "19-R.Timmons"
+    },
+    {
+      "guid": "MlYzDqVVZOyS3fLGj3pNzAu73A-J",
+      "name": "Aaron Duckworth",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": null,
+      "id": "20-A.Duckworth"
+    },
+    {
+      "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
+      "name": "Paul James",
+      "position": "RUNNING_BACK",
+      "number": 31,
+      "team": "SD",
+      "id": "31-P.James"
+    },
+    {
+      "guid": "MlayvA1cyPdoQnp8FuC5G79s1gcm",
+      "name": "Donatello Brown",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "ATL",
+      "id": "-D.Brown"
+    },
+    {
+      "guid": "Mla9EIHK3SdVKYdSxqykQ4clFhly",
+      "name": "Damarius Travis",
+      "position": "STRONG_SAFETY",
+      "number": 37,
+      "team": "SD",
+      "id": "37-D.Travis"
+    },
+    {
+      "guid": "MlbEFyxkNGHbhFTVNwT7cf0dBDI1",
+      "name": "Rashad Dillard",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-R.Dillard"
+    },
+    {
+      "guid": "MlbraeywZk-9bZADmtlBq6Jl9Px2",
+      "name": "Josh Evans",
+      "position": "SAFETY",
+      "number": 26,
+      "team": "ORL",
+      "id": "26-J.Evans"
+    },
+    {
+      "guid": "MlcxcyvoaMkgMadxjz-PrXKAmhCJ",
+      "name": "Ryan Green",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": "ORL",
+      "id": "20-R.Green"
+    },
+    {
+      "guid": "MldXdIQuj-sKO_-RdM1HCdP1qzaV",
+      "name": "Steven Johnson",
+      "position": "LINEBACKER",
+      "number": 49,
+      "team": "ARI",
+      "id": "49-S.Johnson"
+    },
+    {
+      "guid": "Mldpp7_iWlE9wTeYW6CDpU4EUBLz",
+      "name": "Andrew Ankrah",
+      "position": "LINEBACKER",
+      "number": 44,
+      "team": "ORL",
+      "id": "44-A.Ankrah"
+    },
+    {
+      "guid": "Mle9r1HOzyG3T1MRJRxOenM0Lz29",
+      "name": "Jerod Boykins",
+      "position": "DEFENSIVE_BACK",
+      "number": 27,
+      "team": null,
+      "id": "27-J.Boykins"
+    },
+    {
+      "guid": "MlgOIxJjSbiNn-RuAxV0xdH5kSpU",
+      "name": "Kyle Bolin",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Bolin"
+    },
+    {
+      "guid": "MlhEGaUKzg5OsqYO4bg3SgeHPyuj",
+      "name": "Daniel Marx",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Marx"
+    },
+    {
+      "guid": "MlhUgpRU85N7PXeYz7s3edIv2AL3",
+      "name": "James Butler",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Butler"
+    },
+    {
+      "guid": "Mli2y5olQv4sBlqM0tiJcbTtTUP8",
+      "name": "Carlos Merritt",
+      "position": "DEFENSIVE_BACK",
+      "number": 20,
+      "team": "ATL",
+      "id": "20-C.Merritt"
+    },
+    {
+      "guid": "Mljhybw7om52eXm6ZeD_ANOK77jn",
+      "name": "Matt Weiser",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "ORL",
+      "id": "89-M.Weiser"
+    },
+    {
+      "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
+      "name": "Chris Thompson",
+      "position": "WIDE_RECEIVER",
+      "number": 84,
+      "team": "ORL",
+      "id": "84-C.Thompson"
+    },
+    {
+      "guid": "MllLQJtH3lb_QuraihQ_R_Eg06dX",
+      "name": "Andrew Spencer",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Spencer"
+    },
+    {
+      "guid": "MlnFflK6Lh7g-h7uKrJqQR-AqrcZ",
+      "name": "Austin Fleer",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-A.Fleer"
+    },
+    {
+      "guid": "MlnnQHXvipAgS-3bsFxD_UazWw_K",
+      "name": "Matt Elam",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-M.Elam"
+    },
+    {
+      "guid": "Mloc5zYAune4Y64O-SxIAPunLIFe",
+      "name": "Yedidah Louis",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-Y.Louis"
+    },
+    {
+      "guid": "MloiLrNFvVQNejCAhxwcRXW2vNmH",
+      "name": "Emmanuel Smith",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "MEM",
+      "id": "-E.Smith"
+    },
+    {
+      "guid": "MlpKGo6MY1ZPamJ7DdveKhxdCucG",
+      "name": "Darryl Morris",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": null,
+      "id": "29-D.Morris"
+    },
+    {
+      "guid": "Mlpq7G5tvDKTAX3vCWpPrgBIbx3V",
+      "name": "Dwayne Hollis",
+      "position": "DEFENSIVE_BACK",
+      "number": 22,
+      "team": "ATL",
+      "id": "22-D.Hollis"
+    },
+    {
+      "guid": "MlqRk92mILBzSmn8Yd5VkSekBkf-",
+      "name": "Justin Horton",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-J.Horton"
+    },
+    {
+      "guid": "Mlub5x5niTV8PLVfmsh9KTQE6wOh",
+      "name": "Avery Young",
+      "position": "OFFENSIVE_GUARD",
+      "number": 73,
+      "team": "BIR",
+      "id": "73-A.Young"
+    },
+    {
+      "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
+      "name": "Francis Owusu",
+      "position": "WIDE_RECEIVER",
+      "number": 82,
+      "team": "SD",
+      "id": "82-F.Owusu"
+    },
+    {
+      "guid": "Mlu_Q3Vj1p_vkXAVBnXClr3hHdUV",
+      "name": "Greer Martini",
+      "position": "LINEBACKER",
+      "number": 45,
+      "team": "SL",
+      "id": "45-G.Martini"
+    },
+    {
+      "guid": "MlxXv4qh2Y83avEc8sHPHi9DrzSA",
+      "name": "LaVonte Hights",
+      "position": "OFFENSIVE_GUARD",
+      "number": 62,
+      "team": "SL",
+      "id": "62-L.Hights"
+    },
+    {
+      "guid": "Mlxh8zIMC1Rsc2ppg2FHW5B_Riwv",
+      "name": "Joe Brown",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Brown"
+    },
+    {
+      "guid": "Mlxi6sbA5BP0zve8r-DAMysaJyqP",
+      "name": "Mason Gentry",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 57,
+      "team": "SA",
+      "id": "57-M.Gentry"
+    },
+    {
+      "guid": "Mlx6Z1X5i5Av-jLpFjMD0O5wHPBX",
+      "name": "Mike Bercovici",
+      "position": "QUARTERBACK",
+      "number": 11,
+      "team": "SD",
+      "id": "11-M.Bercovici"
+    },
+    {
+      "guid": "MlzvyfQJOP7VVhNq6xQ4Elg077Nu",
+      "name": "Kurtis Drummond",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "SA",
+      "id": "25-K.Drummond"
+    },
+    {
+      "guid": "Ml1qmAyBPa_XHP8yc_YGk5RZgqsz",
+      "name": "Tyshon Henderson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 76,
+      "team": "ATL",
+      "id": "76-T.Henderson"
+    },
+    {
+      "guid": "Ml1xY9_sRI3YYq78QWklPL12pApE",
+      "name": "Derrick Dixon",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 96,
+      "team": "SD",
+      "id": "96-D.Dixon"
+    },
+    {
+      "guid": "Ml3LsV_higX63p3t5bJjVmkXCoRh",
+      "name": "Eric Pinkins",
+      "position": "LINEBACKER",
+      "number": 42,
+      "team": "SD",
+      "id": "42-E.Pinkins"
+    },
+    {
+      "guid": "Ml3N4NUI_SquvC9aD1zkTJTDDOia",
+      "name": "Joe Powell",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Powell"
+    },
+    {
+      "guid": "Ml4-5ek9pmUVeV_ZkRoaHL7n3SjQ",
+      "name": "Jake Wieneke",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Wieneke"
+    },
+    {
+      "guid": "Ml6PLlyTS8N-VRZfD0dbAKGCrNQT",
+      "name": "Dimitrios Tsesmetzis",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-D.Tsesmetzis"
+    },
+    {
+      "guid": "Ml7Jc07C0nbpq_M6j9F0XAt1Anv2",
+      "name": "Damien Mama",
+      "position": "OFFENSIVE_GUARD",
+      "number": 71,
+      "team": "SD",
+      "id": "71-D.Mama"
+    },
+    {
+      "guid": "Ml8L8s3QOIYRVbHTku1MHeuKR_19",
+      "name": "Alfonso Onunwor",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-A.Onunwor"
+    },
+    {
+      "guid": "Ml9EZVqVoa7pI89Rahu9364brNCd",
+      "name": "Davis Tull",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "MEM",
+      "id": "55-D.Tull"
+    },
+    {
+      "guid": "Ml9cOZHecV3pc9mEGX4ZR4Y6ZkMB",
+      "name": "Amba Etta-Tawo",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": "BIR",
+      "id": "14-A.Etta-Tawo"
+    },
+    {
+      "guid": "Ml-KLEpXG3ZxqPFHLJ64oo-9KHrJ",
+      "name": "Robert Nelson",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "ARI",
+      "id": "21-R.Nelson"
+    },
+    {
+      "guid": "Ml_EgPo_SfyJxIcBJzVH9FWjE-hW",
+      "name": "Cole Reyes",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-C.Reyes"
+    },
+    {
+      "guid": "Ml_VEBMnHbVCRzfhEBN7BBRuD0pH",
+      "name": "Javier Dyer",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-J.Dyer"
+    },
+    {
+      "guid": "Ml_gtBJW3QVI462DX6eiRC6WZ8yP",
+      "name": "Aaron Adeoye",
+      "position": "DEFENSIVE_END",
+      "number": 58,
+      "team": "BIR",
+      "id": "58-A.Adeoye"
+    },
+    {
+      "guid": "MmB1A-9xv6qkeWOJEX9jI0DBylgu",
+      "name": "Robert Taylor",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-R.Taylor"
+    },
+    {
+      "guid": "MmCwb6DWPH2kbnPwMnBEtSrd6WTx",
+      "name": "Jeff Luc",
+      "position": "LINEBACKER",
+      "number": 48,
+      "team": "ATL",
+      "id": "48-J.Luc"
+    },
+    {
+      "guid": "MmFtk-k--4-lerwkJ_Q4psDP29hG",
+      "name": "Jamichael Winston, Sr.",
+      "position": "DEFENSIVE_END",
+      "number": 91,
+      "team": "MEM",
+      "id": "91-J.Winston, Sr."
+    },
+    {
+      "guid": "MmHlBwruJAIAaMXuueRicj22jYe5",
+      "name": "Ashton Grant",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-A.Grant"
+    },
+    {
+      "guid": "MmIr6_Tggdgd2yO-XQnxLDtzVPS1",
+      "name": "Tanner Balderree",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "SL",
+      "id": "89-T.Balderree"
+    },
+    {
+      "guid": "MmIyJnbZqx96Bkm-x_DoxZubwhck",
+      "name": "John Montelus",
+      "position": "OFFENSIVE_GUARD",
+      "number": 60,
+      "team": "SD",
+      "id": "60-J.Montelus"
+    },
+    {
+      "guid": "MmMfEF5iWtoJb5q7pG3mJVWwHXEY",
+      "name": "Terence Garvin",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "ORL",
+      "id": "51-T.Garvin"
+    },
+    {
+      "guid": "MmMr1PqQzXo0ZVHk39O2j4ktgFhu",
+      "name": "Adrien Robinson",
+      "position": "TIGHT_END",
+      "number": 47,
+      "team": "MEM",
+      "id": "47-A.Robinson"
+    },
+    {
+      "guid": "MmOCv4wFpYuzuH1Jxe0x9AedHWrc",
+      "name": "Korren Kirven",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 78,
+      "team": "BIR",
+      "id": "78-K.Kirven"
+    },
+    {
+      "guid": "MmQ4ilFY-GqTQ6ergvYSJW7Mf-wW",
+      "name": "Andrew Tiller",
+      "position": "OFFENSIVE_GUARD",
+      "number": 75,
+      "team": "ORL",
+      "id": "75-A.Tiller"
+    },
+    {
+      "guid": "MmRc63J1uEVw2BGdVcrp-LGq7uDR",
+      "name": "Brandon Washington",
+      "position": "OFFENSIVE_GUARD",
+      "number": 75,
+      "team": null,
+      "id": "75-B.Washington"
+    },
+    {
+      "guid": "MmSSCpjOPSJ1HEEcQqTPLZMvpwkV",
+      "name": "Marcus Hardison",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 91,
+      "team": "ARI",
+      "id": "91-M.Hardison"
+    },
+    {
+      "guid": "MmSXXHWTqyiEUDKIeJGsvwaozXpi",
+      "name": "Oni Omoile",
+      "position": "CENTER",
+      "number": 61,
+      "team": "MEM",
+      "id": "61-O.Omoile"
+    },
+    {
+      "guid": "MmUUwsOTw5pmEU53f_Fcxt8PMNSQ",
+      "name": "Cory Tucker",
+      "position": "CENTER",
+      "number": null,
+      "team": null,
+      "id": "-C.Tucker"
+    },
+    {
+      "guid": "MmYz4NcbHF1oWs-ZWh-mcl_oNvc0",
+      "name": "Eric Beisel",
+      "position": "LINEBACKER",
+      "number": 46,
+      "team": "BIR",
+      "id": "46-E.Beisel"
+    },
+    {
+      "guid": "MmbOmZjio22xKSdESiP4QnIZNaz1",
+      "name": "Allenzae Staggers",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-A.Staggers"
+    },
+    {
+      "guid": "MmbkMuW2p6t8_L4aprsO3viyTzyY",
+      "name": "Lawrence Pittman",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": "ATL",
+      "id": "-L.Pittman"
+    },
+    {
+      "guid": "MmdTzyAXr_06YKM9MvkpiX6Pysbd",
+      "name": "Jalin Marshall",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "ORL",
+      "id": "17-J.Marshall"
+    },
+    {
+      "guid": "MmdtBPUESCj6etrJlxQqHVJwRPKO",
+      "name": "Kenny Hilliard",
+      "position": "RUNNING_BACK",
+      "number": 32,
+      "team": "MEM",
+      "id": "32-K.Hilliard"
+    },
+    {
+      "guid": "MmgQE4pofWivcr83zt8tBvFA0Yvb",
+      "name": "Cole Gardner",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 72,
+      "team": "ORL",
+      "id": "72-C.Gardner"
+    },
+    {
+      "guid": "MmgeWOjx0FpKFhGQ-3xEeXdnTY3t",
+      "name": "Ra'Zahn Howard",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 92,
+      "team": "SA",
+      "id": "92-R.Howard"
+    },
+    {
+      "guid": "MmiXViestkU-sO6MMWtiQdZiIKeR",
+      "name": "Shawn Secola",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 71,
+      "team": "ATL",
+      "id": "71-S.Secola"
+    },
+    {
+      "guid": "MmjpEXVt7PnnJcLyULPpcbebDiFZ",
+      "name": "Benetton Fonua",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "MEM",
+      "id": "50-B.Fonua"
+    },
+    {
+      "guid": "Mml_72Qx5X5xdUIBhgmnjB9x6bGx",
+      "name": "Erick Dargan",
+      "position": "DEFENSIVE_BACK",
+      "number": 27,
+      "team": "ARI",
+      "id": "27-E.Dargan"
+    },
+    {
+      "guid": "Mmmqlsepsal_J3NtkYLJF8G3nqSq",
+      "name": "Stephen Morris",
+      "position": "QUARTERBACK",
+      "number": 7,
+      "team": "ORL",
+      "id": "7-S.Morris"
+    },
+    {
+      "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
+      "name": "Phillip Nelson",
+      "position": "QUARTERBACK",
+      "number": 9,
+      "team": "SD",
+      "id": "9-P.Nelson"
+    },
+    {
+      "guid": "MmnUzOaXBiwrJUn8FzTJpxUk1kTK",
+      "name": "Marvin Gross",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Gross"
+    },
+    {
+      "guid": "Mmn17YhtJ2sO5nrF_20WT9BB6c_c",
+      "name": "Busta Anderson",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "BIR",
+      "id": "89-B.Anderson"
+    },
+    {
+      "guid": "Mmo4mbAD4Ss39YqyP4QDa78tOgyo",
+      "name": "Jamal Robinson",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": "BIR",
+      "id": "15-J.Robinson"
+    },
+    {
+      "guid": "MmpoF7v-afY4VKN1RF12jBfk54vM",
+      "name": "Andrew Bailey",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-A.Bailey"
+    },
+    {
+      "guid": "Mmqn87XgabnHNnXZU5eY63urMJ7W",
+      "name": "Dante Sawyer",
+      "position": "DEFENSIVE_END",
+      "number": 92,
+      "team": null,
+      "id": "92-D.Sawyer"
+    },
+    {
+      "guid": "Mmr_dOgsib3yjQA5wqjhyuEEbLFX",
+      "name": "Nordly Capi",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "ARI",
+      "id": "-N.Capi"
+    },
+    {
+      "guid": "MmswBWT__IFVOjgErBIPv-ypTyG7",
+      "name": "Quan Bray",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "BIR",
+      "id": "81-Q.Bray"
+    },
+    {
+      "guid": "MmuNa1g5wLa6Qj-ndC8Iav3eT1xT",
+      "name": "Malachi Jones",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": "ATL",
+      "id": "14-M.Jones"
+    },
+    {
+      "guid": "MmuRuZVJawzUAfOG81MmTNByAdaM",
+      "name": "Daronte Bouldin",
+      "position": "OFFENSIVE_GUARD",
+      "number": 60,
+      "team": "MEM",
+      "id": "60-D.Bouldin"
+    },
+    {
+      "guid": "MmvHKLCRyZq-N-Gt2TxaMx3PtX1B",
+      "name": "Alex Ross",
+      "position": "QUARTERBACK",
+      "number": 4,
+      "team": "SD",
+      "id": "4-A.Ross"
+    },
+    {
+      "guid": "MmwGwjRyaLGJmek2KZvEYWLHIvQV",
+      "name": "Tim Semisch",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-T.Semisch"
+    },
+    {
+      "guid": "MmyUhq9ekU3GIMaoG_rCoVC6PEPg",
+      "name": "Lawrence Okoye",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 97,
+      "team": "BIR",
+      "id": "97-L.Okoye"
+    },
+    {
+      "guid": "Mmyshu_sVtWYVTFuKdZZpB8C3rwT",
+      "name": "Mike Stevens",
+      "position": "DEFENSIVE_BACK",
+      "number": 39,
+      "team": "ATL",
+      "id": "39-M.Stevens"
+    },
+    {
+      "guid": "Mmytod9JtBiFrioKSpxh5ZxpHozE",
+      "name": "Bryce Jones",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": null,
+      "id": "31-B.Jones"
+    },
+    {
+      "guid": "Mm0riXVGYMOcU0-4HX2X9MACj5kz",
+      "name": "Brandon Doughty",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": "ARI",
+      "id": "-B.Doughty"
+    },
+    {
+      "guid": "Mm0slpmHcp2rAoyy_YujtIOMalki",
+      "name": "Kameron Kelly",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": "SD",
+      "id": "14-K.Kelly"
+    },
+    {
+      "guid": "Mm1rOo7RRISapinfb-k5DBgBwKBi",
+      "name": "Joe Gore",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 73,
+      "team": "SD",
+      "id": "73-J.Gore"
+    },
+    {
+      "guid": "Mm2ZwVxSGkw3OqT1GyqzErHBxJeK",
+      "name": "Charles Standberry, Jr.",
+      "position": "TIGHT_END",
+      "number": 80,
+      "team": "ATL",
+      "id": "80-C.Standberry, Jr."
+    },
+    {
+      "guid": "Mm2h5OlXlCOEj8h8p84JWukIeJaL",
+      "name": "Mitchell Bell",
+      "position": "OFFENSIVE_GUARD",
+      "number": 78,
+      "team": "ATL",
+      "id": "78-M.Bell"
+    },
+    {
+      "guid": "Mm3JR9iKMrP2WpWw0sJaBpskl1Gp",
+      "name": "D.J. May",
+      "position": "RUNNING_BACK",
+      "number": 29,
+      "team": null,
+      "id": "29-D.May"
+    },
+    {
+      "guid": "Mm7AJ6Byhebu0DEBXteDAaFkzjWH",
+      "name": "Luis Perez",
+      "position": "QUARTERBACK",
+      "number": 12,
+      "team": "BIR",
+      "id": "12-L.Perez"
+    },
+    {
+      "guid": "Mm7qZz4Au5l5pFqzZm0ADrtoKQ_I",
+      "name": "Kacy Rodgers",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Rodgers"
+    },
+    {
+      "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
+      "name": "Rashad Ross",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": "ARI",
+      "id": "15-R.Ross"
+    },
+    {
+      "guid": "Mm70vmF8uSvMUIzBfxFFBfF5oGNJ",
+      "name": "DaShawn Benton",
+      "position": "DEFENSIVE_BACK",
+      "number": 23,
+      "team": "SA",
+      "id": "23-D.Benton"
+    },
+    {
+      "guid": "Mm8h8_HDCkiA22di_vKdNsIMaesY",
+      "name": "Pat McNeil",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-P.McNeil"
+    },
+    {
+      "guid": "Mm-5_7ht73x4ReJH7LVHxx9mjQBx",
+      "name": "Johnny Maxey",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 99,
+      "team": "BIR",
+      "id": "99-J.Maxey"
+    },
+    {
+      "guid": "Mm--HrUSF37D2BEIn6N6HBQ4qLcW",
+      "name": "Colton Schmidt",
+      "position": "PUNTER",
+      "number": 2,
+      "team": "BIR",
+      "id": "2-C.Schmidt"
+    },
+    {
+      "guid": "MnACTUQ8BD9o24WvOl1ZJJx800EQ",
+      "name": "Jeremy Liggins",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": null,
+      "team": null,
+      "id": "-J.Liggins"
+    },
+    {
+      "guid": "MnAbphMK7l_wk4cPpiRiWfF8psEP",
+      "name": "Ike Spearman",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "BIR",
+      "id": "52-I.Spearman"
+    },
+    {
+      "guid": "MnAkuBEDo0zg2VlIWe3OHhbIKxsL",
+      "name": "Will Hines",
+      "position": "DEFENSIVE_BACK",
+      "number": 43,
+      "team": "BIR",
+      "id": "43-W.Hines"
+    },
+    {
+      "guid": "MnCXqsB6alOxdZbvxF1Vp0dRqXya",
+      "name": "Ondre Pipkins",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "ARI",
+      "id": "90-O.Pipkins"
+    },
+    {
+      "guid": "MnEUrGVxOowODyoxTEvGiIUyFPp1",
+      "name": "Justin Williams",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": "SD",
+      "id": "24-J.Williams"
+    },
+    {
+      "guid": "MnFNOyNyHw3fXrcKp2lxuEu1-nwP",
+      "name": "Alton \"Pig\" Howard",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "MEM",
+      "id": "81-A.Howard"
+    },
+    {
+      "guid": "MnFgQzTjXNBCm1WwzgRMSa9Cgv0n",
+      "name": "Louis Young",
+      "position": "DEFENSIVE_BACK",
+      "number": 35,
+      "team": null,
+      "id": "35-L.Young"
+    },
+    {
+      "guid": "MnFz8vL167BLCwDZAjvfxdoLXLbF",
+      "name": "Wilson Bell",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-W.Bell"
+    },
+    {
+      "guid": "MnGdaMM7wvKY8xxxzTsctazpLM4s",
+      "name": "Aarion Penton",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": "BIR",
+      "id": "30-A.Penton"
+    },
+    {
+      "guid": "MnHriRWNCN4TEVhdz7007XUydjdn",
+      "name": "John Gibbs",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Gibbs"
+    },
+    {
+      "guid": "MnIp8nnqF5N8a1f9vftznr4d8oIK",
+      "name": "Na'im McGee",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "SD",
+      "id": "21-N.McGee"
+    },
+    {
+      "guid": "MnJ23YyxPqCR3mZzM9vzJn6gTrNY",
+      "name": "Garrett Grayson",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-G.Grayson"
+    },
+    {
+      "guid": "MnLgEGimbb_2w7ZSgAVEYQDtPWu7",
+      "name": "Devin Chappell",
+      "position": "DEFENSIVE_BACK",
+      "number": 39,
+      "team": "ARI",
+      "id": "39-D.Chappell"
+    },
+    {
+      "guid": "MnO6ggonKe_CNNzF7cfTOZdeAY3L",
+      "name": "Spare Player",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-S.Player"
+    },
+    {
+      "guid": "MnRGJe7P8ZQrqCeeGdgQGf92HVj-",
+      "name": "Damon Gibson",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-D.Gibson"
+    },
+    {
+      "guid": "MnRgh3InHIg7Lpf3F16hY6Pc-c8x",
+      "name": "Darrell Greene",
+      "position": "OFFENSIVE_GUARD",
+      "number": 78,
+      "team": "SD",
+      "id": "78-D.Greene"
+    },
+    {
+      "guid": "MnSbN3NKTWGgbhSjjM2pzQ_20YJd",
+      "name": "Marcus Baugh",
+      "position": "TIGHT_END",
+      "number": 85,
+      "team": "SD",
+      "id": "85-M.Baugh"
+    },
+    {
+      "guid": "MnS5fyY09TDPfe-Ik09tWQnEXFES",
+      "name": "Justice Liggins",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Liggins"
+    },
+    {
+      "guid": "MnVPV4pi95j0N6-BP3oF-nZUxc1X",
+      "name": "Monteze Latimore",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Latimore"
+    },
+    {
+      "guid": "MnXOgM8fkTsZ_mwVIz_-19WGBARz",
+      "name": "Jimmy Camacho",
+      "position": "KICKER",
+      "number": 1,
+      "team": "SL",
+      "id": "1-J.Camacho"
+    },
+    {
+      "guid": "MnZOW_t4zZj9c6CRPGYqf3wXfwQV",
+      "name": "Blake Jackson",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-B.Jackson"
+    },
+    {
+      "guid": "MnZyXGX8iVvUgvjJtqLho4ON0yH6",
+      "name": "Nick Truesdell",
+      "position": "TIGHT_END",
+      "number": 85,
+      "team": "SL",
+      "id": "85-N.Truesdell"
+    },
+    {
+      "guid": "Mnc8xISXCM-ArpeuLVABzhBG1xBr",
+      "name": "Ben Johnson",
+      "position": "TIGHT_END",
+      "number": 88,
+      "team": "SD",
+      "id": "88-B.Johnson"
+    },
+    {
+      "guid": "Mndha-YykV_qC8CWyeR1zEsAuOZD",
+      "name": "Davon Durant",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Durant"
+    },
+    {
+      "guid": "MnehF2H34PZwsZ1Hr1ZZ80QCipHG",
+      "name": "Lawrence Martin",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-L.Martin"
+    },
+    {
+      "guid": "MngNhkD942ec2IeLXNUju8uBCcz1",
+      "name": "Trey Parker",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 99,
+      "team": "SL",
+      "id": "99-T.Parker"
+    },
+    {
+      "guid": "MngiQXfyQBk3PyZmzoDuOM_DONFI",
+      "name": "Anthony Kelly",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-A.Kelly"
+    },
+    {
+      "guid": "MngzURJq52yXRM7NR-Rsx1YHsuyk",
+      "name": "T.J. Barnes",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 93,
+      "team": "ATL",
+      "id": "93-T.Barnes"
+    },
+    {
+      "guid": "MnhMeRsiWw6LMqSeT11jQLPbC19v",
+      "name": "Adonis Jennings",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "SL",
+      "id": "17-A.Jennings"
+    },
+    {
+      "guid": "MnhcU4tx7YVD6-2Rxey18b08YtAy",
+      "name": "Stacy Thomas",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-S.Thomas"
+    },
+    {
+      "guid": "Mnh3okXoMCqf_Jr-r3_DcsBCyaza",
+      "name": "Will Pericak",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-W.Pericak"
+    },
+    {
+      "guid": "Mnjlocn69S4cbFWfnc07dyXJTfiJ",
+      "name": "Joe Williams",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": "SL",
+      "id": "-J.Williams"
+    },
+    {
+      "guid": "Mnj_kb1-xAjZ3jZCn0FC4G-z3GuK",
+      "name": "Freddie Burden",
+      "position": "OFFENSIVE_GUARD",
+      "number": 64,
+      "team": "ATL",
+      "id": "64-F.Burden"
+    },
+    {
+      "guid": "Mnkh1iQb4Y5isX532bIn6EImwKO-",
+      "name": "Brandon Silvers",
+      "position": "QUARTERBACK",
+      "number": 12,
+      "team": "MEM",
+      "id": "12-B.Silvers"
+    },
+    {
+      "guid": "Mnlo_mLN_oAnLsfZM3x5tIjUI4Fo",
+      "name": "Joseph Zema",
+      "position": "PUNTER",
+      "number": 6,
+      "team": "SA",
+      "id": "6-J.Zema"
+    },
+    {
+      "guid": "Mnl2iECcySDxVDiQeb6LPKhsle0K",
+      "name": "Ike Powell",
+      "position": "LONG_SNAPPER",
+      "number": null,
+      "team": null,
+      "id": "-I.Powell"
+    },
+    {
+      "guid": "MnmI4jbdHdjrY3uu6wBJQbZb5l3n",
+      "name": "Tyree Robinson",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": null,
+      "id": "29-T.Robinson"
+    },
+    {
+      "guid": "Mnn5p98P8Uq6pldFeGv_HejV6Max",
+      "name": "Damontre Moore",
+      "position": "DEFENSIVE_END",
+      "number": 94,
+      "team": "SD",
+      "id": "94-D.Moore"
+    },
+    {
+      "guid": "MnpiLI1W6BB63g3MKa_AKIsxtcZY",
+      "name": "Alex Barrett",
+      "position": "DEFENSIVE_END",
+      "number": 93,
+      "team": "SD",
+      "id": "93-A.Barrett"
+    },
+    {
+      "guid": "MnrSf8JxresR48TO7cfWeGP_-rcC",
+      "name": "Bronson Hill",
+      "position": "RUNNING_BACK",
+      "number": 24,
+      "team": null,
+      "id": "24-B.Hill"
+    },
+    {
+      "guid": "Mnr7vITiWNvLK_mmzf7UegppdxC5",
+      "name": "Max Mickey",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Mickey"
+    },
+    {
+      "guid": "MnsXW3b_RxWJdiQgarki5YrcdZpe",
+      "name": "Jeremy Cutrer",
+      "position": "DEFENSIVE_BACK",
+      "number": 39,
+      "team": "MEM",
+      "id": "39-J.Cutrer"
+    },
+    {
+      "guid": "MnuLytqVu2PteG7hzTUMov2Rl6_n",
+      "name": "Michael Hill",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-M.Hill"
+    },
+    {
+      "guid": "MnvIEno2FG_xIbBeT7xQztEpgrtc",
+      "name": "Travis Feeney",
+      "position": "LINEBACKER",
+      "number": 41,
+      "team": "SD",
+      "id": "41-T.Feeney"
+    },
+    {
+      "guid": "MnvL6-GbEKvM2KNii88YtoXpeeCF",
+      "name": "Jordan Leslie",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": "SL",
+      "id": "19-J.Leslie"
+    },
+    {
+      "guid": "MnxFV2UlHW7uL1llQ_uFI3CLXMRN",
+      "name": "Blake Nelson",
+      "position": "LINEBACKER",
+      "number": 41,
+      "team": "SL",
+      "id": "41-B.Nelson"
+    },
+    {
+      "guid": "MnyF83TVnPdMK4yEN6DJRc5cCpsc",
+      "name": "Mat Boesen",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "ATL",
+      "id": "-M.Boesen"
+    },
+    {
+      "guid": "MnyPyRyEF8UVNQZ5wACDMwLiN85c",
+      "name": "Deontae Skinner",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Skinner"
+    },
+    {
+      "guid": "Mn0LAm9OwqDMYgR2Qwwi9ORhQwmy",
+      "name": "SaQwan Edwards",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": "ARI",
+      "id": "31-S.Edwards"
+    },
+    {
+      "guid": "Mn01NY7ir91GiadQiVp8Ca4PfHcr",
+      "name": "R.J. Nitti",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-R.Nitti"
+    },
+    {
+      "guid": "Mn3HCezgpOoY40MWxoB7IviHaUsl",
+      "name": "Cheatham Norrils",
+      "position": "CORNERBACK",
+      "number": 30,
+      "team": "SL",
+      "id": "30-C.Norrils"
+    },
+    {
+      "guid": "Mn3HeUeQwyEVv1sN8W7z2i8aHPMf",
+      "name": "Gio Pascascio",
+      "position": "WIDE_RECEIVER",
+      "number": 83,
+      "team": null,
+      "id": "83-G.Pascascio"
+    },
+    {
+      "guid": "Mn32i6fLijMAjXD_3sO4EyjUHCmD",
+      "name": "Reggie Spearman",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-R.Spearman"
+    },
+    {
+      "guid": "Mn4IHwoUGl1aQDqQTaWTih0Ge5U2",
+      "name": "Andrew Nelson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-A.Nelson"
+    },
+    {
+      "guid": "Mn4R-c0RduILnqgZnvZjH3Jd8MVD",
+      "name": "Chris Givens",
+      "position": "WIDE_RECEIVER",
+      "number": 2,
+      "team": "MEM",
+      "id": "2-C.Givens"
+    },
+    {
+      "guid": "Mn4c_sIuV22S_hR2rOpPrN2fYE0y",
+      "name": "Kamari Cotton-Moya",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": null,
+      "id": "25-K.Cotton-Moya"
+    },
+    {
+      "guid": "Mn4ebaVZmPt-Ya9fJNxk7qe2p-pl",
+      "name": "De'Vante Bausby",
+      "position": "CORNERBACK",
+      "number": 41,
+      "team": "SA",
+      "id": "41-D.Bausby"
+    },
+    {
+      "guid": "Mn5jPpfHxg_AEaUln3vNiu9xKHsS",
+      "name": "JaCorey Shepherd",
+      "position": "DEFENSIVE_BACK",
+      "number": 22,
+      "team": "BIR",
+      "id": "22-J.Shepherd"
+    },
+    {
+      "guid": "Mn5pHXBrCRitfw2C4tMKBJBXZfQc",
+      "name": "Korey Robertson",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "SL",
+      "id": "18-K.Robertson"
+    },
+    {
+      "guid": "Mn7mp4nCfC-wcUeoYO-IZvoIUOz0",
+      "name": "Johnny Ragin, III",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": null,
+      "id": "58-J.Ragin, III"
+    },
+    {
+      "guid": "Mn8r0BYg3SsnBwklQK_k_xN_pW9X",
+      "name": "Jeremiah Johnson",
+      "position": "DEFENSIVE_BACK",
+      "number": 22,
+      "team": "SL",
+      "id": "22-J.Johnson"
+    },
+    {
+      "guid": "Mn-waGX9RG0OSnCPkxs7oZbz0bg3",
+      "name": "Henre' Toliver",
+      "position": "DEFENSIVE_BACK",
+      "number": 38,
+      "team": "SL",
+      "id": "38-H.Toliver"
+    },
+    {
+      "guid": "Mn_XI2D6gpDvbBF968H7zhV_gbH2",
+      "name": "Sandley Jean-Felix",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-S.Jean-Felix"
+    },
+    {
+      "guid": "MoBvvh8T_nYc-C3QW76MzQYZonDe",
+      "name": "Cody Gibson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Gibson"
+    },
+    {
+      "guid": "MoBxWhdYMpkBZ82Y0NTNLfR5Tx0z",
+      "name": "Drew Motuapuaka",
+      "position": "LINEBACKER",
+      "number": 45,
+      "team": null,
+      "id": "45-D.Motuapuaka"
+    },
+    {
+      "guid": "MoDPRuhpMsrwEqgqcPm3w1XwlnLN",
+      "name": "Josh McPhearson",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.McPhearson"
+    },
+    {
+      "guid": "MoDRHZyWE8Man9-DRBeNsXH5j_N9",
+      "name": "Ryan Langford",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "ARI",
+      "id": "56-R.Langford"
+    },
+    {
+      "guid": "MoEN1Txxk1fujy8oEauV2Le9Mowu",
+      "name": "Doran Grant",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "ATL",
+      "id": "21-D.Grant"
+    },
+    {
+      "guid": "MoGqBldvEW-p3_ryF0QTr1kfy6r_",
+      "name": "Kenneth Walker, III",
+      "position": "WIDE_RECEIVER",
+      "number": 12,
+      "team": "ARI",
+      "id": "12-K.Walker, III"
+    },
+    {
+      "guid": "MoGqnWzwx3W0b0JDeLuMs4hRNaD4",
+      "name": "Alek Torgersen",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Torgersen"
+    },
+    {
+      "guid": "MoGsRxC33JSCp2HP-vKHWYpA3ynf",
+      "name": "Steve Donatell",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-S.Donatell"
+    },
+    {
+      "guid": "MoH_pv6pw8BUsbV9A1lcKj6mse-N",
+      "name": "Dadi Nicolas",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Nicolas"
+    },
+    {
+      "guid": "MoIfI6pzRT6PEupCPEz5uDPNSp9E",
+      "name": "Joel Bouagnon",
+      "position": "RUNNING_BACK",
+      "number": 36,
+      "team": "SL",
+      "id": "36-J.Bouagnon"
+    },
+    {
+      "guid": "MoIvb2km6MiT5Dw_tIA42F86xBYL",
+      "name": "Bryan Jones",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-B.Jones"
+    },
+    {
+      "guid": "MoJFHKQky9lF94zFKE-qarjfqOO_",
+      "name": "Andre Jr. Martin",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": null,
+      "id": "28-A.Martin"
+    },
+    {
+      "guid": "MoKVm0suHabvoHTNIE_6iwMM6ok1",
+      "name": "Julius Warmsley",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 92,
+      "team": "MEM",
+      "id": "92-J.Warmsley"
+    },
+    {
+      "guid": "MoLWYFEuJ61gRJittOfBTQU8vAGH",
+      "name": "Lance Austin",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-L.Austin"
+    },
+    {
+      "guid": "MoMrGcVxY9-wFwve2Zt5mI2-zP6U",
+      "name": "Marvin Bracy-Williams Jr.",
+      "position": "WIDE_RECEIVER",
+      "number": 10,
+      "team": "ORL",
+      "id": "10-M.Bracy-Williams Jr."
+    },
+    {
+      "guid": "MoMskxw0NVnEJyzzdBGN1Ktv5iPx",
+      "name": "Nick Stevens",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": "SL",
+      "id": "-N.Stevens"
+    },
+    {
+      "guid": "MoMzAd2Sa8CNBcRQPmGdW0HDI3rj",
+      "name": "Elijah Campbell",
+      "position": "DEFENSIVE_BACK",
+      "number": 35,
+      "team": "BIR",
+      "id": "35-E.Campbell"
+    },
+    {
+      "guid": "MoPgxx5nBp4JviXlu6vcTyKsRHE9",
+      "name": "Brandon Arnold",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-B.Arnold"
+    },
+    {
+      "guid": "MoQOvzEugMi7Ci64jltP3tLmCOaq",
+      "name": "Greg Gilmore",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 97,
+      "team": "MEM",
+      "id": "97-G.Gilmore"
+    },
+    {
+      "guid": "MoQmkeIIr_aWYtXtf3z1TAj6Pxp8",
+      "name": "Anthony Williams",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "SL",
+      "id": "50-A.Williams"
+    },
+    {
+      "guid": "MoRwL3zm8dJwcuI37LrPc7iteoJn",
+      "name": "Jatitus \"Ty\" Allen",
+      "position": "CENTER",
+      "number": 68,
+      "team": "MEM",
+      "id": "68-J.Allen"
+    },
+    {
+      "guid": "MoShruEFTtn3DSHYXJLZelIw1Vty",
+      "name": "Roderick Henderson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 91,
+      "team": "BIR",
+      "id": "91-R.Henderson"
+    },
+    {
+      "guid": "MoXA31oKTLGTWyoGmBzz50HnrTtd",
+      "name": "Daniel Brunskill",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 61,
+      "team": "SD",
+      "id": "61-D.Brunskill"
+    },
+    {
+      "guid": "MoXnNIvO8L2M5Cqsk6_tMawLGwRs",
+      "name": "Andrew Stelter",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 99,
+      "team": "SD",
+      "id": "99-A.Stelter"
+    },
+    {
+      "guid": "MoacjN6DDEdNItlA8blgXEhaifgI",
+      "name": "Tyrell Chavis",
+      "position": "DEFENSIVE_END",
+      "number": 91,
+      "team": null,
+      "id": "91-T.Chavis"
+    },
+    {
+      "guid": "Mob3VOZ7GpYO4hfpUNUYpzToAAhv",
+      "name": "Orion Stewart",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": "SA",
+      "id": "28-O.Stewart"
+    },
+    {
+      "guid": "Mod3ITzCEzVq2YrkIKTVKWI4zUeO",
+      "name": "Tyler Hoppes",
+      "position": "TIGHT_END",
+      "number": 86,
+      "team": "SL",
+      "id": "86-T.Hoppes"
+    },
+    {
+      "guid": "MoeMfNlZEYBPr7ka0PjOdeR7HMP4",
+      "name": "Freddie Stevenson",
+      "position": "RUNNING_BACK",
+      "number": 32,
+      "team": "ORL",
+      "id": "32-F.Stevenson"
+    },
+    {
+      "guid": "Mof0DIIcKBs9BlqLq7I1kGSR4pnx",
+      "name": "Keith Towbridge",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "ATL",
+      "id": "89-K.Towbridge"
+    },
+    {
+      "guid": "Mogv0sk1tlQRGC_69d9SK3TLdWep",
+      "name": "Shaq Wiggins",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": "ATL",
+      "id": "28-S.Wiggins"
+    },
+    {
+      "guid": "MohDzoRTjvIXkcrDMFzLAm75SdS3",
+      "name": "Robert Myers",
+      "position": "OFFENSIVE_GUARD",
+      "number": 70,
+      "team": "MEM",
+      "id": "70-R.Myers"
+    },
+    {
+      "guid": "Moh0d_KMCFYTe2--2roPBqgiZqV_",
+      "name": "Dustin Vaughan",
+      "position": "QUARTERBACK",
+      "number": 10,
+      "team": "SA",
+      "id": "10-D.Vaughan"
+    },
+    {
+      "guid": "Moi9AWTLwLF-WmHNRk8tzww8hRT8",
+      "name": "Scott Orndoff",
+      "position": "TIGHT_END",
+      "number": 83,
+      "team": "ORL",
+      "id": "83-S.Orndoff"
+    },
+    {
+      "guid": "MojMnKEXa6tYo8RMaDzDW-x0YoZT",
+      "name": "Vontae Diggs",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "ATL",
+      "id": "55-V.Diggs"
+    },
+    {
+      "guid": "MolRM9M6judwR3py8ewjGbnDrNFX",
+      "name": "Kye Morgan",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Morgan"
+    },
+    {
+      "guid": "Mol6gOqNwVz4RC3aB_Neohp9RMRu",
+      "name": "Chris Odom",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 93,
+      "team": "SL",
+      "id": "93-C.Odom"
+    },
+    {
+      "guid": "MomLpN2vEKyvymUE5Y0eXom7GPfx",
+      "name": "Matthew Schmidt",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 62,
+      "team": "ATL",
+      "id": "62-M.Schmidt"
+    },
+    {
+      "guid": "MonnFlTkiwNYgxWiAqABulZVUcxa",
+      "name": "Cody Brown",
+      "position": "SAFETY",
+      "number": 21,
+      "team": "SL",
+      "id": "21-C.Brown"
+    },
+    {
+      "guid": "MophGpaoz2AwD70rHQkzwGylPokl",
+      "name": "Andy Smigiera",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Smigiera"
+    },
+    {
+      "guid": "Mop_drX-yj7HIefEAlUHoDVCH_iA",
+      "name": "Matt Asiata",
+      "position": "RUNNING_BACK",
+      "number": 44,
+      "team": "SL",
+      "id": "44-M.Asiata"
+    },
+    {
+      "guid": "MorOBihKlVw2-eSFcSCcprsELHoO",
+      "name": "Ian Seau",
+      "position": "DEFENSIVE_END",
+      "number": 95,
+      "team": null,
+      "id": "95-I.Seau"
+    },
+    {
+      "guid": "MosEzM3sMyBhdKTgFsNxZOQY0Ccy",
+      "name": "Nick Callender",
+      "position": "OFFENSIVE_GUARD",
+      "number": 76,
+      "team": "SL",
+      "id": "76-N.Callender"
+    },
+    {
+      "guid": "MoskGwBarioigmBgRLjU9qBlZIin",
+      "name": "Ryan Cummings",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 79,
+      "team": "SL",
+      "id": "79-R.Cummings"
+    },
+    {
+      "guid": "Motb9JHxuD4QBsOmj6y_bRkZWKeh",
+      "name": "Arnold Tarpley, III",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "MEM",
+      "id": "25-A.Tarpley, III"
+    },
+    {
+      "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
+      "name": "John Diarse",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "SA",
+      "id": "18-J.Diarse"
+    },
+    {
+      "guid": "Mouwc0FZQZ_dqAXoEar5zG0yAy4X",
+      "name": "Steve Wroblewski",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-S.Wroblewski"
+    },
+    {
+      "guid": "MoxdY1kJ0NttseA9I-2DoNrg1zMG",
+      "name": "Tyree Holder",
+      "position": "DEFENSIVE_BACK",
+      "number": 23,
+      "team": null,
+      "id": "23-T.Holder"
+    },
+    {
+      "guid": "Moxe2qwEP59ANSJ0NfazCxJedaWe",
+      "name": "Jacob Duzey",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-J.Duzey"
+    },
+    {
+      "guid": "Moxo31pETjhJQcj9C1KALV_AP-Xj",
+      "name": "Leon Johnson",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 63,
+      "team": "SL",
+      "id": "63-L.Johnson"
+    },
+    {
+      "guid": "Mo0mRa0oYZCWMwymS-J06rCI1tBK",
+      "name": "Quentin Gause",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "MEM",
+      "id": "54-Q.Gause"
+    },
+    {
+      "guid": "Mo0xV4iGwWVHK4droEXfN-BxtOuy",
+      "name": "Tony Goodman",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": "ARI",
+      "id": "28-T.Goodman"
+    },
+    {
+      "guid": "Mo37THZXPLWjuQf1axXY3pzgA0fQ",
+      "name": "Dwayne Eugene",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Eugene"
+    },
+    {
+      "guid": "Mo5PJj3nJoBn8YPg5DKijJXdAfXS",
+      "name": "Carl Whitley",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "SA",
+      "id": "13-C.Whitley"
+    },
+    {
+      "guid": "Mo5unEMNvCAR__mQUrrAOa1lEplz",
+      "name": "Tyler Murphy",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Murphy"
+    },
+    {
+      "guid": "Mo6BUu0Gwfj4WPLgGTZr6d2fiDBt",
+      "name": "David Moala",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-D.Moala"
+    },
+    {
+      "guid": "Mo8RvyGQVGkFe6_gHNWVIG-FN6Gd",
+      "name": "Ryan Anderson",
+      "position": "PUNTER",
+      "number": null,
+      "team": null,
+      "id": "-R.Anderson"
+    },
+    {
+      "guid": "MpBJF2eeBoN2-uYlbrzsibaIw7uO",
+      "name": "Kareem Are",
+      "position": "OFFENSIVE_GUARD",
+      "number": 72,
+      "team": null,
+      "id": "72-K.Are"
+    },
+    {
+      "guid": "MpBhJ3CZ5O38V01ldy5ZOOR2aELp",
+      "name": "Devon Cajuste",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": "SD",
+      "id": "-D.Cajuste"
+    },
+    {
+      "guid": "MpBs369NxmQ75YXtux6zNgOOHC3M",
+      "name": "Ryan Davis Sr.",
+      "position": "LINEBACKER",
+      "number": 95,
+      "team": "ORL",
+      "id": "95-R.Davis Sr."
+    },
+    {
+      "guid": "MpCvbicbeSSh6ZQNHc-KyujpZhVL",
+      "name": "Derron Smith",
+      "position": "DEFENSIVE_BACK",
+      "number": 32,
+      "team": "SA",
+      "id": "32-D.Smith"
+    },
+    {
+      "guid": "MpF9nUlq2CazMaVnaXVN9Cxnes98",
+      "name": "Marshaun Coprich",
+      "position": "RUNNING_BACK",
+      "number": 25,
+      "team": "BIR",
+      "id": "25-M.Coprich"
+    },
+    {
+      "guid": "MpLSJ46k-Ofo2ScV_SnFatgxLtQq",
+      "name": "Justin Holman",
+      "position": "QUARTERBACK",
+      "number": 1,
+      "team": null,
+      "id": "1-J.Holman"
+    },
+    {
+      "guid": "MpNNhxmttN-cx1x8XM_2f_L22F45",
+      "name": "Andrew Caskin",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-A.Caskin"
+    },
+    {
+      "guid": "MpNWxiO26vKu2xWeqThUhEpp7PWa",
+      "name": "Kadeem Satchell",
+      "position": "DEFENSIVE_BACK",
+      "number": 40,
+      "team": "MEM",
+      "id": "40-K.Satchell"
+    },
+    {
+      "guid": "MpOAKKTh20zFOyanWD4Dvs8pZNk2",
+      "name": "Donnie Miles, Jr.",
+      "position": "DEFENSIVE_BACK",
+      "number": 33,
+      "team": "ATL",
+      "id": "33-D.Miles, Jr."
+    },
+    {
+      "guid": "MpPHjCs-lmgm7YmqH_FXRPBzshbw",
+      "name": "Chris Gonzalez",
+      "position": "OFFENSIVE_GUARD",
+      "number": 74,
+      "team": "SD",
+      "id": "74-C.Gonzalez"
+    },
+    {
+      "guid": "MpQKP-R84bjc6dv3gSoJtzwzNINd",
+      "name": "Keon Willis",
+      "position": "CORNERBACK",
+      "number": 38,
+      "team": "SL",
+      "id": "38-K.Willis"
+    },
+    {
+      "guid": "MpQ0Gq2Pvcp-mJ0eMIscpUjVQcsm",
+      "name": "Meffy Koloamatangi",
+      "position": "DEFENSIVE_END",
+      "number": 97,
+      "team": "SD",
+      "id": "97-M.Koloamatangi"
+    },
+    {
+      "guid": "MpRU0C_0yu9AV3-irCNvEP4ik4Cu",
+      "name": "Cobi Hamilton",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": "ARI",
+      "id": "-C.Hamilton"
+    },
+    {
+      "guid": "MpRddErY_E8R7jc9BtPv9XlGkorE",
+      "name": "Mekale McKay",
+      "position": "WIDE_RECEIVER",
+      "number": 82,
+      "team": "SA",
+      "id": "82-M.McKay"
+    },
+    {
+      "guid": "MpVyzQK8KobJT0TXnrqbbtGknQIp",
+      "name": "Hershey Walton",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-H.Walton"
+    },
+    {
+      "guid": "MpWMIkFb1L5PEgV4vYswWm1p0gEO",
+      "name": "Gavin Escobar",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "SD",
+      "id": "89-G.Escobar"
+    },
+    {
+      "guid": "MpWUHEGroknh_xGmDi-UmbgcEY6U",
+      "name": "Joe Davidson",
+      "position": "PUNTER",
+      "number": null,
+      "team": null,
+      "id": "-J.Davidson"
+    },
+    {
+      "guid": "MpWnlrWo2HIHq8H6SmQfruNY1l4-",
+      "name": "Austin Larkin",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "SA",
+      "id": "53-A.Larkin"
+    },
+    {
+      "guid": "MpWqeIX-pevvBFxOnN9N15CWa9GQ",
+      "name": "Paul Kelly",
+      "position": "LONG_SNAPPER",
+      "number": null,
+      "team": null,
+      "id": "-P.Kelly"
+    },
+    {
+      "guid": "MpW8DDiV-Da897Wc1f9Gvcb510Rr",
+      "name": "Ryan Winslow",
+      "position": "PUNTER",
+      "number": 17,
+      "team": "SD",
+      "id": "17-R.Winslow"
+    },
+    {
+      "guid": "MpXFG0h4WhKRMJxY9HSHkGtIUjW9",
+      "name": "Marcus Jones",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Jones"
+    },
+    {
+      "guid": "MpX-PUBK9UFwkM5hfBD8tgfFrv9Z",
+      "name": "Jarod Haynes",
+      "position": "KICKER",
+      "number": null,
+      "team": null,
+      "id": "-J.Haynes"
+    },
+    {
+      "guid": "MpZypZ4X4DO9uNQNzutAgaUT0XKI",
+      "name": "Dontez Byrd",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "MEM",
+      "id": "18-D.Byrd"
+    },
+    {
+      "guid": "MpZ_jMFsmv9J6n2yT0Mwnp_RsIuS",
+      "name": "Laronji Vason",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-L.Vason"
+    },
+    {
+      "guid": "MpabGAaneryggI478KC1SUD0iQti",
+      "name": "Ben Huss",
+      "position": "OFFENSIVE_GUARD",
+      "number": 68,
+      "team": "SD",
+      "id": "68-B.Huss"
+    },
+    {
+      "guid": "Mpabli5Zr5PwoKPA0MoGLbN14OG7",
+      "name": "Harold Brantley",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 96,
+      "team": "BIR",
+      "id": "96-H.Brantley"
+    },
+    {
+      "guid": "MpcFBQh6-Fg1SlkG43E2ZJu4F13w",
+      "name": "Rajion Neal",
+      "position": "RUNNING_BACK",
+      "number": 34,
+      "team": "MEM",
+      "id": "34-R.Neal"
+    },
+    {
+      "guid": "MpcgkK8k2q-6U30DBu2OHL4sJEKE",
+      "name": "Claudy Mathieu",
+      "position": "DEFENSIVE_END",
+      "number": 96,
+      "team": null,
+      "id": "96-C.Mathieu"
+    },
+    {
+      "guid": "Mpc5pPtq5oFQrAk8nDVXnbKV4P1D",
+      "name": "Gerrard Sheppard",
+      "position": "WIDE_RECEIVER",
+      "number": 89,
+      "team": "MEM",
+      "id": "89-G.Sheppard"
+    },
+    {
+      "guid": "Mpc-d5q1zVHmykQ5DE1ALhfEWHyu",
+      "name": "Micah Hannemann",
+      "position": "DEFENSIVE_BACK",
+      "number": 27,
+      "team": "SL",
+      "id": "27-M.Hannemann"
+    },
+    {
+      "guid": "MpeUlwaHAKatI36QTDY58F4pTu15",
+      "name": "Jayrone Elliott",
+      "position": "LINEBACKER",
+      "number": 98,
+      "team": "SA",
+      "id": "98-J.Elliott"
+    },
+    {
+      "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
+      "name": "Braedon Bowman",
+      "position": "TIGHT_END",
+      "number": 80,
+      "team": "BIR",
+      "id": "80-B.Bowman"
+    },
+    {
+      "guid": "Mph_vDZF7hYhTHbYAs9uSBy2_cQT",
+      "name": "Luke Papilion",
+      "position": "TIGHT_END",
+      "number": 87,
+      "team": null,
+      "id": "87-L.Papilion"
+    },
+    {
+      "guid": "MpiAcB_JAPrFAzGgLFZOn-MUd46l",
+      "name": "E.J. Levenberry",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": null,
+      "id": "59-E.Levenberry"
+    },
+    {
+      "guid": "MpixbrsKQ0LbRODCJKH8XGXDn31L",
+      "name": "George Roberts",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-G.Roberts"
+    },
+    {
+      "guid": "MpkM19wHcTzqtPuDQxIovjKHekxo",
+      "name": "Brett Thompson",
+      "position": "TIGHT_END",
+      "number": 84,
+      "team": "MEM",
+      "id": "84-B.Thompson"
+    },
+    {
+      "guid": "MplMdnKYZKGET_cjzJaWcLGVT_8I",
+      "name": "Jackson Dallas",
+      "position": "CENTER",
+      "number": 51,
+      "team": null,
+      "id": "51-J.Dallas"
+    },
+    {
+      "guid": "MplM08fMJ1PWWVhVWiiUotG24umx",
+      "name": "Mo Porter",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 70,
+      "team": "SA",
+      "id": "70-M.Porter"
+    },
+    {
+      "guid": "MpnXVNN4Lp7ATQWRQH-RMQTC5-VD",
+      "name": "Salesi Uhatafe",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 64,
+      "team": "SL",
+      "id": "64-S.Uhatafe"
+    },
+    {
+      "guid": "MpotnQ8v08XcH6Kg17mdcWbQ3Nu4",
+      "name": "Malik Boynton",
+      "position": "DEFENSIVE_BACK",
+      "number": 23,
+      "team": "MEM",
+      "id": "23-M.Boynton"
+    },
+    {
+      "guid": "MppxxPHO4kxwlDQjPEXF9hLGl8OK",
+      "name": "Chris Black",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-C.Black"
+    },
+    {
+      "guid": "Mpp1yib8NMRjak8vQ1gOlG0AFGb9",
+      "name": "Devin Taylor",
+      "position": "DEFENSIVE_END",
+      "number": 53,
+      "team": "BIR",
+      "id": "53-D.Taylor"
+    },
+    {
+      "guid": "MprAHH5JsRH0v42WYQ_J9-_aciXX",
+      "name": "Matt Wogan",
+      "position": "KICKER",
+      "number": null,
+      "team": null,
+      "id": "-M.Wogan"
+    },
+    {
+      "guid": "MpsKfxoaDgUx4SQaBOXfBmYjjZ6M",
+      "name": "Howard Jones",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "ARI",
+      "id": "-H.Jones"
+    },
+    {
+      "guid": "MptUzkCMToT3q8n6UkjU6EkCTspD",
+      "name": "Cody Riggs",
+      "position": "CORNERBACK",
+      "number": 20,
+      "team": "ORL",
+      "id": "20-C.Riggs"
+    },
+    {
+      "guid": "Mpuqz2vnLJ2o95mhLrULMJUfgZuI",
+      "name": "Khiry Robinson",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Robinson"
+    },
+    {
+      "guid": "MpvPn49TH6UEPIUypMEFJCHHOGbp",
+      "name": "Tre Jackson",
+      "position": "OFFENSIVE_GUARD",
+      "number": 63,
+      "team": "ORL",
+      "id": "63-T.Jackson"
+    },
+    {
+      "guid": "Mpv99aUmCrM5Edz9_hXwW4W0woll",
+      "name": "Erick Wren",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 64,
+      "team": "SA",
+      "id": "64-E.Wren"
+    },
+    {
+      "guid": "Mpv_oxeZE1l7_PSgXkzl2-yKerBE",
+      "name": "Boomer Mays",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-B.Mays"
+    },
+    {
+      "guid": "MpyqEM1_gXIsD4IUZIqZWH4orGOo",
+      "name": "L'Damian Washington",
+      "position": "WIDE_RECEIVER",
+      "number": 85,
+      "team": "BIR",
+      "id": "85-L.Washington"
+    },
+    {
+      "guid": "Mpzw0NhfnrOYzhXUXfE9lx5aT_ty",
+      "name": "Tayo Fabuluje",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 73,
+      "team": null,
+      "id": "73-T.Fabuluje"
+    },
+    {
+      "guid": "Mpz1d05mfi4t5VeyehpsANqewBsr",
+      "name": "Thomas Duarte",
+      "position": "TIGHT_END",
+      "number": 81,
+      "team": "ARI",
+      "id": "81-T.Duarte"
+    },
+    {
+      "guid": "Mp2_xGHLxB4DbsIMswVQ4sG56ziu",
+      "name": "Corey Vereen",
+      "position": "DEFENSIVE_END",
+      "number": 98,
+      "team": "MEM",
+      "id": "98-C.Vereen"
+    },
+    {
+      "guid": "Mp3UF-HLgz7EI3h6IOh-MnibeARU",
+      "name": "Ryan Navarro",
+      "position": "LONG_SNAPPER",
+      "number": 44,
+      "team": "MEM",
+      "id": "44-R.Navarro"
+    },
+    {
+      "guid": "Mp3zvfSwOo1W0Pu37w7W0tEq-jEF",
+      "name": "Deniko Carter",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "ATL",
+      "id": "16-D.Carter"
+    },
+    {
+      "guid": "Mp30XHE6WaeCGjZAycOZ50NgWvu2",
+      "name": "Evan Rodriguez",
+      "position": "TIGHT_END",
+      "number": 88,
+      "team": "SA",
+      "id": "88-E.Rodriguez"
+    },
+    {
+      "guid": "Mp5RQBVQC_DtZNHW97I7ATyBqYX5",
+      "name": "Bentley Spain",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 74,
+      "team": null,
+      "id": "74-B.Spain"
+    },
+    {
+      "guid": "Mp6gBNWRQZmbHKmnbMIBCizo6JuK",
+      "name": "Jacob Alsadek",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Alsadek"
+    },
+    {
+      "guid": "Mp70Dr2T6xzOlD_cVMNrxfNJDJYB",
+      "name": "Brett Boyko",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 69,
+      "team": "SD",
+      "id": "69-B.Boyko"
+    },
+    {
+      "guid": "Mp8PyrcoQVZfMpYYsQ6Py8_55KA0",
+      "name": "Antwon Blake",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "ARI",
+      "id": "-A.Blake"
+    },
+    {
+      "guid": "Mp9yD4WmgilwmWRuzNKnut8Ex3Dx",
+      "name": "David Bass",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Bass"
+    },
+    {
+      "guid": "Mp9-w7K_T-fZb50vkP6HhiJOY6ME",
+      "name": "Anthony Moten Jr.",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 98,
+      "team": "ORL",
+      "id": "98-A.Moten Jr."
+    },
+    {
+      "guid": "Mp-D894JSqQKB6b6fBzyCC2vojWo",
+      "name": "Tavaris Barnes",
+      "position": "DEFENSIVE_END",
+      "number": 63,
+      "team": "ATL",
+      "id": "63-T.Barnes"
+    },
+    {
+      "guid": "Mp-3xlwCE2L81zmPRGcnI6UxOB_n",
+      "name": "Dan Skipper",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": "MEM",
+      "id": "-D.Skipper"
+    },
+    {
+      "guid": "Mp_WxELi1JRo3HmL_Qnk5MkBmlE-",
+      "name": "Maea Teuhema",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 76,
+      "team": null,
+      "id": "76-M.Teuhema"
+    },
+    {
+      "guid": "Mp_ZVLGBJoE02mqT6mcDjFKmiI4Y",
+      "name": "Shayne Skov",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "SD",
+      "id": "-S.Skov"
+    },
+    {
+      "guid": "Mp_uBFQxaUrxBZkDEWqc7g-zpB_n",
+      "name": "Bradley Sylve",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": "BIR",
+      "id": "29-B.Sylve"
+    },
+    {
+      "guid": "MqAqgAiieUG6UqLAKWJxf7Ibmo59",
+      "name": "Jeff Godfrey",
+      "position": "WIDE_RECEIVER",
+      "number": 12,
+      "team": null,
+      "id": "12-J.Godfrey"
+    },
+    {
+      "guid": "MqBGLvYPe7HE2PoUWHlzBBBSnWBD",
+      "name": "Jonathan Powell",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-J.Powell"
+    },
+    {
+      "guid": "MqC870Sq5tnNemV0el4UpDjYKLOg",
+      "name": "John Sheehy",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 91,
+      "team": "SA",
+      "id": "91-J.Sheehy"
+    },
+    {
+      "guid": "MqDkWsHr5CBSILHVrQlbQk22kojo",
+      "name": "Owen Williams",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-O.Williams"
+    },
+    {
+      "guid": "MqEMvLdZ4D5kr9BPftWMNJUfnbTy",
+      "name": "Tenny Palepoi",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 95,
+      "team": "SL",
+      "id": "95-T.Palepoi"
+    },
+    {
+      "guid": "MqFpBfSRmJGU_9O4GXjdwLWdLG8h",
+      "name": "Arthur Brown",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "SA",
+      "id": "58-A.Brown"
+    },
+    {
+      "guid": "MqGR0OsIc73esNR_54QUDDV-b4cW",
+      "name": "Weslye Saunders",
+      "position": "TIGHT_END",
+      "number": 82,
+      "team": "BIR",
+      "id": "82-W.Saunders"
+    },
+    {
+      "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
+      "name": "Garrett Gilbert",
+      "position": "QUARTERBACK",
+      "number": 3,
+      "team": "ORL",
+      "id": "3-G.Gilbert"
+    },
+    {
+      "guid": "MqG8mv-O0WxG7Ys9a-TXLeAlpKl4",
+      "name": "Gary McKnight",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "SD",
+      "id": "18-G.McKnight"
+    },
+    {
+      "guid": "MqHkOov5m63l0UEnmoa-NMcSg6db",
+      "name": "Chris Johnson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Johnson"
+    },
+    {
+      "guid": "MqH0Di8CkdD3LLqvKSyvTvMfHveP",
+      "name": "Colton Taylor",
+      "position": "LONG_SNAPPER",
+      "number": 49,
+      "team": "SL",
+      "id": "49-C.Taylor"
+    },
+    {
+      "guid": "MqIhs-q3vECVDifRXMouAak19hC2",
+      "name": "Cameron Lee",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Lee"
+    },
+    {
+      "guid": "MqKCERZY5O0RcdGtYmBoP-3XQirB",
+      "name": "Nick Thurman",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 95,
+      "team": "SA",
+      "id": "95-N.Thurman"
+    },
+    {
+      "guid": "MqMX43rJMr_hLvSTrBeHvwN2yBMw",
+      "name": "Brandon Greene",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 60,
+      "team": "BIR",
+      "id": "60-B.Greene"
+    },
+    {
+      "guid": "MqMg9vUfu5TFfxEiXzqvQo2weJcV",
+      "name": "Jamari Gilbert",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Gilbert"
+    },
+    {
+      "guid": "MqNoz0cssh3geMb1hqwEF9cqcV7c",
+      "name": "Al-Rasheed Benton",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "SD",
+      "id": "54-A.Benton"
+    },
+    {
+      "guid": "MqOQLkecHYtMcvI6qrfdjoy7EQvC",
+      "name": "Randall Goforth",
+      "position": "DEFENSIVE_BACK",
+      "number": 22,
+      "team": "ARI",
+      "id": "22-R.Goforth"
+    },
+    {
+      "guid": "MqOo9sO5U5jfaPwxBH-_tOVMg_wI",
+      "name": "Curtis Mikell",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": "SD",
+      "id": "28-C.Mikell"
+    },
+    {
+      "guid": "MqOw2ibrRCdZJ8Y_OttMt_QNLFqh",
+      "name": "Shaquille Richardson",
+      "position": "DEFENSIVE_BACK",
+      "number": 35,
+      "team": null,
+      "id": "35-S.Richardson"
+    },
+    {
+      "guid": "MqPCPKemfXOWjZZB5Xd2gM9shZ6P",
+      "name": "Junior Joseph",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": "SL",
+      "id": "57-J.Joseph"
+    },
+    {
+      "guid": "MqQU6V_N8N5JAYiHXRMjQwrAU03M",
+      "name": "Xavier Rush",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": null,
+      "id": "18-X.Rush"
+    },
+    {
+      "guid": "MqRk4KbyeCBFWbfcg8Zk418u5qfU",
+      "name": "Jordan Reid",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Reid"
+    },
+    {
+      "guid": "MqWkZYKvZprteVyVN9v27sWr7jOm",
+      "name": "Sam Montgomery",
+      "position": "DEFENSIVE_END",
+      "number": 90,
+      "team": "MEM",
+      "id": "90-S.Montgomery"
+    },
+    {
+      "guid": "MqXF3bSDaB49-6Ye-vy0IM8r3U1a",
+      "name": "Avery Gennesy",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 65,
+      "team": "ATL",
+      "id": "65-A.Gennesy"
+    },
+    {
+      "guid": "MqZf-3qxsCos4Y7zFSAGW72De8Qa",
+      "name": "Josh Huff",
+      "position": "WIDE_RECEIVER",
+      "number": 88,
+      "team": "ARI",
+      "id": "88-J.Huff"
+    },
+    {
+      "guid": "MqaHwV_X1CKYj0cRa1t0SfyUT0rs",
+      "name": "Tyriq McCord",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "ATL",
+      "id": "56-T.McCord"
+    },
+    {
+      "guid": "Mqbg-4ckUMP8u12vO9plCn3aZdaT",
+      "name": "Justin Hunt",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Hunt"
+    },
+    {
+      "guid": "MqdKxNWfuUSj0wAERp0G6p9qDAIZ",
+      "name": "Earl Okine",
+      "position": "DEFENSIVE_END",
+      "number": 59,
+      "team": "ORL",
+      "id": "59-E.Okine"
+    },
+    {
+      "guid": "MqdZBQ1E54S5LtS_MfFT4AeM_QVj",
+      "name": "Nick Keizer",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-N.Keizer"
+    },
+    {
+      "guid": "Mqd8fiQBPWPRpxN9e5_Gcwovjd6l",
+      "name": "Jonathan Cook",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": "MEM",
+      "id": "31-J.Cook"
+    },
+    {
+      "guid": "MqeI-jyk-lpqBcnk4yQE56Xmhy48",
+      "name": "Ty Schwab",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-T.Schwab"
+    },
+    {
+      "guid": "Mqf4VcBWAlMDIm_Ubb5YJMmwTVMv",
+      "name": "Dexter McDougle",
+      "position": "DEFENSIVE_BACK",
+      "number": 38,
+      "team": "ARI",
+      "id": "38-D.McDougle"
+    },
+    {
+      "guid": "MqgsQMwNYSCI3gtLUXiAlMik9H2L",
+      "name": "Dylan Donahue",
+      "position": "LINEBACKER",
+      "number": 49,
+      "team": "ATL",
+      "id": "49-D.Donahue"
+    },
+    {
+      "guid": "MqjULrCqYkNIBakh1CEPeViHX_Ui",
+      "name": "Scooby Wright",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "ARI",
+      "id": "58-S.Wright"
+    },
+    {
+      "guid": "Mqk6OkN01IDo1dMvAFrgkxZkeOTK",
+      "name": "Tre Dickerson",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Dickerson"
+    },
+    {
+      "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
+      "name": "Ron Brooks",
+      "position": "DEFENSIVE_BACK",
+      "number": 33,
+      "team": "SD",
+      "id": "33-R.Brooks"
+    },
+    {
+      "guid": "MqndziusoF3AIO6BJGqrqHrZIh00",
+      "name": "Jose Duncan",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 72,
+      "team": "SD",
+      "id": "72-J.Duncan"
+    },
+    {
+      "guid": "Mqnq5l339f1e7sM0Ypu4qHaoIBdh",
+      "name": "Austin Appleby",
+      "position": "QUARTERBACK",
+      "number": 5,
+      "team": "ORL",
+      "id": "5-A.Appleby"
+    },
+    {
+      "guid": "Mqov-trF95R18wq3KsfAxd4YinmG",
+      "name": "Jhurell Pressley",
+      "position": "RUNNING_BACK",
+      "number": 26,
+      "team": "ARI",
+      "id": "26-J.Pressley"
+    },
+    {
+      "guid": "MqqaWH5hQWxoyb-BIsTku5ldLdBw",
+      "name": "Charles James, II",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": "MEM",
+      "id": "24-C.James, II"
+    },
+    {
+      "guid": "MqsN2g5-uoKP0lYvBkOdIXZ41SV7",
+      "name": "Josh Johnson",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Johnson"
+    },
+    {
+      "guid": "MqssDDzktRaSBeVaRjr24RdZwmMD",
+      "name": "DeAndrew White",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-D.White"
+    },
+    {
+      "guid": "Mqs-U1gQrf9_eTiz3LS8GR68hjsZ",
+      "name": "Ja'Quan Gardner",
+      "position": "RUNNING_BACK",
+      "number": 32,
+      "team": "SD",
+      "id": "32-J.Gardner"
+    },
+    {
+      "guid": "MquJG-qfk_mNJJZH-j2Hiq_6fFIm",
+      "name": "C.J. Smith",
+      "position": "DEFENSIVE_BACK",
+      "number": 35,
+      "team": "SL",
+      "id": "35-C.Smith"
+    },
+    {
+      "guid": "MquzcUqnIB5VDBk6krfI_U3vRK2H",
+      "name": "Jordan Westerkamp",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Westerkamp"
+    },
+    {
+      "guid": "MqxZqpvwgBZ73QXYuym2M7Br_u3o",
+      "name": "Rob Myers",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "SA",
+      "id": "51-R.Myers"
+    },
+    {
+      "guid": "MqzSBPyv_6b5wvJ3To-TecP-N9uu",
+      "name": "Ed Jr. Reynolds",
+      "position": "DEFENSIVE_BACK",
+      "number": 31,
+      "team": "ATL",
+      "id": "31-E.Reynolds"
+    },
+    {
+      "guid": "Mqz4RQPwnByj6JuzUIzmWhzhiSZw",
+      "name": "Garrett Hudson",
+      "position": "TIGHT_END",
+      "number": 87,
+      "team": "ATL",
+      "id": "87-G.Hudson"
+    },
+    {
+      "guid": "Mq0GJy0O9c5s_GxMGxYIVYRXRTWE",
+      "name": "Keith McGill",
+      "position": "CORNERBACK",
+      "number": 39,
+      "team": null,
+      "id": "39-K.McGill"
+    },
+    {
+      "guid": "Mq1RStymgc8cFWxr8p8ySYfeWKpF",
+      "name": "Lonnie Outlaw",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "BIR",
+      "id": "17-L.Outlaw"
+    },
+    {
+      "guid": "Mq1SgULOw_r2L6wqDIA1ahiIvfE-",
+      "name": "Ryan Murphy",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-R.Murphy"
+    },
+    {
+      "guid": "Mq4bLQE_YReEp-GowM9fSCoS-0o9",
+      "name": "Toby Weathersby",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 76,
+      "team": "MEM",
+      "id": "76-T.Weathersby"
+    },
+    {
+      "guid": "Mq5XiqpjpilMZ7vhKYt87XTt6DGB",
+      "name": "Joshua Jenkins",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": null,
+      "id": "24-J.Jenkins"
+    },
+    {
+      "guid": "Mq5jqU-HbUqVHtCp9BI77nm6KnRB",
+      "name": "Bernard Reedy",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": "ATL",
+      "id": "-B.Reedy"
+    },
+    {
+      "guid": "Mq5tOUG1ZXp4KgNx5OVWYhOnvU_G",
+      "name": "Chris Schleuger",
+      "position": "OFFENSIVE_GUARD",
+      "number": 74,
+      "team": "BIR",
+      "id": "74-C.Schleuger"
+    },
+    {
+      "guid": "Mq6s0aIzXJDIGCQoV1qaCZGehldI",
+      "name": "Shaheed Salmon",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "BIR",
+      "id": "56-S.Salmon"
+    },
+    {
+      "guid": "Mq-GmGW4EfGjMYsrlxSJKz4Rpa6d",
+      "name": "Bug Howard",
+      "position": "WIDE_RECEIVER",
+      "number": 84,
+      "team": "ATL",
+      "id": "84-B.Howard"
+    },
+    {
+      "guid": "Mq_R498PrH4WBG5Q138b6sQggVKp",
+      "name": "Jack Heneghan",
+      "position": "QUARTERBACK",
+      "number": 11,
+      "team": "ARI",
+      "id": "11-J.Heneghan"
+    },
+    {
+      "guid": "Mq_gdGzgT1kqDYlgDqDX_jJy8Pz2",
+      "name": "Abou Toure",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Toure"
+    },
+    {
+      "guid": "MrAaZz0jiorR2qaL2Hjb2ez3qsVa",
+      "name": "Danny Ezechukwu",
+      "position": "LINEBACKER",
+      "number": 56,
+      "team": "SA",
+      "id": "56-D.Ezechukwu"
+    },
+    {
+      "guid": "MrAwLnU-RFow2_tjbbsx_JQXSVG2",
+      "name": "Myles Nash",
+      "position": "DEFENSIVE_END",
+      "number": 91,
+      "team": "SD",
+      "id": "91-M.Nash"
+    },
+    {
+      "guid": "MrB6YEbWjUllzzoXNs8M3_nPFKiB",
+      "name": "Jacob Judd",
+      "position": "CENTER",
+      "number": 66,
+      "team": "ARI",
+      "id": "66-J.Judd"
+    },
+    {
+      "guid": "MrCulWiIV_vBdrkYTrojBDpun75X",
+      "name": "Aaron Murray",
+      "position": "QUARTERBACK",
+      "number": 11,
+      "team": "ATL",
+      "id": "11-A.Murray"
+    },
+    {
+      "guid": "MrC4LfT3GwLOnCAWsvExRaRLyldW",
+      "name": "Jake Sutherland",
+      "position": "TIGHT_END",
+      "number": 83,
+      "team": "ATL",
+      "id": "83-J.Sutherland"
+    },
+    {
+      "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
+      "name": "Gerald Christian",
+      "position": "TIGHT_END",
+      "number": 82,
+      "team": "ARI",
+      "id": "82-G.Christian"
+    },
+    {
+      "guid": "MrEK8lBPisWHH3CdugfKYIwnswLT",
+      "name": "Jordan McCray",
+      "position": "OFFENSIVE_GUARD",
+      "number": 64,
+      "team": "ORL",
+      "id": "64-J.McCray"
+    },
+    {
+      "guid": "MrG-KrB4OtkAhFpue55Ry02-oF2b",
+      "name": "Jake Payne",
+      "position": "DEFENSIVE_END",
+      "number": 99,
+      "team": null,
+      "id": "99-J.Payne"
+    },
+    {
+      "guid": "MrH0L3s-fFhjJ5es0EujefGev7mf",
+      "name": "Michael Baird",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-M.Baird"
+    },
+    {
+      "guid": "MrLaOFCYW8_TBPVwdsZrnSp954qf",
+      "name": "Matt Cohen",
+      "position": "CENTER",
+      "number": null,
+      "team": null,
+      "id": "-M.Cohen"
+    },
+    {
+      "guid": "MrN1pCbwlIhQpHIFJvJJqV2w7VDk",
+      "name": "Kendall Calhoun",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 74,
+      "team": "ATL",
+      "id": "74-K.Calhoun"
+    },
+    {
+      "guid": "MrN1_hZAkF2nqgg6vaJoshvt8_b-",
+      "name": "Sheldon Dawson",
+      "position": "DEFENSIVE_BACK",
+      "number": 20,
+      "team": null,
+      "id": "20-S.Dawson"
+    },
+    {
+      "guid": "MrPqhejb_MgMN4qZXoM68KcMRbSS",
+      "name": "Jordan Bowman",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Bowman"
+    },
+    {
+      "guid": "MrQ5huz8JdxVIVuc8q2NwNiCiUWc",
+      "name": "Aaron Evans",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 66,
+      "team": "ORL",
+      "id": "66-A.Evans"
+    },
+    {
+      "guid": "MrSQS2wxF2mfqsspmu9k1xp0T5Ua",
+      "name": "Anthony Amos",
+      "position": "WIDE_RECEIVER",
+      "number": 87,
+      "team": "ARI",
+      "id": "87-A.Amos"
+    },
+    {
+      "guid": "MrSm7W8TdfQ2JeFUvuIYFLjVfoeo",
+      "name": "Jason Carr",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 74,
+      "team": "ATL",
+      "id": "74-J.Carr"
+    },
+    {
+      "guid": "MrTotqjsg3PrnRQe7HdTFelMiNse",
+      "name": "Taylor Symmank",
+      "position": "PUNTER",
+      "number": null,
+      "team": null,
+      "id": "-T.Symmank"
+    },
+    {
+      "guid": "MrTsxpCofH_MZz7BzVoTkBldUTdM",
+      "name": "Tyler Ferguson",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Ferguson"
+    },
+    {
+      "guid": "MrUyoOvFDoJKjHbCCbQ2RHYhIVrp",
+      "name": "Colton Jumper",
+      "position": "LINEBACKER",
+      "number": 45,
+      "team": "MEM",
+      "id": "45-C.Jumper"
+    },
+    {
+      "guid": "MrW3pkaBWtNxHjtVN6kyXy3uill_",
+      "name": "Jarnor Jay Jones",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Jones"
+    },
+    {
+      "guid": "MrYFWQO54pQKDFn_LdCNOZ4a48cH",
+      "name": "Linkoln LaRoche",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-L.LaRoche"
+    },
+    {
+      "guid": "MraPnw7uONQLZ4I84EftDf2AXmvb",
+      "name": "Frank Ginda",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "SD",
+      "id": "58-F.Ginda"
+    },
+    {
+      "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
+      "name": "Freddie Martino",
+      "position": "WIDE_RECEIVER",
+      "number": 84,
+      "team": "ARI",
+      "id": "84-F.Martino"
+    },
+    {
+      "guid": "Mrb_my0rJ8hcfv3OKZiqdIT9adko",
+      "name": "Ryan O'Malley",
+      "position": "TIGHT_END",
+      "number": 85,
+      "team": null,
+      "id": "85-R.O'Malley"
+    },
+    {
+      "guid": "MrcJ_1VNg0EW1G3uy4UPGncb1b2t",
+      "name": "Jerel Worthy",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 91,
+      "team": null,
+      "id": "91-J.Worthy"
+    },
+    {
+      "guid": "MrcbTGRfExX6jV5TIlzBA0U5Hj2E",
+      "name": "De'Veon Smith",
+      "position": "RUNNING_BACK",
+      "number": 28,
+      "team": "ORL",
+      "id": "28-D.Smith"
+    },
+    {
+      "guid": "Mrdc8V2T6Gg2sGV74CO4Q19Y0orM",
+      "name": "Jason King",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": "SD",
+      "id": "-J.King"
+    },
+    {
+      "guid": "MrdkP4RSh4xjqA9snGH15DBCLUjM",
+      "name": "Dominic Barry",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Barry"
+    },
+    {
+      "guid": "MremB0j5PgsX_3ukKwXDVM5nscaA",
+      "name": "Damian Swann",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": "ATL",
+      "id": "29-D.Swann"
+    },
+    {
+      "guid": "Mre__4V9X4zAXw5Zah-241bSxci1",
+      "name": "Trenton Thompson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 95,
+      "team": "ARI",
+      "id": "95-T.Thompson"
+    },
+    {
+      "guid": "MrgZlfYoJHSbfFIOBJqr0bFnnzxs",
+      "name": "Colin Holba",
+      "position": "LONG_SNAPPER",
+      "number": null,
+      "team": null,
+      "id": "-C.Holba"
+    },
+    {
+      "guid": "MrheAoooRuZ0B2xqcIr7XnBLZDoW",
+      "name": "Matt Simms",
+      "position": "QUARTERBACK",
+      "number": 4,
+      "team": "ATL",
+      "id": "4-M.Simms"
+    },
+    {
+      "guid": "MrhhYLeUoIe4s9e2znLoG1Yx-jm3",
+      "name": "Spare Player",
+      "position": "CENTER",
+      "number": null,
+      "team": null,
+      "id": "-S.Player"
+    },
+    {
+      "guid": "MriKbbkY3Ycww9ERJhq_issKG4EE",
+      "name": "Ronald Patrick",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 71,
+      "team": "ORL",
+      "id": "71-R.Patrick"
+    },
+    {
+      "guid": "MriNVkKuGd_7mZC31wwRWv2aZvyt",
+      "name": "Terron Ward",
+      "position": "RUNNING_BACK",
+      "number": 34,
+      "team": "ARI",
+      "id": "34-T.Ward"
+    },
+    {
+      "guid": "Mriy-_Lr8WyHQAyOy55Fks0lnch3",
+      "name": "Sealver Siliga",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 96,
+      "team": "SL",
+      "id": "96-S.Siliga"
+    },
+    {
+      "guid": "MrkELcFs7bHoH31xKsU5oBinE-I7",
+      "name": "Matt Sewall",
+      "position": "WIDE_RECEIVER",
+      "number": 15,
+      "team": null,
+      "id": "15-M.Sewall"
+    },
+    {
+      "guid": "MrlEonUi7l0SRPbtT7b5YT6nsiUy",
+      "name": "Austin Kuhnert",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 67,
+      "team": "ORL",
+      "id": "67-A.Kuhnert"
+    },
+    {
+      "guid": "MrmAvuj0D6zZqODoNXAQmm660mMa",
+      "name": "Richard Murphy",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-R.Murphy"
+    },
+    {
+      "guid": "MrnuTzh5EHTCpJe8QTNo8BjpfckD",
+      "name": "Sione Teuhema",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "ARI",
+      "id": "54-S.Teuhema"
+    },
+    {
+      "guid": "MrpEmXnlkpXXKefbhKnxAPDfGAxx",
+      "name": "Jack Tocho",
+      "position": "DEFENSIVE_BACK",
+      "number": 34,
+      "team": "BIR",
+      "id": "34-J.Tocho"
+    },
+    {
+      "guid": "MrqSmQ9ezgTpkB2s9f5rB01p0OV0",
+      "name": "Quincy Mauger",
+      "position": "DEFENSIVE_BACK",
+      "number": 42,
+      "team": "ATL",
+      "id": "42-Q.Mauger"
+    },
+    {
+      "guid": "MrrSY74GSvE1qHG1msGD4KfKYiGq",
+      "name": "Sean Brown",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 65,
+      "team": "SL",
+      "id": "65-S.Brown"
+    },
+    {
+      "guid": "Mrrd9N9w_IpPrsvujSwDODGOG9EE",
+      "name": "Channing Stribling",
+      "position": "DEFENSIVE_BACK",
+      "number": 30,
+      "team": "MEM",
+      "id": "30-C.Stribling"
+    },
+    {
+      "guid": "MrshtMHFri_zur-OJxJEINLtw3FP",
+      "name": "Isaiah Burse",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-I.Burse"
+    },
+    {
+      "guid": "MruASXlN9ksMnvFg3zcDg_6dISTx",
+      "name": "Austin Traylor",
+      "position": "TIGHT_END",
+      "number": 83,
+      "team": "SL",
+      "id": "83-A.Traylor"
+    },
+    {
+      "guid": "MruRhXbMutIXoRYOw4e-X8Hx0B8f",
+      "name": "Gionni Paul",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": "SL",
+      "id": "57-G.Paul"
+    },
+    {
+      "guid": "MruyVbNDMZW8M3J0NIgYYxiNM1g8",
+      "name": "Cameron Tarver",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-C.Tarver"
+    },
+    {
+      "guid": "MrvOZZ028MWBTUb3KVMhEYu9fntk",
+      "name": "Brandon Cottom",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-B.Cottom"
+    },
+    {
+      "guid": "MrvaGekpaoTRAKtgVZd8bmTFF4Cp",
+      "name": "AJ Tarpley",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": "SD",
+      "id": "59-A.Tarpley"
+    },
+    {
+      "guid": "MrxsVJwCGFXBajsksqfAYwPZbFtK",
+      "name": "Donteea Dye Jr.",
+      "position": "WIDE_RECEIVER",
+      "number": 11,
+      "team": "ORL",
+      "id": "11-D.Dye Jr."
+    },
+    {
+      "guid": "MrybF0MXaFiCjSqPQ0NA4msiEncq",
+      "name": "Jeremy Gallon",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Gallon"
+    },
+    {
+      "guid": "Mr0cdXlQ4DSQuXhTpf-n_HjZ37yc",
+      "name": "Javon Webster",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-J.Webster"
+    },
+    {
+      "guid": "Mr5NNifsr73teS0w_9Z484efMCX6",
+      "name": "Shane Johnson",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-S.Johnson"
+    },
+    {
+      "guid": "Mr5R0ht-4DK0adb31jUl9rBc0hRN",
+      "name": "Jesse Hosket",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Hosket"
+    },
+    {
+      "guid": "Mr5ay8tw_rYiigrSTuDF9jk-UI7a",
+      "name": "Kitt O'Brien",
+      "position": "OFFENSIVE_GUARD",
+      "number": 79,
+      "team": "BIR",
+      "id": "79-K.O'Brien"
+    },
+    {
+      "guid": "Mr5k7hAZFnvFAoDhfOnpMECSCZeC",
+      "name": "Tarean Folston",
+      "position": "RUNNING_BACK",
+      "number": 26,
+      "team": "ATL",
+      "id": "26-T.Folston"
+    },
+    {
+      "guid": "Mr7Tl7Qd0S4hkQNZxhCGWmf10SkC",
+      "name": "Chanceller James",
+      "position": "DEFENSIVE_BACK",
+      "number": 24,
+      "team": "SL",
+      "id": "24-C.James"
+    },
+    {
+      "guid": "Mr7oBK_kj71615Ehxf9STz61Vmk8",
+      "name": "Akrum Wadley",
+      "position": "RUNNING_BACK",
+      "number": 27,
+      "team": "ATL",
+      "id": "27-A.Wadley"
+    },
+    {
+      "guid": "Mr-AClTDIvdn5ixSlo2bLPaWfJZG",
+      "name": "Robert Luke",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-R.Luke"
+    },
+    {
+      "guid": "Mr-fpIQ6oXm73GiiRHpAOE6_cG7z",
+      "name": "Jordan Holland",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Holland"
+    },
+    {
+      "guid": "Mr_h06q88CwvjfDnDJM2TgEuun3V",
+      "name": "Jakobi Smith",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Smith"
+    },
+    {
+      "guid": "MsD9BX2Hqw62Rn92NeuD2HHEEzgy",
+      "name": "David Steinmetz",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-D.Steinmetz"
+    },
+    {
+      "guid": "MsFY_Rjyrs_V5IeHEZ0pX3PJnaQd",
+      "name": "Jeff Overbaugh",
+      "position": "LONG_SNAPPER",
+      "number": 44,
+      "team": "ATL",
+      "id": "44-J.Overbaugh"
+    },
+    {
+      "guid": "MsGG7XkhhKrtDJFRebpWb-8Vcqs8",
+      "name": "Anthony McMeans",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-A.McMeans"
+    },
+    {
+      "guid": "MsGra7YxTjqFV_ywkddUvQKN0MXD",
+      "name": "Hugh Thornton",
+      "position": "OFFENSIVE_GUARD",
+      "number": 72,
+      "team": null,
+      "id": "72-H.Thornton"
+    },
+    {
+      "guid": "MsH1f2YP0FhmRRsa6Z5aaUL5Wld0",
+      "name": "Mike Ramsay",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 87,
+      "team": "ORL",
+      "id": "87-M.Ramsay"
+    },
+    {
+      "guid": "MsIOxubSiOrkNIal_JezvqoRGRT1",
+      "name": "Joseph Putu",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Putu"
+    },
+    {
+      "guid": "MsIR23GmccVTprKHnWD3Qez1e-Io",
+      "name": "Gary Thompson",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-G.Thompson"
+    },
+    {
+      "guid": "MsIcgbzvHPpRH_9rwT98mxHwnzXC",
+      "name": "Zack Sanchez",
+      "position": "DEFENSIVE_BACK",
+      "number": 33,
+      "team": "SA",
+      "id": "33-Z.Sanchez"
+    },
+    {
+      "guid": "MsIgVcI1X1FINv3hSNpcbhMQ_imV",
+      "name": "Ashaad Mabry",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-A.Mabry"
+    },
+    {
+      "guid": "MsIyW5zn5dUYAsTlUQ120fOC4U69",
+      "name": "Jovann Letuli",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 75,
+      "team": "SA",
+      "id": "75-J.Letuli"
+    },
+    {
+      "guid": "MsJtX_LL2oe-HtuI2N91hXTHTUP3",
+      "name": "Matt Godin",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 99,
+      "team": "SA",
+      "id": "99-M.Godin"
+    },
+    {
+      "guid": "MsKxZ6c91bQva4WA2LBVbTpXNQ1S",
+      "name": "Josh Banks Sr. ",
+      "position": "DEFENSIVE_END",
+      "number": 92,
+      "team": "ORL",
+      "id": "92-J.Banks Sr. "
+    },
+    {
+      "guid": "MsLYIYvSP47a9a8UrkTpvuXYcQ9K",
+      "name": "Jacob Hagen",
+      "position": "DEFENSIVE_BACK",
+      "number": 27,
+      "team": "BIR",
+      "id": "27-J.Hagen"
+    },
+    {
+      "guid": "MsM6On0ll7z84d3v3yYttFnqd9lq",
+      "name": "Jaryd Jones-Smith",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 72,
+      "team": "SA",
+      "id": "72-J.Jones-Smith"
+    },
+    {
+      "guid": "MsNCIg0Z7r5gla7oopYJQuzatSSp",
+      "name": "Nick Temple",
+      "position": "LINEBACKER",
+      "number": 55,
+      "team": "SA",
+      "id": "55-N.Temple"
+    },
+    {
+      "guid": "MsOb8QVQfrw2NAgtzfKPVCULg3OF",
+      "name": "Ryan Schmidt",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-R.Schmidt"
+    },
+    {
+      "guid": "MsPpBdm_TA_D_k1EJ62-ovlO9mah",
+      "name": "DeVozea Felton",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "BIR",
+      "id": "13-D.Felton"
+    },
+    {
+      "guid": "MsQPaUeKdRzJSNKUmf9eYi6fhFDv",
+      "name": "Kenneth Farrow, II",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": "SA",
+      "id": "20-K.Farrow, II"
+    },
+    {
+      "guid": "MsSW7k2bvNdN0P0l5GxNqN339QSX",
+      "name": "Anthony Manzo-Lewis",
+      "position": "RUNNING_BACK",
+      "number": 49,
+      "team": "MEM",
+      "id": "49-A.Manzo-Lewis"
+    },
+    {
+      "guid": "MsSyIj8ll2VgHiA2jn2sa1vGnFgt",
+      "name": "Branden Oliver",
+      "position": "RUNNING_BACK",
+      "number": 33,
+      "team": "SL",
+      "id": "33-B.Oliver"
+    },
+    {
+      "guid": "MsTASoGxV9JaXX7VZ40Bn-oYxAjZ",
+      "name": "Josh Boyd",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-J.Boyd"
+    },
+    {
+      "guid": "MsVVZ3LC_heuEr4PWNhGVHQeCy2Z",
+      "name": "Corey Willis",
+      "position": "WIDE_RECEIVER",
+      "number": 17,
+      "team": "ARI",
+      "id": "17-C.Willis"
+    },
+    {
+      "guid": "MsWIRd8tv45ZMfyiaGmGaeDTh8SG",
+      "name": "Aamir Petrose",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": "SA",
+      "id": "59-A.Petrose"
+    },
+    {
+      "guid": "MsWIpQeK75dA0A-qmN48hqbxiSGl",
+      "name": "Kendall Sanders",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Sanders"
+    },
+    {
+      "guid": "MsWlWGFivq3_ThVsuPkEYl2t2gMZ",
+      "name": "Brandon Ross",
+      "position": "RUNNING_BACK",
+      "number": 45,
+      "team": "BIR",
+      "id": "45-B.Ross"
+    },
+    {
+      "guid": "MsZjaTrUHXiAPzoYH9h-ifUViQVv",
+      "name": "John Maddaluna",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Maddaluna"
+    },
+    {
+      "guid": "Msab37KDSF5Dmhxdpo2luJzxkEiP",
+      "name": "Justin Stockton",
+      "position": "RUNNING_BACK",
+      "number": 30,
+      "team": "ARI",
+      "id": "30-J.Stockton"
+    },
+    {
+      "guid": "MsaonxWUmbmyQMtS9QM96NoMI-Vq",
+      "name": "Reggie Northrup II",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "ORL",
+      "id": "52-R.Northrup II"
+    },
+    {
+      "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
+      "name": "Aaron Green",
+      "position": "RUNNING_BACK",
+      "number": 22,
+      "team": "SA",
+      "id": "22-A.Green"
+    },
+    {
+      "guid": "Msd3uQAp9vhe1PZ-_ByIypo5Y2CI",
+      "name": "Jordan Villamin",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Villamin"
+    },
+    {
+      "guid": "MseOmwcB9ERo5Yb_5ejbYhmFxa5b",
+      "name": "Keith Price",
+      "position": "QUARTERBACK",
+      "number": 8,
+      "team": "BIR",
+      "id": "8-K.Price"
+    },
+    {
+      "guid": "Msjlrab9cx2et6lTlgj9BlH_aKkS",
+      "name": "Oscar White",
+      "position": "DEFENSIVE_BACK",
+      "number": 48,
+      "team": "SA",
+      "id": "48-O.White"
+    },
+    {
+      "guid": "MslD5In5tqTq-Wa_R1hyVprcNKb6",
+      "name": "Christian Hackenberg",
+      "position": "QUARTERBACK",
+      "number": 14,
+      "team": "MEM",
+      "id": "14-C.Hackenberg"
+    },
+    {
+      "guid": "MslSsTLG3-iqXF7xHp7b9pDmKL5t",
+      "name": "Jonathan Hagler",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-J.Hagler"
+    },
+    {
+      "guid": "Msn6EefaJvxHZiwegId1-fUDk0J0",
+      "name": "Kenneth Olugbode",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "SD",
+      "id": "51-K.Olugbode"
+    },
+    {
+      "guid": "Mso3C96BsSt1rAcDxRlj59LeY17W",
+      "name": "Ty McCulley",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 74,
+      "team": "SL",
+      "id": "74-T.McCulley"
+    },
+    {
+      "guid": "Mso-Sk88_bEryhmiW_TmsarMRb5M",
+      "name": "Greg Ducre",
+      "position": "CORNERBACK",
+      "number": 26,
+      "team": "SD",
+      "id": "26-G.Ducre"
+    },
+    {
+      "guid": "MspaqWhoGO5BptAWUOOJFtqpGIHe",
+      "name": "Troy Pelletier",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-T.Pelletier"
+    },
+    {
+      "guid": "MsqJ-RvsKXul7vR3UF9AaL23nr-J",
+      "name": "Marvin Hart",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Hart"
+    },
+    {
+      "guid": "MssJe_71LXs7hSbpwfyk_pRbZmFk",
+      "name": "Jordon Gandy",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-J.Gandy"
+    },
+    {
+      "guid": "MstkAkUw5YoANG7bu_yDl2xjPK4P",
+      "name": "Will House",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-W.House"
+    },
+    {
+      "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
+      "name": "Connor Hamlett",
+      "position": "TIGHT_END",
+      "number": 89,
+      "team": "ARI",
+      "id": "89-C.Hamlett"
+    },
+    {
+      "guid": "MsvJ0I1pQAHZ2u9FiY_94TyqhVyc",
+      "name": "Ryan McKinley",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-R.McKinley"
+    },
+    {
+      "guid": "MswdfsivAKAiiU_eUBuN3mCJYApb",
+      "name": "Jared Machorro",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-J.Machorro"
+    },
+    {
+      "guid": "MsyP34rh2DnMLeM42coNwluKXaSe",
+      "name": "Kani Benoit",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Benoit"
+    },
+    {
+      "guid": "MsyVDBtdKsgCYjpATLWxD0sH7Blm",
+      "name": "Ty Isaac",
+      "position": "RUNNING_BACK",
+      "number": 32,
+      "team": "BIR",
+      "id": "32-T.Isaac"
+    },
+    {
+      "guid": "Ms1bZB_Yz7zQR7mIo0s-5X9cmLKx",
+      "name": "Evan Colorito",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-E.Colorito"
+    },
+    {
+      "guid": "Ms16wD7SvrZY2LI84LdjwUaJ9nCq",
+      "name": "Heath Harding",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-H.Harding"
+    },
+    {
+      "guid": "Ms66cOROfWn-0cxrxZENYLrox5WP",
+      "name": "Marquis Lucas",
+      "position": "OFFENSIVE_GUARD",
+      "number": 74,
+      "team": "ORL",
+      "id": "74-M.Lucas"
+    },
+    {
+      "guid": "Ms7Lmei7yVPNDDdQ8M7YQBClm-w8",
+      "name": "Martay Mattox",
+      "position": "CORNERBACK",
+      "number": 37,
+      "team": "MEM",
+      "id": "37-M.Mattox"
+    },
+    {
+      "guid": "Ms7obZS7dFXxIdQMVfg1WsQJeF3y",
+      "name": "Dontez Ford",
+      "position": "WIDE_RECEIVER",
+      "number": 12,
+      "team": "SD",
+      "id": "12-D.Ford"
+    },
+    {
+      "guid": "Ms8jXsG5kznwm_aY9Hj0_KrPJyLv",
+      "name": "Drew Jackson",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "MEM",
+      "id": "53-D.Jackson"
+    },
+    {
+      "guid": "Ms9p_xheMgOR-cL_PUso0n_xWiUO",
+      "name": "K.D. Humphries",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Humphries"
+    },
+    {
+      "guid": "Ms9y12H6N0R-luGbzili9s_GjRL7",
+      "name": "Chris Lee",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-C.Lee"
+    },
+    {
+      "guid": "Ms_eBd8nzroZi8lfYb13GRTEFpOf",
+      "name": "DeAngelo Brown",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 97,
+      "team": "ATL",
+      "id": "97-D.Brown"
+    },
+    {
+      "guid": "MtBTBuxZxponNME4NdEoLukqC2DX",
+      "name": "Harlan Miller",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-H.Miller"
+    },
+    {
+      "guid": "MtCrJl7QaFldpwUIC568QYiihzAt",
+      "name": "Xzavier Dickson",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "BIR",
+      "id": "51-X.Dickson"
+    },
+    {
+      "guid": "MtDmJOlxm-r2Ra53CY1MMBG_wCjm",
+      "name": "Larson Graham",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 62,
+      "team": "BIR",
+      "id": "62-L.Graham"
+    },
+    {
+      "guid": "MtDuKO7mpW_rccqNU4KdumQlGpU-",
+      "name": "Branden Hester",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-B.Hester"
+    },
+    {
+      "guid": "MtF3S8heBWTIt-sqIhfmnCuWqGBm",
+      "name": "Drew Morgan",
+      "position": "WIDE_RECEIVER",
+      "number": 83,
+      "team": "MEM",
+      "id": "83-D.Morgan"
+    },
+    {
+      "guid": "MtGpHimC50AHrxgAuvkfA18u3cJY",
+      "name": "Garrison Wright",
+      "position": "OFFENSIVE_GUARD",
+      "number": 73,
+      "team": null,
+      "id": "73-G.Wright"
+    },
+    {
+      "guid": "MtH3-LPouTERsZVdNt76JXxktD7N",
+      "name": "Jake Hubenak",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": "SA",
+      "id": "-J.Hubenak"
+    },
+    {
+      "guid": "MtIZfTKVpxy8QCfQQGlblHY1YKLk",
+      "name": "Brandon Dixon",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "ORL",
+      "id": "25-B.Dixon"
+    },
+    {
+      "guid": "MtK0WCwXYFTBG3dIA0ldX_NHgKTf",
+      "name": "J.C. Hassenauer",
+      "position": "CENTER",
+      "number": 70,
+      "team": "BIR",
+      "id": "70-J.Hassenauer"
+    },
+    {
+      "guid": "MtLHZYKARfJY6R9IJYLYST2LCDxO",
+      "name": "Matthew Wells",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "BIR",
+      "id": "54-M.Wells"
+    },
+    {
+      "guid": "MtRCw0N61fBAsBOktwglSg1LwWgd",
+      "name": "DeShawn Williams",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": null,
+      "team": "ATL",
+      "id": "-D.Williams"
+    },
+    {
+      "guid": "MtRryetro2oc4koAVoQ4M4puIv5Z",
+      "name": "Cole Mazza",
+      "position": "LONG_SNAPPER",
+      "number": 48,
+      "team": "BIR",
+      "id": "48-C.Mazza"
+    },
+    {
+      "guid": "MtSJTnGpkivopNJBMTr_0CszuGay",
+      "name": "Darryl Richardson",
+      "position": "TIGHT_END",
+      "number": 46,
+      "team": "MEM",
+      "id": "46-D.Richardson"
+    },
+    {
+      "guid": "MtSwsta1ERBzVH6GWE3JgBJ40u6u",
+      "name": "Josh Jasper",
+      "position": "PUNTER",
+      "number": 3,
+      "team": "MEM",
+      "id": "3-J.Jasper"
+    },
+    {
+      "guid": "MtTXt5qR6aXBn7AhYtdhdMbDZTQu",
+      "name": "Javontee Herndon",
+      "position": "WIDE_RECEIVER",
+      "number": 9,
+      "team": "MEM",
+      "id": "9-J.Herndon"
+    },
+    {
+      "guid": "MtYf1MpP25eByQ12rys7yGdFMGsd",
+      "name": "Jonathan Petersen",
+      "position": "DEFENSIVE_END",
+      "number": 95,
+      "team": "SD",
+      "id": "95-J.Petersen"
+    },
+    {
+      "guid": "MtZBOhmlUx0Hk6zniztF96gFZwf3",
+      "name": "Andrew East",
+      "position": "LONG_SNAPPER",
+      "number": null,
+      "team": null,
+      "id": "-A.East"
+    },
+    {
+      "guid": "MtZUTk4iYPf5I58GuMM7qdohmETS",
+      "name": "Lawrence Austin",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-L.Austin"
+    },
+    {
+      "guid": "MtbFZ392nPn9rDxUu18rH55DuKsJ",
+      "name": "Voghens Larrieux",
+      "position": "OFFENSIVE_TACKLE",
+      "number": null,
+      "team": "ATL",
+      "id": "-V.Larrieux"
+    },
+    {
+      "guid": "Mtccg6qR_cXjZPWD-JqIMgEmOgXU",
+      "name": "Stephen Hill",
+      "position": "WIDE_RECEIVER",
+      "number": 12,
+      "team": "ATL",
+      "id": "12-S.Hill"
+    },
+    {
+      "guid": "MtdATgy00om1VwoQSma2OupD3pHq",
+      "name": "Josh Fatu",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": "SD",
+      "id": "-J.Fatu"
+    },
+    {
+      "guid": "MtdePvXMeruIYisHKJFSyJ9OU4B-",
+      "name": "Ryan DiSalvo",
+      "position": "LONG_SNAPPER",
+      "number": 49,
+      "team": "SD",
+      "id": "49-R.DiSalvo"
+    },
+    {
+      "guid": "Mtd5_MUsT9kODDCWx2Xbgr5IqD5c",
+      "name": "Kevin Anderson",
+      "position": "QUARTERBACK",
+      "number": 4,
+      "team": "ORL",
+      "id": "4-K.Anderson"
+    },
+    {
+      "guid": "Mtkzq-zFch0vps-adIzOCA4GxjEe",
+      "name": "Mark Myers Jr.",
+      "position": "CORNERBACK",
+      "number": 23,
+      "team": "ORL",
+      "id": "23-M.Myers Jr."
+    },
+    {
+      "guid": "MtlUirOQjja5dT1w8OqajnnIs8rB",
+      "name": "David Marvin",
+      "position": "PUNTER",
+      "number": null,
+      "team": null,
+      "id": "-D.Marvin"
+    },
+    {
+      "guid": "MtluUhpfxINE-sRr4Kf7jI5ResDW",
+      "name": "Khalil Hunter",
+      "position": "OFFENSIVE_GUARD",
+      "number": 72,
+      "team": "ATL",
+      "id": "72-K.Hunter"
+    },
+    {
+      "guid": "Mtnqx4QFD1kTquN-CD6IxT0ykKlG",
+      "name": "Nelson Adams",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-N.Adams"
+    },
+    {
+      "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
+      "name": "Nelson Spruce",
+      "position": "WIDE_RECEIVER",
+      "number": 81,
+      "team": "SD",
+      "id": "81-N.Spruce"
+    },
+    {
+      "guid": "MtrMUn2A9gmLtX-r9HO6AkYUy6XR",
+      "name": "Rannell Hall",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "ORL",
+      "id": "16-R.Hall"
+    },
+    {
+      "guid": "Mtr_gl41EjH3IQX0eVyjPDhUMGoX",
+      "name": "Joey Mbu",
+      "position": "DEFENSIVE_LINEMAN",
+      "number": 90,
+      "team": "SA",
+      "id": "90-J.Mbu"
+    },
+    {
+      "guid": "MttvrWCfLvjhaBhb41G7hEEsmrh_",
+      "name": "Chris Martin",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "ORL",
+      "id": "77-C.Martin"
+    },
+    {
+      "guid": "MtvVgGwulgL2Jbs-iJV-rACOBqUq",
+      "name": "Antonio Andrews",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Andrews"
+    },
+    {
+      "guid": "MtwgOrJAe2PPlaIE29MXo5m41vJQ",
+      "name": "Patrick Lewis",
+      "position": "CENTER",
+      "number": null,
+      "team": null,
+      "id": "-P.Lewis"
+    },
+    {
+      "guid": "Mtw9tcEP6DTd7Kg4lIrOLS3pWm7r",
+      "name": "Prince Shonola",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": null,
+      "id": "14-P.Shonola"
+    },
+    {
+      "guid": "MtxZDLCI9Z9AfrQcpOyEKUQ0QHgg",
+      "name": "Austin Duke",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": null,
+      "id": "19-A.Duke"
+    },
+    {
+      "guid": "Mtx2ab3-X_WYN8pMtLdm-9cDWWKh",
+      "name": "Brandon Neal",
+      "position": "DEFENSIVE_BACK",
+      "number": 37,
+      "team": null,
+      "id": "37-B.Neal"
+    },
+    {
+      "guid": "MtyEXUKA3dzRqNaFEUvnOL6fW3od",
+      "name": "Scott Pagano",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-S.Pagano"
+    },
+    {
+      "guid": "MtzTVu_UMRlDayigrRF5PYiyKJ8b",
+      "name": "Ben Turk",
+      "position": "PUNTER",
+      "number": 1,
+      "team": "ORL",
+      "id": "1-B.Turk"
+    },
+    {
+      "guid": "Mtz5BpEuMemInMLEhFDjxRknmdB3",
+      "name": "Herbert Gonzales",
+      "position": "NOSE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-H.Gonzales"
+    },
+    {
+      "guid": "Mt0Ys7B1YbqS9FIrnOpWzssu2FCJ",
+      "name": "Eli Jenkins",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-E.Jenkins"
+    },
+    {
+      "guid": "Mt23gUA44bJvrsOEKilRUOvGQ56K",
+      "name": "Chris Santini",
+      "position": "LINEBACKER",
+      "number": 57,
+      "team": null,
+      "id": "57-C.Santini"
+    },
+    {
+      "guid": "Mt4gflZxeBPVG4lzKOMS1mXCg5_l",
+      "name": "Dillon Beard",
+      "position": "TIGHT_END",
+      "number": 48,
+      "team": "MEM",
+      "id": "48-D.Beard"
+    },
+    {
+      "guid": "Mt52CpXrwCpCbd-Adqa7XGs1_Ipy",
+      "name": "Jude Adjei-Barimah",
+      "position": "DEFENSIVE_BACK",
+      "number": 38,
+      "team": "SD",
+      "id": "38-J.Adjei-Barimah"
+    },
+    {
+      "guid": "Mt534BUyZgGKaIuSMh2CJkO_uktC",
+      "name": "Chris Weatherd",
+      "position": "DEFENSIVE_END",
+      "number": 93,
+      "team": "MEM",
+      "id": "93-C.Weatherd"
+    },
+    {
+      "guid": "Mt7Io5iTYz7yejdj2EGv6DUnSxXc",
+      "name": "Rickey Hatley",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 94,
+      "team": "BIR",
+      "id": "94-R.Hatley"
+    },
+    {
+      "guid": "Mt8qaE2AsIDmodlxS6QH8H-BvJsU",
+      "name": "Ryan Mallet",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": "MEM",
+      "id": "-R.Mallet"
+    },
+    {
+      "guid": "Mt_T7_zMszqI7nU6kelcstAQLNUB",
+      "name": "Tyrone Holmes",
+      "position": "LINEBACKER",
+      "number": 45,
+      "team": "SA",
+      "id": "45-T.Holmes"
+    },
+    {
+      "guid": "Mt_wvfXPnuDmlZgzXFCBTIvND0I_",
+      "name": "Ishmael Zamora",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-I.Zamora"
+    },
+    {
+      "guid": "MuDlRumjDYjx_f5sSJumQawDzV3H",
+      "name": "Jonah Austin",
+      "position": "OFFENSIVE_GUARD",
+      "number": 69,
+      "team": "MEM",
+      "id": "69-J.Austin"
+    },
+    {
+      "guid": "MuEW-pfp0tPu59yrLvgMxrRJzc6U",
+      "name": "Kellen Soulek",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 94,
+      "team": null,
+      "id": "94-K.Soulek"
+    },
+    {
+      "guid": "MuFzhKGMHfLzIjrXrapTwDVc1-nX",
+      "name": "Alonzo Moore",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": "SA",
+      "id": "19-A.Moore"
+    },
+    {
+      "guid": "MuG2WVWK6ekDkOMRV3U5G6cxzIpO",
+      "name": "Reggie Carter, Jr.",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": null,
+      "id": "59-R.Carter, Jr."
+    },
+    {
+      "guid": "MuHSfKeQrOoI1ClJnN-FfEA8b7H-",
+      "name": "Austin Allen",
+      "position": "QUARTERBACK",
+      "number": 8,
+      "team": "SL",
+      "id": "8-A.Allen"
+    },
+    {
+      "guid": "MuIr-o4fxjUwI3a6LFMfasZaxzfa",
+      "name": "Khalil Bass",
+      "position": "LINEBACKER",
+      "number": 52,
+      "team": "ATL",
+      "id": "52-K.Bass"
+    },
+    {
+      "guid": "MuMIoRMMnHjBlagLQoZ8W-WP6E-w",
+      "name": "Amir Carlisle",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": null,
+      "id": "19-A.Carlisle"
+    },
+    {
+      "guid": "MuMV0LaAgLb_eWsENEZOjmnEh4IF",
+      "name": "Kendall Moore",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": null,
+      "id": "-K.Moore"
+    },
+    {
+      "guid": "MuMcyFDbYRuDHcKUprEYVyBKmtTY",
+      "name": "Khalfani Muhammad",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Muhammad"
+    },
+    {
+      "guid": "MuOFFhp1SVl-cOgqrV7tFX23bdq_",
+      "name": "Azeem Victor",
+      "position": "LINEBACKER",
+      "number": 54,
+      "team": "ORL",
+      "id": "54-A.Victor"
+    },
+    {
+      "guid": "MuQGrmeHtJxbefUV22b5GMSC0ZIo",
+      "name": "Leon Orr",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 93,
+      "team": "ORL",
+      "id": "93-L.Orr"
+    },
+    {
+      "guid": "MuQoFuay7JJ-KzsbUmGykax1_K9H",
+      "name": "Chunky Clements",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 97,
+      "team": "ARI",
+      "id": "97-C.Clements"
+    },
+    {
+      "guid": "MuRCCVmYtphnjSiSnYjM8dox61nc",
+      "name": "Trey Samuel",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Samuel"
+    },
+    {
+      "guid": "MuROksSdj2C3vdvqi4Te-cAkU1Y-",
+      "name": "Taniela Tupou",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "SD",
+      "id": "90-T.Tupou"
+    },
+    {
+      "guid": "MuR_-vYDLHdahpbm672_PmONji9j",
+      "name": "Obum Gwacham",
+      "position": "LINEBACKER",
+      "number": 44,
+      "team": "ARI",
+      "id": "44-O.Gwacham"
+    },
+    {
+      "guid": "MuShKYY0K9EeX6CMhI3AqqdV8t4e",
+      "name": "Kenny Bell",
+      "position": "WIDE_RECEIVER",
+      "number": 80,
+      "team": "SL",
+      "id": "80-K.Bell"
+    },
+    {
+      "guid": "MuTDbsIEDY1QlNr9flGe3bTFX3AX",
+      "name": "Cavellis Luckett",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-C.Luckett"
+    },
+    {
+      "guid": "MuVBuiOJIIPyMefX0022domVHcG7",
+      "name": "Will Geary",
+      "position": "DEFENSIVE_TACKLE",
+      "number": null,
+      "team": null,
+      "id": "-W.Geary"
+    },
+    {
+      "guid": "MuVhbRjGlOwOdu9c2-95pcJsg8id",
+      "name": "Karter Schult",
+      "position": "DEFENSIVE_END",
+      "number": 94,
+      "team": "SL",
+      "id": "94-K.Schult"
+    },
+    {
+      "guid": "MuV61fWM6sA0uQR9zlLTFTE5KrTp",
+      "name": "Willie Quinn",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": "ORL",
+      "id": "14-W.Quinn"
+    },
+    {
+      "guid": "MuWBzj-Zbu8VUdfQgdOYR99WWq4n",
+      "name": "Brandon Haskin",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 75,
+      "team": "MEM",
+      "id": "75-B.Haskin"
+    },
+    {
+      "guid": "MuWksj_2Kf0she7RMGWOeCvP6CsA",
+      "name": "Trovon Reed",
+      "position": "DEFENSIVE_BACK",
+      "number": 23,
+      "team": "BIR",
+      "id": "23-T.Reed"
+    },
+    {
+      "guid": "MuX3IEkgeRmBPt_a5y5zkeSbu8Ar",
+      "name": "Jake Krause",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Krause"
+    },
+    {
+      "guid": "MuYoCSN_reGSvVl8Z35Cp34r5CNV",
+      "name": "Jack Bramswig",
+      "position": "WIDE_RECEIVER",
+      "number": 11,
+      "team": "BIR",
+      "id": "11-J.Bramswig"
+    },
+    {
+      "guid": "MuY_dLBlAMMs00YIJ9tC1h_XNy5U",
+      "name": "Robert Greathouse",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-R.Greathouse"
+    },
+    {
+      "guid": "MuaYfAkeI5FPDdrv7KpmWM8jdILw",
+      "name": "Cameron Nizialek",
+      "position": "PUNTER",
+      "number": 9,
+      "team": "ATL",
+      "id": "9-C.Nizialek"
+    },
+    {
+      "guid": "MucYKfL9tvU83HJb6SIgJZOwLZ18",
+      "name": "Marquell Beckwith",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Beckwith"
+    },
+    {
+      "guid": "Muc_7Ii-JIypFjiiuqxW29VKttnZ",
+      "name": "Steve Beauharnais",
+      "position": "LINEBACKER",
+      "number": 53,
+      "team": "ARI",
+      "id": "53-S.Beauharnais"
+    },
+    {
+      "guid": "MudVrEOWn4YYUFCfC6q-8q0MVMDm",
+      "name": "KeShun Freeman",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "ATL",
+      "id": "50-K.Freeman"
+    },
+    {
+      "guid": "MugplZamc2FccLEXfQhqTP78rMH0",
+      "name": "Anthony Denham",
+      "position": "TIGHT_END",
+      "number": 88,
+      "team": "SL",
+      "id": "88-A.Denham"
+    },
+    {
+      "guid": "Mug07S7ZZmlClSY3Yn_QYshusC-7",
+      "name": "Giorgio Newberry",
+      "position": "DEFENSIVE_END",
+      "number": 99,
+      "team": "ORL",
+      "id": "99-G.Newberry"
+    },
+    {
+      "guid": "Muhkruxnp2CG59p80Rw2s1VRrtL7",
+      "name": "Darius Latham",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 96,
+      "team": "ARI",
+      "id": "96-D.Latham"
+    },
+    {
+      "guid": "Muh23P6Whs1oYp8njPCCEt0psh-G",
+      "name": "Akeem Hunt",
+      "position": "RUNNING_BACK",
+      "number": 21,
+      "team": "ORL",
+      "id": "21-A.Hunt"
+    },
+    {
+      "guid": "Muh_MRxotedWRKvO8fvSL73RFa60",
+      "name": "Brandon Hodges",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "SD",
+      "id": "77-B.Hodges"
+    },
+    {
+      "guid": "MuivGwmmOKpmLrZRP0CJD9D3Oen5",
+      "name": "Sam Irwin-Hill",
+      "position": "PUNTER",
+      "number": 2,
+      "team": "SD",
+      "id": "2-S.Irwin-Hill"
+    },
+    {
+      "guid": "MukaTUTSy_SrrkzMWR5wO5QR0OCd",
+      "name": "Montori Hughes",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 95,
+      "team": "MEM",
+      "id": "95-M.Hughes"
+    },
+    {
+      "guid": "Muk05LWdECl79stc_ripVNKE_5_W",
+      "name": "David Dean",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 95,
+      "team": "ATL",
+      "id": "95-D.Dean"
+    },
+    {
+      "guid": "MullmgoPObmhXPHmSWE2_mzIoCoQ",
+      "name": "Mykkele Thompson",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-M.Thompson"
+    },
+    {
+      "guid": "Mul2mvkoQSqrfJpTvU04gOWesuV-",
+      "name": "Cordon Moog",
+      "position": "RUNNING_BACK",
+      "number": 85,
+      "team": "MEM",
+      "id": "85-C.Moog"
+    },
+    {
+      "guid": "MumI8RRFAS8Ub8qEhbyMVg0_fMMV",
+      "name": "J.T. Jones",
+      "position": "DEFENSIVE_END",
+      "number": 91,
+      "team": "ATL",
+      "id": "91-J.Jones"
+    },
+    {
+      "guid": "MumS2nE02UQUEdr134XS5Jp-Ywf9",
+      "name": "Jeremy Faulk",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 63,
+      "team": "BIR",
+      "id": "63-J.Faulk"
+    },
+    {
+      "guid": "Mumm8PK_wY3MZXSOMTik0hsIp6Ly",
+      "name": "Tobias Palmer",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "BIR",
+      "id": "16-T.Palmer"
+    },
+    {
+      "guid": "MuoO0zp9j5BUlwSzYJlKl68B9vq2",
+      "name": "Quinterrius Eatmon",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 70,
+      "team": "ORL",
+      "id": "70-Q.Eatmon"
+    },
+    {
+      "guid": "MuoQy1cfjvaoJJ8_kQtWB3LI4Z-S",
+      "name": "Winston Craig",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 96,
+      "team": "SA",
+      "id": "96-W.Craig"
+    },
+    {
+      "guid": "MuorAWrqhYd5OhBpf2_qnqRg0jzH",
+      "name": "Martin Ifedi",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 79,
+      "team": null,
+      "id": "79-M.Ifedi"
+    },
+    {
+      "guid": "MupH198whtLyGoCnan_zhuBONP-0",
+      "name": "Marquise Williams",
+      "position": "QUARTERBACK",
+      "number": 12,
+      "team": "SA",
+      "id": "12-M.Williams"
+    },
+    {
+      "guid": "MuruAlMBmL76YfNKiUw6kokxA82_",
+      "name": "Latarius Brady",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 94,
+      "team": "MEM",
+      "id": "94-L.Brady"
+    },
+    {
+      "guid": "Mur71Zs5lGJmaWmmJSk9egbmB24M",
+      "name": "Dia'Vante Brown",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 51,
+      "team": "SL",
+      "id": "51-D.Brown"
+    },
+    {
+      "guid": "MusX5f9ajgIRUz_KaQf1L4jdEqr5",
+      "name": "Tyler Thornton",
+      "position": "DEFENSIVE_BACK",
+      "number": 27,
+      "team": "SD",
+      "id": "27-T.Thornton"
+    },
+    {
+      "guid": "MutCGmkdKmDJ_0augCaZU05wp5Mc",
+      "name": "Mackendy Cheridor",
+      "position": "DEFENSIVE_END",
+      "number": 96,
+      "team": "ATL",
+      "id": "96-M.Cheridor"
+    },
+    {
+      "guid": "Mutbr5eRMzlDHbQTW_9kq7lnUIdI",
+      "name": "Malcolm Bunche",
+      "position": "OFFENSIVE_GUARD",
+      "number": 79,
+      "team": "ARI",
+      "id": "79-M.Bunche"
+    },
+    {
+      "guid": "Mute4IsGgNrq5wkMZhiLbxf5YNDf",
+      "name": "Anthony Morris",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "MEM",
+      "id": "77-A.Morris"
+    },
+    {
+      "guid": "MuuBnJEG-XcPlZto2ehC9ZRa4-ER",
+      "name": "Brandon Pertile",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 77,
+      "team": "ATL",
+      "id": "77-B.Pertile"
+    },
+    {
+      "guid": "MuusWiZVB83QKEHcf2f5CJi_ycze",
+      "name": "Trevon Smith",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-T.Smith"
+    },
+    {
+      "guid": "Muu-O7tNx67WRO10jxjMo9sXHK3a",
+      "name": "Speedy Noil",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": "SA",
+      "id": "16-S.Noil"
+    },
+    {
+      "guid": "MuvzbuCvu9LurvKCJsoLcT1RmPx8",
+      "name": "Antonio Simmons",
+      "position": "DEFENSIVE_END",
+      "number": 94,
+      "team": "ATL",
+      "id": "94-A.Simmons"
+    },
+    {
+      "guid": "MuwAVWNm8bg7g5XoWanDdrYAEmqw",
+      "name": "B.J. Daniels",
+      "position": "QUARTERBACK",
+      "number": 2,
+      "team": null,
+      "id": "2-B.Daniels"
+    },
+    {
+      "guid": "MuwntlVfOd-hGytka6HrT3ByHK5V",
+      "name": "Kirk Wilson",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Wilson"
+    },
+    {
+      "guid": "Muy7sZhN8nsNhMrj4g13ZuAbDUCl",
+      "name": "Demario Richard",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Richard"
+    },
+    {
+      "guid": "MuzB8aju0aGjhWzwt81_5-k3bWva",
+      "name": "Demarcus Ayers",
+      "position": "WIDE_RECEIVER",
+      "number": 14,
+      "team": "SA",
+      "id": "14-D.Ayers"
+    },
+    {
+      "guid": "Mu0CsHf-olJEt5aQgvVNLyXY3QIx",
+      "name": "Deion Holliman",
+      "position": "WIDE_RECEIVER",
+      "number": 86,
+      "team": "ARI",
+      "id": "86-D.Holliman"
+    },
+    {
+      "guid": "Mu1r0iz8bSNcDL2vxbLPsC_IE_NL",
+      "name": "Darius Hillary",
+      "position": "DEFENSIVE_BACK",
+      "number": 36,
+      "team": null,
+      "id": "36-D.Hillary"
+    },
+    {
+      "guid": "Mu3ahBJhqQJBfhINO9AsuKwQQjAu",
+      "name": "Jaelen Strong",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": "ARI",
+      "id": "-J.Strong"
+    },
+    {
+      "guid": "Mu3m9RMWya8b7A8ZnGNRiHkkb57D",
+      "name": "Darnell Leslie",
+      "position": "LINEBACKER",
+      "number": 51,
+      "team": "SA",
+      "id": "51-D.Leslie"
+    },
+    {
+      "guid": "Mu4MuGmXe6aweRfHA5F1wcD5V1or",
+      "name": "Younghoe Koo",
+      "position": "KICKER",
+      "number": 7,
+      "team": "ATL",
+      "id": "7-Y.Koo"
+    },
+    {
+      "guid": "Mu4gOaZiYHNFV7pyrOxZm92AjVLZ",
+      "name": "Blake Sims",
+      "position": "QUARTERBACK",
+      "number": 6,
+      "team": "BIR",
+      "id": "6-B.Sims"
+    },
+    {
+      "guid": "Mu7XbK2QmHPEHFtCoMY6LuYIm1T9",
+      "name": "Nick Rose",
+      "position": "KICKER",
+      "number": 9,
+      "team": "SA",
+      "id": "9-N.Rose"
+    },
+    {
+      "guid": "Mu8DQ7c-dmWq_szEbiMl6qp_jDXh",
+      "name": "Charmeachealle Moore",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-C.Moore"
+    },
+    {
+      "guid": "Mu-wRsM-ciPT0UDftPgiUpfiVpZV",
+      "name": "Andrew McDonald",
+      "position": "OFFENSIVE_LINEMAN",
+      "number": 69,
+      "team": "SA",
+      "id": "69-A.McDonald"
+    },
+    {
+      "guid": "Mu_K8z7VtSM3IQDlDL3KFzXMZkex",
+      "name": "Lubern Figaro",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-L.Figaro"
+    },
+    {
+      "guid": "MvBgVugyGAmv3wIWquUGKBAVnVRt",
+      "name": "Chase Farris",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 75,
+      "team": "ATL",
+      "id": "75-C.Farris"
+    },
+    {
+      "guid": "MvDDwK1rs-E4_In8M8VwlFXr3Afl",
+      "name": "Austin Rehkow",
+      "position": "PUNTER",
+      "number": 5,
+      "team": "SL",
+      "id": "5-A.Rehkow"
+    },
+    {
+      "guid": "MvDRfkt6XkBvAK0DoLdVCc7UPwqE",
+      "name": "Carlton Agudosi",
+      "position": "WIDE_RECEIVER",
+      "number": null,
+      "team": null,
+      "id": "-C.Agudosi"
+    },
+    {
+      "guid": "MvEBtTauYYRktjJhpGRQ4lgP2GzC",
+      "name": "Christian French",
+      "position": "LINEBACKER",
+      "number": 58,
+      "team": "ORL",
+      "id": "58-C.French"
+    },
+    {
+      "guid": "MvEvRFFI39o_zKhDxJObMb9OAJA5",
+      "name": "Fabian Guerra",
+      "position": "WIDE_RECEIVER",
+      "number": 86,
+      "team": "MEM",
+      "id": "86-F.Guerra"
+    },
+    {
+      "guid": "MvJpPkt2zDZEzpcpFxULmAzg2aSO",
+      "name": "Elijah Battle",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-E.Battle"
+    },
+    {
+      "guid": "MvKhOdHsqSPqjHogVZzI6iGnRFz3",
+      "name": "Christian Love",
+      "position": "DEFENSIVE_BACK",
+      "number": 25,
+      "team": "SL",
+      "id": "25-C.Love"
+    },
+    {
+      "guid": "MvKxMx1YGLYuyGHaFhezkPmMunGn",
+      "name": "Donald Hawkins",
+      "position": "OFFENSIVE_TACKLE",
+      "number": 60,
+      "team": "ORL",
+      "id": "60-D.Hawkins"
+    },
+    {
+      "guid": "MvMPK87RjthDpgkxi-5PMRJI56FG",
+      "name": "Marquis Bundy",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "ARI",
+      "id": "18-M.Bundy"
+    },
+    {
+      "guid": "MvMS0Si0hfTDFP7xKZd6tbD368IF",
+      "name": "Kieron Williams",
+      "position": "DEFENSIVE_BACK",
+      "number": 37,
+      "team": "ARI",
+      "id": "37-K.Williams"
+    },
+    {
+      "guid": "MvM6zxqfCqHooC6YhCoxuaHlBAMU",
+      "name": "Trevor Knight",
+      "position": "QUARTERBACK",
+      "number": 10,
+      "team": "ARI",
+      "id": "10-T.Knight"
+    },
+    {
+      "guid": "MvM-dUhU_MfYxOVN5B6CWW7Y2cvT",
+      "name": "Jaboree Williams",
+      "position": "LINEBACKER",
+      "number": 40,
+      "team": "SA",
+      "id": "40-J.Williams"
+    },
+    {
+      "guid": "MvNPaH3xpqYy2vhcf7Ov71bNyvhu",
+      "name": "Will Davis",
+      "position": "DEFENSIVE_BACK",
+      "number": 26,
+      "team": "SL",
+      "id": "26-W.Davis"
+    },
+    {
+      "guid": "MvOewH5YxeJ8rDqRsbBlwklgnVZZ",
+      "name": "Josh Cardiello",
+      "position": "CENTER",
+      "number": null,
+      "team": null,
+      "id": "-J.Cardiello"
+    },
+    {
+      "guid": "MvPigyBSRLtx4mCy8KsJLxqpnZuc",
+      "name": "Demetrius Monday",
+      "position": "CORNERBACK",
+      "number": 32,
+      "team": "SL",
+      "id": "32-D.Monday"
+    },
+    {
+      "guid": "MvRJwCF7_74J3VsAWRubhjoJgHM5",
+      "name": "Bryce Williams",
+      "position": "TIGHT_END",
+      "number": 85,
+      "team": "ARI",
+      "id": "85-B.Williams"
+    },
+    {
+      "guid": "MvRcNG3N7u_hiie54_KsTTZO1nAw",
+      "name": "Lashard Durr",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-L.Durr"
+    },
+    {
+      "guid": "MvRhbzA3GEwC-zxSrwZWFZV76v8-",
+      "name": "Kayaune Ross",
+      "position": "WIDE_RECEIVER",
+      "number": 88,
+      "team": "MEM",
+      "id": "88-K.Ross"
+    },
+    {
+      "guid": "MvTT4xOoMN8rnyOaC30nCg5GEUA7",
+      "name": "Larry Donnell",
+      "position": "TIGHT_END",
+      "number": null,
+      "team": "MEM",
+      "id": "-L.Donnell"
+    },
+    {
+      "guid": "MvUIleRQQ3oDrCo-gPh2PERPCy6X",
+      "name": "Sae Tautu",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "SL",
+      "id": "-S.Tautu"
+    },
+    {
+      "guid": "MvUxYIEZeaCvgtAyBIO7X10RpxJe",
+      "name": "James Fisher",
+      "position": "LONG_SNAPPER",
+      "number": null,
+      "team": null,
+      "id": "-J.Fisher"
+    },
+    {
+      "guid": "MvVd__0wQb32WKW9akhViGpBJTUo",
+      "name": "Blake McClain",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-B.McClain"
+    },
+    {
+      "guid": "MvV08oA4ypJV0xkHsLgPdHzkJiVs",
+      "name": "Joe Kupcikevicius",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-J.Kupcikevicius"
+    },
+    {
+      "guid": "MvWCC_0A9lrK06OJ98_XlAJAalcc",
+      "name": "Marlon Smith",
+      "position": "DEFENSIVE_END",
+      "number": null,
+      "team": null,
+      "id": "-M.Smith"
+    },
+    {
+      "guid": "MvWci2BzKuGbiHfQ_GdyMZb3AtJo",
+      "name": "Daryl Richardson",
+      "position": "RUNNING_BACK",
+      "number": 26,
+      "team": "SA",
+      "id": "26-D.Richardson"
+    },
+    {
+      "guid": "MvZ6gLtpamosPsiiexXMnTl1DlPa",
+      "name": "Chris Briggs",
+      "position": "WIDE_RECEIVER",
+      "number": 13,
+      "team": "MEM",
+      "id": "13-C.Briggs"
+    },
+    {
+      "guid": "MvdQj0NQKoSmrIjc3Q2-3fqrLLc3",
+      "name": "Kendal Thompson",
+      "position": "WIDE_RECEIVER",
+      "number": 87,
+      "team": "SL",
+      "id": "87-K.Thompson"
+    },
+    {
+      "guid": "MveDgkrCwFekBEefWAmaFrl_bZTm",
+      "name": "Christian Bryant",
+      "position": "DEFENSIVE_BACK",
+      "number": 36,
+      "team": "BIR",
+      "id": "36-C.Bryant"
+    },
+    {
+      "guid": "Mve9tMKcGQqfouWD4QnTK0Wdei0_",
+      "name": "Donnie Baggs",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Baggs"
+    },
+    {
+      "guid": "MvhvLc8FUqjkHnbbzEsRsKhRnh5U",
+      "name": "Mike Henderman",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": null,
+      "id": "-M.Henderman"
+    },
+    {
+      "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
+      "name": "Cole Hunt",
+      "position": "TIGHT_END",
+      "number": 83,
+      "team": "SA",
+      "id": "83-C.Hunt"
+    },
+    {
+      "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
+      "name": "Laquvionte Gonzalez",
+      "position": "WIDE_RECEIVER",
+      "number": 10,
+      "team": "SD",
+      "id": "10-L.Gonzalez"
+    },
+    {
+      "guid": "MvlUoRRl8mewgzc1VbLhwAewpIaL",
+      "name": "Jomez Applewhite",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-J.Applewhite"
+    },
+    {
+      "guid": "MvmOLxRYf5EpHnnw3KboJ64aj5U8",
+      "name": "Quinton Patton",
+      "position": "WIDE_RECEIVER",
+      "number": 18,
+      "team": "BIR",
+      "id": "18-Q.Patton"
+    },
+    {
+      "guid": "MvmXJXKw6X1sDtKBXVWEmd2Z0-kA",
+      "name": "Shay Fields",
+      "position": "WIDE_RECEIVER",
+      "number": 16,
+      "team": null,
+      "id": "16-S.Fields"
+    },
+    {
+      "guid": "MvohObLeOM8mBfJe08B2gOUfrqU-",
+      "name": "Nias Martin",
+      "position": "DEFENSIVE_BACK",
+      "number": 29,
+      "team": "ARI",
+      "id": "29-N.Martin"
+    },
+    {
+      "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
+      "name": "Charles Johnson",
+      "position": "WIDE_RECEIVER",
+      "number": 19,
+      "team": "ORL",
+      "id": "19-C.Johnson"
+    },
+    {
+      "guid": "MvpdXplBXRHJXH82ap2juOYFUV79",
+      "name": "Shaq Jones",
+      "position": "LINEBACKER",
+      "number": 59,
+      "team": "BIR",
+      "id": "59-S.Jones"
+    },
+    {
+      "guid": "MvqJnkN5sh8Byg8HsPF622BBTKGd",
+      "name": "Bishop Sankey",
+      "position": "RUNNING_BACK",
+      "number": 20,
+      "team": null,
+      "id": "20-B.Sankey"
+    },
+    {
+      "guid": "MvrZMg9sRZP1_YPrNLAr097uiDTc",
+      "name": "Jacob Pugh III",
+      "position": "LINEBACKER",
+      "number": 50,
+      "team": "ORL",
+      "id": "50-J.Pugh III"
+    },
+    {
+      "guid": "Mvsg2mWhJ-0im4ndEAifco8Oej2x",
+      "name": "Kelvin Taylor",
+      "position": "RUNNING_BACK",
+      "number": null,
+      "team": null,
+      "id": "-K.Taylor"
+    },
+    {
+      "guid": "MvuS86JFpVdb5o1c4IIJ12Po-lJg",
+      "name": "Dallas Thomas",
+      "position": "OFFENSIVE_GUARD",
+      "number": 67,
+      "team": "MEM",
+      "id": "67-D.Thomas"
+    },
+    {
+      "guid": "MvvjScH-3vsslt5_WLNxjEcYd7wj",
+      "name": "Matt Linehan",
+      "position": "QUARTERBACK",
+      "number": 10,
+      "team": "SL",
+      "id": "10-M.Linehan"
+    },
+    {
+      "guid": "MvvwFkfaE3RUiwrcVRRaVBgqKdjS",
+      "name": "Terrell Bonds",
+      "position": "DEFENSIVE_BACK",
+      "number": 21,
+      "team": "MEM",
+      "id": "21-T.Bonds"
+    },
+    {
+      "guid": "MvxfUqivCypOCi48ZklhXmFC5gpo",
+      "name": "D.J. Calhoun",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": null,
+      "id": "-D.Calhoun"
+    },
+    {
+      "guid": "MvzVnXns4f_jCQC55z5MgpcEeHqx",
+      "name": "Marcus Oliver",
+      "position": "OFFENSIVE_GUARD",
+      "number": null,
+      "team": "ATL",
+      "id": "-M.Oliver"
+    },
+    {
+      "guid": "Mv0vbUG-zr6-gkhg8Jv1CKt17T49",
+      "name": "Alejandro Bennifield",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-A.Bennifield"
+    },
+    {
+      "guid": "Mv1x5oSVJFjxcBN5MwJ58Fp7WOcf",
+      "name": "Trey Williams",
+      "position": "RUNNING_BACK",
+      "number": 35,
+      "team": "SA",
+      "id": "35-T.Williams"
+    },
+    {
+      "guid": "Mv5aLcnX86bjZaa2ms87A1SdYdZd",
+      "name": "Terrence Magee",
+      "position": "RUNNING_BACK",
+      "number": 43,
+      "team": "MEM",
+      "id": "43-T.Magee"
+    },
+    {
+      "guid": "Mv6xVrq1ZU_wJqVBPPJ7PW3qMND0",
+      "name": "Stephen Roberts",
+      "position": "DEFENSIVE_BACK",
+      "number": 28,
+      "team": null,
+      "id": "28-S.Roberts"
+    },
+    {
+      "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
+      "name": "Kaelin Clay",
+      "position": "WIDE_RECEIVER",
+      "number": 11,
+      "team": "SL",
+      "id": "11-K.Clay"
+    },
+    {
+      "guid": "Mv7_vNVEri4kpf2Pd1PKjuTBm2Ny",
+      "name": "Tommy Jr. Armstrong",
+      "position": "QUARTERBACK",
+      "number": null,
+      "team": null,
+      "id": "-T.Armstrong"
+    },
+    {
+      "guid": "Mv86M35tY8u91RcdEhlzidezJwvP",
+      "name": "Antonio Guerad",
+      "position": "DEFENSIVE_TACKLE",
+      "number": 90,
+      "team": "ORL",
+      "id": "90-A.Guerad"
+    },
+    {
+      "guid": "Mv9JhuIlpcn-e-iNMS7lcsCcQPL4",
+      "name": "Prince Charles Iworah",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": "ATL",
+      "id": "-P.Iworah"
+    },
+    {
+      "guid": "Mv--P_-nJJ_fI6Fl0lEFWqnFP-VO",
+      "name": "Bryce Canady",
+      "position": "SAFETY",
+      "number": 28,
+      "team": "ORL",
+      "id": "28-B.Canady"
+    },
+    {
+      "guid": "Mv_LSqhHrYnaUcd1J0H7yOgS7Aav",
+      "name": "Nigel Harris",
+      "position": "LINEBACKER",
+      "number": null,
+      "team": "ORL",
+      "id": "-N.Harris"
+    },
+    {
+      "guid": "Mv_we9TpXpxoCmqhKNekBzVKM_gs",
+      "name": "Drico Johnson",
+      "position": "DEFENSIVE_BACK",
+      "number": null,
+      "team": null,
+      "id": "-D.Johnson"
+    }
+  ]
+}

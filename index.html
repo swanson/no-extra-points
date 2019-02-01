@@ -26,6 +26,7 @@ nav: boxscores
                 {{ stats["pass_complete"] }} / {{ stats["pass_attempts"] }}
                 {{ stats["pass_yards"] }} yds
                 {{ stats["pass_td"] }} TD
+                {{ stats["interceptions"] }} INT
               </div>
             {% endif %}
           {% endfor %}
@@ -39,6 +40,7 @@ nav: boxscores
                 {{ stats["rush_attempts"] }} carries
                 {{ stats["rush_yards"] }} yds
                 {{ stats["rush_td"] }} TD
+                {{ stats["fumbles"] }} fumbles
               </div>
             {% endif %}
           {% endfor %}
