@@ -1,0 +1,165 @@
+---
+layout: default
+title: Boxscores
+nav: boxscores
+---
+
+{% assign game = page %}
+{% assign prefixes = "away, home" | split: ", " %}
+
+<div class="card bg-blue-darker bg-topography">
+  <div class="week px-4 pb-2">{{ game["week"] }} &ndash; {{ game["time"] | date: "%B %d, %Y" }}</div>
+
+  <div class="flex-col w-full md:w-2/5 scoreboard text-white">
+    <div class="flex items-center justify-between pb-2">
+      <img src="{{ site.data.logos[game.away_abbr] }}" class="mini-logo" />
+      <h2 class="hidden sm:block">{{ game["away_team"] }}</h2>
+      <h2 class="block sm:hidden">{{ game["away_abbr"] }}</h2>
+      {% if game.away_score > game.home_score %}
+        <h3 class="winner-dark">{{ game.away_score }}</h3>
+      {% else %}
+        <h3>{{ game.away_score }}</h3>
+      {% endif %}
+    </div>
+    <div class="flex items-center justify-between">
+      <img src="{{ site.data.logos[game.home_abbr] }}" class="mini-logo" />
+      <h2 class="hidden sm:block">{{ game["home_team"] }}</h2>
+      <h2 class="block sm:hidden">{{ game["home_abbr"] }}</h2>
+      {% if game.home_score > game.away_score %}
+        <h3 class="winner-dark">{{ game.home_score }}</h3>
+      {% else %}
+        <h3>{{ game.home_score }}</h3>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="bg-white -mx-4 -mb-4 px-4 pb-8 pt-2 mt-0 border-t-4 border-blue-light">
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Passing</div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>C/ATT</th>
+                  <th>YDS</th>
+                  <th>AVG</th>
+                  <th>TD</th>
+                  <th>INT</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign passing_stats = game[key] | sort: "pass_yards" | reverse %}
+                {% for stats in passing_stats %}
+                  {% if stats["pass_attempts"] > 0 %}
+                  <tr>
+                    <td class="name">{{ stats["player"]["name"] }}</td>
+                    <td>{{ stats["pass_complete"] }}/{{ stats["pass_attempts"] }}</td>
+                    <td>{{ stats["pass_yards"] }}</td>
+                    <td>-</td>
+                    <td>{{ stats["pass_td"] }}</td>
+                    <td>{{ stats["interceptions"] }}</td>
+                  </tr>
+                  {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Rushing</div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>CAR</th>
+                  <th>YDS</th>
+                  <th>AVG</th>
+                  <th>TD</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign rushing_stats = game[key] | sort: "rush_yards" | reverse %}
+                {% for stats in rushing_stats %}
+                  {% if stats["rush_attempts"] > 0 %}
+                  <tr>
+                    <td class="name">{{ stats["player"]["name"] }}</td>
+                    <td>{{ stats["rush_attempts"] }}</td>
+                    <td>{{ stats["rush_yards"] }}</td>
+                    <td>-</td>
+                    <td>{{ stats["rush_td"] }}</td>
+                  </tr>
+                  {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="boxscore-row">
+        {% for prefix in prefixes %}
+          {% assign key = prefix | append: "_team" %}
+          {% assign color_key = prefix | append: "_abbr" %}
+          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+          <div class="flex-1 px-4">
+            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Receiving</div>
+            <div class="boxscore-table-wrapper">
+              <table class="boxscore-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>REC</th>
+                    <th>YDS</th>
+                    <th>AVG</th>
+                    <th>TD</th>
+                    <th>TGTS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% assign key = prefix | append: "_stats" %}
+                  {% assign receiving_stats = game[key] | sort: "receiving_yards" | reverse %}
+                  {% for stats in receiving_stats %}
+                    {% if stats["targets"] > 0 %}
+                    <tr>
+                      <td class="name">{{ stats["player"]["name"] }}</td>
+                      <td>{{ stats["catches"] }}</td>
+                      <td>{{ stats["receiving_yards"] }}</td>
+                      <td>-</td>
+                      <td>{{ stats["receiving_td"] }}</td>
+                      <td>{{ stats["targets"] }}</td>
+                    </tr>
+                    {% endif %}
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    document.title =
+      "{{ game.home_team }} vs {{ game.away_team }} - {{game.week}} | Boxscore | Advanced AAF Stats & Fantasy Analytics | NoExtraPoints";
+  });
+</script>

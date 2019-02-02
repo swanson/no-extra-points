@@ -8,6 +8,6 @@ module AAF
     end
   end
 
-  Schema = GraphQL::Client.load_schema(File.expand_path('./schema.json', File.dirname(__FILE__)))
+  Schema = GraphQL::Client.load_schema(HTTP)
   Client = GraphQL::Client.new(schema: Schema, execute: HTTP)
 end

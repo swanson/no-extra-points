@@ -1,9 +1,10 @@
 {
   "meta": {
-    "last_modified": "2019-01-31 22:01:21 -0500"
+    "last_modified": "2019-02-02 17:39:55 -0500"
   },
   "games": [
     {
+      "slug": "preseason-week-2-sa-atl",
       "home_team": "San Antonio Commanders",
       "home_abbr": "SA",
       "home_score": 37,
@@ -64,7 +65,7 @@
           "turnover": false
         },
         {
-          "description": "(13:57) (Shotgun) 10-D.Vaughan pass incomplete short left to 20-K.Farrow II.\nPenalty on ATL, Defensive Pass Interference, declined.",
+          "description": "(13:57) (Shotgun) 10-D.Vaughan pass incomplete short left to 20-K.Farrow, II.\nPenalty on ATL, Defensive Pass Interference, declined.",
           "down": 2,
           "distance": 15.0,
           "yard_line": 44.0,
@@ -99,7 +100,7 @@
           "completion": false
         },
         {
-          "description": "(13:50) 10-D.Vaughan pass incomplete short middle to 35-T.Williams (32-T.Graham, Jr) [63-T.Barnes].",
+          "description": "(13:50) 10-D.Vaughan pass incomplete short middle to 35-T.Williams (32-T.Graham, Jr.) [63-T.Barnes].",
           "down": 3,
           "distance": 15.0,
           "yard_line": 44.0,
@@ -280,7 +281,7 @@
           "completion": false
         },
         {
-          "description": "(11:46) 9-C.Nizialek punts 51 yards to SA 14, Center-44-J.Over-baugh. 35-T.Williams to SA 14 for no gain (33-D.Miles, Jr).\nPENALTY on SA-33-Z.Sanchez, Illegal Block Above the Waist, 10 yards, enforced at SA 17.",
+          "description": "(11:46) 9-C.Nizialek punts 51 yards to SA 14, Center-44-J.Overbaugh. 35-T.Williams to SA 14 for no gain (33-D.Miles, Jr.).\nPENALTY on SA-33-Z.Sanchez, Illegal Block Above the Waist, 10 yards, enforced at SA 17.",
           "down": 4,
           "distance": 4.0,
           "yard_line": 35.0,
@@ -295,7 +296,7 @@
           "turnover": false
         },
         {
-          "description": "(11:34) (Shotgun) 35-T.Williams right end to SA 13 for 6 yards (32-T.Graham, Jr).",
+          "description": "(11:34) (Shotgun) 35-T.Williams right end to SA 13 for 6 yards (32-T.Graham, Jr.).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 7.0,
@@ -756,7 +757,7 @@
           "completion": true
         },
         {
-          "description": "(4:06) 20-K.Farrow II left guard to SA 26 for 1 yard (92-J.Carr; 41-C.Griffin).\nPENALTY on SA-61-F.Lauina, Unnecessary Roughness, 13 yards, enforced at SA 26.",
+          "description": "(4:06) 20-K.Farrow, II left guard to SA 26 for 1 yard (92-J.Carr; 41-C.Griffin).\nPENALTY on SA-61-F.Lauina, Unnecessary Roughness, 13 yards, enforced at SA 26.",
           "down": 1,
           "distance": 10.0,
           "yard_line": 25.0,
@@ -782,7 +783,7 @@
           }
         },
         {
-          "description": "(3:40) (Shotgun) 20-K.Farrow II right tackle to SA 13 for no gain (58-B.Watts).",
+          "description": "(3:40) (Shotgun) 20-K.Farrow, II right tackle to SA 13 for no gain (58-B.Watts).",
           "down": 2,
           "distance": 22.0,
           "yard_line": 13.0,
@@ -808,7 +809,7 @@
           }
         },
         {
-          "description": "(2:57) 5-L.Woodside pass incomplete deep middle to 84-G.Ward, Jr (22-D.Hollis). ATL-41-C.Griffin was injured during the play. His return is Questionable.",
+          "description": "(2:57) 5-L.Woodside pass incomplete deep middle to 84-G.Ward, Jr. (22-D.Hollis). ATL-41-C.Griffin was injured during the play. His return is Questionable.",
           "down": 3,
           "distance": 22.0,
           "yard_line": 13.0,
@@ -832,13 +833,13 @@
             "short_name": "L. Woodside"
           },
           "receiver": {
-            "guid": "Mlpq7G5tvDKTAX3vCWpPrgBIbx3V",
-            "name": "Dwayne Hollis",
-            "position": "DEFENSIVE_BACK",
-            "number": 22,
-            "team": "ATL",
-            "id": "22-D.Hollis",
-            "short_name": "D. Hollis"
+            "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
+            "name": "Greg Ward, Jr.",
+            "position": "WIDE_RECEIVER",
+            "number": 84,
+            "team": "SA",
+            "id": "84-G.Ward, Jr.",
+            "short_name": "G. Ward, Jr."
           },
           "completion": false
         },
@@ -1050,7 +1051,7 @@
           }
         },
         {
-          "description": "(15:00) 9-C.Nizialek punts 53 yards to end zone, Center-44-J.Over-baugh, Touchback.",
+          "description": "(15:00) 9-C.Nizialek punts 53 yards to end zone, Center-44-J.Overbaugh, Touchback.",
           "down": 4,
           "distance": 5.0,
           "yard_line": 47.0,
@@ -1126,7 +1127,7 @@
           }
         },
         {
-          "description": "(14:11) 27-D.Cobb left guard to SA 38 for 9 yards (32-T.Graham, Jr).",
+          "description": "(14:11) 27-D.Cobb left guard to SA 38 for 9 yards (32-T.Graham, Jr.).",
           "down": 3,
           "distance": 1.0,
           "yard_line": 29.0,
@@ -1213,7 +1214,7 @@
           "completion": true
         },
         {
-          "description": "(12:04) (Shotgun) 5-L.Woodside pass short left to 84-G.Ward, Jr to SA 48 for 4 yards (31-E.Reynolds) [20-C.Merritt].",
+          "description": "(12:04) (Shotgun) 5-L.Woodside pass short left to 84-G.Ward, Jr. to SA 48 for 4 yards (31-E.Reynolds) [20-C.Merritt].",
           "down": 3,
           "distance": 4.0,
           "yard_line": 44.0,
@@ -1237,13 +1238,13 @@
             "short_name": "L. Woodside"
           },
           "receiver": {
-            "guid": "MqzSBPyv_6b5wvJ3To-TecP-N9uu",
-            "name": "Ed Jr. Reynolds",
-            "position": "DEFENSIVE_BACK",
-            "number": 31,
-            "team": "ATL",
-            "id": "31-E.Reynolds",
-            "short_name": "E. Reynolds"
+            "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
+            "name": "Greg Ward, Jr.",
+            "position": "WIDE_RECEIVER",
+            "number": 84,
+            "team": "SA",
+            "id": "84-G.Ward, Jr.",
+            "short_name": "G. Ward, Jr."
           },
           "completion": true
         },
@@ -1588,7 +1589,7 @@
           }
         },
         {
-          "description": "(6:24) [9] 29 yard field goal is GOOD, Center-49-S.Daly, Holder-6-J.Zema.",
+          "description": "(6:24) 9-N.Rose 29 yard field goal is GOOD, Center-49-S.Daly, Holder-6-J.Zema.",
           "down": 4,
           "distance": 4.0,
           "yard_line": 11.0,
@@ -1906,7 +1907,7 @@
           "completion": true
         },
         {
-          "description": "(2:32) (Shotgun) 12-M.Williams scrambles left end pushed ob at ATL 40 for 4 yards (33-D.Miles, Jr).",
+          "description": "(2:32) (Shotgun) 12-M.Williams scrambles left end pushed ob at ATL 40 for 4 yards (33-D.Miles, Jr.).",
           "down": 3,
           "distance": 4.0,
           "yard_line": 44.0,
@@ -2028,7 +2029,7 @@
           "completion": true
         },
         {
-          "description": "(1:36) 12-M.Williams pass short left to 22-A.Green to ATL 1 for 13 yards (32-T.Graham, Jr).",
+          "description": "(1:36) 12-M.Williams pass short left to 22-A.Green to ATL 1 for 13 yards (32-T.Graham, Jr.).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 14.0,
@@ -2063,7 +2064,7 @@
           "completion": true
         },
         {
-          "description": "(:57) (Shotgun) 22-A.Green right guard to ATL 1 for no gain (32-T.Graham, Jr).",
+          "description": "(:57) (Shotgun) 22-A.Green right guard to ATL 1 for no gain (32-T.Graham, Jr.).",
           "down": 1,
           "distance": 1.0,
           "yard_line": 1.0,
@@ -2089,7 +2090,7 @@
           }
         },
         {
-          "description": "(:27) (Shotgun) 27-D.Cobb left guard to ATL 1 for no gain (32-T.Graham, Jr).\nThe Replay Official reviewed the short of the goal line ruling, and the play was Upheld. The ruling on the field stands.",
+          "description": "(:27) (Shotgun) 27-D.Cobb left guard to ATL 1 for no gain (32-T.Graham, Jr.).\nThe Replay Official reviewed the short of the goal line ruling, and the play was Upheld. The ruling on the field stands.",
           "down": 2,
           "distance": 1.0,
           "yard_line": 1.0,
@@ -2303,7 +2304,7 @@
           "turnover": false
         },
         {
-          "description": "(12:59) 9-C.Nizialek punts 50 yards to SA 6, Center-44-J.Over-baugh. 35-T.Williams to SA 11 for 5 yards (49-D.Donahue).",
+          "description": "(12:59) 9-C.Nizialek punts 50 yards to SA 6, Center-44-J.Overbaugh. 35-T.Williams to SA 11 for 5 yards (49-D.Donahue).",
           "down": 4,
           "distance": 21.0,
           "yard_line": 44.0,
@@ -2388,7 +2389,7 @@
           "completion": false
         },
         {
-          "description": "(10:56) (Shotgun) 1-D.Sturm scrambles right end to SA 29 for 14 yards (55-V.Diggs; 39-M.Stephens).",
+          "description": "(10:56) (Shotgun) 1-D.Sturm scrambles right end to SA 29 for 14 yards (55-V.Diggs; 39-M.Stevens).",
           "down": 3,
           "distance": 6.0,
           "yard_line": 15.0,
@@ -2414,7 +2415,7 @@
           }
         },
         {
-          "description": "(10:12) (Shotgun) 1-D.Sturm pass incomplete deep right to 80-J.Stewart.\nPENALTY on ATL-39-M.Stephens, Defensive Pass Interference, 26 yards, enforced at SA 29 - No Play.",
+          "description": "(10:12) (Shotgun) 1-D.Sturm pass incomplete deep right to 80-J.Stewart.\nPENALTY on ATL-39-M.Stevens, Defensive Pass Interference, 26 yards, enforced at SA 29 - No Play.",
           "down": 1,
           "distance": 10.0,
           "yard_line": 29.0,
@@ -2449,7 +2450,7 @@
           "completion": false
         },
         {
-          "description": "(10:05) (Shotgun) 20-K.Farrow II right tackle to ATL 36 for 9 yards (41-C.Griffin; 39-M.Stephens).",
+          "description": "(10:05) (Shotgun) 20-K.Farrow, II right tackle to ATL 36 for 9 yards (41-C.Griffin; 39-M.Stevens).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 45.0,
@@ -2475,7 +2476,7 @@
           }
         },
         {
-          "description": "(9:24) (Shotgun) 20-K.Farrow II left tackle to ATL 31 for 5 yards (40-P.Davis, Jr).",
+          "description": "(9:24) (Shotgun) 20-K.Farrow, II left tackle to ATL 31 for 5 yards (40-P.Davis, Jr.).",
           "down": 2,
           "distance": 1.0,
           "yard_line": 36.0,
@@ -2536,7 +2537,7 @@
           "completion": true
         },
         {
-          "description": "(8:37) 20-K.Farrow II left guard to ATL 34 for 2 yards (42-Q.Mauger).",
+          "description": "(8:37) 20-K.Farrow, II left guard to ATL 34 for 2 yards (42-Q.Mauger).",
           "down": 1,
           "distance": 15.0,
           "yard_line": 36.0,
@@ -2562,7 +2563,7 @@
           }
         },
         {
-          "description": "(7:32) 1-D.Sturm pass short right to 88-E.Rodriguez to ATL 21 for 13 yards (40-P.Davis, Jr; 41-C.Griffin).\nPENALTY on SA-81-D.Prince, Illegal Block Above the Waist, 10 yards, enforced at ATL 24.",
+          "description": "(7:32) 1-D.Sturm pass short right to 88-E.Rodriguez to ATL 21 for 13 yards (40-P.Davis, Jr.; 41-C.Griffin).\nPENALTY on SA-81-D.Prince, Illegal Block Above the Waist, 10 yards, enforced at ATL 24.",
           "down": 2,
           "distance": 13.0,
           "yard_line": 34.0,
@@ -2647,7 +2648,7 @@
           "completion": false
         },
         {
-          "description": "(6:26) 1-D.Sturm pass short left to 20-K.Farrow II for 22 yards, TOUCHDOWN.",
+          "description": "(6:26) 1-D.Sturm pass short left to 20-K.Farrow, II for 22 yards, TOUCHDOWN.",
           "down": 1,
           "distance": 10.0,
           "yard_line": 22.0,
@@ -2769,7 +2770,7 @@
           }
         },
         {
-          "description": "(5:28) (Shotgun) 27-A.Wadley right tackle to ATL 43 for 5 yards (95-N.Thomas; 91-J.Sheehy).",
+          "description": "(5:28) (Shotgun) 27-A.Wadley right tackle to ATL 43 for 5 yards (95-N.Thurman; 91-J.Sheehy).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 38.0,
@@ -2993,7 +2994,7 @@
           "completion": false
         },
         {
-          "description": "(:37) 7-Y.Koo 29 yard field goal is GOOD, Center-44-J.Over-baugh, Holder-9-C.Nizialek.",
+          "description": "(:37) 7-Y.Koo 29 yard field goal is GOOD, Center-44-J.Overbaugh, Holder-9-C.Nizialek.",
           "down": 4,
           "distance": 11.0,
           "yard_line": 11.0,
@@ -3043,7 +3044,7 @@
           "completion": true
         },
         {
-          "description": "(15:00) (Shotgun) 35-T.Williams left tackle to SA 35 for 1 yard (43-M.Boezen).",
+          "description": "(15:00) (Shotgun) 35-T.Williams left tackle to SA 35 for 1 yard (43-M.Boesen).",
           "down": 2,
           "distance": 1.0,
           "yard_line": 34.0,
@@ -3095,7 +3096,7 @@
           }
         },
         {
-          "description": "(13:44) (Shotgun) 22-A.Green right end to SA 33 for -6 yards (40-P.Davis, Jr).",
+          "description": "(13:44) (Shotgun) 22-A.Green right end to SA 33 for -6 yards (40-P.Davis, Jr.).",
           "down": 2,
           "distance": 6.0,
           "yard_line": 39.0,
@@ -3358,7 +3359,7 @@
           }
         },
         {
-          "description": "TWO-POINT CONVERSION ATTEMPT. 20-K.Farrow II rushes right tackle. ATTEMPT SUCCEEDS. ATL-94-A.Simmons was injured during the play. His return is Questionable.",
+          "description": "TWO-POINT CONVERSION ATTEMPT. 20-K.Farrow, II rushes right tackle. ATTEMPT SUCCEEDS. ATL-94-A.Simmons was injured during the play. His return is Questionable.",
           "down": 0,
           "distance": 0.0,
           "yard_line": 2.0,
@@ -3454,7 +3455,7 @@
           "completion": true
         },
         {
-          "description": "(8:24) (Shotgun) 6-P.Pujals pass deep middle to 10-J.Clark to SA 43 for 23 yards (20-K.Farrow II; 21-D.Thomas).",
+          "description": "(8:24) (Shotgun) 6-P.Pujals pass deep middle to 10-J.Clark to SA 43 for 23 yards (20-K.Farrow, II; 21-D.Thomas).",
           "down": 3,
           "distance": 1.0,
           "yard_line": 34.0,
@@ -3554,7 +3555,7 @@
           "turnover": false
         },
         {
-          "description": "(6:17) 9-C.Nizialek punts 54 yards to SA 5, Center-44-J.Over-baugh. 16-S.Noil to ATL 42 for 53 yards (48-J.Luc).",
+          "description": "(6:17) 9-C.Nizialek punts 54 yards to SA 5, Center-44-J.Overbaugh. 16-S.Noil to ATL 42 for 53 yards (48-J.Luc).",
           "down": 4,
           "distance": 26.0,
           "yard_line": 41.0,
@@ -3604,7 +3605,7 @@
           "completion": true
         },
         {
-          "description": "(5:19) (Shotgun) 20-K.Farrow II right end to ATL 12 for -2 yards (37-T.Mathis).",
+          "description": "(5:19) (Shotgun) 20-K.Farrow, II right end to ATL 12 for -2 yards (37-T.Mathis).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 10.0,
@@ -3630,7 +3631,7 @@
           }
         },
         {
-          "description": "(4:38) (Shotgun) 20-K.Farrow II right guard to ATL 4 for 8 yards (22-D.Hollis).",
+          "description": "(4:38) (Shotgun) 20-K.Farrow, II right guard to ATL 4 for 8 yards (22-D.Hollis).",
           "down": 2,
           "distance": 12.0,
           "yard_line": 12.0,
@@ -4176,7 +4177,7 @@
           "completion": false
         },
         {
-          "description": "(:52) (Shotgun) 5-L.Woodside sacked at SA 36 for -11 yards (33-D.Miles, Jr).",
+          "description": "(:52) (Shotgun) 5-L.Woodside sacked at SA 36 for -11 yards (33-D.Miles, Jr.).",
           "down": 2,
           "distance": 10.0,
           "yard_line": 47.0,
@@ -4452,6 +4453,30 @@
           "targets": 1,
           "catches": 1,
           "receiving_yards": 9,
+          "receiving_td": 0,
+          "fumbles": 0,
+          "interceptions": 0
+        },
+        {
+          "player": {
+            "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
+            "name": "Greg Ward, Jr.",
+            "position": "WIDE_RECEIVER",
+            "number": 84,
+            "team": "SA",
+            "id": "84-G.Ward, Jr.",
+            "short_name": "G. Ward, Jr."
+          },
+          "pass_attempts": 0,
+          "pass_complete": 0,
+          "pass_yards": 0,
+          "pass_td": 0,
+          "rush_attempts": 0,
+          "rush_yards": 0,
+          "rush_td": 0,
+          "targets": 2,
+          "catches": 1,
+          "receiving_yards": 4,
           "receiving_td": 0,
           "fumbles": 0,
           "interceptions": 0
@@ -4868,30 +4893,6 @@
         },
         {
           "player": {
-            "guid": "Mlpq7G5tvDKTAX3vCWpPrgBIbx3V",
-            "name": "Dwayne Hollis",
-            "position": "DEFENSIVE_BACK",
-            "number": 22,
-            "team": "ATL",
-            "id": "22-D.Hollis",
-            "short_name": "D. Hollis"
-          },
-          "pass_attempts": 0,
-          "pass_complete": 0,
-          "pass_yards": 0,
-          "pass_td": 0,
-          "rush_attempts": 0,
-          "rush_yards": 0,
-          "rush_td": 0,
-          "targets": 1,
-          "catches": 0,
-          "receiving_yards": 0,
-          "receiving_td": 0,
-          "fumbles": 0,
-          "interceptions": 0
-        },
-        {
-          "player": {
             "guid": "MmuNa1g5wLa6Qj-ndC8Iav3eT1xT",
             "name": "Malachi Jones",
             "position": "WIDE_RECEIVER",
@@ -4934,30 +4935,6 @@
           "targets": 2,
           "catches": 2,
           "receiving_yards": 43,
-          "receiving_td": 0,
-          "fumbles": 0,
-          "interceptions": 0
-        },
-        {
-          "player": {
-            "guid": "MqzSBPyv_6b5wvJ3To-TecP-N9uu",
-            "name": "Ed Jr. Reynolds",
-            "position": "DEFENSIVE_BACK",
-            "number": 31,
-            "team": "ATL",
-            "id": "31-E.Reynolds",
-            "short_name": "E. Reynolds"
-          },
-          "pass_attempts": 0,
-          "pass_complete": 0,
-          "pass_yards": 0,
-          "pass_td": 0,
-          "rush_attempts": 0,
-          "rush_yards": 0,
-          "rush_td": 0,
-          "targets": 1,
-          "catches": 1,
-          "receiving_yards": 4,
           "receiving_td": 0,
           "fumbles": 0,
           "interceptions": 0
@@ -5133,6 +5110,7 @@
       ]
     },
     {
+      "slug": "preseason-week-2-bir-ari",
       "home_team": "Birmingham Iron",
       "home_abbr": "BIR",
       "home_score": 17,
@@ -6951,6 +6929,41 @@
             "id": "30-J.Stockton",
             "short_name": "J. Stockton"
           }
+        },
+        {
+          "description": "(6:02) 7-J.Wolford pass short left to 15-R.Ross to BIR 23 for 2 yards (30-A.Penton).\nPenalty on BIR-17-L.Outlaw, Offensive Pass Interference, offsetting, enforced at BIR 25 - No Play.\nPenalty on ARI-27-E.Dargan, Unsportsmanlike Conduct, offsetting.",
+          "down": 3,
+          "distance": 7.0,
+          "yard_line": 25.0,
+          "yard_side": "BIR",
+          "nullified": false,
+          "touchdown": false,
+          "conversion_attempt": false,
+          "conversion_success": false,
+          "yardage": 2,
+          "interception": false,
+          "lost_fumble": false,
+          "turnover": false,
+          "play_type": "Pass",
+          "passer": {
+            "guid": "MkPvvbYvaVNNPxdSnPAYxFKkEa0Y",
+            "name": "John Wolford",
+            "position": "QUARTERBACK",
+            "number": 7,
+            "team": "ARI",
+            "id": "7-J.Wolford",
+            "short_name": "J. Wolford"
+          },
+          "receiver": {
+            "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
+            "name": "Rashad Ross",
+            "position": "WIDE_RECEIVER",
+            "number": 15,
+            "team": "ARI",
+            "id": "15-R.Ross",
+            "short_name": "R. Ross"
+          },
+          "completion": true
         },
         {
           "description": "(5:19) (Shotgun) 7-J.Wolford pass to 15-R.Ross to BIR 19 for 6 yards.\nPENALTY on BIR, Unsportsmanlike Conduct, 9 yards, enforced at BIR 19.",
@@ -10210,9 +10223,9 @@
             "id": "7-J.Wolford",
             "short_name": "J. Wolford"
           },
-          "pass_attempts": 13,
-          "pass_complete": 9,
-          "pass_yards": 110,
+          "pass_attempts": 14,
+          "pass_complete": 10,
+          "pass_yards": 112,
           "pass_td": 1,
           "rush_attempts": 1,
           "rush_yards": 0,
@@ -10241,9 +10254,9 @@
           "rush_attempts": 0,
           "rush_yards": 0,
           "rush_td": 0,
-          "targets": 2,
-          "catches": 2,
-          "receiving_yards": 30,
+          "targets": 3,
+          "catches": 3,
+          "receiving_yards": 32,
           "receiving_td": 0,
           "fumbles": 0,
           "interceptions": 0
@@ -10539,6 +10552,7 @@
       ]
     },
     {
+      "slug": "preseason-week-1-sd-orl",
       "home_team": "San Diego Fleet",
       "home_abbr": "SD",
       "home_score": 28,
@@ -10619,7 +10633,7 @@
           "completion": true
         },
         {
-          "description": "(13:39) 20O-R.Green right tackle to ORL 49 for 5 yards (98-G.Robinson; 25-R.Moeller).",
+          "description": "(14:17) 20O-R.Green right tackle to ORL 49 for 5 yards (98-G.Robinson; 25-R.Moeller).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 44.0,
@@ -10932,13 +10946,13 @@
             "short_name": "G. Gilbert"
           },
           "receiver": {
-            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
-            "name": "Charles Johnson",
-            "position": "WIDE_RECEIVER",
-            "number": 19,
-            "team": "ORL",
-            "id": "19-C.Johnson",
-            "short_name": "C. Johnson"
+            "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
+            "name": "Ron Brooks",
+            "position": "DEFENSIVE_BACK",
+            "number": 33,
+            "team": "SD",
+            "id": "33-R.Brooks",
+            "short_name": "R. Brooks"
           },
           "completion": true
         },
@@ -10992,15 +11006,7 @@
             "id": "3-G.Gilbert",
             "short_name": "G. Gilbert"
           },
-          "receiver": {
-            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
-            "name": "Charles Johnson",
-            "position": "WIDE_RECEIVER",
-            "number": 19,
-            "team": "ORL",
-            "id": "19-C.Johnson",
-            "short_name": "C. Johnson"
-          },
+          "receiver": null,
           "completion": true
         },
         {
@@ -11065,7 +11071,7 @@
           "completion": true
         },
         {
-          "description": "(8:20) 11-M.Bercovici pass INTERCEPTED by 52-R.Northrup, II at SD 47. 52-R.Northrup, II for 47 yards, TOUCHDOWN.",
+          "description": "(8:20) 11-M.Bercovici pass INTERCEPTED by 52-R.Northrup, II at SD 47. 52-R.Northrup, II to SD 7 for 40 yards (11-M.Bercovici). FUMBLES (11-M.Bercovici), recovered by ORL-50-J.Pugh, III at SD 0. TOUCHDOWN.",
           "down": 1,
           "distance": 10.0,
           "yard_line": 48.0,
@@ -11074,7 +11080,7 @@
           "touchdown": true,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": 47,
+          "yardage": 40,
           "interception": true,
           "lost_fumble": false,
           "turnover": true,
@@ -11100,11 +11106,46 @@
           "completion": true
         },
         {
-          "description": "(7:59) 3-G.Gilbert pass short right to 83-S.Orndoff to ORL 32 for 7 yards (56-A.Sarao).",
+          "description": "TWO-POINT CONVERSION ATTEMPT. 3-G.Gilbert pass to 25-M.Herndon is complete. ATTEMPT FAILS.",
+          "down": 0,
+          "distance": 0.0,
+          "yard_line": 2.0,
+          "yard_side": "SD",
+          "nullified": false,
+          "touchdown": false,
+          "conversion_attempt": true,
+          "conversion_success": false,
+          "yardage": 0,
+          "interception": false,
+          "lost_fumble": false,
+          "turnover": false,
+          "play_type": "Pass",
+          "passer": {
+            "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
+            "name": "Garrett Gilbert",
+            "position": "QUARTERBACK",
+            "number": 3,
+            "team": "ORL",
+            "id": "3-G.Gilbert",
+            "short_name": "G. Gilbert"
+          },
+          "receiver": {
+            "guid": "Mg4AHqskdCcKzLq-LxVL4JwlkGWh",
+            "name": "Mark Herndon",
+            "position": "RUNNING_BACK",
+            "number": 25,
+            "team": "ORL",
+            "id": "25-M.Herndon",
+            "short_name": "M. Herndon"
+          },
+          "completion": true
+        },
+        {
+          "description": "(8:02) 11-M.Bercovici pass short right to 83-B.Brown ran ob at SD 32 for 7 yards (52-R.Northrup, II).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 25.0,
-          "yard_side": "ORL",
+          "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
           "conversion_attempt": false,
@@ -11115,31 +11156,31 @@
           "turnover": false,
           "play_type": "Pass",
           "passer": {
-            "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
-            "name": "Garrett Gilbert",
+            "guid": "Mlx6Z1X5i5Av-jLpFjMD0O5wHPBX",
+            "name": "Mike Bercovici",
             "position": "QUARTERBACK",
-            "number": 3,
-            "team": "ORL",
-            "id": "3-G.Gilbert",
-            "short_name": "G. Gilbert"
+            "number": 11,
+            "team": "SD",
+            "id": "11-M.Bercovici",
+            "short_name": "M. Bercovici"
           },
           "receiver": {
-            "guid": "Moi9AWTLwLF-WmHNRk8tzww8hRT8",
-            "name": "Scott Orndoff",
-            "position": "TIGHT_END",
+            "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
+            "name": "Brian Brown",
+            "position": "WIDE_RECEIVER",
             "number": 83,
-            "team": "ORL",
-            "id": "83-S.Orndoff",
-            "short_name": "S. Orndoff"
+            "team": "SD",
+            "id": "83-B.Brown",
+            "short_name": "B. Brown"
           },
           "completion": true
         },
         {
-          "description": "(7:21) 3-G.Gilbert pass incomplete short right to 81-B.Tyms.\nPENALTY on SD, Defensive Pass Interference, 14 yards, enforced at ORL 32 - No Play.",
+          "description": "(7:27) 11-M.Bercovici pass incomplete short right to 82-F.Owusu.\nPENALTY on ORL-37-L.Gunter, Defensive Pass Interference, 14 yards, enforced at SD 32 - No Play.",
           "down": 2,
           "distance": 3.0,
           "yard_line": 32.0,
-          "yard_side": "ORL",
+          "yard_side": "SD",
           "nullified": true,
           "touchdown": false,
           "conversion_attempt": false,
@@ -11150,73 +11191,81 @@
           "turnover": false,
           "play_type": "Pass",
           "passer": {
-            "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
-            "name": "Garrett Gilbert",
+            "guid": "Mlx6Z1X5i5Av-jLpFjMD0O5wHPBX",
+            "name": "Mike Bercovici",
             "position": "QUARTERBACK",
-            "number": 3,
-            "team": "ORL",
-            "id": "3-G.Gilbert",
-            "short_name": "G. Gilbert"
+            "number": 11,
+            "team": "SD",
+            "id": "11-M.Bercovici",
+            "short_name": "M. Bercovici"
           },
           "receiver": {
-            "guid": "MhfUsZoRzun-PJwfaZuaJS10nFTd",
-            "name": "Brian Tyms",
+            "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
+            "name": "Francis Owusu",
             "position": "WIDE_RECEIVER",
-            "number": 81,
-            "team": "ORL",
-            "id": "81-B.Tyms",
-            "short_name": "B. Tyms"
+            "number": 82,
+            "team": "SD",
+            "id": "82-F.Owusu",
+            "short_name": "F. Owusu"
           },
           "completion": false
         },
         {
-          "description": "(7:14) 3-G.Gilbert sacked at ORL 46 for 0 yards (59-A.Tarpley). FUMBLES (59-A.Tarpley) [59-A.Tarpley], and recovers at ORL 46. 3-G.Gilbert to ORL 43 for -3 yards.",
+          "description": "(7:21) 11-M.Bercovici pass short right intended for 82-F.Owusu INTERCEPTED by 92-J.Banks, Sr.  (59-E.Okine) [59-E.Okine] at SD 42. 92-J.Banks, Sr.  to SD 42 for no gain (74-C.Gonzalez).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 46.0,
-          "yard_side": "ORL",
+          "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
           "yardage": 0,
+          "interception": true,
+          "lost_fumble": false,
+          "turnover": true,
+          "play_type": "Pass",
+          "passer": {
+            "guid": "Mlx6Z1X5i5Av-jLpFjMD0O5wHPBX",
+            "name": "Mike Bercovici",
+            "position": "QUARTERBACK",
+            "number": 11,
+            "team": "SD",
+            "id": "11-M.Bercovici",
+            "short_name": "M. Bercovici"
+          },
+          "receiver": {
+            "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
+            "name": "Francis Owusu",
+            "position": "WIDE_RECEIVER",
+            "number": 82,
+            "team": "SD",
+            "id": "82-F.Owusu",
+            "short_name": "F. Owusu"
+          },
+          "completion": true
+        },
+        {
+          "description": "(7:13) 3-G.Gilbert sacked at SD 48 for -6 yards (91-M.Nash). FUMBLES (91-M.Nash) [91-M.Nash], recovered by ORL-71-R.Patrick at SD 45. 71-R.Patrick to SD 45 for no gain (97-M.Koloamatangi).",
+          "down": 1,
+          "distance": 10.0,
+          "yard_line": 42.0,
+          "yard_side": "SD",
+          "nullified": false,
+          "touchdown": false,
+          "conversion_attempt": false,
+          "conversion_success": false,
+          "yardage": -6,
           "interception": false,
           "lost_fumble": false,
           "turnover": false
         },
         {
-          "description": "(7:04) 3-G.Gilbert pass incomplete short left.",
+          "description": "(6:37) 3-G.Gilbert pass short left to 25-M.Herndon to SD 43 for 2 yards.\nPENALTY on ORL, Offensive Pass Interference, 10 yards, enforced at SD 45 - No Play.",
           "down": 2,
           "distance": 13.0,
-          "yard_line": 43.0,
-          "yard_side": "ORL",
-          "nullified": false,
-          "touchdown": false,
-          "conversion_attempt": false,
-          "conversion_success": false,
-          "yardage": 0,
-          "interception": false,
-          "lost_fumble": false,
-          "turnover": false,
-          "play_type": "Pass",
-          "passer": {
-            "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
-            "name": "Garrett Gilbert",
-            "position": "QUARTERBACK",
-            "number": 3,
-            "team": "ORL",
-            "id": "3-G.Gilbert",
-            "short_name": "G. Gilbert"
-          },
-          "receiver": null,
-          "completion": false
-        },
-        {
-          "description": "(6:37) 3-G.Gilbert pass short left to 25-M.Herndon to ORL 45 for 2 yards.\nPENALTY on SD, Offensive Pass Interference, 10 yards, enforced at ORL 43 - No Play.",
-          "down": 3,
-          "distance": 13.0,
-          "yard_line": 43.0,
-          "yard_side": "ORL",
+          "yard_line": 45.0,
+          "yard_side": "SD",
           "nullified": true,
           "touchdown": false,
           "conversion_attempt": false,
@@ -11247,35 +11296,24 @@
           "completion": true
         },
         {
-          "description": "(6:20) 22-D.Johnson right end to ORL 44 for -9 yards (59-A.Tarpley).",
-          "down": 1,
-          "distance": 10.0,
-          "yard_line": 47.0,
-          "yard_side": "SD",
+          "description": "(6:20) 25-M.Herndon up the middle to ORL 44 for -1 yards (59-A.Tarpley).",
+          "down": 2,
+          "distance": 23.0,
+          "yard_line": 45.0,
+          "yard_side": "ORL",
           "nullified": false,
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": -9,
+          "yardage": -1,
           "interception": false,
           "lost_fumble": false,
-          "turnover": false,
-          "play_type": "Rush",
-          "goal_line": false,
-          "rusher": {
-            "guid": "MgWqgIYh39TaLl2VCdS8tsfiVWxV",
-            "name": "D'Ernest Johnson",
-            "position": "RUNNING_BACK",
-            "number": 22,
-            "team": "ORL",
-            "id": "22-D.Johnson",
-            "short_name": "D. Johnson"
-          }
+          "turnover": false
         },
         {
           "description": "(5:47) (Shotgun) 3-G.Gilbert pass short left to 16-R.Hall to ORL 49 for 5 yards (99-A.Stelter; 34-D.Wright).",
-          "down": 2,
-          "distance": 19.0,
+          "down": 3,
+          "distance": 24.0,
           "yard_line": 44.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -11308,9 +11346,9 @@
           "completion": true
         },
         {
-          "description": "(5:14) 1-C.Murphy punts 24 yards to ORL 25, Center-53-J.Lotuleleli, out of bounds.",
-          "down": 3,
-          "distance": 14.0,
+          "description": "(5:14) 1-B.Turk punts -24 yards to ORL 25, Center-53-D.Ferris, out of bounds.",
+          "down": 4,
+          "distance": 19.0,
           "yard_line": 49.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -12029,13 +12067,13 @@
             "short_name": "S. Morris"
           },
           "receiver": {
-            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
-            "name": "Charles Johnson",
-            "position": "WIDE_RECEIVER",
-            "number": 19,
-            "team": "ORL",
-            "id": "19-C.Johnson",
-            "short_name": "C. Johnson"
+            "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
+            "name": "Ron Brooks",
+            "position": "DEFENSIVE_BACK",
+            "number": 33,
+            "team": "SD",
+            "id": "33-R.Brooks",
+            "short_name": "R. Brooks"
           },
           "completion": true
         },
@@ -12285,13 +12323,13 @@
             "short_name": "S. Morris"
           },
           "receiver": {
-            "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
-            "name": "Chris Thompson",
-            "position": "WIDE_RECEIVER",
-            "number": 84,
-            "team": "ORL",
-            "id": "84-C.Thompson",
-            "short_name": "C. Thompson"
+            "guid": "Mla9EIHK3SdVKYdSxqykQ4clFhly",
+            "name": "Damarius Travis",
+            "position": "STRONG_SAFETY",
+            "number": 37,
+            "team": "SD",
+            "id": "37-D.Travis",
+            "short_name": "D. Travis"
           },
           "completion": false
         },
@@ -12357,10 +12395,10 @@
           "completion": false
         },
         {
-          "description": "(7:11) 1-B.Turk punts 28 yards to SD 22, Center-53-D.Ferris. 10-L.Gonzalez to SD 36 for 14 yards (28-D.Smith).",
+          "description": "(7:11) 1-B.Turk punts 40 yards to SD 22, Center-53-D.Ferris. 10-L.Gonzalez to SD 36 for 14 yards (28-D.Smith).",
           "down": 4,
-          "distance": 14.0,
-          "yard_line": 50.0,
+          "distance": 26.0,
+          "yard_line": 38.0,
           "yard_side": "ORL",
           "nullified": false,
           "touchdown": false,
@@ -13508,7 +13546,7 @@
           "completion": false
         },
         {
-          "description": "(7:47) (Shotgun) 7-S.Morris pass incomplete short right to 28-D.Smith. Weather delay for one minute",
+          "description": "(7:47) (Shotgun) 7-S.Morris pass incomplete short right to 28-D.Smith.\nPENALTY on SD-42-E.Pinkins, Roughing the Passer, 7 yards, enforced at SD 13 - No Play. Weather delay for one minute",
           "down": 2,
           "distance": 10.0,
           "yard_line": 13.0,
@@ -13545,8 +13583,8 @@
         {
           "description": "(7:41) (Shotgun) 7-S.Morris pass incomplete short right to 81-B.Tyms.",
           "down": 1,
-          "distance": 7.0,
-          "yard_line": 7.0,
+          "distance": 6.0,
+          "yard_line": 6.0,
           "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
@@ -13580,8 +13618,8 @@
         {
           "description": "(7:38) (Shotgun) 7-S.Morris pass incomplete short left to 17-J.Marshall (34-D.Wright).",
           "down": 2,
-          "distance": 7.0,
-          "yard_line": 7.0,
+          "distance": 6.0,
+          "yard_line": 6.0,
           "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
@@ -13615,8 +13653,8 @@
         {
           "description": "(7:32) (Shotgun) 7-S.Morris pass incomplete short right to 11-D.Dye, Jr..",
           "down": 3,
-          "distance": 7.0,
-          "yard_line": 7.0,
+          "distance": 6.0,
+          "yard_line": 6.0,
           "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
@@ -13650,8 +13688,8 @@
         {
           "description": "(7:23) 2-E.Fry 25 yard field goal is GOOD, Center-53-D.Ferris, Holder-1-B.Turk.",
           "down": 4,
-          "distance": 7.0,
-          "yard_line": 7.0,
+          "distance": 6.0,
+          "yard_line": 6.0,
           "yard_side": "SD",
           "nullified": false,
           "touchdown": false,
@@ -14094,16 +14132,51 @@
           }
         },
         {
-          "description": "(14:15) 25-M.Herndon left end to ORL 20 for 7 yards.",
+          "description": "TWO-POINT CONVERSION ATTEMPT. 4-A.Ross pass to 10-L.Gonzalez is incomplete. ATTEMPT FAILS.",
+          "down": 0,
+          "distance": 0.0,
+          "yard_line": 2.0,
+          "yard_side": "ORL",
+          "nullified": false,
+          "touchdown": false,
+          "conversion_attempt": true,
+          "conversion_success": false,
+          "yardage": 0,
+          "interception": false,
+          "lost_fumble": false,
+          "turnover": false,
+          "play_type": "Pass",
+          "passer": {
+            "guid": "MmvHKLCRyZq-N-Gt2TxaMx3PtX1B",
+            "name": "Alex Ross",
+            "position": "QUARTERBACK",
+            "number": 4,
+            "team": "SD",
+            "id": "4-A.Ross",
+            "short_name": "A. Ross"
+          },
+          "receiver": {
+            "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
+            "name": "Laquvionte Gonzalez",
+            "position": "WIDE_RECEIVER",
+            "number": 10,
+            "team": "SD",
+            "id": "10-L.Gonzalez",
+            "short_name": "L. Gonzalez"
+          },
+          "completion": true
+        },
+        {
+          "description": "(14:56) 25-M.Herndon left end to ORL 21 for 9 yards.",
           "down": 1,
           "distance": 10.0,
-          "yard_line": 13.0,
+          "yard_line": 12.0,
           "yard_side": "ORL",
           "nullified": false,
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": 7,
+          "yardage": 9,
           "interception": false,
           "lost_fumble": false,
           "turnover": false,
@@ -14120,16 +14193,16 @@
           }
         },
         {
-          "description": "(14:20) 25-M.Herndon left guard to ORL 20 for no gain.",
-          "down": 1,
-          "distance": 10.0,
-          "yard_line": 20.0,
+          "description": "(14:20) 25-M.Herndon left guard to ORL 20 for -1 yards.",
+          "down": 2,
+          "distance": 1.0,
+          "yard_line": 21.0,
           "yard_side": "ORL",
           "nullified": false,
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": 0,
+          "yardage": -1,
           "interception": false,
           "lost_fumble": false,
           "turnover": false,
@@ -14147,8 +14220,8 @@
         },
         {
           "description": "(13:37) (Shotgun) 7-S.Morris pass short right to 16-R.Hall to ORL 25 for 5 yards (36-K.James).",
-          "down": 2,
-          "distance": 10.0,
+          "down": 3,
+          "distance": 2.0,
           "yard_line": 20.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -14182,8 +14255,8 @@
         },
         {
           "description": "(13:01) 7-S.Morris pass short right to 13-I.Hyman to ORL 33 for 8 yards (24-J.Williams).",
-          "down": 3,
-          "distance": 5.0,
+          "down": 1,
+          "distance": 10.0,
           "yard_line": 25.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -14217,8 +14290,8 @@
         },
         {
           "description": "(12:22) (Shotgun) 25-M.Herndon left guard to ORL 40 for 7 yards (26-G.Ducre).",
-          "down": 1,
-          "distance": 10.0,
+          "down": 2,
+          "distance": 2.0,
           "yard_line": 33.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -14243,8 +14316,8 @@
         },
         {
           "description": "(11:40) 7-S.Morris pass incomplete deep right to 13-I.Hyman.",
-          "down": 2,
-          "distance": 3.0,
+          "down": 1,
+          "distance": 10.0,
           "yard_line": 40.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -14278,8 +14351,8 @@
         },
         {
           "description": "(11:38) (Shotgun) 7-S.Morris pass short right to 16-R.Hall to 50 for 10 yards (58-F.Ginda; 26-G.Ducre).",
-          "down": 3,
-          "distance": 3.0,
+          "down": 2,
+          "distance": 10.0,
           "yard_line": 40.0,
           "yard_side": "ORL",
           "nullified": false,
@@ -14438,13 +14511,13 @@
             "short_name": "A. Appleby"
           },
           "receiver": {
-            "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
-            "name": "Chris Thompson",
-            "position": "WIDE_RECEIVER",
-            "number": 84,
-            "team": "ORL",
-            "id": "84-C.Thompson",
-            "short_name": "C. Thompson"
+            "guid": "Mso-Sk88_bEryhmiW_TmsarMRb5M",
+            "name": "Greg Ducre",
+            "position": "CORNERBACK",
+            "number": 26,
+            "team": "SD",
+            "id": "26-G.Ducre",
+            "short_name": "G. Ducre"
           },
           "completion": false
         },
@@ -15369,9 +15442,9 @@
           "rush_attempts": 0,
           "rush_yards": 0,
           "rush_td": 0,
-          "targets": 2,
-          "catches": 1,
-          "receiving_yards": 6,
+          "targets": 3,
+          "catches": 2,
+          "receiving_yards": 13,
           "receiving_td": 1,
           "fumbles": 0,
           "interceptions": 0
@@ -15450,6 +15523,30 @@
         },
         {
           "player": {
+            "guid": "Mla9EIHK3SdVKYdSxqykQ4clFhly",
+            "name": "Damarius Travis",
+            "position": "STRONG_SAFETY",
+            "number": 37,
+            "team": "SD",
+            "id": "37-D.Travis",
+            "short_name": "D. Travis"
+          },
+          "pass_attempts": 0,
+          "pass_complete": 0,
+          "pass_yards": 0,
+          "pass_td": 0,
+          "rush_attempts": 0,
+          "rush_yards": 0,
+          "rush_td": 0,
+          "targets": 1,
+          "catches": 0,
+          "receiving_yards": 0,
+          "receiving_td": 0,
+          "fumbles": 0,
+          "interceptions": 0
+        },
+        {
+          "player": {
             "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
             "name": "Francis Owusu",
             "position": "WIDE_RECEIVER",
@@ -15465,8 +15562,8 @@
           "rush_attempts": 0,
           "rush_yards": 0,
           "rush_td": 0,
-          "targets": 3,
-          "catches": 2,
+          "targets": 4,
+          "catches": 3,
           "receiving_yards": 42,
           "receiving_td": 1,
           "fumbles": 0,
@@ -15482,9 +15579,9 @@
             "id": "11-M.Bercovici",
             "short_name": "M. Bercovici"
           },
-          "pass_attempts": 29,
-          "pass_complete": 20,
-          "pass_yards": 208,
+          "pass_attempts": 31,
+          "pass_complete": 22,
+          "pass_yards": 215,
           "pass_td": 1,
           "rush_attempts": 0,
           "rush_yards": 0,
@@ -15494,7 +15591,7 @@
           "receiving_yards": 13,
           "receiving_td": 0,
           "fumbles": 0,
-          "interceptions": 2
+          "interceptions": 3
         },
         {
           "player": {
@@ -15530,8 +15627,8 @@
             "id": "4-A.Ross",
             "short_name": "A. Ross"
           },
-          "pass_attempts": 16,
-          "pass_complete": 13,
+          "pass_attempts": 17,
+          "pass_complete": 14,
           "pass_yards": 131,
           "pass_td": 2,
           "rush_attempts": 0,
@@ -15666,6 +15763,30 @@
         },
         {
           "player": {
+            "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
+            "name": "Ron Brooks",
+            "position": "DEFENSIVE_BACK",
+            "number": 33,
+            "team": "SD",
+            "id": "33-R.Brooks",
+            "short_name": "R. Brooks"
+          },
+          "pass_attempts": 0,
+          "pass_complete": 0,
+          "pass_yards": 0,
+          "pass_td": 0,
+          "rush_attempts": 0,
+          "rush_yards": 0,
+          "rush_td": 0,
+          "targets": 2,
+          "catches": 2,
+          "receiving_yards": 15,
+          "receiving_td": 0,
+          "fumbles": 0,
+          "interceptions": 0
+        },
+        {
+          "player": {
             "guid": "Mqs-U1gQrf9_eTiz3LS8GR68hjsZ",
             "name": "Ja'Quan Gardner",
             "position": "RUNNING_BACK",
@@ -15729,8 +15850,8 @@
           "rush_attempts": 1,
           "rush_yards": -3,
           "rush_td": 0,
-          "targets": 4,
-          "catches": 2,
+          "targets": 5,
+          "catches": 3,
           "receiving_yards": 30,
           "receiving_td": 0,
           "fumbles": 0,
@@ -15752,8 +15873,8 @@
           "pass_complete": 0,
           "pass_yards": 0,
           "pass_td": 0,
-          "rush_attempts": 6,
-          "rush_yards": 6,
+          "rush_attempts": 5,
+          "rush_yards": 15,
           "rush_td": 0,
           "targets": 1,
           "catches": 1,
@@ -15777,10 +15898,10 @@
           "pass_yards": 0,
           "pass_td": 0,
           "rush_attempts": 7,
-          "rush_yards": 28,
+          "rush_yards": 29,
           "rush_td": 0,
-          "targets": 0,
-          "catches": 0,
+          "targets": 1,
+          "catches": 1,
           "receiving_yards": 0,
           "receiving_td": 0,
           "fumbles": 0,
@@ -15908,30 +16029,6 @@
         },
         {
           "player": {
-            "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
-            "name": "Chris Thompson",
-            "position": "WIDE_RECEIVER",
-            "number": 84,
-            "team": "ORL",
-            "id": "84-C.Thompson",
-            "short_name": "C. Thompson"
-          },
-          "pass_attempts": 0,
-          "pass_complete": 0,
-          "pass_yards": 0,
-          "pass_td": 0,
-          "rush_attempts": 0,
-          "rush_yards": 0,
-          "rush_td": 0,
-          "targets": 1,
-          "catches": 0,
-          "receiving_yards": 0,
-          "receiving_td": 0,
-          "fumbles": 0,
-          "interceptions": 0
-        },
-        {
-          "player": {
             "guid": "MmdTzyAXr_06YKM9MvkpiX6Pysbd",
             "name": "Jalin Marshall",
             "position": "WIDE_RECEIVER",
@@ -16019,9 +16116,9 @@
           "rush_attempts": 0,
           "rush_yards": 0,
           "rush_td": 0,
-          "targets": 3,
-          "catches": 2,
-          "receiving_yards": 7,
+          "targets": 2,
+          "catches": 1,
+          "receiving_yards": 0,
           "receiving_td": 0,
           "fumbles": 0,
           "interceptions": 0
@@ -16036,9 +16133,9 @@
             "id": "3-G.Gilbert",
             "short_name": "G. Gilbert"
           },
-          "pass_attempts": 10,
+          "pass_attempts": 9,
           "pass_complete": 6,
-          "pass_yards": 63,
+          "pass_yards": 56,
           "pass_td": 1,
           "rush_attempts": 0,
           "rush_yards": 0,
@@ -16169,34 +16266,11 @@
           "receiving_td": 0,
           "fumbles": 0,
           "interceptions": 0
-        },
-        {
-          "player": {
-            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
-            "name": "Charles Johnson",
-            "position": "WIDE_RECEIVER",
-            "number": 19,
-            "team": "ORL",
-            "id": "19-C.Johnson",
-            "short_name": "C. Johnson"
-          },
-          "pass_attempts": 0,
-          "pass_complete": 0,
-          "pass_yards": 0,
-          "pass_td": 0,
-          "rush_attempts": 0,
-          "rush_yards": 0,
-          "rush_td": 0,
-          "targets": 3,
-          "catches": 3,
-          "receiving_yards": 21,
-          "receiving_td": 1,
-          "fumbles": 0,
-          "interceptions": 0
         }
       ]
     },
     {
+      "slug": "preseason-week-1-sl-mem",
       "home_team": "Salt Lake Stallions",
       "home_abbr": "SL",
       "home_score": 29,
@@ -17665,7 +17739,7 @@
           "completion": true
         },
         {
-          "description": "(11:07) (Shotgun) 2-B.Daniels pass incomplete short right [91-J.Winston Sr.].",
+          "description": "(11:07) (Shotgun) 2-B.Daniels pass incomplete short right [91-J.Winston, Sr.].",
           "down": 3,
           "distance": 16.0,
           "yard_line": 26.0,
@@ -18693,7 +18767,7 @@
           "completion": false
         },
         {
-          "description": "(1:10) 36-J.Bouagnon right guard to MEM 16 for 11 yards (60-D.Bouldin, 91-J.Winston Sr.).",
+          "description": "(1:10) 36-J.Bouagnon right guard to MEM 16 for 11 yards (60-D.Bouldin, 91-J.Winston, Sr.).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 27.0,
@@ -18845,7 +18919,7 @@
           "completion": false
         },
         {
-          "description": "(14:16) 36-J.Bouagnon left tackle to MEM 30 for no gain (91-J.Winston Sr.; 99-J.Maxey).",
+          "description": "(14:16) 36-J.Bouagnon left tackle to MEM 30 for no gain (91-J.Winston, Sr.; 99-J.Maxey).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 30.0,
@@ -19996,7 +20070,7 @@
           "completion": true
         },
         {
-          "description": "(11:37) 34-T.Newby right guard to MEM 13 for -3 yards (91-J.Winston Sr.).",
+          "description": "(11:37) 34-T.Newby right guard to MEM 13 for -3 yards (91-J.Winston, Sr.).",
           "down": 1,
           "distance": 10.0,
           "yard_line": 10.0,
@@ -20057,7 +20131,7 @@
           "completion": true
         },
         {
-          "description": "(10:24) (Shotgun) 8-A.Allen scrambles right end pushed ob at MEM 3 for 7 yards (91-J.Winston Sr.).",
+          "description": "(10:24) (Shotgun) 8-A.Allen scrambles right end pushed ob at MEM 3 for 7 yards (91-J.Winston, Sr.).",
           "down": 3,
           "distance": 10.0,
           "yard_line": 10.0,

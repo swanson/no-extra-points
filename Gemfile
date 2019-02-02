@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # Site
 gem "jekyll"
+gem "jekyll-postcss"
+gem "jekyll-purgecss"
 
 # Generators
 gem "pry"

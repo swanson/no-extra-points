@@ -92,6 +92,11 @@ end
 
 result = AAF::Client.query(ALL_GAMES)
 
+def generate_slug(game)
+  raw = "#{game.named_time_range.name}-#{game.home_team.abbreviation}-#{game.away_team.abbreviation}"
+  raw.downcase.gsub(/\s/, '-')
+end
+
 def add_game(games, node)
   home = node.home_team.name
   away = node.away_team.name
@@ -99,6 +104,7 @@ def add_game(games, node)
   away_score = node.status.away_team_points
 
   game = {
+    slug: generate_slug(node),
     home_team: node.home_team.name,
     home_abbr: node.home_team.abbreviation,
     home_score: node.status.home_team_points,
