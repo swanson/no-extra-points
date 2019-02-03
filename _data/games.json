@@ -1,10 +1,11 @@
 {
   "meta": {
-    "last_modified": "2019-02-02 17:39:55 -0500"
+    "last_modified": "2019-02-02 18:58:55 -0500"
   },
   "games": [
     {
       "slug": "preseason-week-2-sa-atl",
+      "title": "San Antonio Commanders vs Atlanta Legends - Preseason Week 2",
       "home_team": "San Antonio Commanders",
       "home_abbr": "SA",
       "home_score": 37,
@@ -5111,6 +5112,7 @@
     },
     {
       "slug": "preseason-week-2-bir-ari",
+      "title": "Birmingham Iron vs Arizona Hotshots - Preseason Week 2",
       "home_team": "Birmingham Iron",
       "home_abbr": "BIR",
       "home_score": 17,
@@ -10553,6 +10555,7 @@
     },
     {
       "slug": "preseason-week-1-sd-orl",
+      "title": "San Diego Fleet vs Orlando Apollos - Preseason Week 1",
       "home_team": "San Diego Fleet",
       "home_abbr": "SD",
       "home_score": 28,
@@ -16271,6 +16274,7 @@
     },
     {
       "slug": "preseason-week-1-sl-mem",
+      "title": "Salt Lake Stallions vs Memphis Express - Preseason Week 1",
       "home_team": "Salt Lake Stallions",
       "home_abbr": "SL",
       "home_score": 29,

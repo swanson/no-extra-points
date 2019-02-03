@@ -97,6 +97,10 @@ def generate_slug(game)
   raw.downcase.gsub(/\s/, '-')
 end
 
+def generate_title(game)
+  "#{game.home_team.name} vs #{game.away_team.name} - #{game.named_time_range.name}"
+end
+
 def add_game(games, node)
   home = node.home_team.name
   away = node.away_team.name
@@ -105,6 +109,7 @@ def add_game(games, node)
 
   game = {
     slug: generate_slug(node),
+    title: generate_title(node),
     home_team: node.home_team.name,
     home_abbr: node.home_team.abbreviation,
     home_score: node.status.home_team_points,

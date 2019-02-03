@@ -30,7 +30,8 @@ module Jekyll
     # - `name` is the key in `data` which determines the output filename
     # - `template` is the name of the template for generating the page
     # - `extension` is the extension for the generated file
-    def initialize(site, base, index_files, dir, data, name, template, extension)
+    # - `page_title` is the key in `data` which determines the output title
+    def initialize(site, base, index_files, dir, data, name, template, extension, page_title)
       @site = site
       @base = base
 
@@ -45,7 +46,7 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
-      self.data['title'] = data[name]
+      self.data['title'] = data[page_title]
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)
       self.data.merge!(data)
@@ -75,6 +76,7 @@ module Jekyll
           name = data_spec['name']
           dir = data_spec['dir'] || data_spec['data']
           extension = data_spec['extension'] || "html"
+          page_title = data_spec['page_title'] || name
 
           if site.layouts.key? template
             # records is the list of records defined in _data.yml
@@ -95,7 +97,7 @@ module Jekyll
             records = records.select { |record| eval(data_spec['filter_condition']) } if data_spec['filter_condition']
 
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files_for_this_data, dir, record, name, template, extension)
+              site.pages << DataPage.new(site, site.source, index_files_for_this_data, dir, record, name, template, extension, page_title)
             end
           else
             puts "error. could not find template #{template}" if not site.layouts.key? template

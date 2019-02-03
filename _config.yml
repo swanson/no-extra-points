@@ -3,6 +3,7 @@ page_gen:
     data: games.games
     template: boxscores
     name: slug
+    page_title: title
     dir: boxscores
 exclude:
   - Gemfile
