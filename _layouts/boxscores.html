@@ -163,11 +163,18 @@ nav: boxscores
         {% endfor %}
       </div>
 
-      <h3>Full Play-by-Play</h3>
-      <ul class="list-reset mt-4">
-        {% for play in game.plays %}
-          <li class="p-2 text-white bg-{{play.possession}}">{{ play.possession}} | Q{{ play.quarter }} | {{ play.description }}</li>
-        {% endfor %}
-      </ul>
+      <div class="px-4">
+        <h3>Full Play-by-Play</h3>
+        <ul class="list-reset mt-4">
+          {% for play in game.plays %}
+            <li class="flex p-2 items-center">
+              <span class="w-12 p-2 rounded text-center text-white bg-{{play.possession}}">{{ play.possession}}</span>
+              <p class="flex-1 inline-block word-wrap ml-4">
+                Q{{ play.quarter }} | {{ play.description }}
+              </p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
   </div>
 </div>
