@@ -168,7 +168,7 @@ nav: boxscores
         <ul class="list-reset mt-4">
           {% for play in game.plays %}
             <li class="flex p-2 items-center">
-              <span class="w-12 p-2 rounded text-center text-white bg-{{play.possession}}">{{ play.possession}}</span>
+              <span class="w-12 p-2 rounded text-center text-white bg-{{play.possession}}-secondary">{{ play.possession}}</span>
               <p class="flex-1 inline-block word-wrap ml-4">
                 Q{{ play.quarter }} | {{ play.description }}
               </p>
