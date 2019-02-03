@@ -5,6 +5,7 @@ page_gen:
     name: slug
     page_title: title
     dir: boxscores
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -25,3 +26,12 @@ exclude:
 plugins:
   - jekyll-postcss
   - jekyll-purgecss
+  - jekyll-seo-tag
+
+title: NoExtraPoints
+description: Advanced Aliance of American Football (AAF) Stats and Fantasy Analytics. Tools, Projections, and Analytics for Daily Fantasy Sports (DFS)
+url: https://noextrapoints.com
+logo: https://noextrapoints.com/favicon.png
+twitter:
+  username: NoExtraPoints
+  card: summary
