@@ -5,6 +5,7 @@ gem "jekyll"
 gem "jekyll-postcss"
 gem "jekyll-purgecss"
 gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
 
 # Generators
 gem "pry"

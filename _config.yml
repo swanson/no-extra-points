@@ -27,6 +27,7 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 title: NoExtraPoints
 description: Advanced Aliance of American Football (AAF) Stats and Fantasy Analytics. Tools, Projections, and Analytics for Daily Fantasy Sports (DFS)
