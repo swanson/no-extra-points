@@ -8,13 +8,13 @@ nav: boxscores
 {% assign prefixes = "away, home" | split: ", " %}
 
 <div class="card bg-blue-darker bg-topography">
-  <div class="week px-4 pb-2">{{ game["week"] }} &ndash; {{ game["time"] | date: "%B %d, %Y" }}</div>
+  <div class="week px-4 pb-2">{{ game.week }} &ndash; {{ game.time | date: "%B %d, %Y" }}</div>
 
   <div class="flex-col w-full md:w-2/5 scoreboard text-white">
     <div class="flex items-center justify-between pb-2">
       <img src="{{ site.data.logos[game.away_abbr] }}" class="mini-logo" />
-      <h2 class="hidden sm:block">{{ game["away_team"] }}</h2>
-      <h2 class="block sm:hidden">{{ game["away_abbr"] }}</h2>
+      <h2 class="hidden sm:block">{{ game.away_team }}</h2>
+      <h2 class="block sm:hidden">{{ game.away_abbr }}</h2>
       {% if game.away_score > game.home_score %}
         <h3 class="winner-dark">{{ game.away_score }}</h3>
       {% else %}
@@ -23,8 +23,8 @@ nav: boxscores
     </div>
     <div class="flex items-center justify-between">
       <img src="{{ site.data.logos[game.home_abbr] }}" class="mini-logo" />
-      <h2 class="hidden sm:block">{{ game["home_team"] }}</h2>
-      <h2 class="block sm:hidden">{{ game["home_abbr"] }}</h2>
+      <h2 class="hidden sm:block">{{ game.home_team }}</h2>
+      <h2 class="block sm:hidden">{{ game.home_abbr }}</h2>
       {% if game.home_score > game.away_score %}
         <h3 class="winner-dark">{{ game.home_score }}</h3>
       {% else %}
@@ -48,23 +48,25 @@ nav: boxscores
                   <th></th>
                   <th>C/ATT</th>
                   <th>YDS</th>
-                  <th>AVG</th>
+                  <th>YPA</th>
                   <th>TD</th>
                   <th>INT</th>
+                  <th>2PT</th>
                 </tr>
               </thead>
               <tbody>
                 {% assign key = prefix | append: "_stats" %}
                 {% assign passing_stats = game[key] | sort: "pass_yards" | reverse %}
                 {% for stats in passing_stats %}
-                  {% if stats["pass_attempts"] > 0 %}
+                  {% if stats.pass_attempts > 0 %}
                   <tr>
-                    <td class="name">{{ stats["player"]["name"] }}</td>
-                    <td>{{ stats["pass_complete"] }}/{{ stats["pass_attempts"] }}</td>
-                    <td>{{ stats["pass_yards"] }}</td>
-                    <td>-</td>
-                    <td>{{ stats["pass_td"] }}</td>
-                    <td>{{ stats["interceptions"] }}</td>
+                    <td class="name">{{ stats.player.name }}</td>
+                    <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
+                    <td>{{ stats.pass_yards }}</td>
+                    <td>{{ stats.pass_ypa }}</td>
+                    <td>{{ stats.pass_td }}</td>
+                    <td>{{ stats.interceptions }}</td>
+                    <td>{{ stats.pass_2pt }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -89,21 +91,25 @@ nav: boxscores
                   <th></th>
                   <th>CAR</th>
                   <th>YDS</th>
-                  <th>AVG</th>
+                  <th>YPC</th>
+                  <th>LNG</th>
                   <th>TD</th>
+                  <th>2PT</th>
                 </tr>
               </thead>
               <tbody>
                 {% assign key = prefix | append: "_stats" %}
                 {% assign rushing_stats = game[key] | sort: "rush_yards" | reverse %}
                 {% for stats in rushing_stats %}
-                  {% if stats["rush_attempts"] > 0 %}
+                  {% if stats.rush_attempts > 0 %}
                   <tr>
-                    <td class="name">{{ stats["player"]["name"] }}</td>
-                    <td>{{ stats["rush_attempts"] }}</td>
-                    <td>{{ stats["rush_yards"] }}</td>
-                    <td>-</td>
-                    <td>{{ stats["rush_td"] }}</td>
+                    <td class="name">{{ stats.player.name }}</td>
+                    <td>{{ stats.rush_attempts }}</td>
+                    <td>{{ stats.rush_yards }}</td>
+                    <td>{{ stats.rush_ypc }}</td>
+                    <td>{{ stats.rush_long }}</td>
+                    <td>{{ stats.rush_td }}</td>
+                    <td>{{ stats.rush_2pt }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -127,24 +133,26 @@ nav: boxscores
                   <tr>
                     <th></th>
                     <th>REC</th>
-                    <th>YDS</th>
-                    <th>AVG</th>
-                    <th>TD</th>
                     <th>TGTS</th>
+                    <th>YDS</th>
+                    <th>LNG</th>
+                    <th>TD</th>
+                    <th>2PT</th>
                   </tr>
                 </thead>
                 <tbody>
                   {% assign key = prefix | append: "_stats" %}
                   {% assign receiving_stats = game[key] | sort: "receiving_yards" | reverse %}
                   {% for stats in receiving_stats %}
-                    {% if stats["targets"] > 0 %}
+                    {% if stats.targets > 0 %}
                     <tr>
-                      <td class="name">{{ stats["player"]["name"] }}</td>
-                      <td>{{ stats["catches"] }}</td>
-                      <td>{{ stats["receiving_yards"] }}</td>
-                      <td>-</td>
-                      <td>{{ stats["receiving_td"] }}</td>
-                      <td>{{ stats["targets"] }}</td>
+                      <td class="name">{{ stats.player.name }}</td>
+                      <td>{{ stats.catches }}</td>
+                      <td>{{ stats.targets }}</td>
+                      <td>{{ stats.receiving_yards }}</td>
+                      <td>{{ stats.receiving_long }}</td>
+                      <td>{{ stats.receiving_td }}</td>
+                      <td>{{ stats.receiving_2pt }}</td>
                     </tr>
                     {% endif %}
                   {% endfor %}
@@ -154,5 +162,12 @@ nav: boxscores
           </div>
         {% endfor %}
       </div>
+
+      <h3>Full Play-by-Play</h3>
+      <ul class="list-reset mt-4">
+        {% for play in game.plays %}
+          <li class="p-2 text-white bg-{{play.possession}}">{{ play.possession}} | Q{{ play.quarter }} | {{ play.description }}</li>
+        {% endfor %}
+      </ul>
   </div>
 </div>

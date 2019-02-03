@@ -36,6 +36,48 @@ body {
   @apply bg-white rounded-lg shadow-lg p-4 overflow-hidden;
 }
 
+.card-header {
+  @apply -mx-4 -mt-4 p-4;
+}
+
+.jersey {
+  @apply border-4 rounded h-10 w-10 inline-block text-center my-2 font-black font-mono;
+
+  line-height: 2.1rem;
+}
+
+.jersey-ARI {
+  @apply bg-ARI-secondary border-ARI-accent text-ARI;
+}
+
+.jersey-ATL {
+  @apply bg-ATL border-ATL-secondary text-ATL-secondary;
+}
+
+.jersey-MEM {
+  @apply bg-MEM-secondary border-MEM text-MEM-accent;
+}
+
+.jersey-BIR {
+  @apply bg-BIR border-BIR-secondary text-BIR-accent;
+}
+
+.jersey-ORL {
+  @apply bg-ORL-accent border-ORL-secondary text-ORL;
+}
+
+.jersey-SL {
+  @apply bg-SL-accent border-SL-secondary text-SL;
+}
+
+.jersey-SA {
+  @apply bg-SA border-SA-secondary text-white;
+}
+
+.jersey-SD {
+  @apply bg-SD border-SD-secondary text-white;
+}
+
 .btn {
   @apply cursor-pointer no-underline rounded-full border border-blue text-blue px-4 py-2;
 }

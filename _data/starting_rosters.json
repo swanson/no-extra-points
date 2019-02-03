@@ -1,0 +1,1537 @@
+{
+  "meta": {
+    "last_modified": "2019-02-02 22:34:44 -0500"
+  },
+  "rosters": [
+    {
+      "team_id": "DKY1420EnDNa1FwBlyC8sAV_1ft6",
+      "team_name": "Arizona Hotshots",
+      "team_abbr": "ARI",
+      "players": [
+        {
+          "guid": "Mq_R498PrH4WBG5Q138b6sQggVKp",
+          "name": "Jack Heneghan",
+          "position": "QB",
+          "number": 11,
+          "team": "ARI",
+          "short_name": "J. Heneghan",
+          "last_name": "Heneghan",
+          "first_name": "Jack",
+          "starting": false
+        },
+        {
+          "guid": "MvM6zxqfCqHooC6YhCoxuaHlBAMU",
+          "name": "Trevor Knight",
+          "position": "QB",
+          "number": 10,
+          "team": "ARI",
+          "short_name": "T. Knight",
+          "last_name": "Knight",
+          "first_name": "Trevor",
+          "starting": true
+        },
+        {
+          "guid": "MkPvvbYvaVNNPxdSnPAYxFKkEa0Y",
+          "name": "John Wolford",
+          "position": "QB",
+          "number": 7,
+          "team": "ARI",
+          "short_name": "J. Wolford",
+          "last_name": "Wolford",
+          "first_name": "John",
+          "starting": false
+        },
+        {
+          "guid": "Mhbe28QXW-wYnR-q3KPOP8y4ydgD",
+          "name": "Tim Cook",
+          "position": "RB",
+          "number": 20,
+          "team": "ARI",
+          "short_name": "T. Cook",
+          "last_name": "Cook",
+          "first_name": "Tim",
+          "starting": false
+        },
+        {
+          "guid": "Mqov-trF95R18wq3KsfAxd4YinmG",
+          "name": "Jhurell Pressley",
+          "position": "RB",
+          "number": 26,
+          "team": "ARI",
+          "short_name": "J. Pressley",
+          "last_name": "Pressley",
+          "first_name": "Jhurell",
+          "starting": true
+        },
+        {
+          "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
+          "name": "Larry Rose",
+          "position": "RB",
+          "number": 32,
+          "team": "ARI",
+          "short_name": "L. Rose",
+          "last_name": "Rose",
+          "first_name": "Larry",
+          "starting": false
+        },
+        {
+          "guid": "Msab37KDSF5Dmhxdpo2luJzxkEiP",
+          "name": "Justin Stockton",
+          "position": "RB",
+          "number": 30,
+          "team": "ARI",
+          "short_name": "J. Stockton",
+          "last_name": "Stockton",
+          "first_name": "Justin",
+          "starting": false
+        },
+        {
+          "guid": "MvMPK87RjthDpgkxi-5PMRJI56FG",
+          "name": "Marquis Bundy",
+          "position": "WR",
+          "number": 18,
+          "team": "ARI",
+          "short_name": "M. Bundy",
+          "last_name": "Bundy",
+          "first_name": "Marquis",
+          "starting": false
+        },
+        {
+          "guid": "MqZf-3qxsCos4Y7zFSAGW72De8Qa",
+          "name": "Josh Huff",
+          "position": "WR",
+          "number": 88,
+          "team": "ARI",
+          "short_name": "J. Huff",
+          "last_name": "Huff",
+          "first_name": "Josh",
+          "starting": true
+        },
+        {
+          "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
+          "name": "Freddie Martino",
+          "position": "WR",
+          "number": 84,
+          "team": "ARI",
+          "short_name": "F. Martino",
+          "last_name": "Martino",
+          "first_name": "Freddie",
+          "starting": false
+        },
+        {
+          "guid": "MkJMaeehojJ_G2FTn43DdskqOBtE",
+          "name": "Richard Mullaney",
+          "position": "WR",
+          "number": 16,
+          "team": "ARI",
+          "short_name": "R. Mullaney",
+          "last_name": "Mullaney",
+          "first_name": "Richard",
+          "starting": true
+        },
+        {
+          "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
+          "name": "Rashad Ross",
+          "position": "WR",
+          "number": 15,
+          "team": "ARI",
+          "short_name": "R. Ross",
+          "last_name": "Ross",
+          "first_name": "Rashad",
+          "starting": true
+        },
+        {
+          "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
+          "name": "Gerald Christian",
+          "position": "TE",
+          "number": 82,
+          "team": "ARI",
+          "short_name": "G. Christian",
+          "last_name": "Christian",
+          "first_name": "Gerald",
+          "starting": false
+        },
+        {
+          "guid": "Mpz1d05mfi4t5VeyehpsANqewBsr",
+          "name": "Thomas Duarte",
+          "position": "TE",
+          "number": 81,
+          "team": "ARI",
+          "short_name": "T. Duarte",
+          "last_name": "Duarte",
+          "first_name": "Thomas",
+          "starting": true
+        },
+        {
+          "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
+          "name": "Connor Hamlett",
+          "position": "TE",
+          "number": 89,
+          "team": "ARI",
+          "short_name": "C. Hamlett",
+          "last_name": "Hamlett",
+          "first_name": "Connor",
+          "starting": false
+        },
+        {
+          "guid": "MvRJwCF7_74J3VsAWRubhjoJgHM5",
+          "name": "Bryce Williams",
+          "position": "TE",
+          "number": 85,
+          "team": "ARI",
+          "short_name": "B. Williams",
+          "last_name": "Williams",
+          "first_name": "Bryce",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DL8EY0C9RXQFtB_sXG1tpY-InY15",
+      "team_name": "Atlanta Legends",
+      "team_abbr": "ATL",
+      "players": [
+        {
+          "guid": "MrCulWiIV_vBdrkYTrojBDpun75X",
+          "name": "Aaron Murray",
+          "position": "QB",
+          "number": 11,
+          "team": "ATL",
+          "short_name": "A. Murray",
+          "last_name": "Murray",
+          "first_name": "Aaron",
+          "starting": false
+        },
+        {
+          "guid": "MkpKbd9cizc4HjHP8RKBiKXmRtUz",
+          "name": "Peter Pujals",
+          "position": "QB",
+          "number": 6,
+          "team": "ATL",
+          "short_name": "P. Pujals",
+          "last_name": "Pujals",
+          "first_name": "Peter",
+          "starting": false
+        },
+        {
+          "guid": "MrheAoooRuZ0B2xqcIr7XnBLZDoW",
+          "name": "Matt Simms",
+          "position": "QB",
+          "number": 4,
+          "team": "ATL",
+          "short_name": "M. Simms",
+          "last_name": "Simms",
+          "first_name": "Matt",
+          "starting": true
+        },
+        {
+          "guid": "Mr5k7hAZFnvFAoDhfOnpMECSCZeC",
+          "name": "Tarean Folston",
+          "position": "RB",
+          "number": 26,
+          "team": "ATL",
+          "short_name": "T. Folston",
+          "last_name": "Folston",
+          "first_name": "Tarean",
+          "starting": true
+        },
+        {
+          "guid": "MmbkMuW2p6t8_L4aprsO3viyTzyY",
+          "name": "Lawrence Pittman",
+          "position": "RB",
+          "number": "0",
+          "team": "ATL",
+          "short_name": "L. Pittman",
+          "last_name": "Pittman",
+          "first_name": "Lawrence",
+          "starting": false
+        },
+        {
+          "guid": "Mg_WjBJbfsSmhgblX-ChTqgx2QNj",
+          "name": "Denard Robinson",
+          "position": "RB",
+          "number": 25,
+          "team": "ATL",
+          "short_name": "D. Robinson",
+          "last_name": "Robinson",
+          "first_name": "Denard",
+          "starting": false
+        },
+        {
+          "guid": "Mr7oBK_kj71615Ehxf9STz61Vmk8",
+          "name": "Akrum Wadley",
+          "position": "RB",
+          "number": 27,
+          "team": "ATL",
+          "short_name": "A. Wadley",
+          "last_name": "Wadley",
+          "first_name": "Akrum",
+          "starting": false
+        },
+        {
+          "guid": "Mk5lf0dU6nBJfH5Gbsl59VPbwcyu",
+          "name": "Montay Crockett",
+          "position": "WR",
+          "number": 13,
+          "team": "ATL",
+          "short_name": "M. Crockett",
+          "last_name": "Crockett",
+          "first_name": "Montay",
+          "starting": true
+        },
+        {
+          "guid": "Mq-GmGW4EfGjMYsrlxSJKz4Rpa6d",
+          "name": "Bug Howard",
+          "position": "WR",
+          "number": 84,
+          "team": "ATL",
+          "short_name": "B. Howard",
+          "last_name": "Howard",
+          "first_name": "Bug",
+          "starting": false
+        },
+        {
+          "guid": "MmuNa1g5wLa6Qj-ndC8Iav3eT1xT",
+          "name": "Malachi Jones",
+          "position": "WR",
+          "number": 14,
+          "team": "ATL",
+          "short_name": "M. Jones",
+          "last_name": "Jones",
+          "first_name": "Malachi",
+          "starting": true
+        },
+        {
+          "guid": "MgXuu1IplE-oQRh9H5EBHX0Uzs_J",
+          "name": "Seantavius Jones",
+          "position": "WR",
+          "number": 15,
+          "team": "ATL",
+          "short_name": "S. Jones",
+          "last_name": "Jones",
+          "first_name": "Seantavius",
+          "starting": true
+        },
+        {
+          "guid": "Mkzk3MIyF7JAQcd78N4W7Duh2SUq",
+          "name": "Ervin Philips",
+          "position": "WR",
+          "number": 82,
+          "team": "ATL",
+          "short_name": "E. Philips",
+          "last_name": "Philips",
+          "first_name": "Ervin",
+          "starting": false
+        },
+        {
+          "guid": "MjqXp-M0egZj0qqf9VW--WdOhYOU",
+          "name": "James Quick",
+          "position": "WR",
+          "number": 17,
+          "team": "ATL",
+          "short_name": "J. Quick",
+          "last_name": "Quick",
+          "first_name": "James",
+          "starting": false
+        },
+        {
+          "guid": "MiIK7hSbu0NBdYcQyeRrXYckoMiR",
+          "name": "Justin Thomas",
+          "position": "WR",
+          "number": 88,
+          "team": "ATL",
+          "short_name": "J. Thomas",
+          "last_name": "Thomas",
+          "first_name": "Justin",
+          "starting": false
+        },
+        {
+          "guid": "Mqz4RQPwnByj6JuzUIzmWhzhiSZw",
+          "name": "Garrett Hudson",
+          "position": "TE",
+          "number": 87,
+          "team": "ATL",
+          "short_name": "G. Hudson",
+          "last_name": "Hudson",
+          "first_name": "Garrett",
+          "starting": true
+        },
+        {
+          "guid": "Mm2ZwVxSGkw3OqT1GyqzErHBxJeK",
+          "name": "Charles Standberry, Jr.",
+          "position": "TE",
+          "number": 80,
+          "team": "ATL",
+          "short_name": "C. Standberry, Jr.",
+          "last_name": "Standberry, Jr.",
+          "first_name": "Charles",
+          "starting": false
+        },
+        {
+          "guid": "Mof0DIIcKBs9BlqLq7I1kGSR4pnx",
+          "name": "Keith Towbridge",
+          "position": "TE",
+          "number": 89,
+          "team": "ATL",
+          "short_name": "K. Towbridge",
+          "last_name": "Towbridge",
+          "first_name": "Keith",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DGQFQ5yTSs2ydYlDRhMFO3MamDAe",
+      "team_name": "Birmingham Iron",
+      "team_abbr": "BIR",
+      "players": [
+        {
+          "guid": "Mm7AJ6Byhebu0DEBXteDAaFkzjWH",
+          "name": "Luis Perez",
+          "position": "QB",
+          "number": 12,
+          "team": "BIR",
+          "short_name": "L. Perez",
+          "last_name": "Perez",
+          "first_name": "Luis",
+          "starting": true
+        },
+        {
+          "guid": "MseOmwcB9ERo5Yb_5ejbYhmFxa5b",
+          "name": "Keith Price",
+          "position": "QB",
+          "number": 8,
+          "team": "BIR",
+          "short_name": "K. Price",
+          "last_name": "Price",
+          "first_name": "Keith",
+          "starting": false
+        },
+        {
+          "guid": "Mu4gOaZiYHNFV7pyrOxZm92AjVLZ",
+          "name": "Blake Sims",
+          "position": "QB",
+          "number": 6,
+          "team": "BIR",
+          "short_name": "B. Sims",
+          "last_name": "Sims",
+          "first_name": "Blake",
+          "starting": false
+        },
+        {
+          "guid": "MsyVDBtdKsgCYjpATLWxD0sH7Blm",
+          "name": "Ty Isaac",
+          "position": "RB",
+          "number": 32,
+          "team": "BIR",
+          "short_name": "T. Isaac",
+          "last_name": "Isaac",
+          "first_name": "Ty",
+          "starting": false
+        },
+        {
+          "guid": "Mg5pmFv_IbDbejfUsLji-uwwKVUv",
+          "name": "Ladarius Perkins",
+          "position": "RB",
+          "number": 41,
+          "team": "BIR",
+          "short_name": "L. Perkins",
+          "last_name": "Perkins",
+          "first_name": "Ladarius",
+          "starting": false
+        },
+        {
+          "guid": "MjiTEx33U92uj4oT_o0nS86vlwP9",
+          "name": "Trent Richardson",
+          "position": "RB",
+          "number": 33,
+          "team": "BIR",
+          "short_name": "T. Richardson",
+          "last_name": "Richardson",
+          "first_name": "Trent",
+          "starting": true
+        },
+        {
+          "guid": "MsWlWGFivq3_ThVsuPkEYl2t2gMZ",
+          "name": "Brandon Ross",
+          "position": "RB",
+          "number": 45,
+          "team": "BIR",
+          "short_name": "B. Ross",
+          "last_name": "Ross",
+          "first_name": "Brandon",
+          "starting": false
+        },
+        {
+          "guid": "MmswBWT__IFVOjgErBIPv-ypTyG7",
+          "name": "Quan Bray",
+          "position": "WR",
+          "number": 81,
+          "team": "BIR",
+          "short_name": "Q. Bray",
+          "last_name": "Bray",
+          "first_name": "Quan",
+          "starting": false
+        },
+        {
+          "guid": "Ml9cOZHecV3pc9mEGX4ZR4Y6ZkMB",
+          "name": "Amba Etta-Tawo",
+          "position": "WR",
+          "number": 14,
+          "team": "BIR",
+          "short_name": "A. Etta-Tawo",
+          "last_name": "Etta-Tawo",
+          "first_name": "Amba",
+          "starting": false
+        },
+        {
+          "guid": "MsPpBdm_TA_D_k1EJ62-ovlO9mah",
+          "name": "DeVozea Felton",
+          "position": "WR",
+          "number": 13,
+          "team": "BIR",
+          "short_name": "D. Felton",
+          "last_name": "Felton",
+          "first_name": "DeVozea",
+          "starting": true
+        },
+        {
+          "guid": "Mumm8PK_wY3MZXSOMTik0hsIp6Ly",
+          "name": "Tobias Palmer",
+          "position": "WR",
+          "number": 16,
+          "team": "BIR",
+          "short_name": "T. Palmer",
+          "last_name": "Palmer",
+          "first_name": "Tobias",
+          "starting": true
+        },
+        {
+          "guid": "MvmOLxRYf5EpHnnw3KboJ64aj5U8",
+          "name": "Quinton Patton",
+          "position": "WR",
+          "number": 18,
+          "team": "BIR",
+          "short_name": "Q. Patton",
+          "last_name": "Patton",
+          "first_name": "Quinton",
+          "starting": false
+        },
+        {
+          "guid": "MpyqEM1_gXIsD4IUZIqZWH4orGOo",
+          "name": "L'Damian Washington",
+          "position": "WR",
+          "number": 85,
+          "team": "BIR",
+          "short_name": "L. Washington",
+          "last_name": "Washington",
+          "first_name": "L'Damian",
+          "starting": true
+        },
+        {
+          "guid": "Mmn17YhtJ2sO5nrF_20WT9BB6c_c",
+          "name": "Busta Anderson",
+          "position": "TE",
+          "number": 89,
+          "team": "BIR",
+          "short_name": "B. Anderson",
+          "last_name": "Anderson",
+          "first_name": "Busta",
+          "starting": true
+        },
+        {
+          "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
+          "name": "Braedon Bowman",
+          "position": "TE",
+          "number": 80,
+          "team": "BIR",
+          "short_name": "B. Bowman",
+          "last_name": "Bowman",
+          "first_name": "Braedon",
+          "starting": false
+        },
+        {
+          "guid": "MhEdk0XQnfjfHbj3AB3JlgfakHH9",
+          "name": "Connor Davis",
+          "position": "TE",
+          "number": 88,
+          "team": "BIR",
+          "short_name": "C. Davis",
+          "last_name": "Davis",
+          "first_name": "Connor",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DA-ry55fdBYtqr7Sr2ucs-fuppg2",
+      "team_name": "Memphis Express",
+      "team_abbr": "MEM",
+      "players": [
+        {
+          "guid": "MslD5In5tqTq-Wa_R1hyVprcNKb6",
+          "name": "Christian Hackenberg",
+          "position": "QB",
+          "number": 14,
+          "team": "MEM",
+          "short_name": "C. Hackenberg",
+          "last_name": "Hackenberg",
+          "first_name": "Christian",
+          "starting": true
+        },
+        {
+          "guid": "MjnRSiLQsYyZvE5hxod1B0h_Ignj",
+          "name": "Zach Mettenberger",
+          "position": "QB",
+          "number": 8,
+          "team": "MEM",
+          "short_name": "Z. Mettenberger",
+          "last_name": "Mettenberger",
+          "first_name": "Zach",
+          "starting": false
+        },
+        {
+          "guid": "Mnkh1iQb4Y5isX532bIn6EImwKO-",
+          "name": "Brandon Silvers",
+          "position": "QB",
+          "number": 12,
+          "team": "MEM",
+          "short_name": "B. Silvers",
+          "last_name": "Silvers",
+          "first_name": "Brandon",
+          "starting": false
+        },
+        {
+          "guid": "Mv5aLcnX86bjZaa2ms87A1SdYdZd",
+          "name": "Terrence Magee",
+          "position": "RB",
+          "number": 43,
+          "team": "MEM",
+          "short_name": "T. Magee",
+          "last_name": "Magee",
+          "first_name": "Terrence",
+          "starting": false
+        },
+        {
+          "guid": "MsSW7k2bvNdN0P0l5GxNqN339QSX",
+          "name": "Anthony Manzo-Lewis",
+          "position": "RB",
+          "number": 49,
+          "team": "MEM",
+          "short_name": "A. Manzo-Lewis",
+          "last_name": "Manzo-Lewis",
+          "first_name": "Anthony",
+          "starting": false
+        },
+        {
+          "guid": "Mul2mvkoQSqrfJpTvU04gOWesuV-",
+          "name": "Cordon Moog",
+          "position": "RB",
+          "number": 85,
+          "team": "MEM",
+          "short_name": "C. Moog",
+          "last_name": "Moog",
+          "first_name": "Cordon",
+          "starting": false
+        },
+        {
+          "guid": "MpcFBQh6-Fg1SlkG43E2ZJu4F13w",
+          "name": "Rajion Neal",
+          "position": "RB",
+          "number": 34,
+          "team": "MEM",
+          "short_name": "R. Neal",
+          "last_name": "Neal",
+          "first_name": "Rajion",
+          "starting": false
+        },
+        {
+          "guid": "MjQz3RHcgjyoXXVYFkrbYJBL3yvn",
+          "name": "Zac Stacy",
+          "position": "RB",
+          "number": 20,
+          "team": "MEM",
+          "short_name": "Z. Stacy",
+          "last_name": "Stacy",
+          "first_name": "Zac",
+          "starting": true
+        },
+        {
+          "guid": "MpZypZ4X4DO9uNQNzutAgaUT0XKI",
+          "name": "Dontez Byrd",
+          "position": "WR",
+          "number": 18,
+          "team": "MEM",
+          "short_name": "D. Byrd",
+          "last_name": "Byrd",
+          "first_name": "Dontez",
+          "starting": false
+        },
+        {
+          "guid": "MvEvRFFI39o_zKhDxJObMb9OAJA5",
+          "name": "Fabian Guerra",
+          "position": "WR",
+          "number": 86,
+          "team": "MEM",
+          "short_name": "F. Guerra",
+          "last_name": "Guerra",
+          "first_name": "Fabian",
+          "starting": true
+        },
+        {
+          "guid": "MhRTrUtStQOpZRmQASCkBgV0fhIJ",
+          "name": "Reece Horn",
+          "position": "WR",
+          "number": 17,
+          "team": "MEM",
+          "short_name": "R. Horn",
+          "last_name": "Horn",
+          "first_name": "Reece",
+          "starting": false
+        },
+        {
+          "guid": "MnFNOyNyHw3fXrcKp2lxuEu1-nwP",
+          "name": "Alton \"Pig\" Howard",
+          "position": "WR",
+          "number": 81,
+          "team": "MEM",
+          "short_name": "A. Howard",
+          "last_name": "Howard",
+          "first_name": "Alton \"Pig\"",
+          "starting": true
+        },
+        {
+          "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
+          "name": "Devin Lucien",
+          "position": "WR",
+          "number": 13,
+          "team": "MEM",
+          "short_name": "D. Lucien",
+          "last_name": "Lucien",
+          "first_name": "Devin",
+          "starting": false
+        },
+        {
+          "guid": "MvRhbzA3GEwC-zxSrwZWFZV76v8-",
+          "name": "Kayaune Ross",
+          "position": "WR",
+          "number": 88,
+          "team": "MEM",
+          "short_name": "K. Ross",
+          "last_name": "Ross",
+          "first_name": "Kayaune",
+          "starting": false
+        },
+        {
+          "guid": "Mjwho2KhxUh6xpMCmX3U-V_km0UF",
+          "name": "Damore'ea Stringfellow",
+          "position": "WR",
+          "number": 82,
+          "team": "MEM",
+          "short_name": "D. Stringfellow",
+          "last_name": "Stringfellow",
+          "first_name": "Damore'ea",
+          "starting": true
+        },
+        {
+          "guid": "Mg89OyTmItplfDaiI18qnQn6A-Kr",
+          "name": "Brandon Barnes",
+          "position": "TE",
+          "number": 80,
+          "team": "MEM",
+          "short_name": "B. Barnes",
+          "last_name": "Barnes",
+          "first_name": "Brandon",
+          "starting": false
+        },
+        {
+          "guid": "MmMr1PqQzXo0ZVHk39O2j4ktgFhu",
+          "name": "Adrien Robinson",
+          "position": "TE",
+          "number": 47,
+          "team": "MEM",
+          "short_name": "A. Robinson",
+          "last_name": "Robinson",
+          "first_name": "Adrien",
+          "starting": true
+        }
+      ]
+    },
+    {
+      "team_id": "DP4awkMu8Jlk7MlBZ_wc0kUa0ub_",
+      "team_name": "Orlando Apollos",
+      "team_abbr": "ORL",
+      "players": [
+        {
+          "guid": "Mtd5_MUsT9kODDCWx2Xbgr5IqD5c",
+          "name": "Kevin Anderson",
+          "position": "QB",
+          "number": 4,
+          "team": "ORL",
+          "short_name": "K. Anderson",
+          "last_name": "Anderson",
+          "first_name": "Kevin",
+          "starting": false
+        },
+        {
+          "guid": "Mqnq5l339f1e7sM0Ypu4qHaoIBdh",
+          "name": "Austin Appleby",
+          "position": "QB",
+          "number": 5,
+          "team": "ORL",
+          "short_name": "A. Appleby",
+          "last_name": "Appleby",
+          "first_name": "Austin",
+          "starting": false
+        },
+        {
+          "guid": "MqGd44MUMsf1cWf9eclgu5gZxo_b",
+          "name": "Garrett Gilbert",
+          "position": "QB",
+          "number": 3,
+          "team": "ORL",
+          "short_name": "G. Gilbert",
+          "last_name": "Gilbert",
+          "first_name": "Garrett",
+          "starting": true
+        },
+        {
+          "guid": "MlcxcyvoaMkgMadxjz-PrXKAmhCJ",
+          "name": "Ryan Green",
+          "position": "RB",
+          "number": 20,
+          "team": "ORL",
+          "short_name": "R. Green",
+          "last_name": "Green",
+          "first_name": "Ryan",
+          "starting": false
+        },
+        {
+          "guid": "Muh23P6Whs1oYp8njPCCEt0psh-G",
+          "name": "Akeem Hunt",
+          "position": "RB",
+          "number": 25,
+          "team": "ORL",
+          "short_name": "A. Hunt",
+          "last_name": "Hunt",
+          "first_name": "Akeem",
+          "starting": true
+        },
+        {
+          "guid": "MgWqgIYh39TaLl2VCdS8tsfiVWxV",
+          "name": "D'Ernest Johnson",
+          "position": "RB",
+          "number": 22,
+          "team": "ORL",
+          "short_name": "D. Johnson",
+          "last_name": "Johnson",
+          "first_name": "D'Ernest",
+          "starting": false
+        },
+        {
+          "guid": "MrcbTGRfExX6jV5TIlzBA0U5Hj2E",
+          "name": "De'Veon Smith",
+          "position": "RB",
+          "number": 24,
+          "team": "ORL",
+          "short_name": "D. Smith",
+          "last_name": "Smith",
+          "first_name": "De'Veon",
+          "starting": false
+        },
+        {
+          "guid": "MoMrGcVxY9-wFwve2Zt5mI2-zP6U",
+          "name": "Marvin Bracy-Williams Jr.",
+          "position": "WR",
+          "number": 10,
+          "team": "ORL",
+          "short_name": "M. Bracy-Williams Jr.",
+          "last_name": "Bracy-Williams Jr.",
+          "first_name": "Marvin",
+          "starting": false
+        },
+        {
+          "guid": "MrxsVJwCGFXBajsksqfAYwPZbFtK",
+          "name": "Donteea Dye Jr.",
+          "position": "WR",
+          "number": 11,
+          "team": "ORL",
+          "short_name": "D. Dye Jr.",
+          "last_name": "Dye Jr.",
+          "first_name": "Donteea",
+          "starting": false
+        },
+        {
+          "guid": "MtrMUn2A9gmLtX-r9HO6AkYUy6XR",
+          "name": "Rannell Hall",
+          "position": "WR",
+          "number": 16,
+          "team": "ORL",
+          "short_name": "R. Hall",
+          "last_name": "Hall",
+          "first_name": "Rannell",
+          "starting": false
+        },
+        {
+          "guid": "MlV-02inUXrsEEpYRJOewDTYBKEj",
+          "name": "Ishmael Hyman",
+          "position": "WR",
+          "number": 13,
+          "team": "ORL",
+          "short_name": "I. Hyman",
+          "last_name": "Hyman",
+          "first_name": "Ishmael",
+          "starting": true
+        },
+        {
+          "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
+          "name": "Charles Johnson",
+          "position": "WR",
+          "number": 12,
+          "team": "ORL",
+          "short_name": "C. Johnson",
+          "last_name": "Johnson",
+          "first_name": "Charles",
+          "starting": true
+        },
+        {
+          "guid": "MmdTzyAXr_06YKM9MvkpiX6Pysbd",
+          "name": "Jalin Marshall",
+          "position": "WR",
+          "number": 17,
+          "team": "ORL",
+          "short_name": "J. Marshall",
+          "last_name": "Marshall",
+          "first_name": "Jalin",
+          "starting": true
+        },
+        {
+          "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
+          "name": "Chris Thompson",
+          "position": "WR",
+          "number": 14,
+          "team": "ORL",
+          "short_name": "C. Thompson",
+          "last_name": "Thompson",
+          "first_name": "Chris",
+          "starting": false
+        },
+        {
+          "guid": "Moi9AWTLwLF-WmHNRk8tzww8hRT8",
+          "name": "Scott Orndoff",
+          "position": "TE",
+          "number": 83,
+          "team": "ORL",
+          "short_name": "S. Orndoff",
+          "last_name": "Orndoff",
+          "first_name": "Scott",
+          "starting": true
+        },
+        {
+          "guid": "MkiXHB9MYn5EIMB45S7Fibn3RG3M",
+          "name": "Sean Price",
+          "position": "TE",
+          "number": 80,
+          "team": "ORL",
+          "short_name": "S. Price",
+          "last_name": "Price",
+          "first_name": "Sean",
+          "starting": false
+        },
+        {
+          "guid": "Mljhybw7om52eXm6ZeD_ANOK77jn",
+          "name": "Matt Weiser",
+          "position": "TE",
+          "number": 89,
+          "team": "ORL",
+          "short_name": "M. Weiser",
+          "last_name": "Weiser",
+          "first_name": "Matt",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DEpuzAPzjhrtElxgILh3pmxAgfcg",
+      "team_name": "Salt Lake Stallions",
+      "team_abbr": "SL",
+      "players": [
+        {
+          "guid": "MuHSfKeQrOoI1ClJnN-FfEA8b7H-",
+          "name": "Austin Allen",
+          "position": "QB",
+          "number": 8,
+          "team": "SL",
+          "short_name": "A. Allen",
+          "last_name": "Allen",
+          "first_name": "Austin",
+          "starting": false
+        },
+        {
+          "guid": "MvvjScH-3vsslt5_WLNxjEcYd7wj",
+          "name": "Matt Linehan",
+          "position": "QB",
+          "number": 10,
+          "team": "SL",
+          "short_name": "M. Linehan",
+          "last_name": "Linehan",
+          "first_name": "Matt",
+          "starting": false
+        },
+        {
+          "guid": "Mg7ESCLcQeEi-Z0oZGFiwY2--zlS",
+          "name": "Josh Woodrum",
+          "position": "QB",
+          "number": 6,
+          "team": "SL",
+          "short_name": "J. Woodrum",
+          "last_name": "Woodrum",
+          "first_name": "Josh",
+          "starting": true
+        },
+        {
+          "guid": "Mop_drX-yj7HIefEAlUHoDVCH_iA",
+          "name": "Matt Asiata",
+          "position": "RB",
+          "number": 44,
+          "team": "SL",
+          "short_name": "M. Asiata",
+          "last_name": "Asiata",
+          "first_name": "Matt",
+          "starting": false
+        },
+        {
+          "guid": "MoIfI6pzRT6PEupCPEz5uDPNSp9E",
+          "name": "Joel Bouagnon",
+          "position": "RB",
+          "number": 36,
+          "team": "SL",
+          "short_name": "J. Bouagnon",
+          "last_name": "Bouagnon",
+          "first_name": "Joel",
+          "starting": true
+        },
+        {
+          "guid": "MhpQ_EdOOdPGE72Xu2X1U6pw4jKi",
+          "name": "Terrell Newby",
+          "position": "RB",
+          "number": 34,
+          "team": "SL",
+          "short_name": "T. Newby",
+          "last_name": "Newby",
+          "first_name": "Terrell",
+          "starting": false
+        },
+        {
+          "guid": "MsSyIj8ll2VgHiA2jn2sa1vGnFgt",
+          "name": "Branden Oliver",
+          "position": "RB",
+          "number": 33,
+          "team": "SL",
+          "short_name": "B. Oliver",
+          "last_name": "Oliver",
+          "first_name": "Branden",
+          "starting": false
+        },
+        {
+          "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",
+          "name": "Dres Anderson",
+          "position": "WR",
+          "number": 16,
+          "team": "SL",
+          "short_name": "D. Anderson",
+          "last_name": "Anderson",
+          "first_name": "Dres",
+          "starting": false
+        },
+        {
+          "guid": "MuShKYY0K9EeX6CMhI3AqqdV8t4e",
+          "name": "Kenny Bell",
+          "position": "WR",
+          "number": 80,
+          "team": "SL",
+          "short_name": "K. Bell",
+          "last_name": "Bell",
+          "first_name": "Kenny",
+          "starting": true
+        },
+        {
+          "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
+          "name": "Kaelin Clay",
+          "position": "WR",
+          "number": 11,
+          "team": "SL",
+          "short_name": "K. Clay",
+          "last_name": "Clay",
+          "first_name": "Kaelin",
+          "starting": false
+        },
+        {
+          "guid": "MnhMeRsiWw6LMqSeT11jQLPbC19v",
+          "name": "Adonis Jennings",
+          "position": "WR",
+          "number": 17,
+          "team": "SL",
+          "short_name": "A. Jennings",
+          "last_name": "Jennings",
+          "first_name": "Adonis",
+          "starting": false
+        },
+        {
+          "guid": "MnvL6-GbEKvM2KNii88YtoXpeeCF",
+          "name": "Jordan Leslie",
+          "position": "WR",
+          "number": 19,
+          "team": "SL",
+          "short_name": "J. Leslie",
+          "last_name": "Leslie",
+          "first_name": "Jordan",
+          "starting": true
+        },
+        {
+          "guid": "MgL4D_RHJ9sR9_cgr7jc_wknKh73",
+          "name": "Sam Mobley",
+          "position": "WR",
+          "number": 81,
+          "team": "SL",
+          "short_name": "S. Mobley",
+          "last_name": "Mobley",
+          "first_name": "Sam",
+          "starting": false
+        },
+        {
+          "guid": "MhUElmUUm5ItoKzS_lLIuWNenhRM",
+          "name": "De'Mornay Pierson-El",
+          "position": "WR",
+          "number": 15,
+          "team": "SL",
+          "short_name": "D. Pierson-El",
+          "last_name": "Pierson-El",
+          "first_name": "De'Mornay",
+          "starting": true
+        },
+        {
+          "guid": "MmIr6_Tggdgd2yO-XQnxLDtzVPS1",
+          "name": "Tanner Balderree",
+          "position": "TE",
+          "number": 89,
+          "team": "SL",
+          "short_name": "T. Balderree",
+          "last_name": "Balderree",
+          "first_name": "Tanner",
+          "starting": true
+        },
+        {
+          "guid": "MugplZamc2FccLEXfQhqTP78rMH0",
+          "name": "Anthony Denham",
+          "position": "TE",
+          "number": 88,
+          "team": "SL",
+          "short_name": "A. Denham",
+          "last_name": "Denham",
+          "first_name": "Anthony",
+          "starting": false
+        },
+        {
+          "guid": "MruASXlN9ksMnvFg3zcDg_6dISTx",
+          "name": "Austin Traylor",
+          "position": "TE",
+          "number": 83,
+          "team": "SL",
+          "short_name": "A. Traylor",
+          "last_name": "Traylor",
+          "first_name": "Austin",
+          "starting": false
+        },
+        {
+          "guid": "MnZyXGX8iVvUgvjJtqLho4ON0yH6",
+          "name": "Nick Truesdell",
+          "position": "TE",
+          "number": 85,
+          "team": "SL",
+          "short_name": "N. Truesdell",
+          "last_name": "Truesdell",
+          "first_name": "Nick",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DJWpRAEEzoUWiOa-nxlDsmPcHqVi",
+      "team_name": "San Antonio Commanders",
+      "team_abbr": "SA",
+      "players": [
+        {
+          "guid": "Moh0d_KMCFYTe2--2roPBqgiZqV_",
+          "name": "Dustin Vaughan",
+          "position": "QB",
+          "number": 10,
+          "team": "SA",
+          "short_name": "D. Vaughan",
+          "last_name": "Vaughan",
+          "first_name": "Dustin",
+          "starting": true
+        },
+        {
+          "guid": "MupH198whtLyGoCnan_zhuBONP-0",
+          "name": "Marquise Williams",
+          "position": "QB",
+          "number": 12,
+          "team": "SA",
+          "short_name": "M. Williams",
+          "last_name": "Williams",
+          "first_name": "Marquise",
+          "starting": false
+        },
+        {
+          "guid": "MiUKbbFISV5aL8sntaxSOLtUpPRE",
+          "name": "Logan Woodside",
+          "position": "QB",
+          "number": 5,
+          "team": "SA",
+          "short_name": "L. Woodside",
+          "last_name": "Woodside",
+          "first_name": "Logan",
+          "starting": false
+        },
+        {
+          "guid": "MhyVle_UIu23yo8WANee4OUPncIR",
+          "name": "David Cobb",
+          "position": "RB",
+          "number": 27,
+          "team": "SA",
+          "short_name": "D. Cobb",
+          "last_name": "Cobb",
+          "first_name": "David",
+          "starting": false
+        },
+        {
+          "guid": "MsQPaUeKdRzJSNKUmf9eYi6fhFDv",
+          "name": "Kenneth Farrow, II",
+          "position": "RB",
+          "number": 20,
+          "team": "SA",
+          "short_name": "K. Farrow, II",
+          "last_name": "Farrow, II",
+          "first_name": "Kenneth",
+          "starting": false
+        },
+        {
+          "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
+          "name": "Aaron Green",
+          "position": "RB",
+          "number": 22,
+          "team": "SA",
+          "short_name": "A. Green",
+          "last_name": "Green",
+          "first_name": "Aaron",
+          "starting": true
+        },
+        {
+          "guid": "Mv1x5oSVJFjxcBN5MwJ58Fp7WOcf",
+          "name": "Trey Williams",
+          "position": "RB",
+          "number": 35,
+          "team": "SA",
+          "short_name": "T. Williams",
+          "last_name": "Williams",
+          "first_name": "Trey",
+          "starting": false
+        },
+        {
+          "guid": "MuzB8aju0aGjhWzwt81_5-k3bWva",
+          "name": "Demarcus Ayers",
+          "position": "WR",
+          "number": 14,
+          "team": "SA",
+          "short_name": "D. Ayers",
+          "last_name": "Ayers",
+          "first_name": "Demarcus",
+          "starting": false
+        },
+        {
+          "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
+          "name": "John Diarse",
+          "position": "WR",
+          "number": 18,
+          "team": "SA",
+          "short_name": "J. Diarse",
+          "last_name": "Diarse",
+          "first_name": "John",
+          "starting": false
+        },
+        {
+          "guid": "MpRddErY_E8R7jc9BtPv9XlGkorE",
+          "name": "Mekale McKay",
+          "position": "WR",
+          "number": 82,
+          "team": "SA",
+          "short_name": "M. McKay",
+          "last_name": "McKay",
+          "first_name": "Mekale",
+          "starting": true
+        },
+        {
+          "guid": "MuFzhKGMHfLzIjrXrapTwDVc1-nX",
+          "name": "Alonzo Moore",
+          "position": "WR",
+          "number": 19,
+          "team": "SA",
+          "short_name": "A. Moore",
+          "last_name": "Moore",
+          "first_name": "Alonzo",
+          "starting": false
+        },
+        {
+          "guid": "MkSQkA0DlgEoiwU955Ir2v-_UhEF",
+          "name": "Darius Prince",
+          "position": "WR",
+          "number": 81,
+          "team": "SA",
+          "short_name": "D. Prince",
+          "last_name": "Prince",
+          "first_name": "Darius",
+          "starting": false
+        },
+        {
+          "guid": "MgT56rsYAvlu70T8IUGLqULDIn4W",
+          "name": "Josh Stewart",
+          "position": "WR",
+          "number": 80,
+          "team": "SA",
+          "short_name": "J. Stewart",
+          "last_name": "Stewart",
+          "first_name": "Josh",
+          "starting": true
+        },
+        {
+          "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
+          "name": "Greg Ward, Jr.",
+          "position": "WR",
+          "number": 84,
+          "team": "SA",
+          "short_name": "G. Ward, Jr.",
+          "last_name": "Ward, Jr.",
+          "first_name": "Greg",
+          "starting": true
+        },
+        {
+          "guid": "MjpjYSya6_frsZ8aGk_iDyL66DDV",
+          "name": "Cam Clear",
+          "position": "TE",
+          "number": 85,
+          "team": "SA",
+          "short_name": "C. Clear",
+          "last_name": "Clear",
+          "first_name": "Cam",
+          "starting": true
+        },
+        {
+          "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
+          "name": "Cole Hunt",
+          "position": "TE",
+          "number": 83,
+          "team": "SA",
+          "short_name": "C. Hunt",
+          "last_name": "Hunt",
+          "first_name": "Cole",
+          "starting": false
+        },
+        {
+          "guid": "Mgb_UtvY7qtHpPKINg1QkU5ov9OJ",
+          "name": "Stehly Reden",
+          "position": "TE",
+          "number": 89,
+          "team": "SA",
+          "short_name": "S. Reden",
+          "last_name": "Reden",
+          "first_name": "Stehly",
+          "starting": false
+        },
+        {
+          "guid": "Mp30XHE6WaeCGjZAycOZ50NgWvu2",
+          "name": "Evan Rodriguez",
+          "position": "TE",
+          "number": 88,
+          "team": "SA",
+          "short_name": "E. Rodriguez",
+          "last_name": "Rodriguez",
+          "first_name": "Evan",
+          "starting": false
+        }
+      ]
+    },
+    {
+      "team_id": "DPlJY-sgCqriV9dKedRFAyNUwL33",
+      "team_name": "San Diego Fleet",
+      "team_abbr": "SD",
+      "players": [
+        {
+          "guid": "Mlx6Z1X5i5Av-jLpFjMD0O5wHPBX",
+          "name": "Mike Bercovici",
+          "position": "QB",
+          "number": 11,
+          "team": "SD",
+          "short_name": "M. Bercovici",
+          "last_name": "Bercovici",
+          "first_name": "Mike",
+          "starting": true
+        },
+        {
+          "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
+          "name": "Phillip Nelson",
+          "position": "QB",
+          "number": 9,
+          "team": "SD",
+          "short_name": "P. Nelson",
+          "last_name": "Nelson",
+          "first_name": "Phillip",
+          "starting": false
+        },
+        {
+          "guid": "MmvHKLCRyZq-N-Gt2TxaMx3PtX1B",
+          "name": "Alex Ross",
+          "position": "QB",
+          "number": 4,
+          "team": "SD",
+          "short_name": "A. Ross",
+          "last_name": "Ross",
+          "first_name": "Alex",
+          "starting": false
+        },
+        {
+          "guid": "Mqs-U1gQrf9_eTiz3LS8GR68hjsZ",
+          "name": "Ja'Quan Gardner",
+          "position": "RB",
+          "number": 32,
+          "team": "SD",
+          "short_name": "J. Gardner",
+          "last_name": "Gardner",
+          "first_name": "Ja'Quan",
+          "starting": true
+        },
+        {
+          "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
+          "name": "Paul James",
+          "position": "RB",
+          "number": 31,
+          "team": "SD",
+          "short_name": "P. James",
+          "last_name": "James",
+          "first_name": "Paul",
+          "starting": false
+        },
+        {
+          "guid": "MkpRgd5SNWd31jHiLxntSELkwYKP",
+          "name": "Terrell Watson",
+          "position": "RB",
+          "number": 39,
+          "team": "SD",
+          "short_name": "T. Watson",
+          "last_name": "Watson",
+          "first_name": "Terrell",
+          "starting": false
+        },
+        {
+          "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
+          "name": "Brian Brown",
+          "position": "WR",
+          "number": 83,
+          "team": "SD",
+          "short_name": "B. Brown",
+          "last_name": "Brown",
+          "first_name": "Brian",
+          "starting": false
+        },
+        {
+          "guid": "Ms7obZS7dFXxIdQMVfg1WsQJeF3y",
+          "name": "Dontez Ford",
+          "position": "WR",
+          "number": 12,
+          "team": "SD",
+          "short_name": "D. Ford",
+          "last_name": "Ford",
+          "first_name": "Dontez",
+          "starting": true
+        },
+        {
+          "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
+          "name": "Laquvionte Gonzalez",
+          "position": "WR",
+          "number": 10,
+          "team": "SD",
+          "short_name": "L. Gonzalez",
+          "last_name": "Gonzalez",
+          "first_name": "Laquvionte",
+          "starting": false
+        },
+        {
+          "guid": "Mm0slpmHcp2rAoyy_YujtIOMalki",
+          "name": "Kameron Kelly",
+          "position": "WR",
+          "number": 14,
+          "team": "SD",
+          "short_name": "K. Kelly",
+          "last_name": "Kelly",
+          "first_name": "Kameron",
+          "starting": true
+        },
+        {
+          "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
+          "name": "Francis Owusu",
+          "position": "WR",
+          "number": 82,
+          "team": "SD",
+          "short_name": "F. Owusu",
+          "last_name": "Owusu",
+          "first_name": "Francis",
+          "starting": true
+        },
+        {
+          "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
+          "name": "Nelson Spruce",
+          "position": "WR",
+          "number": 81,
+          "team": "SD",
+          "short_name": "N. Spruce",
+          "last_name": "Spruce",
+          "first_name": "Nelson",
+          "starting": false
+        },
+        {
+          "guid": "MnSbN3NKTWGgbhSjjM2pzQ_20YJd",
+          "name": "Marcus Baugh",
+          "position": "TE",
+          "number": 85,
+          "team": "SD",
+          "short_name": "M. Baugh",
+          "last_name": "Baugh",
+          "first_name": "Marcus",
+          "starting": false
+        },
+        {
+          "guid": "MpWMIkFb1L5PEgV4vYswWm1p0gEO",
+          "name": "Gavin Escobar",
+          "position": "TE",
+          "number": 89,
+          "team": "SD",
+          "short_name": "G. Escobar",
+          "last_name": "Escobar",
+          "first_name": "Gavin",
+          "starting": true
+        },
+        {
+          "guid": "Mnc8xISXCM-ArpeuLVABzhBG1xBr",
+          "name": "Ben Johnson",
+          "position": "TE",
+          "number": 88,
+          "team": "SD",
+          "short_name": "B. Johnson",
+          "last_name": "Johnson",
+          "first_name": "Ben",
+          "starting": false
+        }
+      ]
+    }
+  ]
+}

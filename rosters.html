@@ -1,0 +1,41 @@
+---
+layout: default
+title: Starting Rosters
+permalink: /rosters
+nav: rosters
+---
+
+<p class="text-grey-dark text-center text-xl"><span class="underline">Projected</span> starting rosters based on training camp news and pre-season scrimmages</p>
+
+<div class="flex flex-wrap mt-4 justify-between">
+  {% for roster in site.data.starting_rosters.rosters %}
+    {% assign team_bg = "bg-" | append: roster.team_abbr %}
+    {% assign team_border = "border-" | append: roster.team_abbr | append: "-secondary" %}
+
+    <div class="flex w-full lg:w-600 p-4 mx-auto">
+      <div class="card w-full">
+        <div class="card-header text-white {{ team_bg }} border-b-4 {{ team_border }}">
+          <div class="flex justify-between items-center">
+            <h2 class="font-light">{{ roster.team_name}} &ndash; Starters</h2>
+            <img src="{{ site.data.logos[roster.team_abbr] }}" class="mini-logo border-none" />
+          </div>
+        </div>
+        <ul class="list-reset py-4">
+          {% for player in roster.players %}
+            {% if player.starting != true %}
+                {% continue %}
+            {% endif %}
+
+            <li>
+              <div class="jersey jersey-{{ roster.team_abbr}}">
+                {{ player.number}}
+              </div>
+              <div class="text-grey inline-block mx-2 w-5 text-center">{{ player.position }}</div>
+              <div class="text-lg inline-block">{{ player.name}}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</div>

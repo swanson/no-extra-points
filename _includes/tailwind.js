@@ -85,17 +85,17 @@ let colors = {
   "pink-lighter": "#ffbbca",
   "pink-lightest": "#ffebef",
 
-  MEM: "#c8102e",
+  MEM: "#CF102C",
   "MEM-secondary": "#0c2340",
   "MEM-accent": "#ffffff",
   SL: "#0032a0",
   "SL-secondary": "#4698ca",
   "SL-accent": "#c1c6c8",
-  BIR: "#000000",
+  BIR: "#201D1E",
   "BIR-secondary": "#7c878e",
   "BIR-accent": "#c7c9c7",
-  SA: "#651c32",
-  "SA-secondary": "#c8102e",
+  "SA-secondary": "#651c32",
+  SA: "#CF102C",
   "SA-accent": "#c7c9c7",
   ARI: "#154734",
   "ARI-secondary": "#ffb81c",
@@ -104,11 +104,11 @@ let colors = {
   "ATL-secondary": "#c5b783",
   "ATL-accent": "#ffffff",
   SD: "#333f48",
-  "SD-secondary": "#A1AAAE",
-  "SD-accent": "#ffc72c",
+  "SD-accent": "#A1AAAE",
+  "SD-secondary": "#ffc72c",
   ORL: "#0c2340",
-  "ORL-secondary": "#fe5000",
-  "ORL-accent": "#ff8200"
+  "ORL-accent": "#ffffff",
+  "ORL-secondary": "#F15624"
 };
 
 module.exports = {
@@ -253,7 +253,8 @@ module.exports = {
     "1/6": "16.66667%",
     "5/6": "83.33333%",
     full: "100%",
-    screen: "100vw"
+    screen: "100vw",
+    "600": "600px"
   },
 
   height: {

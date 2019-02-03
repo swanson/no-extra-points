@@ -136,7 +136,6 @@ def yard_side(game, node)
 end
 
 def find_by_pid(players, pid)
-  # binding.pry if pid.include? "Walker"
   players.select{|p| p[:id].gsub(",", "").strip == pid.gsub(",", "").strip}
 end
 
@@ -202,12 +201,22 @@ def nullified?(play)
   play.has_penalty && play.description.include?("No Play")
 end
 
+def possessing_team(node, game)
+  if node.possession == "HOME_TEAM"
+    game[:home_abbr]
+  else
+    game[:away_abbr]
+  end
+end
+
 def add_plays(game, players, node)
   node.plays_connection.nodes.each do |node|
     play = {
       description: node.description,
       down: node.down,
       distance: node.yards_to_go,
+      possession: possessing_team(node, game),
+      quarter: node.quarter,
       yard_line: node.yard_line,
       yard_side: yard_side(game, node),
       nullified: node.has_penalty,
@@ -251,6 +260,13 @@ def stats_for_player(game, player)
     receiving_td: 0,
     fumbles: 0,
     interceptions: 0,
+    pass_ypa: 0,
+    rush_ypc: 0,
+    receiving_long: 0,
+    rush_long: 0,
+    pass_2pt: 0,
+    rush_2pt: 0,
+    receiving_2pt: 0,
   }
 
   any_stats = false
@@ -267,16 +283,26 @@ def stats_for_player(game, player)
 
         stats[:pass_attempts] += 1
         stats[:pass_complete] += 1 if play[:completion]
-        stats[:pass_yards] += play[:yardage] unless play[:turnover]
-        stats[:pass_td] += 1 if play[:touchdown] && !play[:turnover]
+
         stats[:interceptions] += 1 if play[:interception]
+        stats[:pass_2pt] +=1 if play[:conversion_success]
+
+        unless play[:turnover]
+          stats[:pass_yards] += play[:yardage]
+          stats[:pass_td] += 1 if play[:touchdown]
+        end
       else
         any_stats = true
 
         stats[:targets] += 1
         stats[:catches] += 1 if play[:completion]
-        stats[:receiving_yards] += play[:yardage] unless play[:turnover]
-        stats[:receiving_td] += 1 if play[:touchdown] && !play[:turnover]
+        stats[:receiving_2pt] +=1 if play[:conversion_success]
+
+        unless play[:turnover]
+          stats[:receiving_yards] += play[:yardage]
+          stats[:receiving_td] += 1 if play[:touchdown]
+          stats[:receiving_long] = play[:yardage] if play[:yardage] >= stats[:receiving_long]
+        end
       end
     end
 
@@ -285,14 +311,33 @@ def stats_for_player(game, player)
         any_stats = true
 
         stats[:rush_attempts] += 1
-        stats[:rush_yards] += play[:yardage] unless play[:turnover]
-        stats[:rush_td] +=1 if play[:touchdown] && !play[:turnover]
         stats[:fumbles] += 1 if play[:lost_fumble]
+        stats[:rush_2pt] +=1 if play[:conversion_success]
+
+        unless play[:turnover]
+          stats[:rush_yards] += play[:yardage]
+          stats[:rush_td] +=1 if play[:touchdown]
+          stats[:rush_long] = play[:yardage] if play[:yardage] >= stats[:rush_long]
+        end
       end
     end
   end
 
   return stats if any_stats
+end
+
+def calculate_averages(stats)
+  return nil unless stats
+
+  if stats[:pass_attempts] > 0
+    stats[:pass_ypa] = (stats[:pass_yards].to_f / stats[:pass_attempts]).round(1)
+  end
+
+  if stats[:rush_attempts] > 0
+    stats[:rush_ypc] = (stats[:rush_yards].to_f / stats[:rush_attempts]).round(1)
+  end
+
+  stats
 end
 
 def add_stats(game, players, team, is_home)
@@ -301,7 +346,9 @@ def add_stats(game, players, team, is_home)
   players.each do |player|
     next if player[:team] != team.abbreviation
 
-    game[key] << stats_for_player(game, player)
+    stats = stats_for_player(game, player)
+    stats = calculate_averages(stats)
+    game[key] << stats
   end
 
   game[key].flatten!

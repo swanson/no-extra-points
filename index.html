@@ -12,7 +12,7 @@ nav: boxscores
   {% if forloop.first == true %}
     {% assign current_week = game.week %}
     <div class="week">
-      {{ game["week"] }} &ndash; {{ game["time"] | date: "%B %d, %Y" }}
+      {{ game.week }} &ndash; {{ game.time | date: "%B %d, %Y" }}
     </div>
     <div class="week-section">
   {% endif %}
@@ -22,7 +22,7 @@ nav: boxscores
     </div>
     {% assign current_week = game.week %}
     <div class="week">
-      {{ game["week"] }} &ndash; {{ game["time"] | date: "%B %d, %Y" }}
+      {{ game.week }} &ndash; {{ game.time | date: "%B %d, %Y" }}
     </div>
     <div class="week-section">
   {% endif %}
@@ -30,7 +30,7 @@ nav: boxscores
     <div class="card scoreboard p-6">
       <div class="flex items-center justify-between pb-2">
         <img src="{{ site.data.logos[game.away_abbr] }}" class="mini-logo" />
-        <h2>{{ game["away_team"] }}</h2>
+        <h2>{{ game.away_team }}</h2>
         {% if game.away_score > game.home_score %}
           <h3 class="winner">{{ game.away_score }}</h3>
         {% else %}
@@ -39,7 +39,7 @@ nav: boxscores
       </div>
       <div class="flex items-center justify-between">
           <img src="{{ site.data.logos[game.home_abbr] }}" class="mini-logo" />
-        <h2>{{ game["home_team"] }}</h2>
+        <h2>{{ game.home_team }}</h2>
         {% if game.home_score > game.away_score %}
           <h3 class="winner">{{ game.home_score }}</h3>
         {% else %}
