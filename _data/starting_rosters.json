@@ -1214,7 +1214,7 @@
           "short_name": "K. Farrow, II",
           "last_name": "Farrow, II",
           "first_name": "Kenneth",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
@@ -1225,7 +1225,7 @@
           "short_name": "A. Green",
           "last_name": "Green",
           "first_name": "Aaron",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mv1x5oSVJFjxcBN5MwJ58Fp7WOcf",
