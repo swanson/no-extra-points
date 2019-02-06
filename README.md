@@ -4,6 +4,4 @@ Advanced Alliance of American Football (AAF) Stats and Fantasy Analytics
 
 [Live site](https://noextrapoints.com)
 
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
-</a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/52ccf63d-1786-4913-9f27-8d093dcfcd95/deploy-status)](https://app.netlify.com/sites/noextrapoints/deploys)
