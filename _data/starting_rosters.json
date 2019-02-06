@@ -30,7 +30,7 @@
           "short_name": "T. Knight",
           "last_name": "Knight",
           "first_name": "Trevor",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MkPvvbYvaVNNPxdSnPAYxFKkEa0Y",
@@ -42,7 +42,7 @@
           "short_name": "J. Wolford",
           "last_name": "Wolford",
           "first_name": "John",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mhbe28QXW-wYnR-q3KPOP8y4ydgD",
