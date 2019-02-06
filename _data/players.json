@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-05 20:16:39 -0500"
+    "last_modified": "2019-02-05 22:24:09 -0500"
   },
   "players": [
     {
@@ -37,7 +37,7 @@
       "first_name": "Kyle",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -57,7 +57,7 @@
       "first_name": "Anthony",
       "height": "5\" 11'",
       "weight": 190,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -257,7 +257,7 @@
       "first_name": "Dillon",
       "height": "6\" 3'",
       "weight": 256,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -377,7 +377,7 @@
       "first_name": "Jack",
       "height": "6\" 5'",
       "weight": 220,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -417,7 +417,7 @@
       "first_name": "Chris",
       "height": "6\" 5'",
       "weight": 230,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -517,7 +517,7 @@
       "first_name": "Devon",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -577,7 +577,7 @@
       "first_name": "Deniko",
       "height": "6\" 4'",
       "weight": 187,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -617,7 +617,7 @@
       "first_name": "James",
       "height": "5\" 10'",
       "weight": 185,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -717,7 +717,7 @@
       "first_name": "Troy",
       "height": "6\" 1'",
       "weight": 219,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -737,7 +737,7 @@
       "first_name": "Marshaun",
       "height": "5\" 9'",
       "weight": 205,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -757,7 +757,7 @@
       "first_name": "John",
       "height": "6\" 0'",
       "weight": 215,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -877,7 +877,7 @@
       "first_name": "Larry",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -897,7 +897,7 @@
       "first_name": "Brandon",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -997,7 +997,7 @@
       "first_name": "Malik",
       "height": "6\" 3'",
       "weight": 217,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1077,7 +1077,7 @@
       "first_name": "Joseph",
       "height": "6\" 7'",
       "weight": 260,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1217,7 +1217,7 @@
       "first_name": "Chris",
       "height": "5\" 11'",
       "weight": 198,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1277,7 +1277,7 @@
       "first_name": "Deandre",
       "height": "6\" 4'",
       "weight": 239,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1397,7 +1397,7 @@
       "first_name": "Cobi",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1437,7 +1437,7 @@
       "first_name": "Frankie",
       "height": "6\" 0'",
       "weight": 194,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1477,7 +1477,7 @@
       "first_name": "Javontee",
       "height": "6\" 1'",
       "weight": 194,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1497,7 +1497,7 @@
       "first_name": "Mark",
       "height": "5\" 9'",
       "weight": 209,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1537,7 +1537,7 @@
       "first_name": "Stephen",
       "height": "6\" 5'",
       "weight": 210,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1557,7 +1557,7 @@
       "first_name": "Kenny",
       "height": "6\" 0'",
       "weight": 232,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1577,7 +1577,7 @@
       "first_name": "Deion",
       "height": "5\" 9'",
       "weight": 192,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1617,7 +1617,7 @@
       "first_name": "Tyler",
       "height": "6\" 4'",
       "weight": 245,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -1697,7 +1697,7 @@
       "first_name": "Jake",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2077,7 +2077,7 @@
       "first_name": "Kyle",
       "height": "6\" 0'",
       "weight": 205,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2157,7 +2157,7 @@
       "first_name": "Ryan",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2257,7 +2257,7 @@
       "first_name": "Marcus",
       "height": "6\" 4'",
       "weight": 220,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2297,7 +2297,7 @@
       "first_name": "Gary",
       "height": "6\" 1'",
       "weight": 196,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2397,7 +2397,7 @@
       "first_name": "Drew",
       "height": "6\" 0'",
       "weight": 193,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2417,7 +2417,7 @@
       "first_name": "Stephen",
       "height": "6\" 2'",
       "weight": 218,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2457,7 +2457,7 @@
       "first_name": "Louis",
       "height": "6\" 3'",
       "weight": 202,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2557,7 +2557,7 @@
       "first_name": "Speedy",
       "height": "5\" 11'",
       "weight": 199,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2617,7 +2617,7 @@
       "first_name": "Lonnie",
       "height": "6\" 7'",
       "weight": 223,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2717,7 +2717,7 @@
       "first_name": "Aaron",
       "height": "6\" 3'",
       "weight": 225,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2957,7 +2957,7 @@
       "first_name": "Willie",
       "height": "5\" 5'",
       "weight": 155,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -2997,7 +2997,7 @@
       "first_name": "Bernard",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3017,7 +3017,7 @@
       "first_name": "Darryl",
       "height": "6\" 5'",
       "weight": 255,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3037,7 +3037,7 @@
       "first_name": "Daryl",
       "height": "5\" 10'",
       "weight": 201,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3077,7 +3077,7 @@
       "first_name": "Korey",
       "height": "6\" 1'",
       "weight": 218,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3137,7 +3137,7 @@
       "first_name": "Jamal",
       "height": "6\" 4'",
       "weight": 205,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3337,7 +3337,7 @@
       "first_name": "Weslye",
       "height": "6\" 5'",
       "weight": 255,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3357,7 +3357,7 @@
       "first_name": "Wes",
       "height": "6\" 4'",
       "weight": 235,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3397,7 +3397,7 @@
       "first_name": "Brandon",
       "height": "6\" 2'",
       "weight": 185,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3417,7 +3417,7 @@
       "first_name": "Gerrard",
       "height": "6\" 2'",
       "weight": 211,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3597,7 +3597,7 @@
       "first_name": "Nick",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3617,7 +3617,7 @@
       "first_name": "Freddie",
       "height": "6\" 1'",
       "weight": 241,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3697,7 +3697,7 @@
       "first_name": "Jaelen",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3717,7 +3717,7 @@
       "first_name": "Dalton",
       "height": "6\" 1'",
       "weight": 206,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3737,7 +3737,7 @@
       "first_name": "Jake",
       "height": "6\" 5'",
       "weight": 261,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3757,7 +3757,7 @@
       "first_name": "Jahad",
       "height": "5\" 10'",
       "weight": 190,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3797,7 +3797,7 @@
       "first_name": "Brett",
       "height": "6\" 4'",
       "weight": 232,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3837,7 +3837,7 @@
       "first_name": "Kendal",
       "height": "6\" 2'",
       "weight": 198,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3857,7 +3857,7 @@
       "first_name": "Ryan",
       "height": "5\" 10'",
       "weight": 198,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3937,7 +3937,7 @@
       "first_name": "Brian",
       "height": "6\" 3'",
       "weight": 208,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -3997,7 +3997,7 @@
       "first_name": "Kenneth",
       "height": "5\" 10'",
       "weight": 190,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -4017,7 +4017,7 @@
       "first_name": "Terron",
       "height": "5\" 7'",
       "weight": 201,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -4117,7 +4117,7 @@
       "first_name": "Carl",
       "height": "6\" 0'",
       "weight": 214,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -4157,7 +4157,7 @@
       "first_name": "Joe",
       "height": "-",
       "weight": "-",
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 
@@ -4217,7 +4217,7 @@
       "first_name": "Corey",
       "height": "5\" 10'",
       "weight": 175,
-      "status": null,
+      "status": "Inactive",
       "starting": false,
       "game_logs": [
 

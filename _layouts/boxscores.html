@@ -60,7 +60,9 @@ nav: boxscores
                 {% for stats in passing_stats %}
                   {% if stats.pass_attempts > 0 %}
                   <tr>
-                    <td class="name">{{ stats.player.name }}</td>
+                    <td class="name">
+                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                    </td>
                     <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
                     <td>{{ stats.pass_yards }}</td>
                     <td>{{ stats.pass_ypa }}</td>
@@ -103,7 +105,9 @@ nav: boxscores
                 {% for stats in rushing_stats %}
                   {% if stats.rush_attempts > 0 %}
                   <tr>
-                    <td class="name">{{ stats.player.name }}</td>
+                    <td class="name">
+                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                    </td>
                     <td>{{ stats.rush_attempts }}</td>
                     <td>{{ stats.rush_yards }}</td>
                     <td>{{ stats.rush_ypc }}</td>
@@ -146,7 +150,9 @@ nav: boxscores
                   {% for stats in receiving_stats %}
                     {% if stats.targets > 0 %}
                     <tr>
-                      <td class="name">{{ stats.player.name }}</td>
+                      <td class="name">
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                      </td>
                       <td>{{ stats.catches }}</td>
                       <td>{{ stats.targets }}</td>
                       <td>{{ stats.receiving_yards }}</td>

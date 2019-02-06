@@ -255,7 +255,7 @@ module.exports = {
     "5/6": "83.33333%",
     full: "100%",
     screen: "100vw",
-    "600": "600px",
+    "560": "560px",
     "300": "300px"
   },
 
@@ -454,8 +454,8 @@ module.exports = {
 
   plugins: [
     require("tailwindcss/plugins/container")({
-      // center: true,
-      // padding: "1rem"
+      center: true,
+      padding: "1rem"
     })
   ],
 

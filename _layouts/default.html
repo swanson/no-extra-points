@@ -13,13 +13,14 @@
   {% seo title=false %}
 </head>
 <body>
-  <div class="container flex-1">
+  <div class="container flex-shrink">
     {% include nav.html %}
-
-    <div class="container mb-16">
-      {{ content }}
-    </div>
   </div>
+
+  <div class="container flex-1 mb-16">
+      {{ content }}
+  </div>
+
   <div class="footer">
     <div class="container">
       {% include footer.html %}

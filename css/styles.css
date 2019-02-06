@@ -109,13 +109,13 @@ body {
 .scoreboard {
   @apply px-4 flex-col mb-8;
 
-  width: 580px;
+  width: 560px;
 }
 
 .half-width-card {
   @apply mb-8;
 
-  width: 580px;
+  width: 560px;
 }
 
 .mini-logo {

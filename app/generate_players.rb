@@ -62,18 +62,18 @@ end
 
 def get_status(status)
   case status
-  when "RESERVE_NONFOOTBALL_INJURY"
-  when "RESERVE_OTHER_LEAGUE"
-  when "RESERVE_MILITARY"
-  when "WAIVER_REQUEST"
-  when "RIGHTS_LIST"
-  when "TERMINATION_OF_RIGHTS"
-  when "RESERVE_DID_NOT_REPORT"
-  when "RESERVE_NONFOOTBALL_ILLNESS"
-  when "RESERVE_SUSPENDED"
-  when "RESERVE_RETIRED"
-  when "RESERVE_TENDERED"
-  when "OTHER"
+  when "RESERVE_NONFOOTBALL_INJURY",
+      "RESERVE_OTHER_LEAGUE",
+      "RESERVE_MILITARY",
+      "WAIVER_REQUEST",
+      "RIGHTS_LIST",
+      "TERMINATION_OF_RIGHTS",
+      "RESERVE_DID_NOT_REPORT",
+      "RESERVE_NONFOOTBALL_ILLNESS",
+      "RESERVE_SUSPENDED",
+      "RESERVE_RETIRED",
+      "RESERVE_TENDERED",
+      "OTHER"
     "Inactive"
   when "RESERVE_INJURED"
     "IR"
@@ -81,8 +81,7 @@ def get_status(status)
     "PUP"
   when "ACTIVE_LIST"
     "Active"
-  when "FREE_AGENT_ALLOCATED"
-  when "FREE_AGENT_UNALLOCATED"
+  when "FREE_AGENT_ALLOCATED", "FREE_AGENT_UNALLOCATED"
     "Free Agent"
   else
     "Unknown"

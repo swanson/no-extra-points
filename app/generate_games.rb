@@ -73,9 +73,15 @@ def player_id(node)
   "#{node.jersey_number}-#{node.name.given_name.chars.first}.#{node.name.family_name}"
 end
 
+def slug(name)
+  name.given_name.downcase.strip.gsub(/[^a-z]/, '') + "-" +
+    name.family_name.downcase.strip.gsub(/[^a-z]/, '')
+end
+
 def add_player(players, node)
   players << {
     guid: node.id,
+    slug: slug(node.name),
     name: node.name.given_name + " " + node.name.family_name,
     position: node.position,
     number: node.jersey_number,
