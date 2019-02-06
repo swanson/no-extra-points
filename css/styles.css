@@ -17,15 +17,15 @@ body {
 }
 
 .nav-link {
-  @apply text-blue-dark no-underline text-xl font-medium ml-4 pb-2;
+  @apply text-blue-dark no-underline block text-xl font-medium pb-2 border-b-4 border-transparent;
 }
 
 .nav-link:hover {
-  @apply border-b-4 border-blue-dark;
+  @apply border-blue-dark;
 }
 
 .nav-link.active {
-  @apply text-blue border-b-4 border-blue;
+  @apply text-blue border-blue;
 }
 
 .container {

@@ -1,20 +1,42 @@
 {% assign nav = page.nav | downcase  %}
 
 <nav class="flex items-center justify-between flex-wrap py-6">
-  <div class="mr-6">
+  <div class="flex items-center flex-no-shrink">
     <a href="/" class="font-semibold text-3xl tracking-normal no-underline" title="Advanced AAF Stats and Fantasy Analytics">
       <span class="text-grey">No</span><span class="text-blue">Extra</span><span class="text-blue-darker">Points</span>
     </a>
   </div>
-  <ul class="list-reset flex">
-    <li class="mr-6">
-      <a class="nav-link {% if nav == 'boxscores' %}active{% endif %}" href="/">Boxscores</a>
-    </li>
-    <li class="mr-6">
-      <a class="nav-link {% if nav == 'rosters' %}active{% endif %}" href="/rosters">Starting Rosters</a>
-    </li>
-    <li>
-      <a class="nav-link {% if nav == 'projections' %}active{% endif %}" href="/coming-soon">Projections</a>
-    </li>
-  </ul>
+  <div class="block md:hidden" onclick="toggleMenu()">
+    <button class="flex items-center px-3 py-2 border-2 rounded text-blue border-blue bg-blue-lightest hover:bg-blue-lighter focus:outline-none">
+      <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
+  <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+    <div class="text-sm py-2 md:flex-grow border-b-2 border-b-grey md:border-0">
+      <div class="flex md:inline-block">
+        <a href="/" class="nav-link {% if nav == 'boxscores' %}active{% endif %} mt-2 md:inline-block md:mt-0 mr-4">
+          Boxscores
+        </a>
+      </div>
+      <div class="flex md:inline-block">
+        <a href="/rosters" class="nav-link {% if nav == 'rosters' %}active{% endif %} mt-2 md:inline-block md:mt-0 mr-4">
+          Starting Rosters
+        </a>
+      </div>
+      <div class="flex md:inline-block">
+        <a href="/coming-soon" class="nav-link {% if nav == 'projections' %}active{% endif %} mt-2 md:inline-block md:mt-0">
+          Projections
+        </a>
+      </div>
+    </div>
+  </div>
 </nav>
+
+<script>
+  var menu = document.getElementById('menu');
+
+  function toggleMenu() {
+    menu.classList.toggle('block');
+    menu.classList.toggle('hidden');
+  }
+</script>
