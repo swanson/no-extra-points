@@ -38,6 +38,16 @@ nav: players
 </div>
 
 <div class="card mt-4 bg-{{ player.team_abbr }}">
+  <h2 class="text-white pb-4">Season Stats</h2>
+  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+    {% for log in player.game_logs %}
+    {% else %}
+      <div class="text-center text-grey py-8">No games played yet</div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="card mt-4 bg-{{ player.team_abbr }}">
   <h2 class="text-white pb-4">Game Logs</h2>
   <div class="bg-white -mx-4 px-4 py-4 -mb-4">
     {% for log in player.game_logs %}
