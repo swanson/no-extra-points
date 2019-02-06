@@ -188,7 +188,10 @@ body {
 }
 
 .footer {
-  @apply bg-blue-dark pin-b;
+  @apply bg-blue-darker bg-topography pin-b;
+
+  background-position-x: -143px;
+  background-position-y: -176px;
 }
 
 .footer a {
