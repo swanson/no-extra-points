@@ -159,6 +159,7 @@ module.exports = {
   },
 
   textSizes: {
+    "2xs": ".5rem",
     xs: ".75rem", // 12px
     sm: ".875rem", // 14px
     base: "1rem", // 16px
@@ -254,7 +255,8 @@ module.exports = {
     "5/6": "83.33333%",
     full: "100%",
     screen: "100vw",
-    "600": "600px"
+    "600": "600px",
+    "300": "300px"
   },
 
   height: {

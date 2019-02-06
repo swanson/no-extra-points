@@ -5,6 +5,12 @@ page_gen:
     name: slug
     page_title: title
     dir: boxscores
+  - index_files: true
+    data: players.players
+    template: players
+    name: slug
+    page_title: full_name
+    dir: players
 
 exclude:
   - Gemfile

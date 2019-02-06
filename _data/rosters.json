@@ -30,7 +30,7 @@
           "short_name": "T. Knight",
           "last_name": "Knight",
           "first_name": "Trevor",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MkPvvbYvaVNNPxdSnPAYxFKkEa0Y",
@@ -66,7 +66,7 @@
           "short_name": "J. Pressley",
           "last_name": "Pressley",
           "first_name": "Jhurell",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
@@ -114,7 +114,7 @@
           "short_name": "J. Huff",
           "last_name": "Huff",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
@@ -138,7 +138,7 @@
           "short_name": "R. Mullaney",
           "last_name": "Mullaney",
           "first_name": "Richard",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
@@ -150,7 +150,7 @@
           "short_name": "R. Ross",
           "last_name": "Ross",
           "first_name": "Rashad",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
@@ -174,7 +174,7 @@
           "short_name": "T. Duarte",
           "last_name": "Duarte",
           "first_name": "Thomas",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
@@ -241,7 +241,7 @@
           "short_name": "M. Simms",
           "last_name": "Simms",
           "first_name": "Matt",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mr5k7hAZFnvFAoDhfOnpMECSCZeC",
@@ -253,7 +253,7 @@
           "short_name": "T. Folston",
           "last_name": "Folston",
           "first_name": "Tarean",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmbkMuW2p6t8_L4aprsO3viyTzyY",
@@ -301,7 +301,7 @@
           "short_name": "M. Crockett",
           "last_name": "Crockett",
           "first_name": "Montay",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mq-GmGW4EfGjMYsrlxSJKz4Rpa6d",
@@ -325,7 +325,7 @@
           "short_name": "M. Jones",
           "last_name": "Jones",
           "first_name": "Malachi",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MgXuu1IplE-oQRh9H5EBHX0Uzs_J",
@@ -337,7 +337,7 @@
           "short_name": "S. Jones",
           "last_name": "Jones",
           "first_name": "Seantavius",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mkzk3MIyF7JAQcd78N4W7Duh2SUq",
@@ -385,7 +385,7 @@
           "short_name": "G. Hudson",
           "last_name": "Hudson",
           "first_name": "Garrett",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mm2ZwVxSGkw3OqT1GyqzErHBxJeK",
@@ -428,7 +428,7 @@
           "short_name": "L. Perez",
           "last_name": "Perez",
           "first_name": "Luis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MseOmwcB9ERo5Yb_5ejbYhmFxa5b",
@@ -488,7 +488,7 @@
           "short_name": "T. Richardson",
           "last_name": "Richardson",
           "first_name": "Trent",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsWlWGFivq3_ThVsuPkEYl2t2gMZ",
@@ -536,7 +536,7 @@
           "short_name": "D. Felton",
           "last_name": "Felton",
           "first_name": "DeVozea",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mumm8PK_wY3MZXSOMTik0hsIp6Ly",
@@ -548,7 +548,7 @@
           "short_name": "T. Palmer",
           "last_name": "Palmer",
           "first_name": "Tobias",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvmOLxRYf5EpHnnw3KboJ64aj5U8",
@@ -560,7 +560,7 @@
           "short_name": "Q. Patton",
           "last_name": "Patton",
           "first_name": "Quinton",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpyqEM1_gXIsD4IUZIqZWH4orGOo",
@@ -584,7 +584,7 @@
           "short_name": "B. Anderson",
           "last_name": "Anderson",
           "first_name": "Busta",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
@@ -627,7 +627,7 @@
           "short_name": "C. Hackenberg",
           "last_name": "Hackenberg",
           "first_name": "Christian",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MjnRSiLQsYyZvE5hxod1B0h_Ignj",
@@ -711,7 +711,7 @@
           "short_name": "Z. Stacy",
           "last_name": "Stacy",
           "first_name": "Zac",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpZypZ4X4DO9uNQNzutAgaUT0XKI",
@@ -735,7 +735,7 @@
           "short_name": "F. Guerra",
           "last_name": "Guerra",
           "first_name": "Fabian",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MhRTrUtStQOpZRmQASCkBgV0fhIJ",
@@ -759,7 +759,7 @@
           "short_name": "A. Howard",
           "last_name": "Howard",
           "first_name": "Alton \"Pig\"",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
@@ -783,7 +783,7 @@
           "short_name": "K. Ross",
           "last_name": "Ross",
           "first_name": "Kayaune",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mjwho2KhxUh6xpMCmX3U-V_km0UF",
@@ -862,7 +862,7 @@
           "short_name": "G. Gilbert",
           "last_name": "Gilbert",
           "first_name": "Garrett",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MlcxcyvoaMkgMadxjz-PrXKAmhCJ",
@@ -886,7 +886,7 @@
           "short_name": "A. Hunt",
           "last_name": "Hunt",
           "first_name": "Akeem",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MgWqgIYh39TaLl2VCdS8tsfiVWxV",
@@ -958,7 +958,7 @@
           "short_name": "I. Hyman",
           "last_name": "Hyman",
           "first_name": "Ishmael",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
@@ -970,7 +970,7 @@
           "short_name": "C. Johnson",
           "last_name": "Johnson",
           "first_name": "Charles",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmdTzyAXr_06YKM9MvkpiX6Pysbd",
@@ -982,7 +982,7 @@
           "short_name": "J. Marshall",
           "last_name": "Marshall",
           "first_name": "Jalin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mlkn1pQPSwR3LemN-XCL48ySzaYZ",
@@ -1006,7 +1006,7 @@
           "short_name": "S. Orndoff",
           "last_name": "Orndoff",
           "first_name": "Scott",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MkiXHB9MYn5EIMB45S7Fibn3RG3M",
@@ -1073,7 +1073,7 @@
           "short_name": "J. Woodrum",
           "last_name": "Woodrum",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mop_drX-yj7HIefEAlUHoDVCH_iA",
@@ -1097,7 +1097,7 @@
           "short_name": "J. Bouagnon",
           "last_name": "Bouagnon",
           "first_name": "Joel",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MhpQ_EdOOdPGE72Xu2X1U6pw4jKi",
@@ -1145,7 +1145,7 @@
           "short_name": "K. Bell",
           "last_name": "Bell",
           "first_name": "Kenny",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
@@ -1181,7 +1181,7 @@
           "short_name": "J. Leslie",
           "last_name": "Leslie",
           "first_name": "Jordan",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MgL4D_RHJ9sR9_cgr7jc_wknKh73",
@@ -1205,7 +1205,7 @@
           "short_name": "D. Pierson-El",
           "last_name": "Pierson-El",
           "first_name": "De'Mornay",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmIr6_Tggdgd2yO-XQnxLDtzVPS1",
@@ -1217,7 +1217,7 @@
           "short_name": "T. Balderree",
           "last_name": "Balderree",
           "first_name": "Tanner",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MugplZamc2FccLEXfQhqTP78rMH0",
@@ -1272,7 +1272,7 @@
           "short_name": "D. Vaughan",
           "last_name": "Vaughan",
           "first_name": "Dustin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MupH198whtLyGoCnan_zhuBONP-0",
@@ -1320,7 +1320,7 @@
           "short_name": "K. Farrow, II",
           "last_name": "Farrow, II",
           "first_name": "Kenneth",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
@@ -1380,7 +1380,7 @@
           "short_name": "M. McKay",
           "last_name": "McKay",
           "first_name": "Mekale",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MuFzhKGMHfLzIjrXrapTwDVc1-nX",
@@ -1416,7 +1416,7 @@
           "short_name": "J. Stewart",
           "last_name": "Stewart",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
@@ -1428,7 +1428,7 @@
           "short_name": "G. Ward, Jr.",
           "last_name": "Ward, Jr.",
           "first_name": "Greg",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MjpjYSya6_frsZ8aGk_iDyL66DDV",
@@ -1440,7 +1440,7 @@
           "short_name": "C. Clear",
           "last_name": "Clear",
           "first_name": "Cam",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
@@ -1495,7 +1495,7 @@
           "short_name": "M. Bercovici",
           "last_name": "Bercovici",
           "first_name": "Mike",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
@@ -1531,7 +1531,7 @@
           "short_name": "J. Gardner",
           "last_name": "Gardner",
           "first_name": "Ja'Quan",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
@@ -1579,7 +1579,7 @@
           "short_name": "D. Ford",
           "last_name": "Ford",
           "first_name": "Dontez",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
@@ -1603,7 +1603,7 @@
           "short_name": "K. Kelly",
           "last_name": "Kelly",
           "first_name": "Kameron",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
@@ -1615,7 +1615,7 @@
           "short_name": "F. Owusu",
           "last_name": "Owusu",
           "first_name": "Francis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
@@ -1651,7 +1651,7 @@
           "short_name": "G. Escobar",
           "last_name": "Escobar",
           "first_name": "Gavin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mnc8xISXCM-ArpeuLVABzhBG1xBr",

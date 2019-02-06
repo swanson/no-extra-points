@@ -1,0 +1,48 @@
+---
+layout: default
+title: Player
+nav: players
+---
+
+{% assign player = page %}
+
+<div class="flex flex-wrap justify-between items-center mb-2">
+  <div class="flex items-center mb-4">
+    <div class="jersey jersey-big jersey-{{ player.team_abbr}}">
+      {{ player.number}}
+    </div>
+    <div class="ml-4">
+      <h1>{{ player.full_name }}</h1>
+      <div class="flex items-center text-grey-dark mt-1 text-lg">
+        <div>{{ player.position }}</div>
+        <span class="px-2">&middot;</span>
+        <div>{{ player.team }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:w-auto text-sm">
+    <div class="flex items-baseline mb-1">
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Height</div>
+      <div class="text-left px-2">{{ player.height }}</div>
+    </div>
+    <div class="flex items-baseline mb-1">
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Weight</div>
+      <div class="text-left px-2">{{ player.weight }} lbs</div>
+    </div>
+    <div class="flex items-baseline">
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Status</div>
+      <div class="text-left px-2">{{ player.status }}</div>
+    </div>
+  </div>
+</div>
+
+<div class="card mt-4 bg-{{ player.team_abbr }}">
+  <h2 class="text-white pb-4">Game Logs</h2>
+  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+    {% for log in player.game_logs %}
+    {% else %}
+      <div class="text-center text-grey py-8">No games played yet</div>
+    {% endfor %}
+  </div>
+</div>

@@ -23,27 +23,15 @@ ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
           abbreviation
           name
         }
+        heightMillimeters
+        weightGrams
+        rosterStatus
       }
     }
   }
 GRAPHQL
 
-rosters = []
-
-def get_roster(rosters, team)
-  roster = rosters.find{|r| r[:team_id] == team.id}
-  if roster.nil?
-    roster = {
-      team_id: team.id,
-      team_name: team.name,
-      team_abbr: team.abbreviation,
-      players: []
-    }
-    rosters << roster
-  end
-
-  roster
-end
+players = []
 
 def map_position(position)
   case position
@@ -60,23 +48,70 @@ def map_position(position)
   end
 end
 
+def get_height(height_mm)
+  return "-" unless height_mm
+  inches = (height_mm * 0.0393701).round
+  ft, inch = inches.divmod(12)
+  "#{ft}\" #{inch}\'"
+end
+
+def get_weight(weight_g)
+  return "-" unless weight_g
+  (weight_g * 0.00220462).round
+end
+
+def get_status(status)
+  case status
+  when "RESERVE_NONFOOTBALL_INJURY"
+  when "RESERVE_OTHER_LEAGUE"
+  when "RESERVE_MILITARY"
+  when "WAIVER_REQUEST"
+  when "RIGHTS_LIST"
+  when "TERMINATION_OF_RIGHTS"
+  when "RESERVE_DID_NOT_REPORT"
+  when "RESERVE_NONFOOTBALL_ILLNESS"
+  when "RESERVE_SUSPENDED"
+  when "RESERVE_RETIRED"
+  when "RESERVE_TENDERED"
+  when "OTHER"
+    "Inactive"
+  when "RESERVE_INJURED"
+    "IR"
+  when "RESERVE_PHYSICALLY_UNABLE_TO_PLAY"
+    "PUP"
+  when "ACTIVE_LIST"
+    "Active"
+  when "FREE_AGENT_ALLOCATED"
+  when "FREE_AGENT_UNALLOCATED"
+    "Free Agent"
+  else
+    "Unknown"
+  end
+end
+
 def slug(name)
   name.given_name.downcase.strip.gsub(/[^a-z]/, '') + "-" +
     name.family_name.downcase.strip.gsub(/[^a-z]/, '')
 end
 
-def add_player_to_roster(roster, node)
-  roster[:players] << {
+def add_player(players, node)
+  players << {
     guid: node.id,
     slug: slug(node.name),
-    name: node.name.given_name + " " + node.name.family_name,
+    full_name: node.name.given_name + " " + node.name.family_name,
     position: map_position(node.position),
+    avatar_url: node.avatar&.url,
     number: node.jersey_number || "0",
-    team: node.team&.abbreviation,
+    team: node.team&.name,
+    team_abbr: node.team&.abbreviation,
     short_name: node.name.given_name.chars.first + ". " + node.name.family_name,
     last_name: node.name.family_name,
     first_name: node.name.given_name,
+    height: get_height(node.height_millimeters),
+    weight: get_weight(node.weight_grams),
+    status: get_status(node.roster_status),
     starting: false,
+    game_logs: []
   }
 end
 
@@ -91,12 +126,10 @@ end
 
 result = AAF::Client.query(ALL_PLAYERS)
 result.data.players_connection.nodes.each do |node|
-  next if node.roster_status != "ACTIVE_LIST"
+  next unless node.team
   next unless valid_position?(node.position)
 
-  roster = get_roster(rosters, node.team)
-
-  add_player_to_roster(roster, node)
+  add_player(players, node)
 end
 
 sort_order = {
@@ -106,22 +139,18 @@ sort_order = {
   "TE": 3
 }
 
-rosters.each do |roster|
-  roster[:players] = roster[:players].sort_by do |p|
-    [
-      sort_order[p[:position].to_sym],
-      p[:last_name],
-      p[:first_name]
-    ]
-  end
+players.sort_by! do |p|
+  [
+    sort_order[p[:position]],
+    p[:last_name],
+    p[:first_name]
+  ]
 end
 
-rosters.sort_by!{|r| r[:team_name]}
-
-path = File.join(File.dirname(__FILE__), '../_data', 'rosters.json')
+path = File.join(File.dirname(__FILE__), '../_data', 'players.json')
 File.write(path, JSON.pretty_generate({
   meta: {
     last_modified: Time.now,
   },
-  rosters: rosters,
+  players: players,
 }))

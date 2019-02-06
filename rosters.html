@@ -23,15 +23,15 @@ nav: rosters
         <ul class="list-reset py-4">
           {% for player in roster.players %}
             {% if player.starting != true %}
-                {% continue %}
+              {% continue %}
             {% endif %}
 
             <li>
-              <div class="jersey jersey-{{ roster.team_abbr}}">
-                {{ player.number}}
-              </div>
+              <div class="jersey jersey-{{ roster.team_abbr}}">{{ player.number}}</div>
               <div class="text-grey inline-block mx-2 w-5 text-center">{{ player.position }}</div>
-              <div class="text-lg inline-block">{{ player.name}}</div>
+              <div class="text-lg inline-block">
+                <a href="/players/{{ player.slug }}" class="no-underline text-black font-semibold hover:text-blue">{{ player.name}}</a>
+              </div>
             </li>
           {% endfor %}
         </ul>

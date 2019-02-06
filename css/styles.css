@@ -46,6 +46,14 @@ body {
   line-height: 2.1rem;
 }
 
+.jersey-big {
+  @apply text-2xl m-0;
+
+  height: 56px;
+  width: 56px;
+  line-height: 48px;
+}
+
 .jersey-ARI {
   @apply bg-ARI-secondary border-ARI-accent text-ARI;
 }
@@ -100,6 +108,12 @@ body {
 
 .scoreboard {
   @apply px-4 flex-col mb-8;
+
+  width: 580px;
+}
+
+.half-width-card {
+  @apply mb-8;
 
   width: 580px;
 }
