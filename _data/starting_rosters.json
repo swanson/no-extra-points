@@ -1531,7 +1531,7 @@
           "short_name": "J. Gardner",
           "last_name": "Gardner",
           "first_name": "Ja'Quan",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
@@ -1555,7 +1555,7 @@
           "short_name": "T. Watson",
           "last_name": "Watson",
           "first_name": "Terrell",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
@@ -1567,7 +1567,7 @@
           "short_name": "B. Brown",
           "last_name": "Brown",
           "first_name": "Brian",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Ms7obZS7dFXxIdQMVfg1WsQJeF3y",
@@ -1579,7 +1579,7 @@
           "short_name": "D. Ford",
           "last_name": "Ford",
           "first_name": "Dontez",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
