@@ -1356,7 +1356,7 @@
           "short_name": "D. Ayers",
           "last_name": "Ayers",
           "first_name": "De'Marcus",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
@@ -1416,7 +1416,7 @@
           "short_name": "J. Stewart",
           "last_name": "Stewart",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mk4IH3V19RPzqhXq-wefiCcKGCg6",
@@ -1440,7 +1440,7 @@
           "short_name": "C. Clear",
           "last_name": "Clear",
           "first_name": "Cam",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
@@ -1452,7 +1452,7 @@
           "short_name": "C. Hunt",
           "last_name": "Hunt",
           "first_name": "Cole",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mgb_UtvY7qtHpPKINg1QkU5ov9OJ",
