@@ -301,7 +301,7 @@
           "short_name": "M. Crockett",
           "last_name": "Crockett",
           "first_name": "Montay",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mq-GmGW4EfGjMYsrlxSJKz4Rpa6d",
@@ -349,7 +349,7 @@
           "short_name": "E. Philips",
           "last_name": "Philips",
           "first_name": "Ervin",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MjqXp-M0egZj0qqf9VW--WdOhYOU",
@@ -385,7 +385,7 @@
           "short_name": "G. Hudson",
           "last_name": "Hudson",
           "first_name": "Garrett",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mm2ZwVxSGkw3OqT1GyqzErHBxJeK",
@@ -397,7 +397,7 @@
           "short_name": "C. Standberry, Jr.",
           "last_name": "Standberry, Jr.",
           "first_name": "Charles",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mof0DIIcKBs9BlqLq7I1kGSR4pnx",
