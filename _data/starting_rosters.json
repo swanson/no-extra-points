@@ -1169,7 +1169,7 @@
           "short_name": "A. Jennings",
           "last_name": "Jennings",
           "first_name": "Adonis",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MnvL6-GbEKvM2KNii88YtoXpeeCF",
@@ -1181,7 +1181,7 @@
           "short_name": "J. Leslie",
           "last_name": "Leslie",
           "first_name": "Jordan",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MgL4D_RHJ9sR9_cgr7jc_wknKh73",
@@ -1217,7 +1217,7 @@
           "short_name": "T. Balderree",
           "last_name": "Balderree",
           "first_name": "Tanner",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MugplZamc2FccLEXfQhqTP78rMH0",
@@ -1229,7 +1229,7 @@
           "short_name": "A. Denham",
           "last_name": "Denham",
           "first_name": "Anthony",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MruASXlN9ksMnvFg3zcDg_6dISTx",
