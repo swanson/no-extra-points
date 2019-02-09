@@ -47,4 +47,4 @@ Nevertheless, there is a grassroots community of folks playing season long AAF f
 
 The success of the AAF may come down to how well it engages with fantasy players. We've seen huge surges in interest in leagues like the WNBA and NASCAR after they embraced daily fantasy sports.
 
-The AAF is making a big bet on real-time data, bettings, and analytics, but until it can tap into the massive potential by unlocking fantasy players looking to fill their time during the NFL off-season the future is uncertain.
+The AAF is making a big bet on real-time data, bettings, and analytics, but until it can tap into the massive potential by unlocking fantasy players looking to fill their time during the NFL off-season, the future is uncertain.
