@@ -53,6 +53,20 @@ Given the lack of depth, Fanball has opted to replace the TE slot with another f
 
 There has been a brewing controversy about an AAF rule change that limits defensive to only sending five rushers maximum on passing plays.
 
+> (1) no more than five players may rush on passing plays;
+
+> (2) any player who aligns on the line of scrimmage either prior to or at the snap is designated as one of the five players regardless of whether he rushes;
+
+> (3) no defensive player may rush from a position more than two yards outside the widest offensive lineman and more than five yards from the line of scrimmage (they’ll call it the “defensive pressure box”);
+
+> (4) a player is deemed eligible to rush if he has both feet inside the box at the snap;
+
+> (5) no more than four players may rush from the same side of the ball;
+
+> (6) adjacent linebackers may not rush from the same side of the ball; and
+
+> (7) two or more linebackers aligned between the offensive guards may not rush.
+
 A storyline to follow in the first weeks of the season is if teams will exploit this rule with a power running game as AAF teams cannot stack the box without risking a penalty.
 
 We've seen an good amount of goal-line rushing TDs and conversions in the preseason and it seems like defensives may struggle on short yardage situations. This may swing the balance for goal-line backs, even in a PPR scoring system where pass catching backs usually thrive.
