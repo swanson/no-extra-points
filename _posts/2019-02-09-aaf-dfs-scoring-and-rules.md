@@ -49,25 +49,23 @@ As we head toward Week 1, only two TE options seem to be emerging among the eigh
 
 Given the lack of depth, Fanball has opted to replace the TE slot with another flex. It's hard to guage utilization, but using a TE in the flex spot may be one of the only ways to get roster differentiation in the small slate format.
 
-## Defensive limitations
+## Defensive rule limitations
 
 There has been a brewing controversy about an AAF rule change that limits defensive to only sending five rushers maximum on passing plays.
 
-> (1) no more than five players may rush on passing plays;
+From the [official rules](https://aaf.com/notable-rule-differences-for-the-alliances-inaugural):
 
-> (2) any player who aligns on the line of scrimmage either prior to or at the snap is designated as one of the five players regardless of whether he rushes;
+> On defense, no more than five players may rush on passing plays. No defensive player may rush from a position of more than two yards outside the widest offensive lineman and more than five yards from the line of scrimmage. The exceptions would be play-action or run-pass option plays and if the ball leaves the tackle box.
 
-> (3) no defensive player may rush from a position more than two yards outside the widest offensive lineman and more than five yards from the line of scrimmage (they’ll call it the “defensive pressure box”);
+> Players that line up on the line of scrimmage are designated as one of the five players eligible to rush, regardless of whether they rush or not.
 
-> (4) a player is deemed eligible to rush if he has both feet inside the box at the snap;
+> No defensive player may rush from a position of more than two yards outside the widest offensive lineman and more than five yards from the line of scrimmage (defensive pressure box). The exceptions would be play-action or run-pass option plays and if the ball leaves the tackle box.
 
-> (5) no more than four players may rush from the same side of the ball;
+> Any player who aligns on the line of scrimmage either prior to or at the snap is designated as one of the five players regardless of whether he rushes.
 
-> (6) adjacent linebackers may not rush from the same side of the ball; and
+> There will be a 15-yard penalty for "illegal defense."
 
-> (7) two or more linebackers aligned between the offensive guards may not rush.
-
-A storyline to follow in the first weeks of the season is if teams will exploit this rule with a power running game as AAF teams cannot stack the box without risking a penalty.
+A storyline to follow in the first weeks of the season is if teams will exploit this rule with a power running game as AAF teams cannot stack the box without risking a penalty. Will this rule not be heavily enforced? Or will it be ignored as players and officials adjust?
 
 We've seen an good amount of goal-line rushing TDs and conversions in the preseason and it seems like defensives may struggle on short yardage situations. This may swing the balance for goal-line backs, even in a PPR scoring system where pass catching backs usually thrive.
 
