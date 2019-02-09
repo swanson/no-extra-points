@@ -5,10 +5,10 @@ permalink: /
 nav: boxscores
 ---
 
-{% assign game_data = site.data.games %}
+{% assign data = site.data.boxscores %}
 {% assign current_week = "" %}
 
-{% for game in game_data.games %}
+{% for game in data.boxscores %}
   {% if forloop.first == true %}
     {% assign current_week = game.week %}
     <div class="week">

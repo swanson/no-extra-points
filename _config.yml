@@ -1,6 +1,6 @@
 page_gen:
   - index_files: true
-    data: games.games
+    data: boxscores.boxscores
     template: boxscores
     name: slug
     page_title: title

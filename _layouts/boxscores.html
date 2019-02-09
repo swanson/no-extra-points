@@ -68,7 +68,7 @@ nav: boxscores
                     <td>{{ stats.pass_ypa }}</td>
                     <td>{{ stats.pass_td }}</td>
                     <td>{{ stats.interceptions }}</td>
-                    <td>{{ stats.pass_2pt }}</td>
+                    <td>{{ stats.two_pts }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -113,7 +113,7 @@ nav: boxscores
                     <td>{{ stats.rush_ypc }}</td>
                     <td>{{ stats.rush_long }}</td>
                     <td>{{ stats.rush_td }}</td>
-                    <td>{{ stats.rush_2pt }}</td>
+                    <td>{{ stats.two_pts }}</td>
                   </tr>
                   {% endif %}
                 {% endfor %}
@@ -158,7 +158,7 @@ nav: boxscores
                       <td>{{ stats.receiving_yards }}</td>
                       <td>{{ stats.receiving_long }}</td>
                       <td>{{ stats.receiving_td }}</td>
-                      <td>{{ stats.receiving_2pt }}</td>
+                      <td>{{ stats.two_pts }}</td>
                     </tr>
                     {% endif %}
                   {% endfor %}
@@ -172,11 +172,16 @@ nav: boxscores
       <div class="px-4">
         <h3>Full Play-by-Play</h3>
         <ul class="list-reset mt-4">
-          {% for play in game.plays %}
+          {% for play in game.play_by_play %}
             <li class="flex p-2 items-center">
-              <span class="w-12 p-2 rounded text-center text-white bg-{{play.possession}}-secondary">{{ play.possession}}</span>
+              <span class="w-12 py-2 px-1 rounded text-center text-white bg-{{play.possession}}-secondary">{{ play.possession}}</span>
               <p class="flex-1 inline-block word-wrap ml-4">
-                Q{{ play.quarter }} | {{ play.description }}
+                {% if play.conversion_attempt or play.down == "0th" %}
+                  2PT
+                {% else %}
+                  {{ play.down }} & {{ play.distance }}
+                {% endif %}
+                | Q{{ play.quarter }} | {{ play.description }}
               </p>
             </li>
           {% endfor %}
