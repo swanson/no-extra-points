@@ -946,7 +946,7 @@
           "short_name": "R. Hall",
           "last_name": "Hall",
           "first_name": "Rannell",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MlV-02inUXrsEEpYRJOewDTYBKEj",
@@ -958,7 +958,7 @@
           "short_name": "I. Hyman",
           "last_name": "Hyman",
           "first_name": "Ishmael",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
