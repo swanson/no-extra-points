@@ -524,7 +524,7 @@
           "short_name": "A. Etta-Tawo",
           "last_name": "Etta-Tawo",
           "first_name": "Amba",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MsPpBdm_TA_D_k1EJ62-ovlO9mah",
@@ -536,7 +536,7 @@
           "short_name": "D. Felton",
           "last_name": "Felton",
           "first_name": "DeVozea",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mumm8PK_wY3MZXSOMTik0hsIp6Ly",
@@ -548,7 +548,7 @@
           "short_name": "T. Palmer",
           "last_name": "Palmer",
           "first_name": "Tobias",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvmOLxRYf5EpHnnw3KboJ64aj5U8",
@@ -572,7 +572,7 @@
           "short_name": "L. Washington",
           "last_name": "Washington",
           "first_name": "L'Damian",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mmn17YhtJ2sO5nrF_20WT9BB6c_c",
