@@ -13,15 +13,15 @@ Unfortunately, at the time of the AAF opening weekend, none of the top three DFS
 
 Given that DraftKings runs [NFL preseason](https://www.draftkings.com/playbook/nfl/fantasy-football-usage-notes-preseason-week-3) and [CFL (Canadian football)](https://www.draftkings.com/help/rules/cfl) contests with prize pools in the tens of thousands, it seems likely that they would be the first movers.
 
-In the absence of support from the industry leaders, [Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF) has stepped up and is offering the kind of games that traditional NFL DFSers are seeking: salary capped roster construction for money, both H2H, Double-Ups, and GPPS. The contests are small, but it's all that currently exists in the AAF DFS world.
+In the absence of support from the industry leaders, [Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF) has stepped up and is offering the kind of games that traditional NFL DFSers are seeking: salary capped roster construction for money, both H2H, Double-Ups, and GPPs. The contests are small, but it's all that currently exists in the AAF DFS world.
 
-[Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF) is a newer DFS site but part of a larger platform that includes well-known fantasy football products like MFL10s "Best Ball" Leagues, LeagueSafe (cash escrow for season-long leagues), and the NFFC championship -- so you should have confidence that the site is legit.
+[Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF) is a newer DFS site, but part of a larger platform that includes well-known fantasy football products like MFL10s "Best Ball" Leagues, LeagueSafe (cash escrow for season-long leagues), and the NFFC championship -- so you should have confidence that the site is legit.
 
 ![Fanball AAF Lobby](/images/fanball-lobby.png)
 
 ## Predict the Play
 
-The official AAF app launched with a new type of fantasy game. AAF CEO Charlie Ebersol compares it being a virtual coach: you try to predict the next play in real-time as the game is happening. Will the offense run or pass? Who will score the toucdown? Will there be a turnover?
+The official AAF app launched with a new type of fantasy game. AAF CEO Charlie Ebersol [compares it being a virtual coach](https://www.thelines.com/charlie-ebersol-aaf-betting-fantasy-football/): you try to predict the next play in real-time as the game is happening. Will the offense run or pass? Who will score the toucdown? Will there be a turnover?
 
 Official iOS app: [Download](https://itunes.apple.com/us/app/alliance-of-american-football/id1433999024?mt=8)
 
@@ -42,3 +42,9 @@ You can also find some offshore books taking action on AAF futures, win-totals, 
 None of the mainstream sites (ESPN, CBS, Yahoo) have season-long AAF. A new league with a 10 week season and only eight teams can make it tough for traditional 10 or 12 person leagues -- there simple will not be enough players to go around and will little to no information on rosters ahead of the season, drafting would be a crapshoot.
 
 Nevertheless, there is a grassroots community of folks playing season long AAF fantasy at [AltFantasySports](http://altfantasysports.com). It's not going to have all bells and whistles of the multi-million dollar established fantasy brands, but it's the only option if you're looking for season-long AAF action.
+
+## The future?
+
+The success of the AAF may come down to how well it engages with fantasy players. We've seen huge surges in interest in leagues like the WNBA and NASCAR after they embraced daily fantasy sports.
+
+The AAF is making a big bet on real-time data, bettings, and analytics, but until it can tap into the massive potential by unlocking fantasy players looking to fill their time during the NFL off-season the future is uncertain.
