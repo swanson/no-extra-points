@@ -24,6 +24,7 @@ In the absence of support from the industry leaders, [Fanball](https://www.fanba
 The official AAF app launched with a new type of fantasy game. AAF CEO Charlie Ebersol compares it being a virtual coach: you try to predict the next play in real-time as the game is happening. Will the offense run or pass? Who will score the toucdown? Will there be a turnover?
 
 Official iOS app: [Download](https://itunes.apple.com/us/app/alliance-of-american-football/id1433999024?mt=8)
+
 Official Android app: [Download](https://play.google.com/store/apps/details?id=com.aaf)
 
 ![Official AAF App](/images/aaf-app.png)
