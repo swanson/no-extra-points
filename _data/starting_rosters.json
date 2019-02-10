@@ -126,7 +126,7 @@
           "short_name": "F. Martino",
           "last_name": "Martino",
           "first_name": "Freddie",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MkJMaeehojJ_G2FTn43DdskqOBtE",
@@ -150,7 +150,7 @@
           "short_name": "R. Ross",
           "last_name": "Ross",
           "first_name": "Rashad",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
