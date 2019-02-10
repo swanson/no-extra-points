@@ -169,6 +169,103 @@ nav: boxscores
         {% endfor %}
       </div>
 
+      <div class="boxscore-row">
+        {% for prefix in prefixes %}
+          {% assign key = prefix | append: "_team" %}
+          {% assign color_key = prefix | append: "_abbr" %}
+          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+          <div class="flex-1 px-4">
+            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Defense</div>
+            <div class="boxscore-table-wrapper">
+              <table class="boxscore-table">
+                <thead>
+                  <tr class="sub-header">
+                    <th></th>
+                    <th colspan="5">Tackles</th>
+                    <th colspan="4">Misc</th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th>TOT</th>
+                    <th>SOLO</th>
+                    <th>TFL</th>
+                    <th>SACKS</th>
+                    <th class="divider">QB HTS</th>
+                    <th>PD</th>
+                    <th>INT</th>
+                    <th>FF</th>
+                    <th>FUM</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% assign key = prefix | append: "_stats" %}
+                  {% assign receiving_stats = game[key] | sort: "tackles" | reverse %}
+                  {% for stats in receiving_stats %}
+                    {% if stats.tackles > 0 or stats.pass_defenses > 0 %}
+                    <tr>
+                      <td class="name divider">
+                        {{ stats.player.name }}
+                      </td>
+                      <td>{{ stats.tackles }}</td>
+                      <td>{{ stats.solo_tackles }}</td>
+                      <td>{{ stats.tackles_for_loss }}</td>
+                      <td>{{ stats.sacks }}</td>
+                      <td class="divider">{{ stats.quarterback_hits }}</td>
+                      <td>{{ stats.pass_defenses }}</td>
+                      <td>{{ stats.interception_returns }}</td>
+                      <td>{{ stats.opponent_fumbles_forced }}</td>
+                      <td>{{ stats.opponent_fumbles_recovered }}</td>
+                    </tr>
+                    {% endif %}
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="boxscore-row">
+        {% for prefix in prefixes %}
+          {% assign key = prefix | append: "_team" %}
+          {% assign color_key = prefix | append: "_abbr" %}
+          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+          <div class="flex-1 px-4">
+            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Kicking</div>
+            <div class="boxscore-table-wrapper">
+              <table class="boxscore-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>FG</th>
+                    <th>LONG</th>
+                    <th>BLOCKED</th>
+                    <th>PTS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% assign key = prefix | append: "_stats" %}
+                  {% assign receiving_stats = game[key] | sort: "field_goals_attempted" | reverse %}
+                  {% for stats in receiving_stats %}
+                    {% if stats.field_goals_attempted > 0 %}
+                    <tr>
+                      <td class="name divider">
+                        {{ stats.player.name }}
+                      </td>
+                      <td>{{ stats.field_goals_made }} / {{ stats.field_goals_attempted }}</td>
+                      <td>{{ stats.field_goals_longest_made }}</td>
+                      <td>{{ stats.field_goals_blocked }}</td>
+                      <td>{{ stats.field_goals_made | times: 3 }}</td>
+                    </tr>
+                    {% endif %}
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
       <div class="px-4">
         <h3>Full Play-by-Play</h3>
         <ul class="list-reset mt-4">

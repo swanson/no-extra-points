@@ -68,6 +68,21 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             receivingLongestGain
             twoPointConversionsCompleted
             timesSacked
+            assistedTackles
+            tackleAssists
+            tackles
+            tacklesForLoss
+            opponentFumblesRecovered
+            opponentFumblesForced
+            opposingFieldGoalsBlocked
+            passDefenses
+            sacks
+            quarterbackHits
+            interceptionReturns
+            fieldGoalsAttempted
+            fieldGoalsBlocked
+            fieldGoalsMade
+            fieldGoalsLongestMade
           }
         }
       }
@@ -234,7 +249,7 @@ def extract_player_stats(edges, team_name, plays)
 
   edges.each do |edge|
     player = edge.node
-    next unless valid_position?(player.position)
+    # next unless valid_position?(player.position)
     next unless edge.team.name == team_name
 
     player = extract_player_details(player, edge.team)
@@ -256,6 +271,23 @@ def extract_player_stats(edges, team_name, plays)
       fumbles: edge.stats.fumbles,
       interceptions: edge.stats.passes_intercepted,
       two_pts: edge.stats.two_point_conversions_completed,
+      times_sacked: edge.stats.times_sacked,
+      assisted_tackles: edge.stats.assisted_tackles,
+      tackle_assists: edge.stats.tackle_assists,
+      tackles: edge.stats.tackles,
+      tackles_for_loss: edge.stats.tackles_for_loss,
+      solo_tackles: edge.stats.tackles - edge.stats.tackles_for_loss,
+      opponent_fumbles_recovered: edge.stats.opponent_fumbles_recovered,
+      opponent_fumbles_forced: edge.stats.opponent_fumbles_forced,
+      opposing_field_goals_blocked: edge.stats.opposing_field_goals_blocked,
+      pass_defenses: edge.stats.pass_defenses,
+      sacks: edge.stats.sacks,
+      quarterback_hits: edge.stats.quarterback_hits,
+      interception_returns: edge.stats.interception_returns,
+      field_goals_attempted: edge.stats.field_goals_attempted,
+      field_goals_blocked: edge.stats.field_goals_blocked,
+      field_goals_made: edge.stats.field_goals_made,
+      field_goals_longest_made: edge.stats.field_goals_longest_made,
       targets: extract_targets(player, plays),
     }
 
