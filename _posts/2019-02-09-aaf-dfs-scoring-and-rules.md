@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alliance of American Football (AAF) Daily Fantasy Guide
+nav: articles
 ---
 
 ## Where can I play?

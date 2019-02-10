@@ -6,5 +6,13 @@ nav: articles
 ---
 
 {% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
+  <div class="article max-w-lg my-8">
+    <h2 class="mb-2">
+      <a class="no-underline text-blue-dark hover:text-blue-light" href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p class="mb-4">
+      {{ post.content | strip_html | truncatewords:75 }}
+    </p>
+    <a class="no-underline text-sm text-grey hover:text-blue" href="{{ post.url }}">Read this article →</a>
+  </div>
 {% endfor %}

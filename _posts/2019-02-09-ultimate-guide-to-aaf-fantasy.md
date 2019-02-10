@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ultimate Guide to Alliance of American Football (AAF) Fantasy
+nav: articles
 ---
 
 The [Alliance of American Football](https://aaf.com/) (AAF) is kicking off their opening season in 2019 with eight teams and a 10 week regular season. The league is made up of players just outside of the NFL roster bubble -- expect to see some familiar names from NCAA football, preseason stars, and other fringe NFL players that are looking for a second chance at making it to The League.
