@@ -1272,7 +1272,7 @@
           "short_name": "D. Vaughan",
           "last_name": "Vaughan",
           "first_name": "Dustin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MupH198whtLyGoCnan_zhuBONP-0",
@@ -1296,7 +1296,7 @@
           "short_name": "L. Woodside",
           "last_name": "Woodside",
           "first_name": "Logan",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MhyVle_UIu23yo8WANee4OUPncIR",
