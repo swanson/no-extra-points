@@ -166,12 +166,46 @@ body {
   @apply px-4 text-blue-dark text-left;
 }
 
+.boxscore-table .game {
+  @apply px-4 text-blue-dark text-left;
+}
+
+.boxscore-table .game a {
+  @apply text-blue-dark font-bold no-underline;
+}
+
+.boxscore-table .game a:hover {
+  @apply text-blue;
+}
+
+.boxscore-table .hide-mobile {
+  @apply hidden;
+}
+
+@screen md {
+  .boxscore-table .hide-mobile {
+    @apply table-cell;
+  }
+
+  .boxscore-table tr.hide-mobile {
+    @apply table-row;
+  }
+}
+
 .boxscore-table td {
   @apply text-right py-2;
 }
 
 .boxscore-table th {
   @apply text-right;
+}
+
+.boxscore-table .divider {
+  @apply border-r-2 border-grey-light pr-4;
+}
+
+.boxscore-table tr.sub-header th {
+  @apply text-center bg-blue-lightest uppercase text-xs;
 }
 
 .boxscore-table td:last-child,

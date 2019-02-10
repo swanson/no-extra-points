@@ -93,6 +93,21 @@ def slug(name)
     name.family_name.downcase.strip.gsub(/[^a-z]/, '')
 end
 
+def get_game_logs(player)
+  path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
+  boxscores = JSON.parse(File.open(path).read)["boxscores"]
+  logs = []
+  boxscores.each do |bs|
+    ["home_stats", "away_stats"].each do |key|
+      stats = bs[key].find{|s| s["player"]["guid"] == player.id}
+      if stats
+        logs << stats.merge(week: bs["week"], game_link: bs["slug"], game: bs["short_title"])
+      end
+    end
+  end
+  logs
+end
+
 def add_player(players, node)
   players << {
     guid: node.id,
@@ -110,7 +125,7 @@ def add_player(players, node)
     weight: get_weight(node.weight_grams),
     status: get_status(node.roster_status),
     starting: false,
-    game_logs: []
+    game_logs: get_game_logs(node)
   }
 end
 

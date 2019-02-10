@@ -260,6 +260,7 @@ def extract_player_stats(edges, team_name, plays)
     }
 
     player_stats = calculate_averages(player_stats)
+    player_stats = get_fantasy_stats(player_stats)
 
     stats << player_stats
   end
@@ -272,19 +273,71 @@ def calculate_averages(stats)
 
   if stats[:pass_attempts] > 0
     stats[:pass_ypa] = (stats[:pass_yards].to_f / stats[:pass_attempts]).round(1)
+  else
+    stats[:pass_ypa] = 0
   end
 
   if stats[:rush_attempts] > 0
     stats[:rush_ypc] = (stats[:rush_yards].to_f / stats[:rush_attempts]).round(1)
+  else
+    stats[:rush_ypc] = 0
   end
 
   stats
+end
+
+def get_fantasy_stats(stats)
+  return nil unless stats
+  stats[:salary] = "$-"
+  stats[:fpts] = compute_fpts(stats)
+  stats
+end
+
+def compute_fpts(stats)
+  fpts = stats[:pass_yards] * 0.04 +
+    stats[:pass_td] * 4 +
+    stats[:rush_yards] * 0.1 +
+    stats[:rush_td] * 6 +
+    stats[:receiving_yards] * 0.1 +
+    stats[:catches] * 1 +
+    stats[:receiving_td] * 6 +
+    stats[:two_pts] * 2
+
+  if stats[:pass_yards] >= 400
+    fpts += 4
+  elsif stats[:pass_yards] >= 350
+    fpts += 3
+  elsif stats[:pass_yards] >= 300
+    fpts += 2
+  end
+
+  if stats[:rush_yards] >= 200
+    fpts += 4
+  elsif stats[:rush_yards] >= 150
+    fpts += 3
+  elsif stats[:rush_yards] >= 100
+    fpts += 2
+  end
+
+  if stats[:receiving_yards] >= 200
+    fpts += 4
+  elsif stats[:receiving_yards] >= 150
+    fpts += 3
+  elsif stats[:receiving_yards] >= 100
+    fpts += 2
+  end
+
+  fpts.round(1)
 end
 
 def extract_players(edges)
   edges.map do |edge|
     extract_player_details(edge.node, edge.team)
   end
+end
+
+def generate_short_title(node)
+  "#{node.away_team.abbreviation} @ #{node.home_team.abbreviation}"
 end
 
 def add_boxscore(node)
@@ -297,6 +350,7 @@ def add_boxscore(node)
   {
     slug: generate_slug(node),
     title: generate_title(node),
+    short_title: generate_short_title(node),
     home_team: home,
     home_abbr: node.home_team.abbreviation,
     home_score: node.status.home_team_points,

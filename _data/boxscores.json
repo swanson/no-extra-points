@@ -1,11 +1,12 @@
 {
   "meta": {
-    "last_modified": "2019-02-09 23:22:23 -0500"
+    "last_modified": "2019-02-10 12:17:29 -0500"
   },
   "boxscores": [
     {
       "slug": "week-1-orl-atl",
       "title": "Orlando Apollos vs Atlanta Legends - Week 1",
+      "short_title": "ATL @ ORL",
       "home_team": "Orlando Apollos",
       "home_abbr": "ORL",
       "home_score": 40,
@@ -4416,7 +4417,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 7.0
+          "pass_ypa": 0,
+          "rush_ypc": 7.0,
+          "salary": "$-",
+          "fpts": 13.8
         },
         {
           "player": {
@@ -4444,7 +4448,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -4472,7 +4480,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.5
         },
         {
           "player": {
@@ -4500,7 +4512,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -4528,7 +4544,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -4556,7 +4576,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 6
+          "targets": 6,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.0
         },
         {
           "player": {
@@ -4585,7 +4609,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 5,
-          "pass_ypa": 5.0
+          "pass_ypa": 5.0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 18.3
         },
         {
           "player": {
@@ -4613,7 +4640,11 @@
           "fumbles": 1,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -4641,7 +4672,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -4671,7 +4706,9 @@
           "two_pts": 1,
           "targets": 1,
           "pass_ypa": 9.1,
-          "rush_ypc": 5.0
+          "rush_ypc": 5.0,
+          "salary": "$-",
+          "fpts": 27.6
         },
         {
           "player": {
@@ -4701,7 +4738,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 4.0,
-          "rush_ypc": 1.0
+          "rush_ypc": 1.0,
+          "salary": "$-",
+          "fpts": 0.3
         },
         {
           "player": {
@@ -4730,7 +4769,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "rush_ypc": 2.6
+          "pass_ypa": 0,
+          "rush_ypc": 2.6,
+          "salary": "$-",
+          "fpts": 11.1
         },
         {
           "player": {
@@ -4758,7 +4800,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -4787,7 +4833,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": -1.0
+          "pass_ypa": 0,
+          "rush_ypc": -1.0,
+          "salary": "$-",
+          "fpts": -0.1
         },
         {
           "player": {
@@ -4816,7 +4865,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 6.0
+          "pass_ypa": 0,
+          "rush_ypc": 6.0,
+          "salary": "$-",
+          "fpts": 0.6
         },
         {
           "player": {
@@ -4845,7 +4897,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 5,
-          "rush_ypc": 7.3
+          "pass_ypa": 0,
+          "rush_ypc": 7.3,
+          "salary": "$-",
+          "fpts": 7.3
         },
         {
           "player": {
@@ -4873,7 +4928,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 6
+          "targets": 6,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 10.0
         }
       ],
       "away_stats": [
@@ -4903,7 +4962,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 8
+          "targets": 8,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.3
         },
         {
           "player": {
@@ -4932,7 +4995,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 0.6
+          "pass_ypa": 0,
+          "rush_ypc": 0.6,
+          "salary": "$-",
+          "fpts": 1.8
         },
         {
           "player": {
@@ -4961,7 +5027,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 4,
-          "rush_ypc": 12.0
+          "pass_ypa": 0,
+          "rush_ypc": 12.0,
+          "salary": "$-",
+          "fpts": 8.7
         },
         {
           "player": {
@@ -4989,7 +5058,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5017,7 +5090,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5045,7 +5122,11 @@
           "fumbles": 1,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 5
+          "targets": 5,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.4
         },
         {
           "player": {
@@ -5073,7 +5154,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5102,7 +5187,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 8.0
+          "pass_ypa": 0,
+          "rush_ypc": 8.0,
+          "salary": "$-",
+          "fpts": 2.4
         },
         {
           "player": {
@@ -5130,7 +5218,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 7
+          "targets": 7,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5158,7 +5250,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.0
         },
         {
           "player": {
@@ -5186,7 +5282,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5214,7 +5314,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -5242,7 +5346,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 5
+          "targets": 5,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.4
         },
         {
           "player": {
@@ -5271,7 +5379,10 @@
           "interceptions": 1,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 5.4
+          "pass_ypa": 5.4,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.5
         },
         {
           "player": {
@@ -5301,7 +5412,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 4.5,
-          "rush_ypc": 3.0
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 5.9
         },
         {
           "player": {
@@ -5330,7 +5443,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 4,
-          "rush_ypc": 2.7
+          "pass_ypa": 0,
+          "rush_ypc": 2.7,
+          "salary": "$-",
+          "fpts": 7.5
         },
         {
           "player": {
@@ -5358,13 +5474,18 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         }
       ]
     },
     {
       "slug": "week-1-sa-sd",
       "title": "San Antonio Commanders vs San Diego Fleet - Week 1",
+      "short_title": "SD @ SA",
       "home_team": "San Antonio Commanders",
       "home_abbr": "SA",
       "home_score": 15,
@@ -10445,7 +10566,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.1
         },
         {
           "player": {
@@ -10473,7 +10598,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10502,7 +10631,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": 4.0
+          "pass_ypa": 0,
+          "rush_ypc": 4.0,
+          "salary": "$-",
+          "fpts": 5.1
         },
         {
           "player": {
@@ -10532,7 +10664,9 @@
           "two_pts": 0,
           "targets": 1,
           "pass_ypa": 7.1,
-          "rush_ypc": 2.3
+          "rush_ypc": 2.3,
+          "salary": "$-",
+          "fpts": 11.1
         },
         {
           "player": {
@@ -10560,7 +10694,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10588,7 +10726,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10618,7 +10760,9 @@
           "two_pts": 0,
           "targets": 9,
           "pass_ypa": 0.0,
-          "rush_ypc": 0.0
+          "rush_ypc": 0.0,
+          "salary": "$-",
+          "fpts": 11.5
         },
         {
           "player": {
@@ -10646,7 +10790,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10674,7 +10822,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -10702,7 +10854,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 12
+          "targets": 12,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 13.0
         },
         {
           "player": {
@@ -10730,7 +10886,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10759,7 +10919,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 2.6
+          "pass_ypa": 0,
+          "rush_ypc": 2.6,
+          "salary": "$-",
+          "fpts": 9.7
         },
         {
           "player": {
@@ -10788,7 +10951,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 7.2
+          "pass_ypa": 0,
+          "rush_ypc": 7.2,
+          "salary": "$-",
+          "fpts": 5.6
         },
         {
           "player": {
@@ -10816,7 +10982,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 5
+          "targets": 5,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 10.8
         },
         {
           "player": {
@@ -10844,7 +11014,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10872,7 +11046,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -10900,7 +11078,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -10928,7 +11110,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         }
       ],
       "away_stats": [
@@ -10958,7 +11144,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 7
+          "targets": 7,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 11.6
         },
         {
           "player": {
@@ -10987,7 +11177,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 3.3
+          "pass_ypa": 0,
+          "rush_ypc": 3.3,
+          "salary": "$-",
+          "fpts": 1.0
         },
         {
           "player": {
@@ -11016,7 +11209,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 0.0
+          "pass_ypa": 0,
+          "rush_ypc": 0.0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -11044,7 +11240,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 7
+          "targets": 7,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.2
         },
         {
           "player": {
@@ -11074,7 +11274,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 7.0,
-          "rush_ypc": 14.0
+          "rush_ypc": 14.0,
+          "salary": "$-",
+          "fpts": 8.4
         },
         {
           "player": {
@@ -11104,7 +11306,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 6.8,
-          "rush_ypc": 6.7
+          "rush_ypc": 6.7,
+          "salary": "$-",
+          "fpts": 4.7
         },
         {
           "player": {
@@ -11132,7 +11336,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -11160,7 +11368,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.5
         },
         {
           "player": {
@@ -11188,7 +11400,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.1
         },
         {
           "player": {
@@ -11216,7 +11432,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -11244,7 +11464,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 6
+          "targets": 6,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 10.6
         },
         {
           "player": {
@@ -11273,7 +11497,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": 6.9
+          "pass_ypa": 0,
+          "rush_ypc": 6.9,
+          "salary": "$-",
+          "fpts": 9.2
         },
         {
           "player": {
@@ -11301,7 +11528,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 8.6
         },
         {
           "player": {
@@ -11329,7 +11560,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.1
         },
         {
           "player": {
@@ -11357,13 +11592,18 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         }
       ]
     },
     {
       "slug": "preseason-week-2-sa-atl",
       "title": "San Antonio Commanders vs Atlanta Legends - Preseason Week 2",
+      "short_title": "ATL @ SA",
       "home_team": "San Antonio Commanders",
       "home_abbr": "SA",
       "home_score": 37,
@@ -16089,7 +16329,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 7
+          "targets": 7,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 9.6
         },
         {
           "player": {
@@ -16117,7 +16361,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16145,7 +16393,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16174,7 +16426,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "rush_ypc": 4.5
+          "pass_ypa": 0,
+          "rush_ypc": 4.5,
+          "salary": "$-",
+          "fpts": 11.9
         },
         {
           "player": {
@@ -16202,7 +16457,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16231,7 +16490,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 6.5
+          "pass_ypa": 6.5,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.8
         },
         {
           "player": {
@@ -16259,7 +16521,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -16289,7 +16555,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 9.0,
-          "rush_ypc": 9.0
+          "rush_ypc": 9.0,
+          "salary": "$-",
+          "fpts": 7.6
         },
         {
           "player": {
@@ -16317,7 +16585,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -16345,7 +16617,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -16374,7 +16650,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 7.4
+          "pass_ypa": 7.4,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.7
         },
         {
           "player": {
@@ -16402,7 +16681,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -16430,7 +16713,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 12.6
         },
         {
           "player": {
@@ -16458,7 +16745,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.8
         },
         {
           "player": {
@@ -16487,7 +16778,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 2,
-          "rush_ypc": 3.3
+          "pass_ypa": 0,
+          "rush_ypc": 3.3,
+          "salary": "$-",
+          "fpts": 13.5
         },
         {
           "player": {
@@ -16516,7 +16810,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 4,
-          "rush_ypc": 3.0
+          "pass_ypa": 0,
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 15.4
         },
         {
           "player": {
@@ -16546,7 +16843,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 5.8,
-          "rush_ypc": 1.0
+          "rush_ypc": 1.0,
+          "salary": "$-",
+          "fpts": 1.6
         },
         {
           "player": {
@@ -16574,7 +16873,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16603,7 +16906,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 2,
-          "rush_ypc": 6.5
+          "pass_ypa": 0,
+          "rush_ypc": 6.5,
+          "salary": "$-",
+          "fpts": 4.6
         }
       ],
       "away_stats": [
@@ -16633,7 +16939,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16662,7 +16972,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 1.0
+          "pass_ypa": 0,
+          "rush_ypc": 1.0,
+          "salary": "$-",
+          "fpts": 6.1
         },
         {
           "player": {
@@ -16690,7 +17003,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.2
         },
         {
           "player": {
@@ -16718,7 +17035,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 6
+          "targets": 6,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.5
         },
         {
           "player": {
@@ -16746,7 +17067,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.6
         },
         {
           "player": {
@@ -16776,7 +17101,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 6.9,
-          "rush_ypc": 3.0
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 4.1
         },
         {
           "player": {
@@ -16804,7 +17131,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.1
         },
         {
           "player": {
@@ -16832,7 +17163,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 5
+          "targets": 5,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.4
         },
         {
           "player": {
@@ -16860,7 +17195,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.5
         },
         {
           "player": {
@@ -16889,7 +17228,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": -3.0
+          "pass_ypa": 0,
+          "rush_ypc": -3.0,
+          "salary": "$-",
+          "fpts": -0.6
         },
         {
           "player": {
@@ -16917,7 +17259,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -16945,7 +17291,11 @@
           "fumbles": 1,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.3
         },
         {
           "player": {
@@ -16973,7 +17323,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.0
         },
         {
           "player": {
@@ -17001,7 +17355,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.0
         },
         {
           "player": {
@@ -17031,7 +17389,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 5.9,
-          "rush_ypc": 10.3
+          "rush_ypc": 10.3,
+          "salary": "$-",
+          "fpts": 6.6
         },
         {
           "player": {
@@ -17059,7 +17419,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -17089,7 +17453,9 @@
           "two_pts": 1,
           "targets": 0,
           "pass_ypa": 8.8,
-          "rush_ypc": 1.0
+          "rush_ypc": 1.0,
+          "salary": "$-",
+          "fpts": 5.0
         },
         {
           "player": {
@@ -17118,7 +17484,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 0.0
+          "pass_ypa": 0,
+          "rush_ypc": 0.0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -17147,13 +17516,17 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 5,
-          "rush_ypc": 3.0
+          "pass_ypa": 0,
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 6.9
         }
       ]
     },
     {
       "slug": "preseason-week-2-bir-ari",
       "title": "Birmingham Iron vs Arizona Hotshots - Preseason Week 2",
+      "short_title": "ARI @ BIR",
       "home_team": "Birmingham Iron",
       "home_abbr": "BIR",
       "home_score": 17,
@@ -17324,16 +17697,7 @@
           "turnover": false,
           "play_type": "Rush",
           "goal_line": false,
-          "rusher": {
-            "guid": "MldXdIQuj-sKO_-RdM1HCdP1qzaV",
-            "slug": "steven-johnson",
-            "name": "Steven Johnson",
-            "position": "LINEBACKER",
-            "number": 49,
-            "team": "ARI",
-            "id": "49-S.Johnson",
-            "short_name": "S. Johnson"
-          }
+          "rusher": null
         },
         {
           "description": "(12:15) 33-T.Richardson left guard to BIR 44 for no gain (90-O.Pipkins).",
@@ -17516,14 +17880,14 @@
           "play_type": "Rush",
           "goal_line": false,
           "rusher": {
-            "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
-            "position": "RUNNING_BACK",
-            "number": 32,
-            "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
+            "guid": "MmyUhq9ekU3GIMaoG_rCoVC6PEPg",
+            "slug": "lawrence-okoye",
+            "name": "Lawrence Okoye",
+            "position": "DEFENSIVE_TACKLE",
+            "number": 97,
+            "team": "BIR",
+            "id": "97-L.Okoye",
+            "short_name": "L. Okoye"
           }
         },
         {
@@ -17553,16 +17917,7 @@
             "id": "10-T.Knight",
             "short_name": "T. Knight"
           },
-          "receiver": {
-            "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
-            "position": "RUNNING_BACK",
-            "number": 32,
-            "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
-          }
+          "receiver": null
         },
         {
           "description": "(8:20) 9-J.Locke punts 51 yards to BIR 28, Center-48-N.Dooley, fair catch by 13-D.Felton.",
@@ -17797,16 +18152,7 @@
             "id": "10-T.Knight",
             "short_name": "T. Knight"
           },
-          "receiver": {
-            "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
-            "position": "RUNNING_BACK",
-            "number": 32,
-            "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
-          }
+          "receiver": null
         },
         {
           "description": "(5:49) (Shotgun) 32-L.Rose right guard to ARI 13 for no gain (42-B.Brown).",
@@ -17827,14 +18173,14 @@
           "play_type": "Rush",
           "goal_line": false,
           "rusher": {
-            "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
-            "position": "RUNNING_BACK",
-            "number": 32,
-            "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
+            "guid": "Mka3hqCcPg8RPgiOd2r3sESpFRKC",
+            "slug": "beniquez-brown",
+            "name": "Beniquez Brown",
+            "position": "LINEBACKER",
+            "number": 42,
+            "team": "BIR",
+            "id": "42-B.Brown",
+            "short_name": "B. Brown"
           }
         },
         {
@@ -17932,14 +18278,14 @@
           "play_type": "Rush",
           "goal_line": false,
           "rusher": {
-            "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
-            "position": "RUNNING_BACK",
-            "number": 32,
-            "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
+            "guid": "MumS2nE02UQUEdr134XS5Jp-Ywf9",
+            "slug": "jeremy-faulk",
+            "name": "Jeremy Faulk",
+            "position": "DEFENSIVE_LINEMAN",
+            "number": 63,
+            "team": "BIR",
+            "id": "63-J.Faulk",
+            "short_name": "J. Faulk"
           }
         },
         {
@@ -18027,16 +18373,7 @@
           "turnover": false,
           "play_type": "Rush",
           "goal_line": false,
-          "rusher": {
-            "guid": "Mml_72Qx5X5xdUIBhgmnjB9x6bGx",
-            "slug": "erick-dargan",
-            "name": "Erick Dargan",
-            "position": "DEFENSIVE_BACK",
-            "number": 27,
-            "team": "ARI",
-            "id": "27-E.Dargan",
-            "short_name": "E. Dargan"
-          }
+          "rusher": null
         },
         {
           "description": "(3:11) (Shotgun) 12-L.Perez pass short middle to 16-T.Palmer to ARI 13 for 9 yards (27-E.Dargan).",
@@ -18065,16 +18402,7 @@
             "id": "12-L.Perez",
             "short_name": "L. Perez"
           },
-          "receiver": {
-            "guid": "Mml_72Qx5X5xdUIBhgmnjB9x6bGx",
-            "slug": "erick-dargan",
-            "name": "Erick Dargan",
-            "position": "DEFENSIVE_BACK",
-            "number": 27,
-            "team": "ARI",
-            "id": "27-E.Dargan",
-            "short_name": "E. Dargan"
-          }
+          "receiver": null
         },
         {
           "description": "(2:32) 41-L.Perkins left guard to ARI 11 for 2 yards (51-E.Robinson).",
@@ -18161,16 +18489,7 @@
             "id": "12-L.Perez",
             "short_name": "L. Perez"
           },
-          "receiver": {
-            "guid": "Mqf4VcBWAlMDIm_Ubb5YJMmwTVMv",
-            "slug": "dexter-mcdougle",
-            "name": "Dexter McDougle",
-            "position": "DEFENSIVE_BACK",
-            "number": 38,
-            "team": "ARI",
-            "id": "38-D.McDougle",
-            "short_name": "D. McDougle"
-          }
+          "receiver": null
         },
         {
           "description": "(:40) 41-L.Perkins right guard to ARI 6 for -2 yards (49-S.Johnson).",
@@ -18190,16 +18509,7 @@
           "turnover": false,
           "play_type": "Rush",
           "goal_line": true,
-          "rusher": {
-            "guid": "MldXdIQuj-sKO_-RdM1HCdP1qzaV",
-            "slug": "steven-johnson",
-            "name": "Steven Johnson",
-            "position": "LINEBACKER",
-            "number": 49,
-            "team": "ARI",
-            "id": "49-S.Johnson",
-            "short_name": "S. Johnson"
-          }
+          "rusher": null
         },
         {
           "description": "(15:00) (Shotgun) 12-L.Perez pass short left to 41-L.Perkins to ARI 2 for 4 yards (49-S.Johnson).",
@@ -18228,16 +18538,7 @@
             "id": "12-L.Perez",
             "short_name": "L. Perez"
           },
-          "receiver": {
-            "guid": "MldXdIQuj-sKO_-RdM1HCdP1qzaV",
-            "slug": "steven-johnson",
-            "name": "Steven Johnson",
-            "position": "LINEBACKER",
-            "number": 49,
-            "team": "ARI",
-            "id": "49-S.Johnson",
-            "short_name": "S. Johnson"
-          }
+          "receiver": null
         },
         {
           "description": "(14:54) 12-L.Perez pass incomplete short right to 41-L.Perkins.",
@@ -18484,16 +18785,7 @@
             "id": "6-B.Sims",
             "short_name": "B. Sims"
           },
-          "receiver": {
-            "guid": "Mqf4VcBWAlMDIm_Ubb5YJMmwTVMv",
-            "slug": "dexter-mcdougle",
-            "name": "Dexter McDougle",
-            "position": "DEFENSIVE_BACK",
-            "number": 38,
-            "team": "ARI",
-            "id": "38-D.McDougle",
-            "short_name": "D. McDougle"
-          }
+          "receiver": null
         },
         {
           "description": "(12:59) (Shotgun) 6-B.Sims pass incomplete short right to 13-D.Felton.\nArizona challenged the incomplete pass ruling, and the play was REVERSED.\n(Shotgun) 6-B.Sims to BIR 41 for -6 yards. FUMBLES, RECOVERED by ARI-54-S.Teuhema at BIR 41.",
@@ -22032,7 +22324,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 2.8
+          "pass_ypa": 0,
+          "rush_ypc": 2.8,
+          "salary": "$-",
+          "fpts": 2.8
         },
         {
           "player": {
@@ -22060,7 +22355,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.5
         },
         {
           "player": {
@@ -22089,7 +22388,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 3.8
+          "pass_ypa": 0,
+          "rush_ypc": 3.8,
+          "salary": "$-",
+          "fpts": 3.6
         },
         {
           "player": {
@@ -22118,7 +22420,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "pass_ypa": 10.7
+          "pass_ypa": 10.7,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 9.0
         },
         {
           "player": {
@@ -22146,7 +22451,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -22174,7 +22483,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 12.3
         },
         {
           "player": {
@@ -22202,7 +22515,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.2
         },
         {
           "player": {
@@ -22231,7 +22548,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 2.9
+          "pass_ypa": 2.9,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.2
         },
         {
           "player": {
@@ -22260,7 +22580,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 3.0
+          "pass_ypa": 0,
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 2.2
         },
         {
           "player": {
@@ -22288,7 +22611,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.9
         },
         {
           "player": {
@@ -22316,7 +22643,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -22344,7 +22675,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -22373,7 +22708,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": -2.0
+          "pass_ypa": 0,
+          "rush_ypc": -2.0,
+          "salary": "$-",
+          "fpts": 3.7
         },
         {
           "player": {
@@ -22402,7 +22740,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 3.5
+          "pass_ypa": 0,
+          "rush_ypc": 3.5,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -22431,7 +22772,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": 6.0
+          "pass_ypa": 0,
+          "rush_ypc": 6.0,
+          "salary": "$-",
+          "fpts": 7.8
         },
         {
           "player": {
@@ -22459,7 +22803,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.0
         },
         {
           "player": {
@@ -22489,7 +22837,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 5.4,
-          "rush_ypc": 2.0
+          "rush_ypc": 2.0,
+          "salary": "$-",
+          "fpts": 4.5
         },
         {
           "player": {
@@ -22518,20 +22868,23 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 8.0
+          "pass_ypa": 0,
+          "rush_ypc": 8.0,
+          "salary": "$-",
+          "fpts": 0.8
         }
       ],
       "away_stats": [
         {
           "player": {
             "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-            "slug": "larry-rose",
-            "name": "Larry Rose",
+            "slug": "larry-roseiii",
+            "name": "Larry Rose III",
             "position": "RUNNING_BACK",
             "number": 32,
             "team": "ARI",
-            "id": "32-L.Rose",
-            "short_name": "L. Rose"
+            "id": "32-L.Rose III",
+            "short_name": "L. Rose III"
           },
           "pass_attempts": 0,
           "pass_complete": 0,
@@ -22548,8 +22901,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2,
-          "rush_ypc": 2.0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 2.0,
+          "salary": "$-",
+          "fpts": 0.6
         },
         {
           "player": {
@@ -22578,7 +22934,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 4.0
+          "pass_ypa": 0,
+          "rush_ypc": 4.0,
+          "salary": "$-",
+          "fpts": 9.2
         },
         {
           "player": {
@@ -22606,7 +22965,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -22635,7 +22998,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 3.3
+          "pass_ypa": 0,
+          "rush_ypc": 3.3,
+          "salary": "$-",
+          "fpts": 11.0
         },
         {
           "player": {
@@ -22663,7 +23029,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.5
         },
         {
           "player": {
@@ -22693,7 +23063,9 @@
           "two_pts": 1,
           "targets": 0,
           "pass_ypa": 8.3,
-          "rush_ypc": -1.0
+          "rush_ypc": -1.0,
+          "salary": "$-",
+          "fpts": 10.5
         },
         {
           "player": {
@@ -22721,7 +23093,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.6
         },
         {
           "player": {
@@ -22749,7 +23125,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -22778,7 +23158,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 4.3
+          "pass_ypa": 0,
+          "rush_ypc": 4.3,
+          "salary": "$-",
+          "fpts": 1.3
         },
         {
           "player": {
@@ -22808,7 +23191,9 @@
           "two_pts": 1,
           "targets": 0,
           "pass_ypa": 13.6,
-          "rush_ypc": -0.5
+          "rush_ypc": -0.5,
+          "salary": "$-",
+          "fpts": 4.6
         },
         {
           "player": {
@@ -22836,7 +23221,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.0
         },
         {
           "player": {
@@ -22864,7 +23253,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -22892,7 +23285,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.8
         },
         {
           "player": {
@@ -22921,7 +23318,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 6.0
+          "pass_ypa": 0,
+          "rush_ypc": 6.0,
+          "salary": "$-",
+          "fpts": 11.1
         },
         {
           "player": {
@@ -22949,7 +23349,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.8
         },
         {
           "player": {
@@ -22978,7 +23382,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "rush_ypc": 1.3
+          "pass_ypa": 0,
+          "rush_ypc": 1.3,
+          "salary": "$-",
+          "fpts": 16.5
         },
         {
           "player": {
@@ -23006,7 +23413,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -23034,7 +23445,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -23062,7 +23477,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.3
         },
         {
           "player": {
@@ -23092,7 +23511,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 4.9,
-          "rush_ypc": 1.0
+          "rush_ypc": 1.0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -23120,13 +23541,18 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         }
       ]
     },
     {
       "slug": "preseason-week-1-sd-orl",
       "title": "San Diego Fleet vs Orlando Apollos - Preseason Week 1",
+      "short_title": "ORL @ SD",
       "home_team": "San Diego Fleet",
       "home_abbr": "SD",
       "home_score": 28,
@@ -28414,7 +28840,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -28442,7 +28872,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 8.5
         },
         {
           "player": {
@@ -28470,7 +28904,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 9.3
         },
         {
           "player": {
@@ -28499,7 +28937,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 4.2
+          "pass_ypa": 0,
+          "rush_ypc": 4.2,
+          "salary": "$-",
+          "fpts": 6.3
         },
         {
           "player": {
@@ -28528,7 +28969,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": 4.4
+          "pass_ypa": 0,
+          "rush_ypc": 4.4,
+          "salary": "$-",
+          "fpts": 7.2
         },
         {
           "player": {
@@ -28556,7 +29000,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 12.2
         },
         {
           "player": {
@@ -28585,7 +29033,10 @@
           "interceptions": 3,
           "two_pts": 0,
           "targets": 1,
-          "pass_ypa": 7.3
+          "pass_ypa": 7.3,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 13.7
         },
         {
           "player": {
@@ -28615,7 +29066,9 @@
           "two_pts": 1,
           "targets": 0,
           "pass_ypa": 11.5,
-          "rush_ypc": 10.0
+          "rush_ypc": 10.0,
+          "salary": "$-",
+          "fpts": 3.9
         },
         {
           "player": {
@@ -28644,7 +29097,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 0,
-          "pass_ypa": 8.0
+          "pass_ypa": 8.0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 14.5
         },
         {
           "player": {
@@ -28672,7 +29128,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 7
+          "targets": 7,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 7.2
         },
         {
           "player": {
@@ -28700,7 +29160,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -28728,7 +29192,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.9
         },
         {
           "player": {
@@ -28756,7 +29224,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 5
+          "targets": 5,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.3
         },
         {
           "player": {
@@ -28784,7 +29256,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -28813,7 +29289,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 3.7
+          "pass_ypa": 0,
+          "rush_ypc": 3.7,
+          "salary": "$-",
+          "fpts": 8.6
         },
         {
           "player": {
@@ -28841,7 +29320,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 11
+          "targets": 11,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 30.4
         },
         {
           "player": {
@@ -28870,7 +29353,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 5,
-          "rush_ypc": -3.0
+          "pass_ypa": 0,
+          "rush_ypc": -3.0,
+          "salary": "$-",
+          "fpts": 4.7
         },
         {
           "player": {
@@ -28898,7 +29384,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.0
         }
       ],
       "away_stats": [
@@ -28929,7 +29419,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 3.8
+          "pass_ypa": 0,
+          "rush_ypc": 3.8,
+          "salary": "$-",
+          "fpts": 3.3
         },
         {
           "player": {
@@ -28958,7 +29451,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 3.5
+          "pass_ypa": 0,
+          "rush_ypc": 3.5,
+          "salary": "$-",
+          "fpts": 2.8
         },
         {
           "player": {
@@ -28986,7 +29482,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29014,7 +29514,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29042,7 +29546,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29070,7 +29578,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 14.8
         },
         {
           "player": {
@@ -29099,7 +29611,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 0.0
+          "pass_ypa": 0,
+          "rush_ypc": 0.0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29127,7 +29642,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29155,7 +29674,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.3
         },
         {
           "player": {
@@ -29184,7 +29707,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "pass_ypa": 7.1
+          "pass_ypa": 7.1,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 10.5
         },
         {
           "player": {
@@ -29212,7 +29738,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29241,7 +29771,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 4.0
+          "pass_ypa": 0,
+          "rush_ypc": 4.0,
+          "salary": "$-",
+          "fpts": 0.8
         },
         {
           "player": {
@@ -29269,7 +29802,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -29298,7 +29835,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 7.0
+          "pass_ypa": 7.0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 6.2
         },
         {
           "player": {
@@ -29328,7 +29868,9 @@
           "two_pts": 1,
           "targets": 0,
           "pass_ypa": 0.0,
-          "rush_ypc": 7.0
+          "rush_ypc": 7.0,
+          "salary": "$-",
+          "fpts": 9.4
         },
         {
           "player": {
@@ -29357,7 +29899,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 9.5
+          "pass_ypa": 0,
+          "rush_ypc": 9.5,
+          "salary": "$-",
+          "fpts": 1.9
         },
         {
           "player": {
@@ -29386,7 +29931,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 3,
-          "rush_ypc": -3.0
+          "pass_ypa": 0,
+          "rush_ypc": -3.0,
+          "salary": "$-",
+          "fpts": 2.6
         },
         {
           "player": {
@@ -29415,7 +29963,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": -1.7
+          "pass_ypa": 0,
+          "rush_ypc": -1.7,
+          "salary": "$-",
+          "fpts": -0.5
         },
         {
           "player": {
@@ -29443,7 +29994,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 5.0
         },
         {
           "player": {
@@ -29471,13 +30026,18 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 11.1
         }
       ]
     },
     {
       "slug": "preseason-week-1-sl-mem",
       "title": "Salt Lake Stallions vs Memphis Express - Preseason Week 1",
+      "short_title": "MEM @ SL",
       "home_team": "Salt Lake Stallions",
       "home_abbr": "SL",
       "home_score": 29,
@@ -34425,7 +34985,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.5
         },
         {
           "player": {
@@ -34453,7 +35017,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.5
         },
         {
           "player": {
@@ -34483,7 +35051,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 13.0,
-          "rush_ypc": 1.5
+          "rush_ypc": 1.5,
+          "salary": "$-",
+          "fpts": 3.9
         },
         {
           "player": {
@@ -34511,7 +35081,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 10.4
         },
         {
           "player": {
@@ -34540,7 +35114,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 3.8
+          "pass_ypa": 0,
+          "rush_ypc": 3.8,
+          "salary": "$-",
+          "fpts": 5.4
         },
         {
           "player": {
@@ -34568,7 +35145,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.2
         },
         {
           "player": {
@@ -34597,7 +35178,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 2.7
+          "pass_ypa": 0,
+          "rush_ypc": 2.7,
+          "salary": "$-",
+          "fpts": 5.5
         },
         {
           "player": {
@@ -34625,7 +35209,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.5
         },
         {
           "player": {
@@ -34653,7 +35241,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -34681,7 +35273,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.8
         },
         {
           "player": {
@@ -34709,7 +35305,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 3
+          "targets": 3,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.8
         },
         {
           "player": {
@@ -34738,7 +35338,10 @@
           "interceptions": 0,
           "two_pts": 1,
           "targets": 1,
-          "rush_ypc": 6.0
+          "pass_ypa": 0,
+          "rush_ypc": 6.0,
+          "salary": "$-",
+          "fpts": 19.4
         },
         {
           "player": {
@@ -34768,7 +35371,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 9.3,
-          "rush_ypc": 8.5
+          "rush_ypc": 8.5,
+          "salary": "$-",
+          "fpts": 4.3
         },
         {
           "player": {
@@ -34796,7 +35401,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 8.1
         },
         {
           "player": {
@@ -34826,7 +35435,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 4.4,
-          "rush_ypc": 3.0
+          "rush_ypc": 3.0,
+          "salary": "$-",
+          "fpts": 5.9
         },
         {
           "player": {
@@ -34854,7 +35465,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.4
         },
         {
           "player": {
@@ -34884,7 +35499,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 9.6,
-          "rush_ypc": 2.0
+          "rush_ypc": 2.0,
+          "salary": "$-",
+          "fpts": 2.1
         },
         {
           "player": {
@@ -34913,7 +35530,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": 7.0
+          "pass_ypa": 0,
+          "rush_ypc": 7.0,
+          "salary": "$-",
+          "fpts": 2.3
         }
       ],
       "away_stats": [
@@ -34944,7 +35564,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": -0.5
+          "pass_ypa": 0,
+          "rush_ypc": -0.5,
+          "salary": "$-",
+          "fpts": 3.2
         },
         {
           "player": {
@@ -34973,7 +35596,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "pass_ypa": 10.0
+          "pass_ypa": 10.0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.8
         },
         {
           "player": {
@@ -35001,7 +35627,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 6
+          "targets": 6,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.8
         },
         {
           "player": {
@@ -35029,7 +35659,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 0
+          "targets": 0,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -35057,7 +35691,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -35086,7 +35724,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 0.4
+          "pass_ypa": 0,
+          "rush_ypc": 0.4,
+          "salary": "$-",
+          "fpts": 3.1
         },
         {
           "player": {
@@ -35114,7 +35755,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 1.4
         },
         {
           "player": {
@@ -35144,7 +35789,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 3.9,
-          "rush_ypc": 0.3
+          "rush_ypc": 0.3,
+          "salary": "$-",
+          "fpts": 1.7
         },
         {
           "player": {
@@ -35172,7 +35819,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.2
         },
         {
           "player": {
@@ -35200,7 +35851,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -35229,7 +35884,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 1,
-          "rush_ypc": 6.7
+          "pass_ypa": 0,
+          "rush_ypc": 6.7,
+          "salary": "$-",
+          "fpts": 5.6
         },
         {
           "player": {
@@ -35257,7 +35915,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 2.9
         },
         {
           "player": {
@@ -35285,7 +35947,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 1
+          "targets": 1,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 3.9
         },
         {
           "player": {
@@ -35315,7 +35981,9 @@
           "two_pts": 0,
           "targets": 0,
           "pass_ypa": 8.5,
-          "rush_ypc": 2.5
+          "rush_ypc": 2.5,
+          "salary": "$-",
+          "fpts": 9.6
         },
         {
           "player": {
@@ -35343,7 +36011,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 0.0
         },
         {
           "player": {
@@ -35372,7 +36044,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 0,
-          "rush_ypc": 2.0
+          "pass_ypa": 0,
+          "rush_ypc": 2.0,
+          "salary": "$-",
+          "fpts": 6.4
         },
         {
           "player": {
@@ -35400,7 +36075,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 4
+          "targets": 4,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 13.5
         },
         {
           "player": {
@@ -35428,7 +36107,11 @@
           "fumbles": 0,
           "interceptions": 0,
           "two_pts": 0,
-          "targets": 2
+          "targets": 2,
+          "pass_ypa": 0,
+          "rush_ypc": 0,
+          "salary": "$-",
+          "fpts": 4.3
         },
         {
           "player": {
@@ -35457,7 +36140,10 @@
           "interceptions": 0,
           "two_pts": 0,
           "targets": 2,
-          "rush_ypc": -0.7
+          "pass_ypa": 0,
+          "rush_ypc": -0.7,
+          "salary": "$-",
+          "fpts": 3.1
         }
       ]
     }
