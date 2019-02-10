@@ -162,7 +162,7 @@
           "short_name": "G. Christian",
           "last_name": "Christian",
           "first_name": "Gerald",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mpz1d05mfi4t5VeyehpsANqewBsr",
@@ -174,7 +174,7 @@
           "short_name": "T. Duarte",
           "last_name": "Duarte",
           "first_name": "Thomas",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
