@@ -548,7 +548,7 @@
           "short_name": "T. Palmer",
           "last_name": "Palmer",
           "first_name": "Tobias",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MvmOLxRYf5EpHnnw3KboJ64aj5U8",
@@ -572,7 +572,7 @@
           "short_name": "L. Washington",
           "last_name": "Washington",
           "first_name": "L'Damian",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mmn17YhtJ2sO5nrF_20WT9BB6c_c",
