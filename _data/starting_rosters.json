@@ -663,7 +663,7 @@
           "short_name": "T. Magee",
           "last_name": "Magee",
           "first_name": "Terrence",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsSW7k2bvNdN0P0l5GxNqN339QSX",
@@ -711,7 +711,7 @@
           "short_name": "Z. Stacy",
           "last_name": "Stacy",
           "first_name": "Zac",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MpZypZ4X4DO9uNQNzutAgaUT0XKI",
@@ -759,7 +759,7 @@
           "short_name": "A. Howard",
           "last_name": "Howard",
           "first_name": "Alton \"Pig\"",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
@@ -795,7 +795,7 @@
           "short_name": "D. Stringfellow",
           "last_name": "Stringfellow",
           "first_name": "Damore'ea",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg89OyTmItplfDaiI18qnQn6A-Kr",
