@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-10 18:53:06 -0500"
+    "last_modified": "2019-02-10 21:24:33 -0500"
   },
   "players": [
     {
@@ -9844,8 +9844,8 @@
     },
     {
       "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
-      "slug": "phillip-nelson",
-      "full_name": "Phillip Nelson",
+      "slug": "philip-nelson",
+      "full_name": "Philip Nelson",
       "position": "QB",
       "avatar_url": null,
       "number": 9,
@@ -9853,7 +9853,7 @@
       "team_abbr": "SD",
       "short_name": "P. Nelson",
       "last_name": "Nelson",
-      "first_name": "Phillip",
+      "first_name": "Philip",
       "height": "6\" 3'",
       "weight": 208,
       "status": "Active",
@@ -9862,8 +9862,8 @@
         {
           "player": {
             "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
-            "slug": "phillip-nelson",
-            "name": "Phillip Nelson",
+            "slug": "philip-nelson",
+            "name": "Philip Nelson",
             "position": "QUARTERBACK",
             "number": 9,
             "team": "SD",
@@ -9914,8 +9914,8 @@
         {
           "player": {
             "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
-            "slug": "phillip-nelson",
-            "name": "Phillip Nelson",
+            "slug": "philip-nelson",
+            "name": "Philip Nelson",
             "position": "QUARTERBACK",
             "number": 9,
             "team": "SD",
