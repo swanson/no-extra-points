@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-10 18:49:51 -0500"
+    "last_modified": "2019-02-10 18:59:50 -0500"
   },
   "boxscores": [
     {
@@ -4431,7 +4431,7 @@
           }
         },
         {
-          "description": "(2:19) 33-T.Richardson left guard to MEM 5 for 5 yards.",
+          "description": "(2:19) 33-T.Richardson left guard to MEM 5 for 5 yards (25-A.Tarpley, III).",
           "down": "3rd",
           "distance": 1,
           "possession": "BIR",
@@ -8487,9 +8487,9 @@
           "times_sacked": 0,
           "assisted_tackles": 0,
           "tackle_assists": 2,
-          "tackles": 3,
+          "tackles": 4,
           "tackles_for_loss": 0,
-          "solo_tackles": 3,
+          "solo_tackles": 4,
           "opponent_fumbles_recovered": 0,
           "opponent_fumbles_forced": 0,
           "opposing_field_goals_blocked": 0,
