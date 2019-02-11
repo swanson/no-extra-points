@@ -276,7 +276,7 @@ def extract_player_stats(edges, team_name, plays)
       tackle_assists: edge.stats.tackle_assists,
       tackles: edge.stats.tackles,
       tackles_for_loss: edge.stats.tackles_for_loss,
-      solo_tackles: edge.stats.tackles - edge.stats.tackles_for_loss,
+      solo_tackles: edge.stats.tackles - edge.stats.assisted_tackles,
       opponent_fumbles_recovered: edge.stats.opponent_fumbles_recovered,
       opponent_fumbles_forced: edge.stats.opponent_fumbles_forced,
       opposing_field_goals_blocked: edge.stats.opposing_field_goals_blocked,
