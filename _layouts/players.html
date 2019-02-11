@@ -8,8 +8,8 @@ nav: players
 
 <div class="flex flex-wrap justify-between items-center mb-2">
   <div class="flex items-center mb-4">
-    <div class="jersey jersey-big jersey-{{ player.team_abbr}}">
-      {{ player.number}}
+    <div class="jersey jersey-big jersey-{{ player.team_abbr }}">
+      {{ player.number }}
     </div>
     <div class="ml-4">
       <h1>{{ player.full_name }}</h1>
@@ -23,29 +23,25 @@ nav: players
 
   <div class="w-full md:w-auto text-sm">
     <div class="flex items-baseline mb-1">
-      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Height</div>
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">
+        Height
+      </div>
       <div class="text-left px-2">{{ player.height }}</div>
     </div>
     <div class="flex items-baseline mb-1">
-      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Weight</div>
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">
+        Weight
+      </div>
       <div class="text-left px-2">{{ player.weight }} lbs</div>
     </div>
     <div class="flex items-baseline">
-      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">Status</div>
+      <div class="w-16 text-right px-2 text-2xs uppercase text-grey-dark font-semibold">
+        Status
+      </div>
       <div class="text-left px-2">{{ player.status }}</div>
     </div>
   </div>
 </div>
-
-{% comment %} <div class="card mt-4 bg-{{ player.team_abbr }}">
-  <h2 class="text-white px-1 pb-4">Season Stats</h2>
-  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
-    {% for log in player.game_logs %}
-    {% else %}
-      <div class="text-center text-grey py-8">No games played yet</div>
-    {% endfor %}
-  </div>
-</div> {% endcomment %}
 
 <div class="card mt-4 bg-{{ player.team_abbr }}">
   <h2 class="text-white px-1 pb-4">Game Logs</h2>
@@ -55,15 +51,14 @@ nav: players
         <tr class="sub-header hide-mobile">
           <th class="game"></th>
           {% if player.position == "QB" %}
-            <th colspan="5">Passing</th>
+            <th colspan="6">Passing</th>
           {% endif %}
           {% if player.position == "QB" or player.position == "RB" %}
-            <th colspan="5">Rushing</th>
+            <th colspan="6">Rushing</th>
           {% endif %}
-          {% if player.position == "WR" or player.position == "RB" %}
-            <th colspan="5">Receiving</th>
+          {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
+            <th colspan="6">Receiving</th>
           {% endif %}
-          <th></th>
           <th colspan="2">Fantasy</th>
         </tr>
         <tr>
@@ -73,23 +68,25 @@ nav: players
             <th>YDS</th>
             <th class="hide-mobile">YPA</th>
             <th>TD</th>
-            <th class="divider">INT</th>
+            <th>INT</th>
+            <th class="divider">2PT</th>
           {% endif %}
-          {% if player.position == "QB" or player.position == "RB" %}
+          {% if player.position == "QB" or player.position == "RB"%}
             <th>CAR</th>
             <th>YDS</th>
             <th class="hide-mobile">YPC</th>
             <th class="hide-mobile">LNG</th>
-            <th class="divider">TD</th>
+            <th>TD</th>
+            <th class="divider">2PT</th>
           {% endif %}
-          {% if player.position == "WR" or player.position == "RB" %}
+          {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
             <th>REC</th>
             <th class="hide-mobile">TGTS</th>
             <th>YDS</th>
             <th class="hide-mobile">LNG</th>
-            <th class="divider">TD</th>
+            <th>TD</th>
+            <th class="divider">2PT</th>
           {% endif %}
-          <th class="divider hide-mobile">2PT</th>
           <th class="hide-mobile">SALARY</th>
           <th>FPTS</th>
         </tr>
@@ -99,7 +96,9 @@ nav: players
           <tr>
             <td class="game">
               <div class="flex flex-wrap">
-                <a href="/boxscores/{{stats.game_link}}" class="mr-2">{{ stats.week }}</a>
+                <a href="/boxscores/{{ stats.game_link }}" class="mr-2">{{
+                  stats.week
+                }}</a>
                 <span class="text-grey-dark">{{ stats.game }}</span>
               </div>
             </td>
@@ -108,28 +107,30 @@ nav: players
               <td>{{ stats.pass_yards }}</td>
               <td class="hide-mobile">{{ stats.pass_ypa }}</td>
               <td>{{ stats.pass_td }}</td>
-              <td class="divider">{{ stats.interceptions }}</td>
+              <td>{{ stats.interceptions }}</td>
+              <td class="divider">{{ stats.passing_2pc }}</td>
             {% endif %}
-            {% if player.position == "QB" or player.position == "RB" %}
+            {% if player.position == "WR" or player.position == "RB" %}
               <td>{{ stats.rush_attempts }}</td>
               <td>{{ stats.rush_yards }}</td>
               <td class="hide-mobile">{{ stats.rush_ypc }}</td>
               <td class="hide-mobile">{{ stats.rush_long }}</td>
-              <td class="divider">{{ stats.rush_td }}</td>
+              <td>{{ stats.rush_td }}</td>
+              <td class="divider">{{ stats.rushing_2pc }}</td>
             {% endif %}
-            {% if player.position == "WR" or player.position == "RB" %}
+            {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
               <td>{{ stats.catches }}</td>
               <td class="hide-mobile">{{ stats.targets }}</td>
               <td>{{ stats.receiving_yards }}</td>
               <td class="hide-mobile">{{ stats.receiving_long }}</td>
-              <td class="divider">{{ stats.receiving_td }}</td>
+              <td>{{ stats.receiving_td }}</td>
+              <td class="divider">{{ stats.receiving_2pc }}</td>
             {% endif %}
-            <td class="divider hide-mobile">{{ stats.two_pts }}</td>
             <td class="hide-mobile">&mdash;</td>
             <td>{{ stats.fpts }}</td>
           </tr>
         {% endfor %}
-        </tbody>
-      </table>
+      </tbody>
+    </table>
   </div>
 </div>

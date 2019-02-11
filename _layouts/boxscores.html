@@ -8,7 +8,9 @@ nav: boxscores
 {% assign prefixes = "away, home" | split: ", " %}
 
 <div class="card bg-blue-darker bg-topography">
-  <div class="week px-4 pb-2">{{ game.week }} &ndash; {{ game.time | date: "%B %d, %Y" }}</div>
+  <div class="week px-4 pb-2">
+    {{ game.week }} &ndash; {{ game.time | date: "%B %d, %Y" }}
+  </div>
 
   <div class="flex-col w-full md:w-2/5 scoreboard text-white">
     <div class="flex items-center justify-between pb-2">
@@ -33,7 +35,9 @@ nav: boxscores
     </div>
   </div>
 
-  <div class="bg-white -mx-4 -mb-4 px-4 pb-8 pt-2 mt-0 border-t-4 border-blue-light">
+  <div
+    class="bg-white -mx-4 -mb-4 px-4 pb-8 pt-2 mt-0 border-t-4 border-blue-light"
+  >
     <div class="boxscore-row">
       {% for prefix in prefixes %}
         {% assign key = prefix | append: "_team" %}
@@ -57,26 +61,27 @@ nav: boxscores
               <tbody>
                 {% assign key = prefix | append: "_stats" %}
                 {% assign passing_stats = game[key] | sort: "pass_yards" | reverse %}
+
                 {% for stats in passing_stats %}
                   {% if stats.pass_attempts > 0 %}
-                  <tr>
-                    <td class="name">
-                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
-                    </td>
-                    <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
-                    <td>{{ stats.pass_yards }}</td>
-                    <td>{{ stats.pass_ypa }}</td>
-                    <td>{{ stats.pass_td }}</td>
-                    <td>{{ stats.interceptions }}</td>
-                    <td>{{ stats.two_pts }}</td>
-                  </tr>
+                    <tr>
+                      <td class="name">
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                      </td>
+                      <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
+                      <td>{{ stats.pass_yards }}</td>
+                      <td>{{ stats.pass_ypa }}</td>
+                      <td>{{ stats.pass_td }}</td>
+                      <td>{{ stats.interceptions }}</td>
+                      <td>{{ stats.passing_2pc }}</td>
+                    </tr>
                   {% endif %}
                 {% endfor %}
               </tbody>
             </table>
           </div>
         </div>
-        {% endfor %}
+      {% endfor %}
     </div>
 
     <div class="boxscore-row">
@@ -104,108 +109,109 @@ nav: boxscores
                 {% assign rushing_stats = game[key] | sort: "rush_yards" | reverse %}
                 {% for stats in rushing_stats %}
                   {% if stats.rush_attempts > 0 %}
-                  <tr>
-                    <td class="name">
-                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
-                    </td>
-                    <td>{{ stats.rush_attempts }}</td>
-                    <td>{{ stats.rush_yards }}</td>
-                    <td>{{ stats.rush_ypc }}</td>
-                    <td>{{ stats.rush_long }}</td>
-                    <td>{{ stats.rush_td }}</td>
-                    <td>{{ stats.two_pts }}</td>
-                  </tr>
+                    <tr>
+                      <td class="name">
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                      </td>
+                      <td>{{ stats.rush_attempts }}</td>
+                      <td>{{ stats.rush_yards }}</td>
+                      <td>{{ stats.rush_ypc }}</td>
+                      <td>{{ stats.rush_long }}</td>
+                      <td>{{ stats.rush_td }}</td>
+                      <td>{{ stats.rushing_2pc }}</td>
+                    </tr>
                   {% endif %}
                 {% endfor %}
               </tbody>
             </table>
           </div>
         </div>
-        {% endfor %}
-      </div>
+      {% endfor %}
+    </div>
 
-      <div class="boxscore-row">
-        {% for prefix in prefixes %}
-          {% assign key = prefix | append: "_team" %}
-          {% assign color_key = prefix | append: "_abbr" %}
-          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
-          <div class="flex-1 px-4">
-            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Receiving</div>
-            <div class="boxscore-table-wrapper">
-              <table class="boxscore-table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>REC</th>
-                    <th>TGTS</th>
-                    <th>YDS</th>
-                    <th>LNG</th>
-                    <th>TD</th>
-                    <th>2PT</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% assign key = prefix | append: "_stats" %}
-                  {% assign receiving_stats = game[key] | sort: "receiving_yards" | reverse %}
-                  {% for stats in receiving_stats %}
-                    {% if stats.targets > 0 %}
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">
+            {{ game[key] }} &ndash; Receiving
+          </div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>REC</th>
+                  <th>TGTS</th>
+                  <th>YDS</th>
+                  <th>LNG</th>
+                  <th>TD</th>
+                  <th>2PT</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign receiving_stats = game[key] | sort: "receiving_yards" | reverse %}
+                {% for stats in receiving_stats %}
+                  {% if stats.targets > 0 %}
                     <tr>
                       <td class="name">
-                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name}}</a>
                       </td>
                       <td>{{ stats.catches }}</td>
                       <td>{{ stats.targets }}</td>
                       <td>{{ stats.receiving_yards }}</td>
                       <td>{{ stats.receiving_long }}</td>
                       <td>{{ stats.receiving_td }}</td>
-                      <td>{{ stats.two_pts }}</td>
+                      <td>{{ stats.receiving_2pc }}</td>
                     </tr>
-                    {% endif %}
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
+                  {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
+    </div>
 
-      <div class="boxscore-row">
-        {% for prefix in prefixes %}
-          {% assign key = prefix | append: "_team" %}
-          {% assign color_key = prefix | append: "_abbr" %}
-          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
-          <div class="flex-1 px-4">
-            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Defense</div>
-            <div class="boxscore-table-wrapper">
-              <table class="boxscore-table">
-                <thead>
-                  <tr class="sub-header">
-                    <th></th>
-                    <th colspan="5">Tackles</th>
-                    <th colspan="4">Misc</th>
-                  </tr>
-                  <tr>
-                    <th></th>
-                    <th>TOT</th>
-                    <th>SOLO</th>
-                    <th>TFL</th>
-                    <th>SACKS</th>
-                    <th class="divider">QB HTS</th>
-                    <th>PD</th>
-                    <th>INT</th>
-                    <th>FF</th>
-                    <th>FUM</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% assign key = prefix | append: "_stats" %}
-                  {% assign receiving_stats = game[key] | sort: "tackles" | reverse %}
-                  {% for stats in receiving_stats %}
-                    {% if stats.tackles > 0 or stats.pass_defenses > 0 %}
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color ="border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Defense
+          </div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr class="sub-header">
+                  <th></th>
+                  <th colspan="5">Tackles</th>
+                  <th colspan="4">Misc</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th>TOT</th>
+                  <th>SOLO</th>
+                  <th>TFL</th>
+                  <th>SACKS</th>
+                  <th class="divider">QB HTS</th>
+                  <th>PD</th>
+                  <th>INT</th>
+                  <th>FF</th>
+                  <th>FUM</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign d_stats = game[key] | sort: "tackles" | reverse %}
+                {% for stats in d_stats %}
+                  {% if stats.tackles > 0 or stats.pass_defenses > 0 %}
                     <tr>
-                      <td class="name divider">
-                        {{ stats.player.name }}
-                      </td>
+                      <td class="name divider">{{ stats.player.name }}</td>
                       <td>{{ stats.tackles }}</td>
                       <td>{{ stats.solo_tackles }}</td>
                       <td>{{ stats.tackles_for_loss }}</td>
@@ -216,73 +222,88 @@ nav: boxscores
                       <td>{{ stats.opponent_fumbles_forced }}</td>
                       <td>{{ stats.opponent_fumbles_recovered }}</td>
                     </tr>
-                    {% endif %}
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
+                  {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
+    </div>
 
-      <div class="boxscore-row">
-        {% for prefix in prefixes %}
-          {% assign key = prefix | append: "_team" %}
-          {% assign color_key = prefix | append: "_abbr" %}
-          {% assign team_color = "border-" | append: game[color_key] | append: "-secondary" %}
-          <div class="flex-1 px-4">
-            <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Kicking</div>
-            <div class="boxscore-table-wrapper">
-              <table class="boxscore-table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>FG</th>
-                    <th>LONG</th>
-                    <th>BLOCKED</th>
-                    <th>PTS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% assign key = prefix | append: "_stats" %}
-                  {% assign receiving_stats = game[key] | sort: "field_goals_attempted" | reverse %}
-                  {% for stats in receiving_stats %}
-                    {% if stats.field_goals_attempted > 0 %}
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color ="border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Kicking</div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>FG</th>
+                  <th>LONG</th>
+                  <th>BLOCKED</th>
+                  <th>PTS</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign k_any = false %}
+                {% assign k_stats = game[key] | sort: "field_goals_attempted" | reverse %}
+                {% for stats in k_stats %}
+                  {% if stats.field_goals_attempted > 0 %}
+                    {% assign k_any = true %}
                     <tr>
                       <td class="name divider">
                         {{ stats.player.name }}
                       </td>
-                      <td>{{ stats.field_goals_made }} / {{ stats.field_goals_attempted }}</td>
+                      <td>
+                        {{ stats.field_goals_made }} /
+                        {{ stats.field_goals_attempted }}
+                      </td>
                       <td>{{ stats.field_goals_longest_made }}</td>
                       <td>{{ stats.field_goals_blocked }}</td>
                       <td>{{ stats.field_goals_made | times: 3 }}</td>
                     </tr>
-                    {% endif %}
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+                  {% endif %}
+                {% endfor %}
 
-      <div class="px-4">
-        <h3>Full Play-by-Play</h3>
-        <ul class="list-reset mt-4">
-          {% for play in game.play_by_play %}
-            <li class="flex p-2 items-center">
-              <span class="w-12 py-2 px-1 rounded text-center text-white bg-{{play.possession}}-secondary">{{ play.possession}}</span>
-              <p class="flex-1 inline-block word-wrap ml-4">
-                {% if play.conversion_attempt or play.down == "0th" %}
-                  2PT
-                {% else %}
-                  {{ play.down }} & {{ play.distance }}
+                {% if k_any == false %}
+                   <td class="name divider">
+                    No kicks
+                  </td>
+                  <td>&ndash;</td>
+                  <td>&ndash;</td>
+                  <td>&ndash;</td>
+                  <td>&ndash;</td>
                 {% endif %}
-                | Q{{ play.quarter }} | {{ play.description }}
-              </p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="px-4">
+      <h3>Full Play-by-Play</h3>
+      <ul class="list-reset mt-4">
+        {% for play in game.play_by_play %}
+          <li class="flex p-2 items-center">
+            <span class="w-12 py-2 px-1 rounded text-center text-white bg-{{ play.possession }}-secondary">{{ play.possession }}</span>
+            <p class="flex-1 inline-block word-wrap ml-4">
+              {% if play.conversion_attempt or play.down == "0th" %}
+                2PT
+              {% else%}
+                {{ play.down }} & {{ play.distance }}
+              {% endif %}
+               | Q{{play.quarter}} | {{ play.description }}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>

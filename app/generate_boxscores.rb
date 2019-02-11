@@ -66,8 +66,8 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             receivingYards
             receivingTouchdowns
             receivingLongestGain
-            twoPointConversionsCompleted
             timesSacked
+            twoPointConversionsCompleted
             assistedTackles
             tackleAssists
             tackles
@@ -245,6 +245,21 @@ def extract_targets(player, plays)
   targets
 end
 
+def extract_2pt(player, plays, type)
+  converts = 0
+
+  plays.each do |play|
+    next unless play[:conversion_success]
+    next if play[:nullified] || play[type].nil?
+    next unless play[type][:id] == player[:id]
+    next unless valid_position?(player[:position])
+
+    converts += 1
+  end
+
+  converts
+end
+
 def extract_player_stats(edges, team_name, plays)
   stats = []
 
@@ -271,7 +286,9 @@ def extract_player_stats(edges, team_name, plays)
       receiving_td: edge.stats.receiving_touchdowns,
       fumbles: edge.stats.fumbles,
       interceptions: edge.stats.passes_intercepted,
-      two_pts: edge.stats.two_point_conversions_completed,
+      passing_2pc: extract_2pt(player, plays, :passer),
+      rushing_2pc: extract_2pt(player, plays, :rusher),
+      receiving_2pc: extract_2pt(player, plays, :receiver),
       times_sacked: edge.stats.times_sacked,
       assisted_tackles: edge.stats.assisted_tackles,
       tackle_assists: edge.stats.tackle_assists,
@@ -334,7 +351,9 @@ def compute_fpts(stats)
     stats[:receiving_yards] * 0.1 +
     stats[:catches] * 1 +
     stats[:receiving_td] * 6 +
-    stats[:two_pts] * 2
+    stats[:passing_2pc] * 2 +
+    stats[:rushing_2pc] * 2 +
+    stats[:receiving_2pc] * 2
 
   if stats[:pass_yards] >= 400
     fpts += 4
