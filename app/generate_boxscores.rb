@@ -237,6 +237,7 @@ def extract_targets(player, plays)
   plays.each do |play|
     next if play[:nullified] || play[:receiver].nil?
     next unless play[:receiver][:id] == player[:id]
+    next unless valid_position?(player[:position])
 
     targets += 1
   end
