@@ -155,7 +155,7 @@ nav: boxscores
                 {% assign key = prefix | append: "_stats" %}
                 {% assign receiving_stats = game[key] | sort: "receiving_yards" | reverse %}
                 {% for stats in receiving_stats %}
-                  {% if stats.targets > 0 %}
+                  {% if stats.targets > 0 or stats.catches > 0 %}
                     <tr>
                       <td class="name">
                         <a href="/players/{{ stats.player.slug }}">{{ stats.player.name}}</a>

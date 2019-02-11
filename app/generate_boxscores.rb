@@ -147,6 +147,10 @@ def find_by_pid(players, pid)
   players.select{|p| p[:id].gsub(",", "").strip == pid.gsub(",", "").strip}
 end
 
+def clean_issues(description)
+  description.gsub("41-L.Perkins", "24-L.Perkins")
+end
+
 def extract_play_by_play(plays, game, all_players)
   run_play = /left|right/mi
   pass_play = /pass/mi
@@ -160,7 +164,7 @@ def extract_play_by_play(plays, game, all_players)
   pid_format = /(\d{1,2}-[a-zA-Z\.-]+[a-zA-Z],?( Jr.)?( Sr.)?( I{2,})?( IV)?)/m
 
   plays.map do |node|
-    desc = node.description
+    desc = clean_issues(node.description)
     pids = desc.scan(pid_format)
     players = pids.map{|p| find_by_pid(all_players, p.first)}.flatten.compact
 
