@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-11 21:34:28 -0500"
+    "last_modified": "2019-02-11 21:48:32 -0500"
   },
   "players": [
     {
@@ -4667,7 +4667,7 @@
           "times_sacked": 0,
           "assisted_tackles": 0,
           "tackle_assists": 1,
-          "tackles": 0,
+          "tackles": 1,
           "tackles_for_loss": 0,
           "solo_tackles": 0,
           "opponent_fumbles_recovered": 0,
