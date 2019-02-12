@@ -54,7 +54,7 @@ My other punts were fliers on SL WR Adonis Jennings and ORL WR Rannel Hall -- bo
 
 ### Week 1 Results
 
-Fanball has 4 entry max GPPs so I build four lineups, my cash roster and 3 tournament stacks.
+Fanball has 4 entry max GPPs so I built four lineups: my cash roster and 3 tournament stacks.
 
 **Cash Lineup (41.92 pts)**
 
