@@ -149,6 +149,8 @@ end
 
 def clean_issues(description)
   description.gsub("41-L.Perkins", "24-L.Perkins")
+    .gsub("19-C.Johnson", "12-C.Johnson")
+    .gsub("20O-R.Green", "20-R.Green")
 end
 
 def extract_play_by_play(plays, game, all_players)

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-11 17:57:43 -0500"
+    "last_modified": "2019-02-11 21:33:57 -0500"
   },
   "boxscores": [
     {
@@ -59600,7 +59600,7 @@
           }
         },
         {
-          "description": "(14:17) 20O-R.Green right tackle to ORL 49 for 5 yards (98-G.Robinson; 25-R.Moeller).",
+          "description": "(14:17) 20-R.Green right tackle to ORL 49 for 5 yards (98-G.Robinson; 25-R.Moeller).",
           "down": "1st",
           "distance": 10,
           "possession": "ORL",
@@ -59667,7 +59667,7 @@
           }
         },
         {
-          "description": "(13:01) (Shotgun) 3-G.Gilbert pass incomplete short middle to 20O-R.Green.",
+          "description": "(13:01) (Shotgun) 3-G.Gilbert pass incomplete short middle to 20-R.Green.",
           "down": "1st",
           "distance": 10,
           "possession": "ORL",
@@ -59696,7 +59696,7 @@
           "receiver": null
         },
         {
-          "description": "(12:47) 20O-R.Green right end to SD 36 for -1 yards (98-G.Robinson).",
+          "description": "(12:47) 20-R.Green right end to SD 36 for -1 yards (98-G.Robinson).",
           "down": "2nd",
           "distance": 10,
           "possession": "ORL",
@@ -59910,7 +59910,7 @@
           "turnover": true
         },
         {
-          "description": "(10:07) 3-G.Gilbert pass short left to 19-C.Johnson to SD 10 for 10 yards (33-R.Brooks).",
+          "description": "(10:07) 3-G.Gilbert pass short left to 12-C.Johnson to SD 10 for 10 yards (33-R.Brooks).",
           "down": "1st",
           "distance": 10,
           "possession": "ORL",
@@ -59937,14 +59937,14 @@
             "short_name": "G. Gilbert"
           },
           "receiver": {
-            "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
-            "slug": "ron-brooks",
-            "name": "Ron Brooks",
-            "position": "CORNERBACK",
-            "number": 33,
-            "team": "SD",
-            "id": "33-R.Brooks",
-            "short_name": "R. Brooks"
+            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
+            "slug": "charles-johnson",
+            "name": "Charles Johnson",
+            "position": "WIDE_RECEIVER",
+            "number": 12,
+            "team": "ORL",
+            "id": "12-C.Johnson",
+            "short_name": "C. Johnson"
           }
         },
         {
@@ -59977,7 +59977,7 @@
           }
         },
         {
-          "description": "(9:04) (Shotgun) 3-G.Gilbert pass short right to 19-C.Johnson for 6 yards, TOUCHDOWN.",
+          "description": "(9:04) (Shotgun) 3-G.Gilbert pass short right to 12-C.Johnson for 6 yards, TOUCHDOWN.",
           "down": "2nd",
           "distance": 6,
           "possession": "ORL",
@@ -60003,7 +60003,16 @@
             "id": "3-G.Gilbert",
             "short_name": "G. Gilbert"
           },
-          "receiver": null
+          "receiver": {
+            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
+            "slug": "charles-johnson",
+            "name": "Charles Johnson",
+            "position": "WIDE_RECEIVER",
+            "number": 12,
+            "team": "ORL",
+            "id": "12-C.Johnson",
+            "short_name": "C. Johnson"
+          }
         },
         {
           "description": "TWO-POINT CONVERSION ATTEMPT. 22-D.Johnson rushes right guard. ATTEMPT FAILS.",
@@ -61129,7 +61138,7 @@
           }
         },
         {
-          "description": "(12:01) 7-S.Morris pass short left to 19-C.Johnson to ORL 40 for 5 yards (53-J.Lotuleleli; 33-R.Brooks).",
+          "description": "(12:01) 7-S.Morris pass short left to 12-C.Johnson to ORL 40 for 5 yards (53-J.Lotuleleli; 33-R.Brooks).",
           "down": "3rd",
           "distance": 2,
           "possession": "ORL",
@@ -61156,14 +61165,14 @@
             "short_name": "S. Morris"
           },
           "receiver": {
-            "guid": "MqnJrdAbCr5SO8bEwZQv3escG-nW",
-            "slug": "ron-brooks",
-            "name": "Ron Brooks",
-            "position": "CORNERBACK",
-            "number": 33,
-            "team": "SD",
-            "id": "33-R.Brooks",
-            "short_name": "R. Brooks"
+            "guid": "Mvos-CiReB7Xgv_4M0LSY8WsAuH8",
+            "slug": "charles-johnson",
+            "name": "Charles Johnson",
+            "position": "WIDE_RECEIVER",
+            "number": 12,
+            "team": "ORL",
+            "id": "12-C.Johnson",
+            "short_name": "C. Johnson"
           }
         },
         {
@@ -61441,7 +61450,7 @@
           "receiver": null
         },
         {
-          "description": "(7:56) 20O-R.Green right guard to 50 for -4 yards (92-S.Soto).",
+          "description": "(7:56) 20-R.Green right guard to 50 for -4 yards (92-S.Soto).",
           "down": "2nd",
           "distance": 10,
           "possession": "ORL",
@@ -69718,7 +69727,7 @@
           "field_goals_blocked": 0,
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
-          "targets": 0,
+          "targets": 3,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",

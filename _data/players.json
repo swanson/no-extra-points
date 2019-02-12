@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-11 17:58:40 -0500"
+    "last_modified": "2019-02-11 21:34:28 -0500"
   },
   "players": [
     {
@@ -8497,7 +8497,7 @@
           "field_goals_blocked": 0,
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
-          "targets": 0,
+          "targets": 3,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
