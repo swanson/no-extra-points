@@ -168,7 +168,7 @@ def extract_play_by_play(plays, game, all_players)
   plays.map do |node|
     desc = clean_issues(node.description)
     pids = desc.scan(pid_format)
-    players = pids.map{|p| find_by_pid(all_players, p.first)}.flatten.compact
+    players = pids.map{|p| find_by_pid(all_players, p.first)}.flatten.compact.uniq
 
     play = {
       description: desc,
@@ -268,13 +268,14 @@ end
 
 def extract_player_stats(edges, team_name, plays)
   stats = []
+  last_player = nil
 
   edges.each do |edge|
-    player = edge.node
     # next unless valid_position?(player.position)
     next unless edge.team.name == team_name
+    next if last_player == edge.node.id
 
-    player = extract_player_details(player, edge.team)
+    player = extract_player_details(edge.node, edge.team)
 
     player_stats = {
       player: player,
@@ -319,6 +320,7 @@ def extract_player_stats(edges, team_name, plays)
     player_stats = get_fantasy_stats(player_stats)
 
     stats << player_stats
+    last_player = edge.node.id
   end
 
   stats

@@ -209,7 +209,7 @@ nav: boxscores
                 {% assign key = prefix | append: "_stats" %}
                 {% assign d_stats = game[key] | sort: "tackles" | reverse %}
                 {% for stats in d_stats %}
-                  {% if stats.tackles > 0 or stats.pass_defenses > 0 %}
+                  {% if stats.tackles > 0 or stats.pass_defenses > 0 or stats.sacks > 0%}
                     <tr>
                       <td class="name divider">{{ stats.player.name }}</td>
                       <td>{{ stats.tackles }}</td>
