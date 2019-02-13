@@ -1495,19 +1495,19 @@
           "short_name": "M. Bercovici",
           "last_name": "Bercovici",
           "first_name": "Mike",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
-          "slug": "phillip-nelson",
-          "name": "Phillip Nelson",
+          "slug": "philip-nelson",
+          "name": "Philip Nelson",
           "position": "QB",
           "number": 9,
           "team": "SD",
           "short_name": "P. Nelson",
           "last_name": "Nelson",
-          "first_name": "Phillip",
-          "starting": false
+          "first_name": "Philip",
+          "starting": true
         },
         {
           "guid": "MmvHKLCRyZq-N-Gt2TxaMx3PtX1B",
