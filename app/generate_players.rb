@@ -134,6 +134,13 @@ def compute_season_stats(logs)
       totals[k] += v
     end
   end
+
+  if totals["pass_attempts"] && totals["pass_attempts"] > 0
+    totals["completion_percentage"] = ((totals["pass_complete"].to_f / totals["pass_attempts"].to_f) * 100).round(1)
+  else
+    totals["completion_percentage"] = 0
+  end
+
   totals
 end
 
