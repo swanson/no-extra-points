@@ -57,7 +57,7 @@ nav: players
             <th colspan="6">Rushing</th>
           {% endif %}
           {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
-            <th colspan="6">Receiving</th>
+            <th colspan="7">Receiving</th>
           {% endif %}
           <th colspan="2">Fantasy</th>
         </tr>
@@ -84,6 +84,7 @@ nav: players
             <th class="hide-mobile">TGTS</th>
             <th>YDS</th>
             <th class="hide-mobile">LNG</th>
+            <th class="hide-mobile">YAC</th>
             <th>TD</th>
             <th class="divider">2PT</th>
           {% endif %}
@@ -123,6 +124,7 @@ nav: players
               <td class="hide-mobile">{{ stats.targets }}</td>
               <td>{{ stats.receiving_yards }}</td>
               <td class="hide-mobile">{{ stats.receiving_long }}</td>
+              <td class="hide-mobile">{{ stats.yac }}</td>
               <td>{{ stats.receiving_td }}</td>
               <td class="divider">{{ stats.receiving_2pc }}</td>
             {% endif %}

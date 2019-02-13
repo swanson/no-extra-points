@@ -67,7 +67,9 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             receivingTouchdowns
             receivingLongestGain
             timesSacked
-            twoPointConversionsCompleted
+            twoPointConversionPassReceptionsGood
+            twoPointConversionPassesGood
+            twoPointConversionRushesGood
             assistedTackles
             tackleAssists
             tackles
@@ -83,6 +85,8 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             fieldGoalsBlocked
             fieldGoalsMade
             fieldGoalsLongestMade
+            passTargets
+            yardsAfterCatches
           }
         }
       }
@@ -237,35 +241,6 @@ def extract_player_details(node, team)
   }
 end
 
-def extract_targets(player, plays)
-  targets = 0
-
-  plays.each do |play|
-    next if play[:nullified] || play[:receiver].nil?
-    next unless play[:receiver][:id] == player[:id]
-    next unless valid_position?(player[:position])
-
-    targets += 1
-  end
-
-  targets
-end
-
-def extract_2pt(player, plays, type)
-  converts = 0
-
-  plays.each do |play|
-    next unless play[:conversion_success]
-    next if play[:nullified] || play[type].nil?
-    next unless play[type][:id] == player[:id]
-    next unless valid_position?(player[:position])
-
-    converts += 1
-  end
-
-  converts
-end
-
 def extract_player_stats(edges, team_name, plays, week_num)
   stats = []
   last_player = nil
@@ -293,9 +268,9 @@ def extract_player_stats(edges, team_name, plays, week_num)
       receiving_td: edge.stats.receiving_touchdowns,
       fumbles: edge.stats.fumbles,
       interceptions: edge.stats.passes_intercepted,
-      passing_2pc: extract_2pt(player, plays, :passer),
-      rushing_2pc: extract_2pt(player, plays, :rusher),
-      receiving_2pc: extract_2pt(player, plays, :receiver),
+      passing_2pc: edge.stats.two_point_conversion_passes_good,
+      rushing_2pc: edge.stats.two_point_conversion_rushes_good,
+      receiving_2pc: edge.stats.two_point_conversion_pass_receptions_good,
       times_sacked: edge.stats.times_sacked,
       assisted_tackles: edge.stats.assisted_tackles,
       tackle_assists: edge.stats.tackle_assists,
@@ -313,8 +288,9 @@ def extract_player_stats(edges, team_name, plays, week_num)
       field_goals_blocked: edge.stats.field_goals_blocked,
       field_goals_made: edge.stats.field_goals_made,
       field_goals_longest_made: edge.stats.field_goals_longest_made,
-      targets: extract_targets(player, plays),
-      week_num: week_num
+      targets: edge.stats.pass_targets,
+      week_num: week_num,
+      yac: edge.stats.yards_after_catches,
     }
 
     player_stats = calculate_averages(player_stats)
