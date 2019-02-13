@@ -11,6 +11,12 @@ page_gen:
     name: slug
     page_title: full_name
     dir: players
+  - index_files: false
+    data: projections.weeks
+    template: projections
+    name: slug
+    page_title: title
+    dir: projections
 
 exclude:
   - Gemfile

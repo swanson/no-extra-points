@@ -1,0 +1,57 @@
+---
+layout: default
+nav: projections
+---
+
+{% assign projections = site.data.raw_projections[page.week] | sort: "projection" | reverse %}
+
+<div class="card">
+  <h1 class="text-left text-center">{{ page.title }}</h1>
+
+  <div class="italics bg-blue-light rounded p-6 my-6 text-blue-lightest leading-normal">
+    <p class="text-xl text-center">
+      Weekly AAF Fantasy projections provided by Anders Eagleson
+      (<a class="no-underline text-white border-b border-white border-dotted font-bold" href="https://twitter.com/anders157">@Anders157</a>)
+    </p>
+    <p class="mt-4 text-center">
+      Projections are based on player usage, efficiency, Vegas totals, market share, and other secret sauce.
+    </p>
+  </div>
+
+  <div class="boxscore-table-wrapper">
+    <table id="projections" class="boxscore-table">
+      <thead>
+        <tr>
+          <th class="name">Player Name</th>
+          <th>Position</th>
+          <th>Team</th>
+          <th>Fanball Salary</th>
+          <th>Projected FPts</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for projection in projections %}
+          <tr>
+            <td class="name">{{ projection.name }}</td>
+            <td class="w-12">{{ projection.position }}</td>
+            <td class="w-12">{{ projection.team }}</td>
+            <td class="w-24">${{ projection.fb_salary }}</td>
+            <td class="w-48 px-8">{{ projection.projection }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  $(document).ready( function () {
+      $('#projections').DataTable({
+        paging: false,
+        searching: false,
+        ordering: true,
+        info: false,
+        order: [[ 4, "desc"]]
+      });
+  });
+</script>

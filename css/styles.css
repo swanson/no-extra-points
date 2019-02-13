@@ -210,7 +210,7 @@ body {
 
 .boxscore-table td:last-child,
 .boxscore-table th:last-child {
-  @apply pr-2;
+  @apply pr-4;
 }
 
 .boxscore-row {
