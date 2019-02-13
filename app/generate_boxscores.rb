@@ -266,7 +266,7 @@ def extract_2pt(player, plays, type)
   converts
 end
 
-def extract_player_stats(edges, team_name, plays)
+def extract_player_stats(edges, team_name, plays, week_num)
   stats = []
   last_player = nil
 
@@ -314,6 +314,7 @@ def extract_player_stats(edges, team_name, plays)
       field_goals_made: edge.stats.field_goals_made,
       field_goals_longest_made: edge.stats.field_goals_longest_made,
       targets: extract_targets(player, plays),
+      week_num: week_num
     }
 
     player_stats = calculate_averages(player_stats)
@@ -400,12 +401,18 @@ def generate_short_title(node)
   "#{node.away_team.abbreviation} @ #{node.home_team.abbreviation}"
 end
 
+def get_week_num(week)
+  return 0 if week.include? "Pre"
+  week.tr("^0-9", '').to_i
+end
+
 def add_boxscore(node)
   home = node.home_team.name
   away = node.away_team.name
 
   players = extract_players(node.players_connection.edges)
   plays = extract_play_by_play(node.plays_connection.nodes, node, players)
+  week_num = get_week_num(node.named_time_range.name)
 
   {
     slug: generate_slug(node),
@@ -420,8 +427,8 @@ def add_boxscore(node)
     week: node.named_time_range.name,
     time: node.named_time_range.time,
     play_by_play: plays,
-    home_stats: extract_player_stats(node.players_connection.edges, home, plays),
-    away_stats: extract_player_stats(node.players_connection.edges, away, plays),
+    home_stats: extract_player_stats(node.players_connection.edges, home, plays, week_num),
+    away_stats: extract_player_stats(node.players_connection.edges, away, plays, week_num),
   }
 end
 
@@ -433,7 +440,6 @@ result.data.games_connection.nodes.each do |node|
 
   boxscores << add_boxscore(node)
 end
-
 
 path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
 File.write(path, JSON.pretty_generate({

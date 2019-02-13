@@ -1,5 +1,15 @@
 require_relative "./aaf"
 require "pry"
+require "csv"
+
+$salaries = {}
+Dir.glob("app/data/fanball-salaries/*.csv").each do |f|
+  week = f.scan(/\d+/).first.to_i
+  $salaries[week] = {}
+  CSV.foreach(f, :headers => true) do |row|
+    $salaries[week][row["id"]] = row["salary"].to_i
+  end
+end
 
 ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
   query {
@@ -93,6 +103,13 @@ def slug(name)
     name.family_name.downcase.strip.gsub(/[^a-z]/, '')
 end
 
+def get_salary(stats)
+  week_num = stats["week_num"].to_i
+  week_sal = $salaries[week_num]
+  return "-" unless week_sal
+  week_sal[stats["player"]["guid"]] || "-"
+end
+
 def get_game_logs(player)
   path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
   boxscores = JSON.parse(File.open(path).read)["boxscores"]
@@ -101,7 +118,7 @@ def get_game_logs(player)
     ["home_stats", "away_stats"].each do |key|
       stats = bs[key].find{|s| s["player"]["guid"] == player.id}
       if stats
-        logs << stats.merge(week: bs["week"], game_link: bs["slug"], game: bs["short_title"])
+        logs << stats.merge(week: bs["week"], game_link: bs["slug"], game: bs["short_title"], salary: get_salary(stats))
       end
     end
   end

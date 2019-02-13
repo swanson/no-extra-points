@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-12 18:30:47 -0500"
+    "last_modified": "2019-02-12 19:12:02 -0500"
   },
   "players": [
     {
@@ -66,13 +66,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4900
         },
         {
           "player": {
@@ -120,13 +122,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 9.3,
           "rush_ypc": 8.5,
           "salary": "$-",
           "fpts": 4.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -213,13 +217,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -286,13 +292,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4000
         }
       ]
     },
@@ -359,13 +367,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.5,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3300
         },
         {
           "player": {
@@ -413,13 +423,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -486,13 +498,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": -1.0,
           "salary": "$-",
           "fpts": -0.1,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4900
         },
         {
           "player": {
@@ -540,13 +554,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -1.7,
           "salary": "$-",
           "fpts": -0.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -613,13 +629,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 4.0,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 0.3,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4900
         },
         {
           "player": {
@@ -667,13 +685,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0.0,
           "rush_ypc": 7.0,
           "salary": "$-",
           "fpts": 9.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -740,13 +760,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 6.4,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 5200
         },
         {
           "player": {
@@ -794,13 +816,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -867,13 +891,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3800
         },
         {
           "player": {
@@ -921,13 +947,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -994,13 +1022,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.5,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3700
         },
         {
           "player": {
@@ -1048,13 +1078,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -1121,13 +1153,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3100
         },
         {
           "player": {
@@ -1175,13 +1209,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -1248,13 +1284,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.1,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -1302,13 +1340,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -1375,13 +1415,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 2.0,
           "salary": "$-",
           "fpts": 6.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -1448,13 +1490,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 6600
         },
         {
           "player": {
@@ -1502,13 +1546,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 8.1,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -1575,13 +1621,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 7.0,
           "rush_ypc": 14.0,
           "salary": "$-",
           "fpts": 8.4,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6200
         },
         {
           "player": {
@@ -1629,13 +1677,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 7.3,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 13.7,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -1702,13 +1752,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.4,
           "salary": "$-",
           "fpts": 3.9,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 6200
         },
         {
           "player": {
@@ -1756,13 +1808,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 6.0,
           "salary": "$-",
           "fpts": 19.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -1829,13 +1883,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.2,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -1883,13 +1939,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -1956,13 +2014,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -2010,13 +2070,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -2083,13 +2145,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -2156,13 +2220,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -2210,13 +2276,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.2,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -2283,13 +2351,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -2356,13 +2426,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 11.6,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -2410,13 +2482,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 9.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -2483,13 +2557,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.7,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -2537,13 +2613,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.3,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -2630,13 +2708,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.8,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3900
         },
         {
           "player": {
@@ -2684,13 +2764,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -2797,13 +2879,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -2870,13 +2954,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.3,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -2943,13 +3029,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 13.4,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3200
         },
         {
           "player": {
@@ -2997,13 +3085,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -3070,13 +3160,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -3143,13 +3235,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3200
         },
         {
           "player": {
@@ -3197,13 +3291,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 7.0,
           "salary": "$-",
           "fpts": 2.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -3270,13 +3366,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3300
         },
         {
           "player": {
@@ -3324,13 +3422,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -3397,13 +3497,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 4.0,
           "salary": "$-",
           "fpts": 5.1,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3300
         },
         {
           "player": {
@@ -3451,13 +3553,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.5,
           "salary": "$-",
           "fpts": 11.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -3524,13 +3628,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3100
         },
         {
           "player": {
@@ -3578,13 +3684,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.0,
           "salary": "$-",
           "fpts": 9.2,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -3651,13 +3759,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -3724,13 +3834,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 2.2,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -3797,13 +3909,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.3,
           "salary": "$-",
           "fpts": 13.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -3870,13 +3984,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4100
         },
         {
           "player": {
@@ -3924,13 +4040,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -3997,13 +4115,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 4.4,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 5.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -4070,13 +4190,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.2,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -4124,13 +4246,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -4197,13 +4321,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.9,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3200
         },
         {
           "player": {
@@ -4251,13 +4377,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -4324,13 +4452,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3100
         },
         {
           "player": {
@@ -4378,13 +4508,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -4491,13 +4623,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.1,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4800
         },
         {
           "player": {
@@ -4545,13 +4679,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -4618,13 +4754,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 2.7,
           "salary": "$-",
           "fpts": 5.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -4691,13 +4829,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -4764,13 +4904,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3100
         },
         {
           "player": {
@@ -4818,13 +4960,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -3.0,
           "salary": "$-",
           "fpts": 2.6,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -4891,13 +5035,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -4964,13 +5110,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.6,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4700
         },
         {
           "player": {
@@ -5018,13 +5166,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -5091,13 +5241,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.6,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 6200
         },
         {
           "player": {
@@ -5145,13 +5297,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -5218,13 +5372,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.6,
           "salary": "$-",
           "fpts": 9.7,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6500
         },
         {
           "player": {
@@ -5272,13 +5428,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.3,
           "salary": "$-",
           "fpts": 13.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -5345,13 +5503,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -5418,13 +5578,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 4.5,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 5500
         },
         {
           "player": {
@@ -5472,13 +5634,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -2.0,
           "salary": "$-",
           "fpts": 3.7,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -5545,13 +5709,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -5618,13 +5784,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.7,
           "salary": "$-",
           "fpts": 7.5,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5900
         },
         {
           "player": {
@@ -5672,13 +5840,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0.0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -5745,13 +5915,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 8.6,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 5900
         },
         {
           "player": {
@@ -5799,13 +5971,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 11,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 30.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -5872,13 +6046,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 6.9,
           "salary": "$-",
           "fpts": 9.2,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6000
         },
         {
           "player": {
@@ -5926,13 +6102,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.7,
           "salary": "$-",
           "fpts": 8.6,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -5999,13 +6177,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 9.1,
           "rush_ypc": 5.0,
           "salary": "$-",
           "fpts": 27.6,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5900
         },
         {
           "player": {
@@ -6053,13 +6233,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 7.0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -6126,13 +6308,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -6219,13 +6403,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3200
         },
         {
           "player": {
@@ -6273,13 +6459,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -3.0,
           "salary": "$-",
           "fpts": 4.7,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -6346,13 +6534,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -6419,13 +6609,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 7.2,
           "salary": "$-",
           "fpts": 5.6,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4700
         },
         {
           "player": {
@@ -6473,13 +6665,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 15.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -6546,13 +6740,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3200
         },
         {
           "player": {
@@ -6600,13 +6796,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0.0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -6673,13 +6871,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.1,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 6500
         },
         {
           "player": {
@@ -6727,13 +6927,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 13.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -6800,13 +7002,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 3.8,
           "rush_ypc": 5.0,
           "salary": "$-",
           "fpts": 4.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 5700
         },
         {
           "player": {
@@ -6854,13 +7058,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 8.5,
           "rush_ypc": 2.5,
           "salary": "$-",
           "fpts": 9.6,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -6927,13 +7133,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 6.0,
           "salary": "$-",
           "fpts": 0.6,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -6981,13 +7189,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -7074,13 +7284,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -7128,13 +7340,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -7201,13 +7415,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -7274,13 +7490,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4900
         },
         {
           "player": {
@@ -7328,13 +7546,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 13.6,
           "rush_ypc": -0.5,
           "salary": "$-",
           "fpts": 4.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -7421,13 +7641,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.5,
           "salary": "$-",
           "fpts": 2.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -7494,13 +7716,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -3.0,
           "salary": "$-",
           "fpts": -0.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -7587,13 +7811,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0.4,
           "salary": "$-",
           "fpts": 3.1,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -7660,13 +7886,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -7733,13 +7961,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -7806,13 +8036,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -7879,13 +8111,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.8,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3200
         },
         {
           "player": {
@@ -7933,13 +8167,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -8006,13 +8242,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 4.0,
           "salary": "$-",
           "fpts": 7.7,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 5400
         },
         {
           "player": {
@@ -8060,13 +8298,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -8133,13 +8373,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.4,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4700
         },
         {
           "player": {
@@ -8187,13 +8429,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -8280,13 +8524,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3900
         },
         {
           "player": {
@@ -8334,13 +8580,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -8407,13 +8655,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.3,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 6700
         },
         {
           "player": {
@@ -8461,13 +8711,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -8534,13 +8786,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 7.3,
           "salary": "$-",
           "fpts": 7.3,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 6400
         },
         {
           "player": {
@@ -8588,13 +8842,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -8661,13 +8917,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -8715,13 +8973,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -8808,13 +9068,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.5,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -8862,13 +9124,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 14.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -8935,13 +9199,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3100
         },
         {
           "player": {
@@ -8989,13 +9255,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 6.0,
           "salary": "$-",
           "fpts": 7.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -9062,13 +9330,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0.0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3300
         },
         {
           "player": {
@@ -9116,13 +9386,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.4,
           "salary": "$-",
           "fpts": 7.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -9189,13 +9461,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.9,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -9243,13 +9517,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -9336,13 +9612,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -9390,13 +9668,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -9463,13 +9743,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 6100
         },
         {
           "player": {
@@ -9517,13 +9799,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 11.1,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -9590,13 +9874,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 7.0,
           "salary": "$-",
           "fpts": 13.8,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4500
         },
         {
           "player": {
@@ -9644,13 +9930,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.8,
           "salary": "$-",
           "fpts": 3.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -9717,13 +10005,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5700
         },
         {
           "player": {
@@ -9771,13 +10061,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -9844,13 +10136,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 8,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.3,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 6400
         },
         {
           "player": {
@@ -9898,13 +10192,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -9971,13 +10267,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.5,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4400
         },
         {
           "player": {
@@ -10025,13 +10323,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 9.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -10098,13 +10398,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 5300
         },
         {
           "player": {
@@ -10152,13 +10454,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 4.9,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -10225,13 +10529,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 9.5,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 5600
         },
         {
           "player": {
@@ -10279,13 +10585,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -10352,13 +10660,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -10425,13 +10735,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 4.3,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.2,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4900
         },
         {
           "player": {
@@ -10479,13 +10791,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 9.6,
           "rush_ypc": 2.0,
           "salary": "$-",
           "fpts": 2.1,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -10552,13 +10866,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         }
       ]
     },
@@ -10625,13 +10941,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 3.6,
           "salary": "$-",
           "fpts": 1.8,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3200
         },
         {
           "player": {
@@ -10679,13 +10997,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -0.7,
           "salary": "$-",
           "fpts": 3.1,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -10772,13 +11092,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 3.5,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -10826,13 +11148,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -10899,13 +11223,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 5.0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 18.3,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4800
         },
         {
           "player": {
@@ -10953,13 +11279,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -11026,13 +11354,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3700
         },
         {
           "player": {
@@ -11080,13 +11410,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -11173,13 +11505,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 10.7,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 9.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -11246,13 +11580,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 12,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 13.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6300
         },
         {
           "player": {
@@ -11300,13 +11636,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 12.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -11373,13 +11711,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -11446,13 +11786,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 5100
         },
         {
           "player": {
@@ -11500,13 +11842,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 10.0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -11573,13 +11917,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4000
         },
         {
           "player": {
@@ -11627,13 +11973,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -11700,13 +12048,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -11754,13 +12104,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -11827,13 +12179,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.8,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         }
       ]
     },
@@ -11900,13 +12254,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -11973,13 +12329,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 7.1,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -12046,13 +12404,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 12.7,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 5100
         },
         {
           "player": {
@@ -12100,13 +12460,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -12193,13 +12555,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 5.4,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.5,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5200
         },
         {
           "player": {
@@ -12247,13 +12611,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 5.9,
           "rush_ypc": 10.3,
           "salary": "$-",
           "fpts": 6.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -12320,13 +12686,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 1.3,
           "salary": "$-",
           "fpts": 4.6,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4100
         },
         {
           "player": {
@@ -12374,13 +12742,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 6.7,
           "salary": "$-",
           "fpts": 5.6,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -12447,13 +12817,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 6.8,
           "rush_ypc": 6.7,
           "salary": "$-",
           "fpts": 4.7,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4900
         },
         {
           "player": {
@@ -12501,13 +12873,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 11.5,
           "rush_ypc": 10.0,
           "salary": "$-",
           "fpts": 3.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -12574,13 +12948,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3200
         },
         {
           "player": {
@@ -12628,13 +13004,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.8,
           "salary": "$-",
           "fpts": 5.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -12701,13 +13079,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -12774,13 +13154,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 5.0,
           "salary": "$-",
           "fpts": 7.6,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3600
         },
         {
           "player": {
@@ -12828,13 +13210,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -12901,13 +13285,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3500
         },
         {
           "player": {
@@ -12955,13 +13341,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -13028,13 +13416,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -13101,13 +13491,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.2,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6000
         },
         {
           "player": {
@@ -13155,13 +13547,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 12.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -13228,13 +13622,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.3,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4300
         },
         {
           "player": {
@@ -13282,13 +13678,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -13355,13 +13753,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -13428,13 +13828,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 9,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 16.7,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3500
         },
         {
           "player": {
@@ -13482,13 +13884,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 8.0,
           "salary": "$-",
           "fpts": 0.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -13555,13 +13959,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 8.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -13628,13 +14034,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 7.6,
           "rush_ypc": 2.0,
           "salary": "$-",
           "fpts": 13.3,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 6000
         },
         {
           "player": {
@@ -13682,13 +14090,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 2.9,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.2,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -13755,13 +14165,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 8,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.6,
           "salary": "$-",
           "fpts": 10.9,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4000
         },
         {
           "player": {
@@ -13809,13 +14221,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 2.8,
           "salary": "$-",
           "fpts": 2.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -13882,13 +14296,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.4,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -13936,13 +14352,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.1,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -14009,13 +14427,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.7,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4700
         },
         {
           "player": {
@@ -14063,13 +14483,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 10.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -14136,13 +14558,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 8.0,
           "salary": "$-",
           "fpts": 2.4,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         }
       ]
     },
@@ -14209,13 +14633,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 3.6,
           "salary": "$-",
           "fpts": 16.4,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 6700
         },
         {
           "player": {
@@ -14263,13 +14689,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.3,
           "salary": "$-",
           "fpts": 1.3,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -14336,13 +14764,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4900
         },
         {
           "player": {
@@ -14390,13 +14820,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -14463,13 +14895,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -14517,13 +14951,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -14590,13 +15026,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -14644,13 +15082,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -14717,13 +15157,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4900
         },
         {
           "player": {
@@ -14771,13 +15213,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 6.9,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 4.1,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -14844,13 +15288,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -14898,13 +15344,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 5.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -14971,13 +15419,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -15044,13 +15494,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3600
         },
         {
           "player": {
@@ -15098,13 +15550,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -15191,13 +15645,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -15264,13 +15720,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -15337,13 +15795,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.5,
           "salary": "$-",
           "fpts": 22.2,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 7300
         },
         {
           "player": {
@@ -15391,13 +15851,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.8,
           "salary": "$-",
           "fpts": 3.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -15464,13 +15926,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 3.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -15537,13 +16001,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.7,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4600
         },
         {
           "player": {
@@ -15591,13 +16057,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -15664,13 +16132,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0.6,
           "salary": "$-",
           "fpts": 1.8,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5300
         },
         {
           "player": {
@@ -15718,13 +16188,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 6.1,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -15791,13 +16263,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 12.3,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -15864,13 +16338,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -15937,13 +16413,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -15991,13 +16469,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -16064,13 +16544,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.7,
           "salary": "$-",
           "fpts": 1.6,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4900
         },
         {
           "player": {
@@ -16118,13 +16600,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 2.0,
           "salary": "$-",
           "fpts": 0.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -16191,13 +16675,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4900
         },
         {
           "player": {
@@ -16245,13 +16731,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 8.0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 14.5,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -16318,13 +16806,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -16372,13 +16862,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.5,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -16445,13 +16937,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 3000
         },
         {
           "player": {
@@ -16499,13 +16993,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -16572,13 +17068,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 29.3,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 4600
         },
         {
           "player": {
@@ -16626,13 +17124,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -16699,13 +17199,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -16772,13 +17274,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -16845,13 +17349,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -16918,13 +17424,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -17011,13 +17519,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -17084,13 +17594,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -17157,13 +17669,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 5.5,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.9,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4900
         },
         {
           "player": {
@@ -17211,13 +17725,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 3.9,
           "rush_ypc": 0.3,
           "salary": "$-",
           "fpts": 1.7,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -17284,13 +17800,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 4.5,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 5.9,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 5600
         },
         {
           "player": {
@@ -17338,13 +17856,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 8.8,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 5.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -17411,13 +17931,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4900
         },
         {
           "player": {
@@ -17465,13 +17987,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 5.4,
           "rush_ypc": 2.0,
           "salary": "$-",
           "fpts": 4.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -17538,13 +18062,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 2.6,
           "salary": "$-",
           "fpts": 9.1,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3500
         },
         {
           "player": {
@@ -17592,13 +18118,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 9.5,
           "salary": "$-",
           "fpts": 1.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -17665,13 +18193,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -17738,13 +18268,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.1,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -17792,13 +18324,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -17865,13 +18399,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 4.8,
           "salary": "$-",
           "fpts": 5.8,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 6600
         },
         {
           "player": {
@@ -17919,13 +18455,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": -0.5,
           "salary": "$-",
           "fpts": 3.2,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -17992,13 +18530,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3400
         },
         {
           "player": {
@@ -18046,13 +18586,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -18139,13 +18681,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.0,
           "salary": "$-",
           "fpts": 0.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -18212,13 +18756,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.1,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 5200
         },
         {
           "player": {
@@ -18266,13 +18812,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 7,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 9.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -18339,13 +18887,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 6.6,
           "salary": "$-",
           "fpts": 4.6,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3400
         },
         {
           "player": {
@@ -18393,13 +18943,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 1.3,
           "salary": "$-",
           "fpts": 16.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -18466,13 +19018,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 4900
         },
         {
           "player": {
@@ -18520,13 +19074,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.8,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -18613,13 +19169,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 9.0,
           "rush_ypc": 9.0,
           "salary": "$-",
           "fpts": 7.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -18686,13 +19244,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -18759,13 +19319,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -18832,13 +19394,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 4,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 12.0,
           "salary": "$-",
           "fpts": 8.7,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -18886,13 +19450,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.2,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -18959,13 +19525,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -19032,13 +19600,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 6,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 7.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -19086,13 +19656,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -19159,13 +19731,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 4.4,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -19232,13 +19806,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -19305,13 +19881,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3000
         },
         {
           "player": {
@@ -19359,13 +19937,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -19432,13 +20012,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -19486,13 +20068,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -19559,13 +20143,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 11.3,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -19613,13 +20199,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -19686,13 +20274,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -19759,13 +20349,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 6300
         },
         {
           "player": {
@@ -19813,13 +20405,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 7.4,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.7,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -19886,13 +20480,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 4400
         },
         {
           "player": {
@@ -19940,13 +20536,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 5,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 3.0,
           "salary": "$-",
           "fpts": 6.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -20013,13 +20611,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 3,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -20086,13 +20686,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 6.0,
           "salary": "$-",
           "fpts": 11.1,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -20159,13 +20761,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 9,
+          "week_num": 1,
           "pass_ypa": 0.0,
           "rush_ypc": 0.0,
           "salary": "$-",
           "fpts": 11.5,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4500
         },
         {
           "player": {
@@ -20213,13 +20817,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.4,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -20286,13 +20892,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-bir-mem",
-          "game": "MEM @ BIR"
+          "game": "MEM @ BIR",
+          "salary": 5000
         },
         {
           "player": {
@@ -20340,13 +20948,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.9,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -20413,13 +21023,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 3.3,
           "salary": "$-",
           "fpts": 1.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3000
         },
         {
           "player": {
@@ -20467,13 +21079,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 4.2,
           "salary": "$-",
           "fpts": 6.3,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -20540,13 +21154,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 2.0,
           "week": "Week 1",
           "game_link": "week-1-orl-atl",
-          "game": "ATL @ ORL"
+          "game": "ATL @ ORL",
+          "salary": 3100
         },
         {
           "player": {
@@ -20594,13 +21210,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sd-orl",
-          "game": "ORL @ SD"
+          "game": "ORL @ SD",
+          "salary": "-"
         }
       ]
     },
@@ -20667,13 +21285,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -20740,13 +21360,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 3000
         },
         {
           "player": {
@@ -20794,13 +21416,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 1,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -20887,13 +21511,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4900
         },
         {
           "player": {
@@ -20941,13 +21567,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 5.8,
           "rush_ypc": 1.0,
           "salary": "$-",
           "fpts": 1.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -21014,13 +21642,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 0.0,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 3800
         },
         {
           "player": {
@@ -21068,13 +21698,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 6.5,
           "salary": "$-",
           "fpts": 4.6,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     },
@@ -21141,13 +21773,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 2,
+          "week_num": 0,
           "pass_ypa": 0,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 1.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -21214,13 +21848,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 9.5,
           "rush_ypc": 2.9,
           "salary": "$-",
           "fpts": 33.3,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 5500
         },
         {
           "player": {
@@ -21268,13 +21904,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 8.3,
           "rush_ypc": -1.0,
           "salary": "$-",
           "fpts": 10.5,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-bir-ari",
-          "game": "ARI @ BIR"
+          "game": "ARI @ BIR",
+          "salary": "-"
         }
       ]
     },
@@ -21341,13 +21979,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 4.7,
           "rush_ypc": 5.0,
           "salary": "$-",
           "fpts": 10.6,
           "week": "Week 1",
           "game_link": "week-1-ari-sl",
-          "game": "SL @ ARI"
+          "game": "SL @ ARI",
+          "salary": 6100
         },
         {
           "player": {
@@ -21395,13 +22035,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 13.0,
           "rush_ypc": 1.5,
           "salary": "$-",
           "fpts": 3.9,
           "week": "Preseason Week 1",
           "game_link": "preseason-week-1-sl-mem",
-          "game": "MEM @ SL"
+          "game": "MEM @ SL",
+          "salary": "-"
         }
       ]
     },
@@ -21468,13 +22110,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 1,
           "pass_ypa": 7.1,
           "rush_ypc": 2.3,
           "salary": "$-",
           "fpts": 11.1,
           "week": "Week 1",
           "game_link": "week-1-sa-sd",
-          "game": "SD @ SA"
+          "game": "SD @ SA",
+          "salary": 4900
         },
         {
           "player": {
@@ -21522,13 +22166,15 @@
           "field_goals_made": 0,
           "field_goals_longest_made": 0,
           "targets": 0,
+          "week_num": 0,
           "pass_ypa": 6.5,
           "rush_ypc": 0,
           "salary": "$-",
           "fpts": 6.8,
           "week": "Preseason Week 2",
           "game_link": "preseason-week-2-sa-atl",
-          "game": "ATL @ SA"
+          "game": "ATL @ SA",
+          "salary": "-"
         }
       ]
     }
