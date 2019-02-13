@@ -110,9 +110,7 @@ def get_salary(stats)
   week_sal[stats["player"]["guid"]] || "-"
 end
 
-def get_game_logs(player)
-  path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
-  boxscores = JSON.parse(File.open(path).read)["boxscores"]
+def get_game_logs(player, boxscores)
   logs = []
   boxscores.each do |bs|
     ["home_stats", "away_stats"].each do |key|
@@ -125,7 +123,23 @@ def get_game_logs(player)
   logs
 end
 
-def add_player(players, node)
+def compute_season_stats(logs)
+  totals = {}
+  logs.each do |log|
+    next if log["week_num"] < 1
+    log.each do |k, v|
+      next unless v.is_a? Numeric
+
+      totals[k] = 0 if totals[k].nil?
+      totals[k] += v
+    end
+  end
+  totals
+end
+
+def add_player(players, node, boxscores)
+  logs = get_game_logs(node, boxscores)
+
   players << {
     guid: node.id,
     slug: slug(node.name),
@@ -142,7 +156,8 @@ def add_player(players, node)
     weight: get_weight(node.weight_grams),
     status: get_status(node.roster_status),
     starting: false,
-    game_logs: get_game_logs(node)
+    game_logs: logs,
+    season_stats: compute_season_stats(logs),
   }
 end
 
@@ -155,12 +170,15 @@ def valid_position?(position)
   ].include?(position)
 end
 
+path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
+boxscores = JSON.parse(File.open(path).read)["boxscores"]
+
 result = AAF::Client.query(ALL_PLAYERS)
 result.data.players_connection.nodes.each do |node|
   next unless node.team
   next unless valid_position?(node.position)
 
-  add_player(players, node)
+  add_player(players, node, boxscores)
 end
 
 sort_order = {

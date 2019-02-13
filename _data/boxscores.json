@@ -1,9 +1,10 @@
 {
   "meta": {
-    "last_modified": "2019-02-12 20:33:47 -0500"
+    "last_modified": "2019-02-12 22:09:51 -0500"
   },
   "boxscores": [
     {
+      "guid": "Gid2AorIFgJgIqqgIphAWXYkSJWF",
       "slug": "week-1-ari-sl",
       "title": "Arizona Hotshots vs Salt Lake Stallions - Week 1",
       "short_title": "SL @ ARI",
@@ -10229,6 +10230,7 @@
       ]
     },
     {
+      "guid": "GjoCxWXQfvKpZuFlqeOgB5I-ceJn",
       "slug": "week-1-bir-mem",
       "title": "Birmingham Iron vs Memphis Express - Week 1",
       "short_title": "MEM @ BIR",
@@ -20385,6 +20387,7 @@
       ]
     },
     {
+      "guid": "GkR2WgCT3P8yhlVLUJkrcj9zm6ae",
       "slug": "week-1-orl-atl",
       "title": "Orlando Apollos vs Atlanta Legends - Week 1",
       "short_title": "ATL @ ORL",
@@ -30288,6 +30291,7 @@
       ]
     },
     {
+      "guid": "GhFcqFumIRg7NHzCjV3JCJGGgt16",
       "slug": "week-1-sa-sd",
       "title": "San Antonio Commanders vs San Diego Fleet - Week 1",
       "short_title": "SD @ SA",
@@ -40853,6 +40857,7 @@
       ]
     },
     {
+      "guid": "GlevuOcYaqhBt_4jXg2fP5uJlmrL",
       "slug": "preseason-week-2-sa-atl",
       "title": "San Antonio Commanders vs Atlanta Legends - Preseason Week 2",
       "short_title": "ATL @ SA",
@@ -53351,6 +53356,7 @@
       ]
     },
     {
+      "guid": "Gjm5E9bwm9-ZIwVYJqIG6cvI2Ner",
       "slug": "preseason-week-2-bir-ari",
       "title": "Birmingham Iron vs Arizona Hotshots - Preseason Week 2",
       "short_title": "ARI @ BIR",
@@ -66017,6 +66023,7 @@
       ]
     },
     {
+      "guid": "Gk_rTl5SPZXcLVCwdmU9Vs5pK_MA",
       "slug": "preseason-week-1-sd-orl",
       "title": "San Diego Fleet vs Orlando Apollos - Preseason Week 1",
       "short_title": "ORL @ SD",
@@ -79130,6 +79137,7 @@
       ]
     },
     {
+      "guid": "GmAQfTQ3qrv2fMBXqo-SapfdT_Zi",
       "slug": "preseason-week-1-sl-mem",
       "title": "Salt Lake Stallions vs Memphis Express - Preseason Week 1",
       "short_title": "MEM @ SL",

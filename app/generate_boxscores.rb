@@ -391,6 +391,7 @@ def add_boxscore(node)
   week_num = get_week_num(node.named_time_range.name)
 
   {
+    guid: node.id,
     slug: generate_slug(node),
     title: generate_title(node),
     short_title: generate_short_title(node),
@@ -424,3 +425,10 @@ File.write(path, JSON.pretty_generate({
   },
   boxscores: boxscores.reverse,
 }))
+
+path = File.join(File.dirname(__FILE__), '..', '_redirects.json')
+redirects = {}
+boxscores.each do |bs|
+  redirects["/boxscores/#{bs[:guid]}"] = "/boxscores/#{bs[:slug]}"
+end
+File.write(path, JSON.pretty_generate(redirects))

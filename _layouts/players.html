@@ -43,6 +43,24 @@ nav: players
   </div>
 </div>
 
+{% comment %} <div class="card mt-4 bg-{{ player.team_abbr }}">
+  <h2 class="text-white px-1 pb-4">Season Stats</h2>
+  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+    {% if player.position == "QB" %}
+      <div class="flex flex-wrap justify-between">
+        <div class="flex flex-1 inline-flex">
+          <div class="w-1/2 bg-blue">Completion percentage</div>
+          <div class="w-1/2 bg-red">yards</div>
+        </div>
+        <div class="flex flex-1 inline-flex">
+          <div class="w-1/2 bg-green">a</div>
+          <div class="w-1/2 bg-yellow">d</div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div> {% endcomment %}
+
 <div class="card mt-4 bg-{{ player.team_abbr }}">
   <h2 class="text-white px-1 pb-4">Game Logs</h2>
   <div class="bg-white -mx-4 px-4 py-4 -mb-4">
