@@ -1531,7 +1531,7 @@
           "short_name": "J. Gardner",
           "last_name": "Gardner",
           "first_name": "Ja'Quan",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
@@ -1555,7 +1555,7 @@
           "short_name": "T. Watson",
           "last_name": "Watson",
           "first_name": "Terrell",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
