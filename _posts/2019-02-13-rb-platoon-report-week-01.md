@@ -332,7 +332,7 @@ Off the bat, David Cobb looks really big and more nimble than I expected. Nine c
     </thead>
     <tbody>
       {% for rb in site.data.rb_report["week-01"] %}
-        {% if rb.team == "SA" %}
+        {% if rb.team == "SL" %}
           <tr class="text-xs text-center">
             <td class="border-r border-grey-light">{{ rb.name }}</td>
             <td data-order="{{rb.carries}}">
