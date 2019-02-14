@@ -72,17 +72,17 @@ _Note: all snap counts and routes run data comes from game film analysis and are
 
 **Bell Cow: Jhurell Pressley**
 
-Whew, I was getting scared on Saturday that we would not have any bell cow running backs. Jhurell Pressley was the second bellcow to emerge and the more efficient of the two. His third down snap percentage highlights that Arizona is not afraid to keep him in. Early indication is that Pressley is their go-to pass catching option. He was the only back to get a target and he was even subbed in on two separate third andlong situations.
+Whew, I was getting scared on Saturday that we would not have any bell cow running backs. Jhurell Pressley was the second bellcow to emerge and the more efficient of the two. His third down snap percentage highlights that Arizona is not afraid to keep him in. Early indication is that Pressley is their go-to pass catching option. He was the only back to get a target and he was even subbed in on two separate third and long situations.
 
-There doesn’t seem to be a fixed pattern in the red zone -- whoever is in on the drive typically stays in. As long as Pressley's touch percentage and snap count stays up in the 50-60s consider him an elite RB1 going forward.
+There doesn’t seem to be a fixed pattern in the red zone -- whoever is in on the drive typically stays in. As long as Pressley's touch percentage and snap count stays up in the 50-60s, consider him an elite RB1 going forward.
 
 **Backup: Larry Rose**
 
-Larry Rose is just your prototypical backup and won’t be an enticing value without an injury. It is interesting that he garnered 4 red zone snaps and a carry on a 2pt attempt, although that mainly came when Pressley was resting. The Hotshot’s high-scoring offense is the only thing keeping Rose somewhat playable.
+Larry Rose is your prototypical backup and won’t be an enticing value without an injury. It is interesting that he garnered 4 red zone snaps and a carry on a 2pt attempt, although that mainly came when Pressley was resting. The Hotshot’s high-scoring offense is the only thing keeping Rose somewhat playable.
 
 **Backup: Justin Stockton**
 
-Very similar to usage to Rose, but Justing Stockton was more efficient. Although most of his snaps came in the 4th quarter garbage time, he did technically outsnap Rose. Stockton did not see much third down or red zone work, but his talent mixed with this high scoring offense should keep him in the FLEX conversation in some deeper leagues.
+Very similar to usage to Rose, but Justin Stockton was more efficient. Although most of his snaps came in the 4th quarter garbage time, he did technically outsnap Rose. Stockton did not see much third down or red zone work, but his talent mixed with this high scoring offense should keep him in the FLEX conversation in some deeper leagues.
 
 <div>
   <h3 class="team-header orl-header">Orlando Apollos</h3>
@@ -146,15 +146,15 @@ Very similar to usage to Rose, but Justing Stockton was more efficient. Although
 
 **Lead Back: Akeem Hunt**
 
-Akeem Hunt gets the designation of lead back as he comfortably led the Apollos in touches and snaps. Hunt was the most involved back on third down, but did have some drops that led to others getting more third down usage as the game went on.
+Akeem Hunt gets the designation of lead back as he comfortably led the Apollos in touches and snaps. Hunt was the most involved back on third down, but did have some drops that led to other backs getting more third down usage as the game went on.
 
-The Apollos rotated RBs every series so it was basically luck of the draw who got these red zone touches so while you shouldn't read too much into it, Hunt did see 7 red zone snaps and 5 goal-line/2pt snaps.
+The Apollos rotated RBs every series so it was basically luck of the draw who got the red zone touches. So while you shouldn't read too much into it, Hunt did see 7 red zone snaps and 5 goal-line/2pt snaps.
 
 A little more efficiency and usage in the passing game and we are talking about an aspiring bell cow. Buy low on Akeem Hunt.
 
 **Grinder : De’Veon Smith**
 
-De'Veon Smith gets the designation of "grinder" because he is the biggest back on the team and scored a short TD and 2pt conversion. Not necessarily a goal-line back because Hunt saw a lot of action down there but he is still the closest thing this team has to a power back. If Smith continues this usage at the goal-line while maintaining a 25% touch share, he will be a RB3 with weekly upside on this offense.
+De'Veon Smith gets the designation of "grinder" because he is the biggest back on the team and scored a short TD and 2pt conversion. Smith is not necessarily a goal-line back because Hunt saw a lot of action down there, but he is still the closest thing this team has to a power back. If Smith continues this usage at the goal-line while maintaining a 25% touch share, he will be a RB3 with weekly upside on this offense.
 
 **Backup: D’Ernest Johnson**
 
@@ -222,13 +222,13 @@ Not a super small back but he is very fast. Looked very electric and was efficie
 
 **Bellcow: Trent Richardson**
 
-Oh boy. Trent Richardson established himself as the AAFs most heavily used RB and definite bell cow. The two TDs and 2pt conversion speak for themselves, but what is more impressive is the fact that he had 9 red zone snaps and 7 touches. The Iron looked his way often at the goal line, giving Richardson five GL/2pt snaps and all five were touches.
+Oh boy. Trent Richardson established himself as the AAF's most heavily used RB and a definite bell cow. The two TDs and 2pt conversion speak for themselves, but what is more impressive is the fact that he had 9 red zone snaps and 7 touches. The Iron looked his way often at the goal line, giving Richardson five GL/2pt snaps and all five were touches.
 
 Usually, Richardson’s name isn’t synonymous with “pass-catcher” but he ran 17 routes and brought in a screen pass where he made a few defenders miss. The 17 routes ran should lead to a few more catches and an even better baseline for this elite RB1.
 
 **3rd Down Back: LaDarius Perkins**
 
-LaDarius Perkins is the clear-cut third-down back -- catching 6 passes on 8 targets. Perkins ran a whooping 16 routes on only 23 snaps. He had 5 touches on third downs (more than Richardson) and he even got some work in the red zone. While he did not provide much yardage through the air and probably won’t score TDs with Richardson there, Perkins holds RB2 value as one of the AAF’s premiere pass catching backs, especially in PPR scoring formats.
+LaDarius Perkins is the clear-cut third-down back -- catching 6 passes on 8 targets. Perkins ran a whooping 16 routes on only 23 snaps. He had 5 touches on third downs (more than Richardson) and he even got some work in the red zone. While he did not gain much yardage through the air and probably won’t score TDs with Richardson there, Perkins holds RB2 value as one of the AAF’s premiere pass catching backs, especially in PPR scoring formats.
 
 <div>
   <h3 class="team-header sa-header">San Antonio Commanders</h3>
@@ -364,14 +364,15 @@ Off the bat, David Cobb looks really big and more nimble than I expected. Nine c
 
 **Lead Back: Joel Bouagnon**
 
-While Joel Bouagnon did not see that many more snaps than Branden Oliver, he saw a whole lot more carries. I don’t expect 16 carries in the next few games but the volume is comforting. While he did not see a target, he did get 9 third down snaps which led the team and Bouagnon also ran some routes out wide. With increased efficiency he could be a RB1, but right now he is a volume-driven low-end RB1/high-end RB2.
+While Joel Bouagnon did not see that many more snaps than Branden Oliver, he saw a whole lot more carries. I don’t expect 16 carries in the next few games but the volume is comforting. While he did not see a target, he did get 9 third down snaps (which led the team) and Bouagnon also ran some routes out wide. With increased efficiency he could be a RB1, but right now he is a volume-driven low-end RB1/high-end RB2.
 
 **Backup: Branden Oliver**
+
 Branden Oliver ran like a man on a mission and he should get more involved as he is acclimated to this offense. He did have a drop on 3 targets but he managed to haul in a screen for 6 yards. He trailed Bouagnon in third down snaps but he had 2 more routes ran and his involvement should grow over the coming weeks. He is a fast-rising RB2 to monitor on a potentially under-rated SL offense.
 
 **Goalline back: Matt Asiata**
 
-It feels just yesterday Matt Asiata was playing for the Vikings, but here he is again vulturing TDs. He is a pretty clear goal-line back as he had two snaps inside the 5 and two in 2pt conversion situations. Salt Lake even tried to get him involved as a passer in one of those 2pt situations, but Asiata was not able to make the catch. He also dropped his other lone scrimmage target.
+It feels just yesterday Matt Asiata was playing for the Vikings, yet here he is again vulturing TDs. He is a pretty clear goal-line back as he had two snaps inside the 5 and two in 2pt conversion situations. Salt Lake even tried to get him involved as a passer in one of those 2pt situations, but Asiata was not able to make the catch. He also dropped his other lone scrimmage target.
 
 Expect Asiata to be a TD-dependent RB3/4 and a thorn in the side of Bouagnon/Oliver owners.
 
@@ -437,7 +438,7 @@ Expect Asiata to be a TD-dependent RB3/4 and a thorn in the side of Bouagnon/Oli
 
 **Leadback: Ja’Quan Gardner**
 
-Ja'Quan Gardner had some great efficiency in the run game and caught 2 of his 3 targets for 17 yards. The target he did not haul in was uncatchable. An almost 70% touch percentage is very attractive but the third down usage was a little alarming. Gardner will need to continue to hog all the carries and catch a few passes to maintain RB1 status, especially given how shaky the SD offense looked in week one.
+Ja'Quan Gardner had great efficiency in the run game and caught 2 of his 3 targets for 17 yards. The target he did not haul in was uncatchable. An almost 70% touch percentage is very attractive but the third down usage was a little alarming. Gardner will need to continue hogging all the carries and catch a few passes to maintain RB1 status, especially given how shaky the SD offense looked in week one.
 
 **3rd Down Back: Paul James**
 
@@ -519,13 +520,13 @@ Terrence Magee was used a decent amount in short yardage situation and some snap
 
 **3rd Down back: Raijon Neal**
 
-Raijon Neal struggled this game as he averaged 1.3 ypc, had a drop and fumbled. While he only played 2 third down snaps, Memphis showed a willingness to use him in the passing game. Whether they keep that up is another story, but his 8 routes run did lead the backs.
+Raijon Neal struggled this game as he averaged 1.3 ypc, had a drop and fumbled. While he only played 2 third down snaps, Memphis showed a willingness to use him in the passing game. Whether they keep that up is another story, but his 8 routes run did lead all Memphis backs.
 
-Another interesting note is that a lot of his targets came when Silvers entered the game and Memphis coach Mike Singletary has already announced that Hackenberg will remain the starter in week two. While that hurts his ranking, he still has a slightly better outlook than Magee due to his passing game usage.
+Another interesting note is that a lot of his targets came when Silvers entered the game and Memphis coach Mike Singletary has already announced that Hackenberg will remain the starter in week two. While that hurts his ranking, he still has a slightly better outlook than Magee due to his passing game involvement.
 
 **Fullback: Anthony Manzo-Lewis**
 
-This one is pretty literal as he is literally their FB. While Manzo-Lewis did see the most snaps, he did just get 4 carries and only ran 3 routes. While he could fall backwards into a TD or 2pt conversion, he is basically unplayable.
+This one is pretty literal as he is _literally_ their FB. While Manzo-Lewis did see the most snaps, he did just get 4 carries and only ran 3 routes. While he could fall backwards into a TD or 2pt conversion, he is basically unplayable.
 
 <div>
   <h3 class="team-header atl-header">Atlanta Legends</h3>
@@ -589,17 +590,19 @@ This one is pretty literal as he is literally their FB. While Manzo-Lewis did se
 
 **Bellcow: Tarean Folston**
 
-Tarean Folston is the weakest of the three bell cows backs despite logging some serious usage. Twenty routes run is very impressive, as was Folston's 64% touch percentage. He had one drop, but he hauled in his other three targets for 13 yards.
+Tarean Folston is the weakest of the three bell cows backs, despite logging some serious usage. Twenty routes run is very impressive, as was Folston's 64% touch percentage. He had one drop, but he hauled in his other three targets for 13 yards.
 
 Folston's efficiency was down and he needs to up that if he wants to maintain RB1 status. However, being on the field this much and running this many routes will translate to fantasy points. Folston is one of the more underrated RBs and is my overall RB4 on the week.
 
 **Part time 3rd down back: Denard Robinson**
 
-While Denard Robinson gets some credit for playing 6 third downs, he doesn’t quite get the designation of third-down back. Robinson needs to run a few more routes and get some more targets. He had an acceptable 30% snap count and he should see more targets as the Legends are likely to be down in games a lot this season. Mny owners drafted Robinson in the first round and it’s not going to be thrilling to get RB2 production out of him. But it could be worse: you could have picked Aaron Murray!
+While Denard Robinson gets some credit for playing 6 third downs, he doesn’t quite get the designation of third-down back. Robinson needs to run a few more routes and get some more targets. He had an acceptable 30% snap count and he should see more targets as the Legends are likely to be down in games a lot this season.
+
+My owners drafted Robinson in the first round and it’s not going to be thrilling to get RB2 production out of him. But it could be worse: you could have picked Aaron Murray!
 
 **Deep backup: Lawrence Pittman**
 
-Pittman saw a grand total of one snap before the final drive. His 8.0 ypc was accumulated on draw plays when the Apollos had already won the game and you don’t want to rely on this production to continue.
+Pittman saw a grand total of one snap before the final drive. His 8.0 YPC was accumulated on draw plays when the Apollos had already won the game and you don’t want to rely on this production to continue.
 
 # Leaderboard
 
