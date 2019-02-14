@@ -5,6 +5,13 @@ nav: articles
 
 <div class="article max-w-md">
   <h1>{{ page.title }}</h1>
+  {% if page.author %}
+    <div class="text-lg text-grey-dark pt-4 pb-8">
+      {{ page.author }}
+      (<a class="no-underline text-blue-dark border-b-2 border-dotted border-blue-dark hover:text-blue hover:border-blue" href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>)
+    </div>
+  {% endif %}
+
   <div class="markdown border-b border-grey pb-12 mb-12">
     {{ content }}
   </div>

@@ -248,8 +248,48 @@ body {
   @apply text-white;
 }
 
+.team-header {
+  @apply p-4 text-white border-b-4;
+}
+
+.aaf-header {
+  @apply bg-blue-dark border-blue;
+}
+
+.ari-header {
+  @apply bg-ARI border-ARI-secondary;
+}
+
+.orl-header {
+  @apply bg-ORL border-ORL-secondary;
+}
+
+.bir-header {
+  @apply bg-BIR border-BIR-secondary;
+}
+
+.sa-header {
+  @apply bg-SA border-SA-secondary;
+}
+
+.sd-header {
+  @apply bg-SD border-SD-secondary;
+}
+
+.mem-header {
+  @apply bg-MEM border-MEM-secondary;
+}
+
+.atl-header {
+  @apply bg-ATL border-ATL-secondary;
+}
+
+.sl-header {
+  @apply bg-SL border-SL-secondary;
+}
+
 .article h1 {
-  @apply text-2xl font-extrabold text-black leading-tight mt-1 mb-6;
+  @apply text-2xl font-extrabold text-black leading-tight mt-4;
 }
 
 .markdown {
