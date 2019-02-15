@@ -351,14 +351,13 @@ nav: boxscores
       {% endfor %}
     </div>
 
-    <div class="boxscore-row">
+    <div class="boxscore-row overflow-x-scroll">
       {% for prefix in prefixes %}
         {% assign key = prefix | append: "_team" %}
         {% assign color_key = prefix | append: "_abbr" %}
         {% assign team_color ="border-" | append: game[color_key] | append: "-secondary" %}
         <div class="flex-1 px-4">
-          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Defense
-          </div>
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Defense</div>
           <div class="boxscore-table-wrapper">
             <table class="boxscore-table">
               <thead>
@@ -505,7 +504,7 @@ nav: boxscores
 
     <div class="px-4">
       <h3>Full Play-by-Play</h3>
-      <ul class="list-reset mt-4">
+      <ul class="list-reset mt-4 text-sm">
         {% for play in game.play_by_play %}
           <li class="flex p-2 items-center">
             <span class="w-12 py-2 px-1 rounded text-center text-white bg-{{ play.possession }}-secondary">{{ play.possession }}</span>

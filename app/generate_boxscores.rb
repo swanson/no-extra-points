@@ -335,6 +335,7 @@ def extract_player_stats(edges, team_name, plays, week_num)
       punting_yards: edge.stats.punting_yards,
       punting_yards_net: edge.stats.punting_yards_net,
       punting_longest_kick: edge.stats.punting_longest_kick,
+
     }
 
     player_stats = calculate_averages(player_stats)
