@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-15 00:47:00 -0500"
+    "last_modified": "2019-02-15 15:45:48 -0500"
   },
   "boxscores": [
     {
@@ -32235,9 +32235,9 @@
             "slug": "tyriq-mccord",
             "name": "Tyriq McCord",
             "position": "LINEBACKER",
-            "number": 56,
+            "number": 98,
             "team": "ATL",
-            "id": "56-T.McCord",
+            "id": "98-T.McCord",
             "short_name": "T. McCord"
           },
           "pass_attempts": 0,
@@ -85330,9 +85330,9 @@
             "slug": "tyriq-mccord",
             "name": "Tyriq McCord",
             "position": "LINEBACKER",
-            "number": 56,
+            "number": 98,
             "team": "ORL",
-            "id": "56-T.McCord",
+            "id": "98-T.McCord",
             "short_name": "T. McCord"
           },
           "pass_attempts": 0,
@@ -86698,9 +86698,9 @@
             "slug": "willie-quinn",
             "name": "Willie Quinn",
             "position": "WIDE_RECEIVER",
-            "number": 14,
+            "number": 15,
             "team": "ORL",
-            "id": "14-W.Quinn",
+            "id": "15-W.Quinn",
             "short_name": "W. Quinn"
           },
           "pass_attempts": 0,
@@ -89614,14 +89614,14 @@
             "short_name": "B. Silvers"
           },
           "receiver": {
-            "guid": "Mpc5pPtq5oFQrAk8nDVXnbKV4P1D",
-            "slug": "gerrard-sheppard",
-            "name": "Gerrard Sheppard",
-            "position": "WIDE_RECEIVER",
-            "number": 89,
-            "team": "MEM",
-            "id": "89-G.Sheppard",
-            "short_name": "G. Sheppard"
+            "guid": "MquJG-qfk_mNJJZH-j2Hiq_6fFIm",
+            "slug": "cj-smith",
+            "name": "C.J. Smith",
+            "position": "DEFENSIVE_BACK",
+            "number": 35,
+            "team": "SL",
+            "id": "35-C.Smith",
+            "short_name": "C. Smith"
           }
         },
         {
@@ -89654,14 +89654,14 @@
             "short_name": "B. Silvers"
           },
           "receiver": {
-            "guid": "Mpc5pPtq5oFQrAk8nDVXnbKV4P1D",
-            "slug": "gerrard-sheppard",
-            "name": "Gerrard Sheppard",
-            "position": "WIDE_RECEIVER",
-            "number": 89,
-            "team": "MEM",
-            "id": "89-G.Sheppard",
-            "short_name": "G. Sheppard"
+            "guid": "MonnFlTkiwNYgxWiAqABulZVUcxa",
+            "slug": "cody-brown",
+            "name": "Cody Brown",
+            "position": "SAFETY",
+            "number": 21,
+            "team": "SL",
+            "id": "21-C.Brown",
+            "short_name": "C. Brown"
           }
         },
         {
@@ -99699,9 +99699,9 @@
             "slug": "gerrard-sheppard",
             "name": "Gerrard Sheppard",
             "position": "WIDE_RECEIVER",
-            "number": 89,
+            "number": 82,
             "team": "MEM",
-            "id": "89-G.Sheppard",
+            "id": "82-G.Sheppard",
             "short_name": "G. Sheppard"
           },
           "pass_attempts": 0,

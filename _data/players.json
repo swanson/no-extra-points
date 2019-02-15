@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-14 23:41:54 -0500"
+    "last_modified": "2019-02-15 15:46:27 -0500"
   },
   "players": [
     {
@@ -21334,7 +21334,7 @@
       "full_name": "Willie Quinn",
       "position": "WR",
       "avatar_url": "https://files.platform.aafusercontent.com/MefWibY3kQjQe4Qm6sv92l0g1ew",
-      "number": 14,
+      "number": 15,
       "team": "Orlando Apollos",
       "team_abbr": "ORL",
       "short_name": "W. Quinn",
@@ -21351,9 +21351,9 @@
             "slug": "willie-quinn",
             "name": "Willie Quinn",
             "position": "WIDE_RECEIVER",
-            "number": 14,
+            "number": 15,
             "team": "ORL",
-            "id": "14-W.Quinn",
+            "id": "15-W.Quinn",
             "short_name": "W. Quinn"
           },
           "pass_attempts": 0,
@@ -24206,7 +24206,7 @@
       "full_name": "Gerrard Sheppard",
       "position": "WR",
       "avatar_url": null,
-      "number": 89,
+      "number": 82,
       "team": "Memphis Express",
       "team_abbr": "MEM",
       "short_name": "G. Sheppard",
@@ -24223,9 +24223,9 @@
             "slug": "gerrard-sheppard",
             "name": "Gerrard Sheppard",
             "position": "WIDE_RECEIVER",
-            "number": 89,
+            "number": 82,
             "team": "MEM",
-            "id": "89-G.Sheppard",
+            "id": "82-G.Sheppard",
             "short_name": "G. Sheppard"
           },
           "pass_attempts": 0,
@@ -26558,8 +26558,8 @@
       "position": "RB",
       "avatar_url": null,
       "number": 35,
-      "team": "San Diego Fleet",
-      "team_abbr": "SD",
+      "team": "Memphis Express",
+      "team_abbr": "MEM",
       "short_name": "J. Thomas",
       "last_name": "Thomas",
       "first_name": "Jahad",
@@ -27256,6 +27256,29 @@
           "game": "MEM @ SL",
           "salary": "-"
         }
+      ],
+      "season_stats": {
+        "completion_percentage": 0
+      }
+    },
+    {
+      "guid": "MoGqnWzwx3W0b0JDeLuMs4hRNaD4",
+      "slug": "alek-torgersen",
+      "full_name": "Alek Torgersen",
+      "position": "QB",
+      "avatar_url": "https://files.platform.aafusercontent.com/hTy1RHAvphA1B7GDBQc7Rb7gWr4",
+      "number": "0",
+      "team": "San Diego Fleet",
+      "team_abbr": "SD",
+      "short_name": "A. Torgersen",
+      "last_name": "Torgersen",
+      "first_name": "Alek",
+      "height": "6\" 3'",
+      "weight": 230,
+      "status": "Inactive",
+      "starting": false,
+      "game_logs": [
+
       ],
       "season_stats": {
         "completion_percentage": 0
@@ -30532,6 +30555,29 @@
         "fpts": 11.1,
         "salary": 4900,
         "completion_percentage": 50.0
+      }
+    },
+    {
+      "guid": "Ml2aJyxkx7lwDR4azvYur9AdRB-0",
+      "slug": "chris-wuestner",
+      "full_name": "Chris Wuestner",
+      "position": "WR",
+      "avatar_url": null,
+      "number": "0",
+      "team": "San Diego Fleet",
+      "team_abbr": "SD",
+      "short_name": "C. Wuestner",
+      "last_name": "Wuestner",
+      "first_name": "Chris",
+      "height": "-",
+      "weight": "-",
+      "status": "Inactive",
+      "starting": false,
+      "game_logs": [
+
+      ],
+      "season_stats": {
+        "completion_percentage": 0
       }
     }
   ]
