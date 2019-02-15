@@ -351,7 +351,7 @@ nav: boxscores
       {% endfor %}
     </div>
 
-    <div class="boxscore-row overflow-x-scroll">
+    <div class="boxscore-row overflow-x-scroll md:overflow-x-auto">
       {% for prefix in prefixes %}
         {% assign key = prefix | append: "_team" %}
         {% assign color_key = prefix | append: "_abbr" %}
