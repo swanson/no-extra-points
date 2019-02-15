@@ -15,9 +15,15 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
         name
         time
       }
+      homeTeamEdge {
+        ...teamStats
+      }
       homeTeam {
         name
         abbreviation
+      }
+      awayTeamEdge {
+        ...teamStats
       }
       awayTeam {
         name
@@ -93,6 +99,34 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
     }
   }
 }
+
+fragment teamStats on GameTeamEdge {
+    stats {
+      firstDownsByPassing
+      firstDownsByRushing
+      firstDownsByPenalty
+      thirdDownsUnconverted
+      thirdDownsConverted
+      fourthDownsUnconverted
+      fourthDownsConverted
+      passingPlays
+      rushingPlays
+      averageYardsPerPlay
+      passingYardsNet
+      passesCompleted
+      passesAttempted
+      passesIntercepted
+      timesSacked
+      sackYardsLost
+      rushingYardsNet
+      turnovers
+      fumbles
+      timeOfPossessionMilliseconds
+      twoPointConversionsAttempted
+      twoPointConversionsCompleted
+      twoPointConversionCompletionPercentage
+    }
+  }
 GRAPHQL
 
 boxscores = []
@@ -165,6 +199,7 @@ def extract_play_by_play(plays, game, all_players)
   conv_success = /ATTEMPT SUCCEEDS/m
   interception = /INTERCEPTED/m
   lost_fumble = /RECOVERED/m
+  field_goal =/field goal is GOOD/m
 
   incomplete = /pass incomplete/mi
   pid_format = /(\d{1,2}-[a-zA-Z\.-]+[a-zA-Z],?( Jr.)?( Sr.)?( I{2,})?( IV)?)/m
@@ -182,12 +217,13 @@ def extract_play_by_play(plays, game, all_players)
       quarter: node.quarter,
       yard_line: node.yard_line,
       yard_side: yard_side(node, game),
-      nullified: node.has_penalty && desc.include?("No Play"),
+      nullified: node.has_penalty && desc.include?("No Play") || desc.include?("NULLIFIED"),
       touchdown: desc.match?(td_play),
       conversion_attempt: desc.match?(conv_play),
       conversion_success: desc.match?(conv_success),
       yardage: get_yardage(desc),
       interception: desc.match?(interception),
+      field_goal_made: desc.match?(field_goal),
       lost_fumble: desc.match?(lost_fumble),
       turnover: desc.match?(interception) || desc.match?(lost_fumble),
     }
@@ -367,6 +403,33 @@ def compute_fpts(stats)
   fpts.round(1)
 end
 
+def extract_team_stats(team, stats)
+  base = stats.to_h.merge(team: team).transform_keys{|k| k.to_s.underscore}
+
+  base["total_first_downs"] = base["first_downs_by_passing"] +
+    base["first_downs_by_penalty"] + base["first_downs_by_rushing"]
+
+  base["total_plays"] = base["passing_plays"] + base["rushing_plays"]
+  base["total_yards"] = base["passing_yards_net"] + base["rushing_yards_net"]
+  minutes = base["time_of_possession_milliseconds"] / 1000 / 60
+  seconds = base["time_of_possession_milliseconds"] / 1000 % 60
+  base["time_of_possession"] = "#{minutes}:#{seconds.to_s.rjust(2, '0')}"
+
+  base["third_downs"] = base["third_downs_converted"] + base["third_downs_unconverted"]
+  base["fourth_downs"] = base["fourth_downs_converted"] + base["fourth_downs_unconverted"]
+  base["yards_per_pass"] = base["passing_yards_net"].to_f / base["passes_attempted"]
+  base["yards_per_rush"] = base["rushing_yards_net"].to_f / base["rushing_plays"]
+
+  base.transform_values{|v| if v.is_a? Numeric; v.round(2); else; v; end}
+end
+
+def extract_teams_stats(node)
+  {
+    home_team: extract_team_stats(node.home_team.abbreviation, node.home_team_edge.stats),
+    away_team: extract_team_stats(node.away_team.abbreviation, node.away_team_edge.stats),
+  }
+end
+
 def extract_players(edges)
   edges.map do |edge|
     extract_player_details(edge.node, edge.team)
@@ -380,6 +443,43 @@ end
 def get_week_num(week)
   return 0 if week.include? "Pre"
   week.tr("^0-9", '').to_i
+end
+
+def quarter_scores(team, plays)
+  scores = {
+    1 => 0, 2 => 0, 3 => 0, 4 => 0, total: 0
+  }
+
+  plays.each do |play|
+    next unless play[:possession] == team
+    next if play[:nullified]
+
+    if play[:touchdown]
+      scores[play[:quarter]] += 6
+      scores[:total] += 6
+    elsif play[:conversion_success]
+      scores[play[:quarter]] += 2
+      scores[:total] += 2
+    elsif play[:field_goal_made]
+      scores[play[:quarter]] += 3
+      scores[:total] += 3
+    end
+  end
+
+  scores
+end
+
+def generate_quarter_scores(node, plays)
+  {
+    home_team: quarter_scores(node.home_team.abbreviation, plays),
+    away_team: quarter_scores(node.away_team.abbreviation, plays),
+  }
+end
+
+def generate_scoring_plays(node, plays)
+  plays.select do |play|
+    !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success])
+  end
 end
 
 def add_boxscore(node)
@@ -404,8 +504,11 @@ def add_boxscore(node)
     week: node.named_time_range.name,
     time: node.named_time_range.time,
     play_by_play: plays,
+    team_stats: extract_teams_stats(node),
     home_stats: extract_player_stats(node.players_connection.edges, home, plays, week_num),
     away_stats: extract_player_stats(node.players_connection.edges, away, plays, week_num),
+    quarter_scores: generate_quarter_scores(node, plays),
+    scoring_plays: generate_scoring_plays(node, plays),
   }
 end
 

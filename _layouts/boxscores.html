@@ -35,9 +35,182 @@ nav: boxscores
     </div>
   </div>
 
-  <div
-    class="bg-white -mx-4 -mb-4 px-4 pb-8 pt-2 mt-0 border-t-4 border-blue-light"
-  >
+  <div class="bg-white -mx-4 -mb-4 px-4 pb-8 pt-2 mt-0 border-t-4 border-blue-light">
+    <div class="boxscore-row">
+      <div class="flex-auto md:flex-1">
+        <div class="m-4">
+          <h3 class="boxscore-section-title">Boxscore</h3>
+          <table class="quarter-table w-full">
+            <thead>
+              <tr class="text-center border-b-2 pb-2">
+                <th></th>
+                <th>1st Qtr</th>
+                <th>2nd Qtr</th>
+                <th>3rd Qtr</th>
+                <th>4th Qtr</th>
+                <th class="text-black font-bold">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center border-b">
+                <td class="font-bold text-{{game.away_abbr}}-secondary">{{ game.away_abbr }}</td>
+                <td class="font-mono">{{ game.quarter_scores.away_team["1"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.away_team["2"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.away_team["3"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.away_team["4"] }}</td>
+                <td class="font-mono text-black font-bold">{{ game.quarter_scores.away_team.total }}</td>
+              </tr>
+              <tr class="text-center border-b-2">
+                <td class="font-bold text-{{game.home_abbr}}-secondary">{{ game.home_abbr }}</td>
+                <td class="font-mono">{{ game.quarter_scores.home_team["1"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.home_team["2"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.home_team["3"] }}</td>
+                <td class="font-mono">{{ game.quarter_scores.home_team["4"] }}</td>
+                <td class="font-mono text-black font-bold">{{ game.quarter_scores.home_team.total }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="m-4">
+          <h3 class="boxscore-section-title">Scoring Plays</h3>
+          <ol class="list-reset">
+          {% for play in game.scoring_plays %}
+            <li class="flex p-2 items-center text-sm">
+              <span class="w-10 py-1 px-1 rounded text-center text-white bg-{{ play.possession }}-secondary">{{ play.possession }}</span>
+              <p class="flex-1 inline-block word-wrap ml-4">
+                {% if play.conversion_attempt or play.down == "0th" %}
+                  2PT
+                {% else%}
+                  {{ play.down }} & {{ play.distance }}
+                {% endif %}
+                | Q{{play.quarter}} | {{ play.description }}
+              </p>
+            </li>
+          </ol>
+        {% endfor %}
+        </div>
+      </div>
+
+      <div class="flex-auto md:flex-1">
+        <div class="m-4">
+          <h3 class="boxscore-section-title">Head-to-Head Matchup</h3>
+          <div class="rounded border">
+            <table class="matchup-table w-full">
+              <thead class="border-b-2 bg-blue-lightest">
+                <tr>
+                  <th></th>
+                  <th class="w-24 text-{{game.home_abbr}}-secondary">{{ game.home_abbr }}</th>
+                  <th class="w-24 text-{{game.away_abbr}}-secondary">{{ game.away_abbr }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1st Downs</td>
+                  <td>{{ game.team_stats.home_team.total_first_downs }}</td>
+                  <td>{{ game.team_stats.away_team.total_first_downs }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Passing 1st Downs</td>
+                  <td>{{ game.team_stats.home_team.first_downs_by_passing }}</td>
+                  <td>{{ game.team_stats.away_team.first_downs_by_passing }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Rushing 1st Downs</td>
+                  <td>{{ game.team_stats.home_team.first_downs_by_rushing }}</td>
+                  <td>{{ game.team_stats.away_team.first_downs_by_rushing }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>1st Downs from penalties</td>
+                  <td>{{ game.team_stats.home_team.first_downs_by_penalty }}</td>
+                  <td>{{ game.team_stats.away_team.first_downs_by_penalty }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>3rd down efficiency</td>
+                  <td>{{ game.team_stats.home_team.third_downs_converted }}-{{ game.team_stats.home_team.third_downs }}</td>
+                  <td>{{ game.team_stats.away_team.third_downs_converted }}-{{ game.team_stats.away_team.third_downs }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>4th down efficiency</td>
+                  <td>{{ game.team_stats.home_team.fourth_downs_converted }}-{{ game.team_stats.home_team.fourth_downs }}</td>
+                  <td>{{ game.team_stats.away_team.fourth_downs_converted }}-{{ game.team_stats.away_team.fourth_downs }}</td>
+                </tr>
+                <tr>
+                  <td>Total Plays</td>
+                  <td>{{ game.team_stats.home_team.total_plays }}</td>
+                  <td>{{ game.team_stats.away_team.total_plays }}</td>
+                </tr>
+                <tr>
+                  <td>Total Yards</td>
+                  <td>{{ game.team_stats.home_team.total_yards }}</td>
+                  <td>{{ game.team_stats.away_team.total_yards }}</td>
+                </tr>
+                <tr>
+                  <td>Yards Per Play</td>
+                  <td>{{ game.team_stats.home_team.average_yards_per_play }}</td>
+                  <td>{{ game.team_stats.away_team.average_yards_per_play }}</td>
+                </tr>
+                <tr>
+                  <td>Time of Possession</td>
+                  <td>{{ game.team_stats.home_team.time_of_possession }}</td>
+                  <td>{{ game.team_stats.away_team.time_of_possession }}</td>
+                </tr>
+                <tr>
+                  <td>Passing</td>
+                  <td>{{ game.team_stats.home_team.passing_yards_net }}</td>
+                  <td>{{ game.team_stats.away_team.passing_yards_net }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Comp-Att</td>
+                  <td>{{ game.team_stats.home_team.passes_completed }}-{{ game.team_stats.home_team.passes_attempted }}</td>
+                  <td>{{ game.team_stats.away_team.passes_completed }}-{{ game.team_stats.away_team.passes_attempted }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Yards Per Pass</td>
+                  <td>{{ game.team_stats.home_team.yards_per_pass }}</td>
+                  <td>{{ game.team_stats.away_team.yards_per_pass }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Sacks-Yards Lost</td>
+                  <td>{{ game.team_stats.home_team.times_sacked }}-{{ game.team_stats.home_team.sack_yards_lost }}</td>
+                  <td>{{ game.team_stats.away_team.times_sacked }}-{{ game.team_stats.away_team.sack_yards_lost }}</td>
+                </tr>
+                <tr>
+                  <td>Rushing</td>
+                  <td>{{ game.team_stats.home_team.rushing_yards_net }}</td>
+                  <td>{{ game.team_stats.away_team.rushing_yards_net }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Rushing Attempts</td>
+                  <td>{{ game.team_stats.home_team.rushing_plays }}</td>
+                  <td>{{ game.team_stats.away_team.rushing_plays }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Yards Per Rush</td>
+                  <td>{{ game.team_stats.home_team.yards_per_rush }}</td>
+                  <td>{{ game.team_stats.away_team.yards_per_rush }}</td>
+                </tr>
+                <tr>
+                  <td>Turnovers</td>
+                  <td>{{ game.team_stats.home_team.turnovers }}</td>
+                  <td>{{ game.team_stats.away_team.turnovers }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Fumbles lost</td>
+                  <td>{{ game.team_stats.home_team.fumbles }}</td>
+                  <td>{{ game.team_stats.away_team.fumbles }}</td>
+                </tr>
+                <tr class="indent">
+                  <td>Interceptions thrown</td>
+                  <td>{{ game.team_stats.home_team.passes_intercepted }}</td>
+                  <td>{{ game.team_stats.away_team.passes_intercepted }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="boxscore-row">
       {% for prefix in prefixes %}
         {% assign key = prefix | append: "_team" %}

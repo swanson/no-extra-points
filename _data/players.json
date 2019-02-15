@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-12 23:00:41 -0500"
+    "last_modified": "2019-02-14 23:37:06 -0500"
   },
   "players": [
     {
@@ -12110,6 +12110,29 @@
       }
     },
     {
+      "guid": "Mt0Ys7B1YbqS9FIrnOpWzssu2FCJ",
+      "slug": "eli-jenkins",
+      "full_name": "Eli Jenkins",
+      "position": "QB",
+      "avatar_url": null,
+      "number": "0",
+      "team": "Arizona Hotshots",
+      "team_abbr": "ARI",
+      "short_name": "E. Jenkins",
+      "last_name": "Jenkins",
+      "first_name": "Eli",
+      "height": "6\" 2'",
+      "weight": 210,
+      "status": "Inactive",
+      "starting": false,
+      "game_logs": [
+
+      ],
+      "season_stats": {
+        "completion_percentage": 0
+      }
+    },
+    {
       "guid": "MnhMeRsiWw6LMqSeT11jQLPbC19v",
       "slug": "adonis-jennings",
       "full_name": "Adonis Jennings",
@@ -15185,6 +15208,29 @@
           "game": "ORL @ SD",
           "salary": "-"
         }
+      ],
+      "season_stats": {
+        "completion_percentage": 0
+      }
+    },
+    {
+      "guid": "Mj3fRB3AVS12OCsIskMz_0PDffQy",
+      "slug": "quinn-mcqueary",
+      "full_name": "Quinn McQueary",
+      "position": "QB",
+      "avatar_url": "https://files.platform.aafusercontent.com/ZFIBb9nBono-OzuQS1o_ONXQTCs",
+      "number": 8,
+      "team": "Arizona Hotshots",
+      "team_abbr": "ARI",
+      "short_name": "Q. McQueary",
+      "last_name": "McQueary",
+      "first_name": "Quinn",
+      "height": "6\" 3'",
+      "weight": 180,
+      "status": "Inactive",
+      "starting": false,
+      "game_logs": [
+
       ],
       "season_stats": {
         "completion_percentage": 0
@@ -22576,6 +22622,29 @@
           "game": "ARI @ BIR",
           "salary": "-"
         }
+      ],
+      "season_stats": {
+        "completion_percentage": 0
+      }
+    },
+    {
+      "guid": "MqCPKOT_ZV5JF4DiAFXApaaqOtlf",
+      "slug": "cam-serigne",
+      "full_name": "Cam  Serigne",
+      "position": "TE",
+      "avatar_url": null,
+      "number": "0",
+      "team": "Arizona Hotshots",
+      "team_abbr": "ARI",
+      "short_name": "C. Serigne",
+      "last_name": "Serigne",
+      "first_name": "Cam ",
+      "height": "-",
+      "weight": "-",
+      "status": "Inactive",
+      "starting": false,
+      "game_logs": [
+
       ],
       "season_stats": {
         "completion_percentage": 0

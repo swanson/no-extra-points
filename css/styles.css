@@ -288,6 +288,60 @@ body {
   @apply bg-SL border-SL-secondary;
 }
 
+.matchup-table {
+  @apply text-right;
+}
+
+.matchup-table th {
+  @apply text-lg font-normal;
+}
+
+.matchup-table td {
+  @apply text-sm font-bold;
+}
+
+.matchup-table tbody tr:nth-child(odd) {
+  @apply bg-grey-lighter;
+}
+
+.matchup-table td,
+.matchup-table th {
+  @apply py-2 px-4;
+}
+
+.matchup-table th:first-child,
+.matchup-table td:first-child {
+  @apply text-left;
+}
+
+.matchup-table tr.indent td:first-child {
+  @apply pl-6;
+}
+
+.matchup-table tr.indent td {
+  @apply font-normal;
+}
+
+.matchup-table tr {
+  @apply h-6;
+}
+
+.matchup-table tbody tr {
+  @apply border-t;
+}
+
+.quarter-table {
+  @apply text-sm text-grey-dark;
+}
+
+.quarter-table tr {
+  @apply h-6;
+}
+
+.quarter-table td {
+  @apply py-2;
+}
+
 .article h1 {
   @apply text-2xl font-extrabold text-black leading-tight mt-4;
 }
