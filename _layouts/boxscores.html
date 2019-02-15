@@ -386,7 +386,7 @@ nav: boxscores
                 {% for stats in d_stats %}
                   {% if stats.tackles > 0 or stats.pass_defenses > 0 or stats.sacks > 0%}
                     <tr>
-                      <td class="name divider">{{ stats.player.name }}</td>
+                      <td class="name">{{ stats.player.name }}</td>
                       <td>{{ stats.tackles }}</td>
                       <td>{{ stats.solo_tackles }}</td>
                       <td>{{ stats.tackles_for_loss }}</td>
@@ -432,7 +432,7 @@ nav: boxscores
                   {% if stats.field_goals_attempted > 0 %}
                     {% assign k_any = true %}
                     <tr>
-                      <td class="name divider">
+                      <td class="name">
                         {{ stats.player.name }}
                       </td>
                       <td>
@@ -455,6 +455,47 @@ nav: boxscores
                   <td>&ndash;</td>
                   <td>&ndash;</td>
                 {% endif %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="boxscore-row">
+      {% for prefix in prefixes %}
+        {% assign key = prefix | append: "_team" %}
+        {% assign color_key = prefix | append: "_abbr" %}
+        {% assign team_color ="border-" | append: game[color_key] | append: "-secondary" %}
+        <div class="flex-1 px-4">
+          <div class="boxscore-section-title {{ team_color }}">{{ game[key] }} &ndash; Punting</div>
+          <div class="boxscore-table-wrapper">
+            <table class="boxscore-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>NO</th>
+                  <th>YDS</th>
+                  <th>YDS NET</th>
+                  <th>LNG</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign key = prefix | append: "_stats" %}
+                {% assign k_stats = game[key] | sort: "punts_attempted" | reverse %}
+                {% for stats in k_stats %}
+                  {% if stats.punts_attempted > 0 %}
+                    <tr>
+                      <td class="name">
+                        {{ stats.player.name }}
+                      </td>
+                      <td>{{ stats.punts_attempted }}</td>
+                      <td>{{ stats.punting_yards }}</td>
+                      <td>{{ stats.punting_yards_net }}</td>
+                      <td>{{ stats.punting_longest_kick }}</td>
+                    </tr>
+                  {% endif %}
+                {% endfor %}
               </tbody>
             </table>
           </div>

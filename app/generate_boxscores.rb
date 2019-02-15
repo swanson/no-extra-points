@@ -93,6 +93,10 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             fieldGoalsLongestMade
             passTargets
             yardsAfterCatches
+            puntsAttempted
+            puntingYards
+            puntingYardsNet
+            puntingLongestKick
           }
         }
       }
@@ -327,6 +331,10 @@ def extract_player_stats(edges, team_name, plays, week_num)
       targets: edge.stats.pass_targets,
       week_num: week_num,
       yac: edge.stats.yards_after_catches,
+      punts_attempted: edge.stats.punts_attempted,
+      punting_yards: edge.stats.punting_yards,
+      punting_yards_net: edge.stats.punting_yards_net,
+      punting_longest_kick: edge.stats.punting_longest_kick,
     }
 
     player_stats = calculate_averages(player_stats)
