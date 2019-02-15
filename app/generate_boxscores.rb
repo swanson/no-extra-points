@@ -204,6 +204,7 @@ def extract_play_by_play(plays, game, all_players)
   interception = /INTERCEPTED/m
   lost_fumble = /RECOVERED/m
   field_goal =/field goal is GOOD/m
+  safety = /SAFETY/m
 
   incomplete = /pass incomplete/mi
   pid_format = /(\d{1,2}-[a-zA-Z\.-]+[a-zA-Z],?( Jr.)?( Sr.)?( I{2,})?( IV)?)/m
@@ -230,6 +231,7 @@ def extract_play_by_play(plays, game, all_players)
       field_goal_made: desc.match?(field_goal),
       lost_fumble: desc.match?(lost_fumble),
       turnover: desc.match?(interception) || desc.match?(lost_fumble),
+      safety: desc.match?(safety)
     }
 
     if desc.match?(run_play) && !desc.match?(pass_play)
@@ -460,13 +462,17 @@ def quarter_scores(team, plays)
   }
 
   plays.each do |play|
-    next unless play[:possession] == team
     next if play[:nullified]
+
+    defensive_score = (play[:turnover] && play[:touchdown]) || play[:safety]
+    next if defensive_score && play[:possession] == team
+
+    next if !defensive_score && play[:possession] != team
 
     if play[:touchdown]
       scores[play[:quarter]] += 6
       scores[:total] += 6
-    elsif play[:conversion_success]
+    elsif play[:conversion_success] || play[:safety]
       scores[play[:quarter]] += 2
       scores[:total] += 2
     elsif play[:field_goal_made]
@@ -487,7 +493,7 @@ end
 
 def generate_scoring_plays(node, plays)
   plays.select do |play|
-    !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success])
+    !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success] || play[:safety])
   end
 end
 
