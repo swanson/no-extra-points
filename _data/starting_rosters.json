@@ -524,7 +524,7 @@
           "short_name": "A. Etta-Tawo",
           "last_name": "Etta-Tawo",
           "first_name": "Amba",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsPpBdm_TA_D_k1EJ62-ovlO9mah",
@@ -572,7 +572,7 @@
           "short_name": "L. Washington",
           "last_name": "Washington",
           "first_name": "L'Damian",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mmn17YhtJ2sO5nrF_20WT9BB6c_c",
@@ -584,7 +584,7 @@
           "short_name": "B. Anderson",
           "last_name": "Anderson",
           "first_name": "Busta",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
@@ -596,7 +596,7 @@
           "short_name": "B. Bowman",
           "last_name": "Bowman",
           "first_name": "Braedon",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MhEdk0XQnfjfHbj3AB3JlgfakHH9",
@@ -1061,7 +1061,7 @@
           "short_name": "M. Linehan",
           "last_name": "Linehan",
           "first_name": "Matt",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mg7ESCLcQeEi-Z0oZGFiwY2--zlS",
@@ -1073,7 +1073,7 @@
           "short_name": "J. Woodrum",
           "last_name": "Woodrum",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mop_drX-yj7HIefEAlUHoDVCH_iA",
