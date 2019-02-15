@@ -1,12 +1,12 @@
 ---
 layout: post
-title: AAF Fanball Breakdown and DFS Plays - Week 02
+title: AAF Fanball DFS Rundown - Week 02
 nav: articles
 author: Matt Gajewski
 twitter: Matt_Gajewski
 ---
 
-The weekly **_Fanball Breakdown_** series covers the locks, cheap options, and high risk tournament stacks to target in this week's AAF daily fantasy contests on [Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF).
+The weekly **_Fanball DFS Rundown_** series covers the locks, cheap options, and high risk tournament stacks to target in this week's AAF daily fantasy contests on [Fanball](https://www.fanball.com/lobby/salary-cap?sport=AAF).
 
 <h3 class="team-header aaf-header">Jam Em' In</h3>
 
