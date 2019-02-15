@@ -12,7 +12,7 @@ The weekly **_Fanball Breakdown_** series covers the locks, cheap options, and h
 
 ## QB John Wolford – Arizona Hotshots (\$6,600)
 
-Coming as the most expensive quarterback on the slate, John Wolford appears worth the cost. Last week, the Wake Forest product led the AAF with 275 passing yards on 29 attempts. Wolford also added more than any other quarterback as runner, with 8 carries for 23 rushing yards. With Arizona implied for a league high 29.75 points, while tied for the second-most offensive plays last week (68), Wolford looks like a slam dunk at the quarterback position.
+Coming in as the most expensive quarterback on the slate, John Wolford appears worth the cost. Last week, the Wake Forest product led the AAF with 275 passing yards on 29 attempts. Wolford also added more than any other quarterback as runner, with 8 carries for 23 rushing yards. With Arizona implied for a league high 29.75 points, while tied for the second-most offensive plays last week (68), Wolford looks like a slam dunk at the quarterback position.
 
 ## RB Jhurell Pressley – Arizona Hotshots (\$6,900)
 
@@ -26,7 +26,7 @@ The only AAF receiver to eclipse ten targets, Mekale McKay posted 5 catches for 
 
 ## QB Luis Perez – Birmingham Iron (\$6,000)
 
-While 6k may not seem cheap, Luis Perez remains reasonably priced with only 4-5 quarterbacks posting reasonable numbers in Week 1. The Texas A&M Commerce-product posted an impressive 252 passing yards on 33 attempts, while rushing 6 times in Week 1. Perez and the Iron tied for the second-most plays in Week 1 (68) and now enter Week 2 as 7-point favorites. As the cheapest viable quarterback on the board, Perez warrants consideration across game formats.
+While 6k may not seem cheap, Luis Perez remains reasonably priced with only 4-5 quarterbacks posting serviceable numbers in Week 1. The Texas A&M Commerce-product posted an impressive 252 passing yards on 33 attempts, while rushing 6 times in Week 1. Perez and the Iron tied for the second-most plays in Week 1 (68) and now enter Week 2 as 7-point favorites. As the cheapest viable quarterback on the board, Perez warrants consideration across game formats.
 
 ## Ladarius Perkins – Birmingham – (\$4,800)
 
@@ -40,7 +40,9 @@ Hanging out at min-price, Brian Brown secured a starting receiver role in the Sa
 
 ## QB Logan Woodside – ($6,100) / WR Alonzo Moore ($5,100)
 
-Another one of the AAF’s few promising quarterbacks, Logan Woodside figures to come in under-owned with the Commanders projected to score a miniscule 19-points. In his first game action, Woodside impressed with 255 yards on 36 attempts. Noted above, one-third of those attempts went to Mekale McKay, likely driving up his ownership this coming week. With Greg Ward also carrying name recognition, Alonzo Moore remains the most likely to come in under-owned. The cheapest of the three, Moore received 5 targets in Week 1, catching 3 of them for 78 yards. However, of his 5 targets 4 traveled more than 15 yards down field. An under-owned, big play threat, Moore makes a sneaky stacking partner with Woodside this week.
+Another one of the AAF’s few promising quarterbacks, Logan Woodside figures to come in under-owned with the Commanders projected to score a miniscule 19-points. In his first game action, Woodside impressed with 255 yards on 36 attempts. Noted above, one-third of those attempts went to Mekale McKay, likely driving up his ownership this coming week.
+
+With Greg Ward Jr also carrying name recognition, Alonzo Moore remains the most likely to come in under-owned. The cheapest of the three WRs, Moore received 5 targets in Week 1, catching 3 of them for 78 yards. However, of his 5 targets, four traveled more than 15 yards down field. An under-owned, big play threat, Moore makes a sneaky stacking partner with Woodside this week.
 
 ---
 
