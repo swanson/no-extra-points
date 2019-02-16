@@ -32,6 +32,14 @@ Official Android app: [Download](https://play.google.com/store/apps/details?id=c
 
 Players earn experience points by guessing correctly and can level up inside the app. It is not clear if there are any prizes or benefits from leveling up or if it's just a fun way to second guess the coaching staff.
 
+## Prop Bet Fantasy
+
+[PrizePicks](https://www.myprizepicks.com/) is a new fantasy option that combines fantasy football and traditional prop bets and parlays. You pick multiple fantasy-based props and if they all hit, you win a multiplier of your bet (based on how many picks you make). PrizePicks offers AAF players (among other sports) as an option.
+
+The props adjust in real-time -- if lots of people are taking the over, the line adjusts so you may be able to gain an edge but monitoring the changes throughout the week as news breaks.
+
+![PrizePicks Screenshot](/images/prize-picks.png)
+
 ## Official Sports Betting
 
 The [AAF has partnered with MGM](http://www.espn.com/chalk/story/_/id/24632798/alliance-american-football-enhanced-live-game-betting) as the official sportsbook partner. Players in eligible states (NJ, NV) can wager on AAF games with the [myMGM and/or playMGM apps](https://www.mgmresorts.com/en/entertainment/aaf.html).
