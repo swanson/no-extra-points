@@ -28,7 +28,7 @@ The only AAF receiver to eclipse ten targets, Mekale McKay posted 5 catches for 
 
 While 6k may not seem cheap, Luis Perez remains reasonably priced with only 4-5 quarterbacks posting serviceable numbers in Week 1. The Texas A&M Commerce-product posted an impressive 252 passing yards on 33 attempts, while rushing 6 times in Week 1. Perez and the Iron tied for the second-most plays in Week 1 (68) and now enter Week 2 as 7-point favorites. As the cheapest viable quarterback on the board, Perez warrants consideration across game formats.
 
-## Ladarius Perkins – Birmingham – (\$4,800)
+## RB Ladarius Perkins – Birmingham – (\$4,800)
 
 Playing 33% of Week 1’s snaps, Ladarius Perkins worked as a direct complement to Trent Richardson. With Richardson now questionable, Perkins could see a majority of Birmingham’s carries. Just last week, Perkins mixed in for 5 carries, including 2 in the red zone. Birmingham ran a league-high 13 times in the red zone last week, increasing Perkins’ touchdown expectation. Assuming Richardson sits out, Perkins would immediately become a lineup lock.
 
