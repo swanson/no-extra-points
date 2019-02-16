@@ -1049,7 +1049,7 @@
           "short_name": "A. Allen",
           "last_name": "Allen",
           "first_name": "Austin",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MvvjScH-3vsslt5_WLNxjEcYd7wj",
@@ -1061,7 +1061,7 @@
           "short_name": "M. Linehan",
           "last_name": "Linehan",
           "first_name": "Matt",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg7ESCLcQeEi-Z0oZGFiwY2--zlS",
