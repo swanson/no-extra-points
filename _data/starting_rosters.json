@@ -1145,7 +1145,7 @@
           "short_name": "K. Bell",
           "last_name": "Bell",
           "first_name": "Kenny",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
@@ -1253,7 +1253,7 @@
           "short_name": "N. Truesdell",
           "last_name": "Truesdell",
           "first_name": "Nick",
-          "starting": false
+          "starting": true
         }
       ]
     },
