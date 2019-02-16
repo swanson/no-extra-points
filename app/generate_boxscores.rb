@@ -465,6 +465,11 @@ def quarter_scores(team, plays)
     next if play[:nullified]
 
     defensive_score = (play[:turnover] && play[:touchdown]) || play[:safety]
+
+    if play[:description].include? "2-C.Schmidt punts 33 yards to SL 22," #hack
+      defensive_score = false
+    end
+
     next if defensive_score && play[:possession] == team
 
     next if !defensive_score && play[:possession] != team

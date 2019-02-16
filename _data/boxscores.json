@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-16 16:59:18 -0500"
+    "last_modified": "2019-02-16 17:10:44 -0500"
   },
   "boxscores": [
     {
@@ -4696,7 +4696,7 @@
           }
         },
         {
-          "description": "(3:08) (Shotgun) 36-J.Bouagnon right guard to SL 38 for 3 yards (53-D.Taylor; 57-J.Massaquoi). BIR-53-D.Taylor was injured during the play. His return is Questionable.",
+          "description": "(3:27) (Shotgun) 36-J.Bouagnon right guard to SL 38 for 3 yards (53-D.Taylor). BIR-53-D.Taylor was injured during the play. His return is Questionable.",
           "down": "2nd",
           "distance": 10,
           "possession": "SL",
@@ -4767,7 +4767,7 @@
           }
         },
         {
-          "description": "(2:12) (Shotgun) 8-A.Allen pass incomplete short right to 17-A.Jennings (25-J.Tocho).",
+          "description": "(2:14) (Shotgun) 8-A.Allen pass incomplete short right to 17-A.Jennings (25-J.Tocho).",
           "down": "1st",
           "distance": 10,
           "possession": "SL",
@@ -4807,7 +4807,7 @@
           }
         },
         {
-          "description": "(:20) (Shotgun) 8-A.Allen pass short middle to 15-D.Pierson-El to BIR 45 for 6 yards (57-J.Massaquoi).",
+          "description": "(2:10) (Shotgun) 8-A.Allen pass short middle to 15-D.Pierson-El to BIR 46 for 5 yards (57-J.Massaquoi).",
           "down": "2nd",
           "distance": 10,
           "possession": "SL",
@@ -4818,7 +4818,7 @@
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": 6,
+          "yardage": 5,
           "interception": false,
           "field_goal_made": false,
           "lost_fumble": false,
@@ -4849,10 +4849,10 @@
         {
           "description": "(2:00) (Shotgun) 8-A.Allen pass incomplete short left to 81-S.Mobley.",
           "down": "3rd",
-          "distance": 4,
+          "distance": 5,
           "possession": "SL",
           "quarter": 4,
-          "yard_line": 45.0,
+          "yard_line": 46.0,
           "yard_side": "BIR",
           "nullified": false,
           "touchdown": false,
@@ -4887,12 +4887,12 @@
           }
         },
         {
-          "description": "(1:54) (Shotgun) 8-A.Allen pass incomplete short right to 88-A.Denham (20-M.Redfield) [55-B.Brown].\nPENALTY on BIR, Unsportsmanlike Conduct, 15 yards, enforced at BIR 45 - No Play. Illegal Defense",
+          "description": "(1:54) (Shotgun) 8-A.Allen pass incomplete short right to 88-A.Denham (20-M.Redfield) [55-B.Brown].\nPENALTY on BIR, Unsportsmanlike Conduct, 16 yards, enforced at BIR 46 - No Play. Illegal Defense",
           "down": "4th",
-          "distance": 4,
+          "distance": 5,
           "possession": "SL",
           "quarter": 4,
-          "yard_line": 45.0,
+          "yard_line": 46.0,
           "yard_side": "BIR",
           "nullified": false,
           "touchdown": false,
@@ -4927,7 +4927,7 @@
           }
         },
         {
-          "description": "(15:00) (Shotgun) 8-A.Allen pass incomplete deep right to 88-A.Denham.",
+          "description": "(1:49) (Shotgun) 8-A.Allen pass incomplete deep right to 88-A.Denham.",
           "down": "1st",
           "distance": 10,
           "possession": "SL",
@@ -4967,7 +4967,7 @@
           }
         },
         {
-          "description": "(1:43) (Shotgun) 8-A.Allen pass short middle to 88-A.Denham to BIR 28 for 2 yards.\nPENALTY on SL, False Start, 5 yards, enforced at BIR 30 - No Play.",
+          "description": "(1:44) (Shotgun) PENALTY on SL-76-N.Callender, False Start, 5 yards, enforced at BIR 30 - No Play.",
           "down": "2nd",
           "distance": 10,
           "possession": "SL",
@@ -4978,36 +4978,15 @@
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": 2,
+          "yardage": 0,
           "interception": false,
           "field_goal_made": false,
           "lost_fumble": false,
           "turnover": false,
-          "safety": false,
-          "play_type": "Pass",
-          "passer": {
-            "guid": "MuHSfKeQrOoI1ClJnN-FfEA8b7H-",
-            "slug": "austin-allen",
-            "name": "Austin Allen",
-            "position": "QUARTERBACK",
-            "number": 8,
-            "team": "SL",
-            "id": "8-A.Allen",
-            "short_name": "A. Allen"
-          },
-          "receiver": {
-            "guid": "MugplZamc2FccLEXfQhqTP78rMH0",
-            "slug": "anthony-denham",
-            "name": "Anthony Denham",
-            "position": "TIGHT_END",
-            "number": 88,
-            "team": "SL",
-            "id": "88-A.Denham",
-            "short_name": "A. Denham"
-          }
+          "safety": false
         },
         {
-          "description": "(:20) (Shotgun) 8-A.Allen pass short left to 85-N.Truesdell to BIR 30 for 5 yards (25-J.Tocho).",
+          "description": "(1:44) (Shotgun) 8-A.Allen pass short left to 85-N.Truesdell to BIR 30 for 5 yards (25-J.Tocho).",
           "down": "2nd",
           "distance": 15,
           "possession": "SL",
@@ -5118,7 +5097,7 @@
           }
         },
         {
-          "description": "(:10) 33-T.Richardson right tackle to BIR 40 for 2 yards (95-T.Palepoi).",
+          "description": "(:59) 33-T.Richardson right tackle to BIR 40 for 2 yards (95-T.Palepoi).",
           "down": "1st",
           "distance": 10,
           "possession": "BIR",
@@ -5211,7 +5190,7 @@
           }
         },
         {
-          "description": "(:05) PENALTY on BIR-12-L.Perez, Delay of Game, 5 yards, enforced at BIR 45 - No Play.",
+          "description": "(:05) (Punt formation) PENALTY on BIR, Delay of Game, 5 yards, enforced at BIR 45 - No Play.",
           "down": "4th",
           "distance": 3,
           "possession": "BIR",
@@ -5268,7 +5247,7 @@
           "sack_yards_lost": 15,
           "third_downs_converted": 7,
           "third_downs_unconverted": 9,
-          "time_of_possession_milliseconds": 1711000,
+          "time_of_possession_milliseconds": 1760000,
           "times_sacked": 3,
           "turnovers": 2,
           "two_point_conversion_completion_percentage": 0,
@@ -5278,14 +5257,14 @@
           "total_first_downs": 14,
           "total_plays": 63,
           "total_yards": 216,
-          "time_of_possession": "28:31",
+          "time_of_possession": "29:20",
           "third_downs": 16,
           "fourth_downs": 1,
           "yards_per_pass": 4.45,
           "yards_per_rush": 2.14
         },
         "away_team": {
-          "average_yards_per_play": 3.95,
+          "average_yards_per_play": 3.94,
           "first_downs_by_passing": 6,
           "first_downs_by_penalty": 1,
           "first_downs_by_rushing": 9,
@@ -5296,13 +5275,13 @@
           "passes_completed": 15,
           "passes_intercepted": 0,
           "passing_plays": 34,
-          "passing_yards_net": 106,
+          "passing_yards_net": 105,
           "rushing_plays": 31,
           "rushing_yards_net": 151,
           "sack_yards_lost": 9,
           "third_downs_converted": 3,
           "third_downs_unconverted": 11,
-          "time_of_possession_milliseconds": 1889000,
+          "time_of_possession_milliseconds": 1840000,
           "times_sacked": 2,
           "turnovers": 2,
           "two_point_conversion_completion_percentage": 0,
@@ -5311,11 +5290,11 @@
           "team": "SL",
           "total_first_downs": 16,
           "total_plays": 65,
-          "total_yards": 257,
-          "time_of_possession": "31:29",
+          "total_yards": 256,
+          "time_of_possession": "30:40",
           "third_downs": 14,
           "fourth_downs": 1,
-          "yards_per_pass": 3.31,
+          "yards_per_pass": 3.28,
           "yards_per_rush": 4.87
         }
       },
@@ -5635,7 +5614,7 @@
           "receiving_2pc": 0,
           "times_sacked": 0,
           "assisted_tackles": 0,
-          "tackle_assists": 3,
+          "tackle_assists": 2,
           "tackles": 4,
           "tackles_for_loss": 0,
           "solo_tackles": 4,
@@ -6946,10 +6925,10 @@
           "receiving_2pc": 0,
           "times_sacked": 0,
           "assisted_tackles": 0,
-          "tackle_assists": 5,
-          "tackles": 0,
+          "tackle_assists": 4,
+          "tackles": 1,
           "tackles_for_loss": 0,
-          "solo_tackles": 0,
+          "solo_tackles": 1,
           "opponent_fumbles_recovered": 0,
           "opponent_fumbles_forced": 0,
           "opposing_field_goals_blocked": 0,
@@ -8648,7 +8627,7 @@
           "rush_long": 14,
           "rush_td": 0,
           "catches": 4,
-          "receiving_yards": 29,
+          "receiving_yards": 28,
           "receiving_long": 18,
           "receiving_td": 0,
           "fumbles": 1,
@@ -8675,7 +8654,7 @@
           "field_goals_longest_made": 0,
           "targets": 6,
           "week_num": 2,
-          "yac": 9,
+          "yac": 8,
           "punts_attempted": 0,
           "punting_yards": 0,
           "punting_yards_net": 0,
@@ -8683,7 +8662,7 @@
           "pass_ypa": 0,
           "rush_ypc": 14.0,
           "salary": "$-",
-          "fpts": 8.3
+          "fpts": 8.2
         },
         {
           "player": {
@@ -10807,7 +10786,7 @@
           },
           "pass_attempts": 31,
           "pass_complete": 15,
-          "pass_yards": 115,
+          "pass_yards": 114,
           "pass_td": 0,
           "rush_attempts": 1,
           "rush_yards": 4,
@@ -11012,7 +10991,7 @@
           "field_goals_longest_made": 0,
           "targets": 6,
           "week_num": 2,
-          "yac": 0,
+          "yac": 1,
           "punts_attempted": 0,
           "punting_yards": 0,
           "punting_yards_net": 0,
@@ -11255,16 +11234,16 @@
         "home_team": {
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 6,
           "4": 6,
-          "total": 6
+          "total": 12
         },
         "away_team": {
           "1": 0,
           "2": 9,
-          "3": 6,
+          "3": 0,
           "4": 0,
-          "total": 15
+          "total": 9
         }
       },
       "scoring_plays": [
