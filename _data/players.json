@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-16 17:01:09 -0500"
+    "last_modified": "2019-02-16 17:42:29 -0500"
   },
   "players": [
     {
@@ -33,7 +33,7 @@
           },
           "pass_attempts": 31,
           "pass_complete": 15,
-          "pass_yards": 115,
+          "pass_yards": 114,
           "pass_td": 0,
           "rush_attempts": 1,
           "rush_yards": 4,
@@ -207,7 +207,7 @@
       "season_stats": {
         "pass_attempts": 31,
         "pass_complete": 15,
-        "pass_yards": 115,
+        "pass_yards": 114,
         "pass_td": 0,
         "rush_attempts": 1,
         "rush_yards": 4,
@@ -6535,7 +6535,7 @@
           "field_goals_longest_made": 0,
           "targets": 6,
           "week_num": 2,
-          "yac": 0,
+          "yac": 1,
           "punts_attempted": 0,
           "punting_yards": 0,
           "punting_yards_net": 0,
@@ -6709,7 +6709,7 @@
         "field_goals_longest_made": 0,
         "targets": 13,
         "week_num": 3,
-        "yac": 16,
+        "yac": 17,
         "punts_attempted": 0,
         "punting_yards": 0,
         "punting_yards_net": 0,
@@ -21378,7 +21378,7 @@
           "rush_long": 14,
           "rush_td": 0,
           "catches": 4,
-          "receiving_yards": 29,
+          "receiving_yards": 28,
           "receiving_long": 18,
           "receiving_td": 0,
           "fumbles": 1,
@@ -21405,7 +21405,7 @@
           "field_goals_longest_made": 0,
           "targets": 6,
           "week_num": 2,
-          "yac": 9,
+          "yac": 8,
           "punts_attempted": 0,
           "punting_yards": 0,
           "punting_yards_net": 0,
@@ -21413,7 +21413,7 @@
           "pass_ypa": 0,
           "rush_ypc": 14.0,
           "salary": "$-",
-          "fpts": 8.3,
+          "fpts": 8.2,
           "week": "Week 2",
           "game_link": "week-2-bir-sl",
           "game": "SL @ BIR",
@@ -21552,7 +21552,7 @@
         "rush_long": 14,
         "rush_td": 0,
         "catches": 5,
-        "receiving_yards": 36,
+        "receiving_yards": 35,
         "receiving_long": 25,
         "receiving_td": 0,
         "fumbles": 2,
@@ -21579,14 +21579,14 @@
         "field_goals_longest_made": 0,
         "targets": 11,
         "week_num": 3,
-        "yac": 12,
+        "yac": 11,
         "punts_attempted": 0,
         "punting_yards": 0,
         "punting_yards_net": 0,
         "punting_longest_kick": 0,
         "pass_ypa": 0,
         "rush_ypc": 14.0,
-        "fpts": 10.0,
+        "fpts": 9.899999999999999,
         "salary": 8200,
         "completion_percentage": 0
       }

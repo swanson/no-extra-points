@@ -14,7 +14,7 @@ What a terrific opening weekend for AAF football. Exciting play across the leagu
 
 As if February fantasy football wasn’t special enough, the relatively quiet preseason coverage made for a unique Week 1 experience (mostly missing wildly with predictions). For Week 2, we warp back to the present, which of course means crunching a lot of numbers. My results are as follows:
 
-## Quarterbacks
+<h3 class="team-header aaf-header">Quarterbacks</h3>
 
 1. John Wolford – Arizona Hotshots
 2. Garrett Gilbert – Orlando Apollos
@@ -35,7 +35,7 @@ As if February fantasy football wasn’t special enough, the relatively quiet pr
 
    Woodrum DNP Thursday, and is reportedly day-to-day with a hamstring injury. And while Woodside is the only QB in this tier to turn in a Week 1 victory, the latest San Antonio depth chart lists Woodside, Marquise Williams, and Dustin Vaughan as co-starters. Avoid that situation if possible.
 
-## Running Backs
+<h3 class="team-header aaf-header">Running Backs</h3>
 
 1. Trent Richardson – Birmingham Iron [Monitor Injury]
 2. Jhurell Pressley – Arizona Hotshots
@@ -63,7 +63,7 @@ As if February fantasy football wasn’t special enough, the relatively quiet pr
 
 We wrap up RBs with your desperation plays. Rose and Asiata are TD-or-bust goal line backs with RZ carries and not much else going for them. Rajion Neal was 2nd among RBs with five Week 1 targets, but managed just 2.6 fantasy points with that opportunity. Smith and Johnson both managed TDs when the Apollos routed Atlanta, but neither back surpassed 6 carries + targets last week, so their production will be nearly impossible to sustain with Akeem Hunt hogging snaps. Keep an eye out for a healthy Trey Williams, debuting in Week 2 as a passing down specialist in San Antonio.
 
-## Wide Receivers
+<h3 class="team-header aaf-header">Wide Receivers</h3>
 
 1. Quinton Patton – Birmingham Iron
 2. Jalin Marshall – Orlando Apollos
@@ -100,7 +100,7 @@ We wrap up RBs with your desperation plays. Rose and Asiata are TD-or-bust goal 
 
     This is WR dartboard territory. None of these WRs are heavily targeted, but they play significant snaps and are likely to stay involved. Moore flashed big play ability on Saturday with 3 receptions for 78 yards, the only Tier 3 WR to crack double digits.
 
-## Tight Ends
+<h3 class="team-header aaf-header">Tight Ends</h3>
 
 1.  Gavin Escobar – San Diego Fleet
 
@@ -122,7 +122,7 @@ We wrap up RBs with your desperation plays. Rose and Asiata are TD-or-bust goal 
 
     At the bottom of the TE list, we’re into the wasteland that fantasy owners know so well. Standberry Jr.’s 4 fantasy points were the best among this bottom tier. Regardless, these TEs all get their share of snaps and all are targeted in the passing game.
 
-## Kickers
+<h3 class="team-header aaf-header">Kickers</h3>
 
 1. Nick Folk – Arizona Hotshots
 2. Nick Novak – Birmingham Iron
@@ -133,7 +133,7 @@ We wrap up RBs with your desperation plays. Rose and Asiata are TD-or-bust goal 
 7. Kyle Bertolet – Salt Lake Stallions
 8. Josh Jasper – Memphis Express
 
-## Defense / Special Teams
+<h3 class="team-header aaf-header">Defense / Special Teams</h3>
 
 1. Fleet D/ST
 2. Iron D/ST
