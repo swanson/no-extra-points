@@ -747,7 +747,7 @@
           "short_name": "R. Horn",
           "last_name": "Horn",
           "first_name": "Reece",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MnFNOyNyHw3fXrcKp2lxuEu1-nwP",
@@ -759,7 +759,7 @@
           "short_name": "A. Howard",
           "last_name": "Howard",
           "first_name": "Alton \"Pig\"",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
