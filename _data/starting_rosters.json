@@ -584,7 +584,7 @@
           "short_name": "B. Anderson",
           "last_name": "Anderson",
           "first_name": "Busta",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
@@ -608,7 +608,7 @@
           "short_name": "C. Davis",
           "last_name": "Davis",
           "first_name": "Connor",
-          "starting": false
+          "starting": true
         }
       ]
     },
