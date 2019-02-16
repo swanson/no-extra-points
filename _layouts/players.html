@@ -138,7 +138,7 @@ nav: players
             <th colspan="6">Passing</th>
           {% endif %}
           {% if player.position == "QB" or player.position == "RB" %}
-            <th colspan="6">Rushing</th>
+            <th colspan="7">Rushing</th>
           {% endif %}
           {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
             <th colspan="7">Receiving</th>
@@ -161,6 +161,7 @@ nav: players
             <th class="hide-mobile">YPC</th>
             <th class="hide-mobile">LNG</th>
             <th>TD</th>
+            <th>FUM</th>
             <th class="divider">2PT</th>
           {% endif %}
           {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
@@ -201,6 +202,7 @@ nav: players
               <td class="hide-mobile">{{ stats.rush_ypc }}</td>
               <td class="hide-mobile">{{ stats.rush_long }}</td>
               <td>{{ stats.rush_td }}</td>
+              <td>{{ stats.fumbles }}</td>
               <td class="divider">{{ stats.rushing_2pc }}</td>
             {% endif %}
             {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
