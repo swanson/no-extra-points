@@ -536,7 +536,7 @@ result = AAF::Client.query(ALL_GAMES)
 result.data.games_connection.nodes.each do |node|
   status = node.status&.phase
 
-  next unless status == "COMPLETE" || status == "PLAYING"
+  next unless status == "COMPLETE" || status == "PLAYING" || status == "HALFTIME"
 
   boxscores << add_boxscore(node)
 end
