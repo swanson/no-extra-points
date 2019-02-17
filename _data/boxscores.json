@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-16 22:30:00 -0500"
+    "last_modified": "2019-02-16 23:08:03 -0500"
   },
   "boxscores": [
     {
@@ -4550,7 +4550,7 @@
           }
         },
         {
-          "description": "(1:00) (Shotgun) 14-C.Hackenberg scrambles left end ran ob at MEM 26 for 7 yards.",
+          "description": "(1:00) (Shotgun) 14-C.Hackenberg scrambles left end ran ob at MEM 26 for 7 yards (28-D.McDougle).",
           "down": "4th",
           "distance": 6,
           "possession": "MEM",
@@ -4600,7 +4600,7 @@
           "safety": false
         },
         {
-          "description": "(:30) 14-C.Hackenberg spiked the ball to stop the clock.",
+          "description": "(:31) 14-C.Hackenberg spiked the ball to stop the clock.",
           "down": "2nd",
           "distance": 19,
           "possession": "MEM",
@@ -4659,7 +4659,7 @@
           }
         },
         {
-          "description": "(:24) (Shotgun) 14-C.Hackenberg pass short left to 88-K.Ross to MEM 24 for 7 yards (55-N.Morgan) [57-O.Gwacham].",
+          "description": "(:24) (Shotgun) 14-C.Hackenberg pass short left to 88-K.Ross to MEM 24 for 7 yards (55-N.Morgan; 51-E.Robinson) [57-O.Gwacham].",
           "down": "4th",
           "distance": 19,
           "possession": "MEM",
@@ -4699,7 +4699,7 @@
           }
         },
         {
-          "description": "(:14) 7-J.Wolford to MEM 26 for -2 yards.",
+          "description": "(:14) 7-J.Wolford kneels to MEM 25 for -1 yards.",
           "down": "1st",
           "distance": 10,
           "possession": "ARI",
@@ -4710,7 +4710,7 @@
           "touchdown": false,
           "conversion_attempt": false,
           "conversion_success": false,
-          "yardage": -2,
+          "yardage": -1,
           "interception": false,
           "field_goal_made": false,
           "lost_fumble": false,
@@ -4754,7 +4754,7 @@
           "yards_per_rush": 4.49
         },
         "away_team": {
-          "average_yards_per_play": 6.38,
+          "average_yards_per_play": 6.4,
           "first_downs_by_passing": 8,
           "first_downs_by_penalty": 1,
           "first_downs_by_rushing": 6,
@@ -4767,7 +4767,7 @@
           "passing_plays": 24,
           "passing_yards_net": 175,
           "rushing_plays": 36,
-          "rushing_yards_net": 208,
+          "rushing_yards_net": 209,
           "sack_yards_lost": 19,
           "third_downs_converted": 3,
           "third_downs_unconverted": 9,
@@ -4780,12 +4780,12 @@
           "team": "ARI",
           "total_first_downs": 15,
           "total_plays": 60,
-          "total_yards": 383,
+          "total_yards": 384,
           "time_of_possession": "25:18",
           "third_downs": 12,
           "fourth_downs": 2,
           "yards_per_pass": 7.95,
-          "yards_per_rush": 5.78
+          "yards_per_rush": 5.81
         }
       },
       "home_stats": [
@@ -7743,7 +7743,7 @@
           "field_goals_longest_made": 0,
           "targets": 1,
           "week_num": 2,
-          "yac": 4,
+          "yac": 9,
           "punts_attempted": 0,
           "punting_yards": 0,
           "punting_yards_net": 0,
@@ -8469,10 +8469,10 @@
           "receiving_2pc": 0,
           "times_sacked": 0,
           "assisted_tackles": 0,
-          "tackle_assists": 0,
-          "tackles": 1,
+          "tackle_assists": 1,
+          "tackles": 0,
           "tackles_for_loss": 0,
-          "solo_tackles": 1,
+          "solo_tackles": 0,
           "opponent_fumbles_recovered": 0,
           "opponent_fumbles_forced": 0,
           "opposing_field_goals_blocked": 0,
@@ -8797,7 +8797,7 @@
           "pass_yards": 194,
           "pass_td": 2,
           "rush_attempts": 7,
-          "rush_yards": 24,
+          "rush_yards": 25,
           "rush_long": 7,
           "rush_td": 0,
           "catches": 0,
@@ -8834,9 +8834,9 @@
           "punting_yards_net": 0,
           "punting_longest_kick": 0,
           "pass_ypa": 8.8,
-          "rush_ypc": 3.4,
+          "rush_ypc": 3.6,
           "salary": "$-",
-          "fpts": 20.2
+          "fpts": 20.3
         },
         {
           "player": {
@@ -8982,7 +8982,7 @@
           "receiving_2pc": 0,
           "times_sacked": 0,
           "assisted_tackles": 0,
-          "tackle_assists": 0,
+          "tackle_assists": 1,
           "tackles": 2,
           "tackles_for_loss": 0,
           "solo_tackles": 2,
@@ -9724,9 +9724,9 @@
           "times_sacked": 0,
           "assisted_tackles": 0,
           "tackle_assists": 1,
-          "tackles": 2,
+          "tackles": 3,
           "tackles_for_loss": 0,
-          "solo_tackles": 2,
+          "solo_tackles": 3,
           "opponent_fumbles_recovered": 0,
           "opponent_fumbles_forced": 0,
           "opposing_field_goals_blocked": 0,
