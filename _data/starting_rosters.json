@@ -1356,7 +1356,7 @@
           "short_name": "D. Ayers",
           "last_name": "Ayers",
           "first_name": "De'Marcus",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
@@ -1368,7 +1368,7 @@
           "short_name": "J. Diarse",
           "last_name": "Diarse",
           "first_name": "John",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpRddErY_E8R7jc9BtPv9XlGkorE",
