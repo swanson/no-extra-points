@@ -81,6 +81,12 @@ J. Wolford - J. Pressley - M. McKay - J. Marshall - Q. Patton - P. James (B. Bro
 
 ## Numbers
 
+Entered $526, Won $779.76
++\$253.76
+
 ** Season Results **
 
 Week 01: +\$118
+Week 02: +\$253.76
+
+Total: +\$371.76
