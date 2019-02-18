@@ -253,7 +253,11 @@ body {
 }
 
 .aaf-header {
-  @apply bg-blue-dark border-blue;
+  @apply bg-blue-dark border-blue tracking-wide;
+}
+
+.aaf-header-small {
+  @apply bg-blue p-3 text-white border-b-4 border-blue-dark tracking-wide font-medium;
 }
 
 .ari-header {
@@ -352,6 +356,15 @@ body {
   line-height: 1.5;
 }
 
+.markdown h2 {
+  line-height: 1.25;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #22292f;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .markdown > * + *,
 .markdown li + li,
 .markdown li > * + * {
@@ -361,15 +374,6 @@ body {
 .markdown a {
   color: #22292f;
   font-weight: 600;
-}
-
-.markdown h2 {
-  line-height: 1.25;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #22292f;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
 }
 
 .markdown code {
