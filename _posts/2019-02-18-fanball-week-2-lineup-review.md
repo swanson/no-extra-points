@@ -4,6 +4,7 @@ title: AAF DFS - Fanball Week 2 Lineup Review
 nav: articles
 author: Matt Swanson
 twitter: NoExtraPoints
+published: false
 ---
 
 My favorite fantasy column is [Adam Levitan's Cash Game Review](https://www.draftkings.com/playbook/nfl/fantasy-football-adam-levitans-week-17-cash-game-review). [Adam](https://twitter.com/adamlevitan) is so open about his process, even when he has losing weeks, and I really admire that about him. Learning how he constructs lineups is invaluable.
