@@ -2,6 +2,8 @@
 layout: post
 title: The Ultimate Guide to Alliance of American Football (AAF) Fantasy
 nav: articles
+author: Matt Swanson
+twitter: NoExtraPoints
 ---
 
 The [Alliance of American Football](https://aaf.com/) (AAF) is kicking off their opening season in 2019 with eight teams and a 10 week regular season. The league is made up of players just outside of the NFL roster bubble -- expect to see some familiar names from NCAA football, preseason stars, and other fringe NFL players that are looking for a second chance at making it to The League.
@@ -31,6 +33,14 @@ Official Android app: [Download](https://play.google.com/store/apps/details?id=c
 ![Official AAF App](/images/aaf-app.png)
 
 Players earn experience points by guessing correctly and can level up inside the app. It is not clear if there are any prizes or benefits from leveling up or if it's just a fun way to second guess the coaching staff.
+
+## Prop Bet Fantasy
+
+[PrizePicks](https://www.myprizepicks.com/) is a new fantasy option that combines fantasy football and traditional prop bets and parlays. You pick multiple fantasy-based props and if they all hit, you win a multiplier of your bet (based on how many picks you make). PrizePicks offers AAF players (among other sports) as an option.
+
+The props adjust in real-time -- if lots of people are taking the over, the line adjusts so you may be able to gain an edge but monitoring the changes throughout the week as news breaks.
+
+![PrizePicks Screenshot](/images/prize-picks.png)
 
 ## Official Sports Betting
 

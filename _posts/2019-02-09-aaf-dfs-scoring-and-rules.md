@@ -2,6 +2,8 @@
 layout: post
 title: Alliance of American Football (AAF) Daily Fantasy Guide
 nav: articles
+author: Matt Swanson
+twitter: NoExtraPoints
 ---
 
 ## Where can I play?

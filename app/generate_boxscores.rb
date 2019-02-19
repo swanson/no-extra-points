@@ -465,6 +465,11 @@ def quarter_scores(team, plays)
     next if play[:nullified]
 
     defensive_score = (play[:turnover] && play[:touchdown]) || play[:safety]
+
+    if play[:description].include? "2-C.Schmidt punts 33 yards to SL 22," #hack
+      defensive_score = false
+    end
+
     next if defensive_score && play[:possession] == team
 
     next if !defensive_score && play[:possession] != team
@@ -531,7 +536,7 @@ result = AAF::Client.query(ALL_GAMES)
 result.data.games_connection.nodes.each do |node|
   status = node.status&.phase
 
-  next unless status == "COMPLETE"
+  next unless status == "COMPLETE" || status == "PLAYING" || status == "HALFTIME"
 
   boxscores << add_boxscore(node)
 end

@@ -289,7 +289,7 @@
           "short_name": "A. Wadley",
           "last_name": "Wadley",
           "first_name": "Akrum",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mk5lf0dU6nBJfH5Gbsl59VPbwcyu",
@@ -584,7 +584,7 @@
           "short_name": "B. Anderson",
           "last_name": "Anderson",
           "first_name": "Busta",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
@@ -608,7 +608,7 @@
           "short_name": "C. Davis",
           "last_name": "Davis",
           "first_name": "Connor",
-          "starting": false
+          "starting": true
         }
       ]
     },
@@ -663,7 +663,7 @@
           "short_name": "T. Magee",
           "last_name": "Magee",
           "first_name": "Terrence",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MsSW7k2bvNdN0P0l5GxNqN339QSX",
@@ -747,7 +747,7 @@
           "short_name": "R. Horn",
           "last_name": "Horn",
           "first_name": "Reece",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MnFNOyNyHw3fXrcKp2lxuEu1-nwP",
@@ -759,7 +759,7 @@
           "short_name": "A. Howard",
           "last_name": "Howard",
           "first_name": "Alton \"Pig\"",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
@@ -910,7 +910,7 @@
           "short_name": "D. Smith",
           "last_name": "Smith",
           "first_name": "De'Veon",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MoMrGcVxY9-wFwve2Zt5mI2-zP6U",
@@ -1049,7 +1049,7 @@
           "short_name": "A. Allen",
           "last_name": "Allen",
           "first_name": "Austin",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MvvjScH-3vsslt5_WLNxjEcYd7wj",
@@ -1061,7 +1061,7 @@
           "short_name": "M. Linehan",
           "last_name": "Linehan",
           "first_name": "Matt",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mg7ESCLcQeEi-Z0oZGFiwY2--zlS",
@@ -1121,7 +1121,7 @@
           "short_name": "B. Oliver",
           "last_name": "Oliver",
           "first_name": "Branden",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",
@@ -1145,7 +1145,7 @@
           "short_name": "K. Bell",
           "last_name": "Bell",
           "first_name": "Kenny",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
@@ -1253,7 +1253,7 @@
           "short_name": "N. Truesdell",
           "last_name": "Truesdell",
           "first_name": "Nick",
-          "starting": false
+          "starting": true
         }
       ]
     },
@@ -1356,7 +1356,7 @@
           "short_name": "D. Ayers",
           "last_name": "Ayers",
           "first_name": "De'Marcus",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
@@ -1368,7 +1368,7 @@
           "short_name": "J. Diarse",
           "last_name": "Diarse",
           "first_name": "John",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpRddErY_E8R7jc9BtPv9XlGkorE",
@@ -1555,7 +1555,7 @@
           "short_name": "T. Watson",
           "last_name": "Watson",
           "first_name": "Terrell",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
@@ -1579,7 +1579,7 @@
           "short_name": "D. Ford",
           "last_name": "Ford",
           "first_name": "Dontez",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
@@ -1615,7 +1615,7 @@
           "short_name": "F. Owusu",
           "last_name": "Owusu",
           "first_name": "Francis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
