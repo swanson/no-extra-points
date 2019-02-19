@@ -1,5 +1,8 @@
 require_relative "./aaf"
 require "pry"
+require "time"
+
+CURRENT_WEEK = 3
 
 ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
 {
@@ -14,6 +17,13 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
       namedTimeRange {
         name
         time
+      }
+      time
+      stadium {
+        name
+      }
+      availability {
+        shortName
       }
       homeTeamEdge {
         ...teamStats
@@ -415,6 +425,8 @@ def compute_fpts(stats)
 end
 
 def extract_team_stats(team, stats)
+  return {} unless stats
+
   base = stats.to_h.merge(team: team).transform_keys{|k| k.to_s.underscore}
 
   base["total_first_downs"] = base["first_downs_by_passing"] +
@@ -502,6 +514,11 @@ def generate_scoring_plays(node, plays)
   end
 end
 
+def get_network(node)
+  return "N/A" if node.availability.empty?
+  node.availability.first.short_name
+end
+
 def add_boxscore(node)
   home = node.home_team.name
   away = node.away_team.name
@@ -511,18 +528,24 @@ def add_boxscore(node)
   week_num = get_week_num(node.named_time_range.name)
 
   {
+    status: node.status&.phase,
     guid: node.id,
     slug: generate_slug(node),
     title: generate_title(node),
     short_title: generate_short_title(node),
     home_team: home,
     home_abbr: node.home_team.abbreviation,
-    home_score: node.status.home_team_points,
+    home_score: node.status&.home_team_points,
     away_team: away,
     away_abbr: node.away_team.abbreviation,
-    away_score: node.status.away_team_points,
+    away_score: node.status&.away_team_points,
     week: node.named_time_range.name,
+    week_num: week_num,
     time: node.named_time_range.time,
+    kickoff: Time.parse(node.time).getlocal("-05:00").strftime("%A %b %e, %l:%M %p"),
+    stadium: node.stadium.name,
+    watch_on: get_network(node),
+    timestamp: node.time,
     play_by_play: plays,
     team_stats: extract_teams_stats(node),
     home_stats: extract_player_stats(node.players_connection.edges, home, plays, week_num),
@@ -536,10 +559,13 @@ result = AAF::Client.query(ALL_GAMES)
 result.data.games_connection.nodes.each do |node|
   status = node.status&.phase
 
-  next unless status == "COMPLETE" || status == "PLAYING" || status == "HALFTIME"
+  week_num = get_week_num(node.named_time_range.name)
+  next unless week_num <= CURRENT_WEEK
 
   boxscores << add_boxscore(node)
 end
+
+boxscores.sort_by!{|b| [-b[:week_num], b[:timestamp]] }.reverse!
 
 path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
 File.write(path, JSON.pretty_generate({

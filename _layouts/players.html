@@ -43,182 +43,232 @@ nav: players
   </div>
 </div>
 
-<div class="card mt-4 bg-{{ player.team_abbr }} season-summary">
-  <h2 class="text-white px-1 pb-4">Season Stats</h2>
-  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
-    {% if player.season_stats.pass_attempts > 0 %}
-      <div class="mb-10">
-        <h3 class="title">Passing</h3>
-        <div class="flex flex-wrap justify-between items-center">
-          <div class="w-1/2 md:w-1/4 flex-col py-4">
-            <div class="stat">{{ player.season_stats.completion_percentage }}%</div>
-            <h4>Completion %</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.pass_yards }}</div>
-            <h4>Yards</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">
-              {{ player.season_stats.pass_td }}
-              <span class="text-lg">({{ player.season_stats.passing_2pc }})</span>
+{% if player.platoon == "OFFENSE" %}
+  <div class="card mt-4 bg-{{ player.team_abbr }} season-summary">
+    <h2 class="text-white px-1 pb-4">Season Stats</h2>
+    <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+      {% if player.season_stats.pass_attempts > 0 %}
+        <div class="mb-10">
+          <h3 class="title">Passing</h3>
+          <div class="flex flex-wrap justify-between items-center">
+            <div class="w-1/2 md:w-1/4 flex-col py-4">
+              <div class="stat">{{ player.season_stats.completion_percentage }}%</div>
+              <h4>Completion %</h4>
             </div>
-            <h4>TD (2PT)</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.interceptions }}</div>
-            <h4>INT</h4>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-    {% if player.season_stats.rush_attempts > 0 %}
-      <div class="mb-10">
-        <h3 class="title">Rushing</h3>
-        <div class="flex flex-wrap justify-between items-center">
-          <div class="w-1/2 md:w-1/4 flex-col py-4">
-            <div class="stat">{{ player.season_stats.rush_attempts }}</div>
-            <h4>Carries</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.rush_yards }}</div>
-            <h4>Yards</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">
-              {{ player.season_stats.rush_td }}
-              <span class="text-lg">({{ player.season_stats.rushing_2pc }})</span>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.pass_yards }}</div>
+              <h4>Yards</h4>
             </div>
-            <h4>TD (2PT)</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.fumbles }}</div>
-            <h4>Fumbles</h4>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-    {% if player.season_stats.targets > 0 %}
-      <div class="mb-10">
-        <h3 class="title">Receiving</h3>
-        <div class="flex flex-wrap justify-between items-center">
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.catches }}</div>
-            <h4>Catches</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">{{ player.season_stats.receiving_yards }}</div>
-            <h4>Yards</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4">
-            <div class="stat">
-              {{ player.season_stats.receiving_td }}
-              <span class="text-lg">({{ player.season_stats.receiving_2pc }})</span>
-            </div>
-            <h4>TD (2PT)</h4>
-          </div>
-          <div class="w-1/2 md:w-1/4 flex-col py-4">
-            <div class="stat">{{ player.season_stats.targets }}</div>
-            <h4>Targets</h4>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  </div>
-</div>
-
-<div class="card mt-4 bg-{{ player.team_abbr }}">
-  <h2 class="text-white px-1 pb-4">Game Logs</h2>
-  <div class="bg-white -mx-4 px-4 py-4 -mb-4">
-    <table class="boxscore-table table-auto">
-      <thead>
-        <tr class="sub-header hide-mobile">
-          <th class="game"></th>
-          {% if player.position == "QB" %}
-            <th colspan="6">Passing</th>
-          {% endif %}
-          {% if player.position == "QB" or player.position == "RB" %}
-            <th colspan="7">Rushing</th>
-          {% endif %}
-          {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
-            <th colspan="7">Receiving</th>
-          {% endif %}
-          <th colspan="2">Fantasy</th>
-        </tr>
-        <tr>
-          <th class="game">Game</th>
-          {% if player.position == "QB" %}
-            <th>C/ATT</th>
-            <th>YDS</th>
-            <th class="hide-mobile">YPA</th>
-            <th>TD</th>
-            <th>INT</th>
-            <th class="divider">2PT</th>
-          {% endif %}
-          {% if player.position == "QB" or player.position == "RB"%}
-            <th>CAR</th>
-            <th>YDS</th>
-            <th class="hide-mobile">YPC</th>
-            <th class="hide-mobile">LNG</th>
-            <th>TD</th>
-            <th>FUM</th>
-            <th class="divider">2PT</th>
-          {% endif %}
-          {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
-            <th>REC</th>
-            <th class="hide-mobile">TGTS</th>
-            <th>YDS</th>
-            <th class="hide-mobile">LNG</th>
-            <th class="hide-mobile">YAC</th>
-            <th>TD</th>
-            <th class="divider">2PT</th>
-          {% endif %}
-          <th class="hide-mobile">SALARY</th>
-          <th>FPTS</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for stats in player.game_logs %}
-          <tr>
-            <td class="game">
-              <div class="flex flex-wrap">
-                <a href="/boxscores/{{ stats.game_link }}" class="mr-2">{{
-                  stats.week
-                }}</a>
-                <span class="text-grey-dark">{{ stats.game }}</span>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">
+                {{ player.season_stats.pass_td }}
+                <span class="text-lg">({{ player.season_stats.passing_2pc }})</span>
               </div>
-            </td>
+              <h4>TD (2PT)</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.interceptions }}</div>
+              <h4>INT</h4>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% if player.season_stats.rush_attempts > 0 %}
+        <div class="mb-10">
+          <h3 class="title">Rushing</h3>
+          <div class="flex flex-wrap justify-between items-center">
+            <div class="w-1/2 md:w-1/4 flex-col py-4">
+              <div class="stat">{{ player.season_stats.rush_attempts }}</div>
+              <h4>Carries</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.rush_yards }}</div>
+              <h4>Yards</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">
+                {{ player.season_stats.rush_td }}
+                <span class="text-lg">({{ player.season_stats.rushing_2pc }})</span>
+              </div>
+              <h4>TD (2PT)</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.fumbles }}</div>
+              <h4>Fumbles</h4>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% if player.season_stats.targets > 0 %}
+        <div class="mb-10">
+          <h3 class="title">Receiving</h3>
+          <div class="flex flex-wrap justify-between items-center">
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.catches }}</div>
+              <h4>Catches</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">{{ player.season_stats.receiving_yards }}</div>
+              <h4>Yards</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4">
+              <div class="stat">
+                {{ player.season_stats.receiving_td }}
+                <span class="text-lg">({{ player.season_stats.receiving_2pc }})</span>
+              </div>
+              <h4>TD (2PT)</h4>
+            </div>
+            <div class="w-1/2 md:w-1/4 flex-col py-4">
+              <div class="stat">{{ player.season_stats.targets }}</div>
+              <h4>Targets</h4>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="card mt-4 bg-{{ player.team_abbr }}">
+    <h2 class="text-white px-1 pb-4">Game Logs</h2>
+    <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+      <table class="boxscore-table table-auto">
+        <thead>
+          <tr class="sub-header hide-mobile">
+            <th class="game"></th>
             {% if player.position == "QB" %}
-              <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
-              <td>{{ stats.pass_yards }}</td>
-              <td class="hide-mobile">{{ stats.pass_ypa }}</td>
-              <td>{{ stats.pass_td }}</td>
-              <td>{{ stats.interceptions }}</td>
-              <td class="divider">{{ stats.passing_2pc }}</td>
+              <th colspan="6">Passing</th>
             {% endif %}
             {% if player.position == "QB" or player.position == "RB" %}
-              <td>{{ stats.rush_attempts }}</td>
-              <td>{{ stats.rush_yards }}</td>
-              <td class="hide-mobile">{{ stats.rush_ypc }}</td>
-              <td class="hide-mobile">{{ stats.rush_long }}</td>
-              <td>{{ stats.rush_td }}</td>
-              <td>{{ stats.fumbles }}</td>
-              <td class="divider">{{ stats.rushing_2pc }}</td>
+              <th colspan="7">Rushing</th>
             {% endif %}
             {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
-              <td>{{ stats.catches }}</td>
-              <td class="hide-mobile">{{ stats.targets }}</td>
-              <td>{{ stats.receiving_yards }}</td>
-              <td class="hide-mobile">{{ stats.receiving_long }}</td>
-              <td class="hide-mobile">{{ stats.yac }}</td>
-              <td>{{ stats.receiving_td }}</td>
-              <td class="divider">{{ stats.receiving_2pc }}</td>
+              <th colspan="7">Receiving</th>
             {% endif %}
-            <td class="hide-mobile">${{ stats.salary }}</td>
-            <td>{{ stats.fpts }}</td>
+            <th colspan="2">Fantasy</th>
           </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+          <tr>
+            <th class="game">Game</th>
+            {% if player.position == "QB" %}
+              <th>C/ATT</th>
+              <th>YDS</th>
+              <th class="hide-mobile">YPA</th>
+              <th>TD</th>
+              <th>INT</th>
+              <th class="divider">2PT</th>
+            {% endif %}
+            {% if player.position == "QB" or player.position == "RB"%}
+              <th>CAR</th>
+              <th>YDS</th>
+              <th class="hide-mobile">YPC</th>
+              <th class="hide-mobile">LNG</th>
+              <th>TD</th>
+              <th>FUM</th>
+              <th class="divider">2PT</th>
+            {% endif %}
+            {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
+              <th>REC</th>
+              <th class="hide-mobile">TGTS</th>
+              <th>YDS</th>
+              <th class="hide-mobile">LNG</th>
+              <th class="hide-mobile">YAC</th>
+              <th>TD</th>
+              <th class="divider">2PT</th>
+            {% endif %}
+            <th class="hide-mobile">SALARY</th>
+            <th>FPTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for stats in player.game_logs %}
+            <tr>
+              <td class="game">
+                <div class="flex flex-wrap">
+                  <a href="/boxscores/{{ stats.game_link }}" class="mr-2">{{
+                    stats.week
+                  }}</a>
+                  <span class="text-grey-dark">{{ stats.game }}</span>
+                </div>
+              </td>
+              {% if player.position == "QB" %}
+                <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
+                <td>{{ stats.pass_yards }}</td>
+                <td class="hide-mobile">{{ stats.pass_ypa }}</td>
+                <td>{{ stats.pass_td }}</td>
+                <td>{{ stats.interceptions }}</td>
+                <td class="divider">{{ stats.passing_2pc }}</td>
+              {% endif %}
+              {% if player.position == "QB" or player.position == "RB" %}
+                <td>{{ stats.rush_attempts }}</td>
+                <td>{{ stats.rush_yards }}</td>
+                <td class="hide-mobile">{{ stats.rush_ypc }}</td>
+                <td class="hide-mobile">{{ stats.rush_long }}</td>
+                <td>{{ stats.rush_td }}</td>
+                <td>{{ stats.fumbles }}</td>
+                <td class="divider">{{ stats.rushing_2pc }}</td>
+              {% endif %}
+              {% if player.position == "WR" or player.position == "RB" or player.position == "TE" %}
+                <td>{{ stats.catches }}</td>
+                <td class="hide-mobile">{{ stats.targets }}</td>
+                <td>{{ stats.receiving_yards }}</td>
+                <td class="hide-mobile">{{ stats.receiving_long }}</td>
+                <td class="hide-mobile">{{ stats.yac }}</td>
+                <td>{{ stats.receiving_td }}</td>
+                <td class="divider">{{ stats.receiving_2pc }}</td>
+              {% endif %}
+              <td class="hide-mobile">${{ stats.salary }}</td>
+              <td>{{ stats.fpts }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
-</div>
+{% else %}
+  <div class="card mt-4 bg-{{ player.team_abbr }}">
+    <h2 class="text-white px-1 pb-4">Game Logs</h2>
+    <div class="bg-white -mx-4 px-4 py-4 -mb-4">
+      <table class="boxscore-table table-auto">
+        <thead>
+          <tr class="sub-header hide-mobile">
+            <th class="game"></th>
+            <th colspan="5">Tackles</th>
+            <th colspan="4">Misc</th>
+          </tr>
+          <tr>
+            <th class="game">Game</th>
+            <th>TOT</th>
+            <th>SOLO</th>
+            <th>TFL</th>
+            <th>SACKS</th>
+            <th class="divider">QB HITS</th>
+            <th>PD</th>
+            <th>INT</th>
+            <th>FF</th>
+            <th>FUM</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for stats in player.game_logs %}
+            <tr>
+              <td class="game">
+                <div class="flex flex-wrap">
+                  <a href="/boxscores/{{ stats.game_link }}" class="mr-2">{{ stats.week}}</a>
+                  <span class="text-grey-dark">{{ stats.game }}</span>
+                </div>
+              </td>
+              <td>{{ stats.tackles }}</td>
+              <td>{{ stats.solo_tackles }}</td>
+              <td>{{ stats.tackles_for_loss }}</td>
+              <td>{{ stats.sacks }}</td>
+              <td class="divider">{{ stats.quarterback_hits }}</td>
+              <td>{{ stats.pass_defenses }}</td>
+              <td>{{ stats.interception_returns }}</td>
+              <td>{{ stats.opponent_fumbles_forced }}</td>
+              <td>{{ stats.opponent_fumbles_recovered }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endif %}

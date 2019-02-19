@@ -13,7 +13,7 @@ end
 
 ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
   query {
-    playersConnection(first: 5000, platoon: OFFENSE) {
+    playersConnection(first: 5000) {
       nodes {
         id
         rosterStatus
@@ -28,6 +28,7 @@ ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
         }
         jerseyNumber
         position
+        platoon
         team {
           id
           abbreviation
@@ -53,6 +54,40 @@ def map_position(position)
     "WR"
   when "TIGHT_END"
     "TE"
+  when "DEFENSIVE_BACK"
+    "DB"
+  when "CORNERBACK"
+    "CB"
+  when "DEFENSIVE_LINE"
+    "DL"
+  when "DEFENSIVE_LINEMAN"
+    "DL"
+  when "DEFENSIVE_TACKLE"
+    "DT"
+  when "CENTER"
+    "C"
+  when "OFFENSIVE_TACKLE"
+    "OT"
+  when "KICKER"
+    "K"
+  when "LINEBACKER"
+    "LB"
+  when "LONG_SNAPPER"
+    "LS"
+  when "OFFENSIVE_GUARD"
+    "OG"
+  when "SAFETY"
+    "S"
+  when "DEFENSIVE_END"
+    "DE"
+  when "PUNTER"
+    "P"
+  when "OFFENSIVE_LINEMAN"
+    "OL"
+  when "STRONG_SAFETY"
+    "SS"
+  when "FREE_SAFETY"
+    "FS"
   else
     throw "Unknown position: #{position}"
   end
@@ -165,16 +200,8 @@ def add_player(players, node, boxscores)
     starting: false,
     game_logs: logs,
     season_stats: compute_season_stats(logs),
+    platoon: node.platoon
   }
-end
-
-def valid_position?(position)
-  [
-    "QUARTERBACK",
-    "RUNNING_BACK",
-    "WIDE_RECEIVER",
-    "TIGHT_END"
-  ].include?(position)
 end
 
 path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
@@ -183,7 +210,6 @@ boxscores = JSON.parse(File.open(path).read)["boxscores"]
 result = AAF::Client.query(ALL_PLAYERS)
 result.data.players_connection.nodes.each do |node|
   next unless node.team
-  next unless valid_position?(node.position)
 
   add_player(players, node, boxscores)
 end

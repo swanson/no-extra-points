@@ -383,20 +383,22 @@ nav: boxscores
                 {% assign key = prefix | append: "_stats" %}
                 {% assign d_stats = game[key] | sort: "tackles" | reverse %}
                 {% for stats in d_stats %}
-                  {% if stats.tackles > 0 or stats.pass_defenses > 0 or stats.sacks > 0%}
-                    <tr>
-                      <td class="name">{{ stats.player.name }}</td>
-                      <td>{{ stats.tackles }}</td>
-                      <td>{{ stats.solo_tackles }}</td>
-                      <td>{{ stats.tackles_for_loss }}</td>
-                      <td>{{ stats.sacks }}</td>
-                      <td class="divider">{{ stats.quarterback_hits }}</td>
-                      <td>{{ stats.pass_defenses }}</td>
-                      <td>{{ stats.interception_returns }}</td>
-                      <td>{{ stats.opponent_fumbles_forced }}</td>
-                      <td>{{ stats.opponent_fumbles_recovered }}</td>
-                    </tr>
-                  {% endif %}
+                  <tr>
+                    <td class="name">
+                        <a href="/players/{{ stats.player.slug }}">
+                          {{ stats.player.name }}
+                        </a>
+                    </td>
+                    <td>{{ stats.tackles }}</td>
+                    <td>{{ stats.solo_tackles }}</td>
+                    <td>{{ stats.tackles_for_loss }}</td>
+                    <td>{{ stats.sacks }}</td>
+                    <td class="divider">{{ stats.quarterback_hits }}</td>
+                    <td>{{ stats.pass_defenses }}</td>
+                    <td>{{ stats.interception_returns }}</td>
+                    <td>{{ stats.opponent_fumbles_forced }}</td>
+                    <td>{{ stats.opponent_fumbles_recovered }}</td>
+                  </tr>
                 {% endfor %}
               </tbody>
             </table>
