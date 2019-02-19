@@ -289,7 +289,7 @@
           "short_name": "A. Wadley",
           "last_name": "Wadley",
           "first_name": "Akrum",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mk5lf0dU6nBJfH5Gbsl59VPbwcyu",
@@ -910,7 +910,7 @@
           "short_name": "D. Smith",
           "last_name": "Smith",
           "first_name": "De'Veon",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MoMrGcVxY9-wFwve2Zt5mI2-zP6U",
@@ -1121,7 +1121,7 @@
           "short_name": "B. Oliver",
           "last_name": "Oliver",
           "first_name": "Branden",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",
@@ -1555,7 +1555,7 @@
           "short_name": "T. Watson",
           "last_name": "Watson",
           "first_name": "Terrell",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
@@ -1579,7 +1579,7 @@
           "short_name": "D. Ford",
           "last_name": "Ford",
           "first_name": "Dontez",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",
@@ -1615,7 +1615,7 @@
           "short_name": "F. Owusu",
           "last_name": "Owusu",
           "first_name": "Francis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
