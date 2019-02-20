@@ -7,7 +7,7 @@ permalink: /leaderboards/passing
 
 {% assign leaders = site.data.players.players | sort: "pass_yards" | reverse %}
 
-<div class="max-w-full mx-auto">
+<div class="leaderboard">
   <h3 class="team-header aaf-header">AAF Passing Leaders &ndash; Season</h3>
 
   <table class="nowrap stripe w-full datatable">
@@ -24,8 +24,6 @@ permalink: /leaderboards/passing
         <th>2PT</th>
         <th>INT</th>
         <th>SACK</th>
-        <th>QBR</th>
-        <th>YDS/GM</th>
         <th>FPts</th>
       </tr>
     </thead>
@@ -48,8 +46,6 @@ permalink: /leaderboards/passing
           <td>{{ player.season_stats.passing_2pc }}</td>
           <td>{{ player.season_stats.interceptions }}</td>
           <td>{{ player.season_stats.times_sacked }}</td>
-          <td>QBR</td>
-          <td>YD/GM</td>
           <td>{{ player.season_stats.fpts }}</td>
         </tr>
       {% endif %}
@@ -64,7 +60,7 @@ permalink: /leaderboards/passing
     fixedColumns: true,
     scrollX: true,
     paging: false,
-    searching: false,
+    searching: true,
     ordering: true,
     info: false,
     order: [[ 5, "desc"]]

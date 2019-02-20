@@ -368,6 +368,18 @@ body {
   @apply text-left font-bold;
 }
 
+.leaderboard {
+  @apply bg-white max-w-full mx-auto;
+}
+
+.leaderboard input[type="search"] {
+  @apply p-2 bg-grey-lightest rounded text-grey-darkest border-2 border-grey m-4 outline-none;
+}
+
+.leaderboard input[type="search"]:focus {
+  @apply border-blue;
+}
+
 .markdown {
   font-size: 1.125rem;
   color: #3d4852;

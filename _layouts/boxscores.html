@@ -437,7 +437,7 @@ nav: boxscores
                     <tr>
                       <td class="name">
                         <span class="inline-number">{{ stats.player.number }}</span>
-                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                        {{ stats.player.name }}
                       </td>
                       <td>
                         {{ stats.field_goals_made }} /
@@ -492,7 +492,7 @@ nav: boxscores
                     <tr>
                       <td class="name">
                         <span class="inline-number">{{ stats.player.number }}</span>
-                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                        {{ stats.player.name }}
                       </td>
                       <td>{{ stats.punts_attempted }}</td>
                       <td>{{ stats.punting_yards }}</td>

@@ -8,7 +8,7 @@ permalink: /leaderboards/receiving
 {% assign leaders = site.data.players.players | sort: "receiving_yards" |
 reverse %}
 
-<div class="max-w-full mx-auto">
+<div class="leaderboard">
   <h3 class="team-header aaf-header">AAF Receiving Leaders &ndash; Season</h3>
 
   <table class="nowrap stripe w-full datatable">
@@ -20,12 +20,9 @@ reverse %}
         <th>REC</th>
         <th>TAR</th>
         <th>YDS</th>
-        <th>AVG</th>
         <th>LONG</th>
         <th>TD</th>
         <th>2PT</th>
-        <th>YDS/GM</th>
-        <th>TGT/GM</th>
         <th>YAC</th>
         <th>FPts</th>
       </tr>
@@ -44,12 +41,9 @@ reverse %}
           <td>{{ player.season_stats.catches }}</td>
           <td>{{ player.season_stats.targets }}</td>
           <td>{{ player.season_stats.receiving_yards }}</td>
-          <td>AVG YPC</td>
           <td>{{ player.season_stats.receiving_long }}</td>
           <td>{{ player.season_stats.receiving_td }}</td>
           <td>{{ player.season_stats.receiving_2pc }}</td>
-          <td>YD/GM</td>
-          <td>TGT/GM</td>
           <td>{{ player.season_stats.yac }}</td>
           <td>{{ player.season_stats.fpts }}</td>
         </tr>
@@ -65,7 +59,7 @@ reverse %}
     fixedColumns: true,
     scrollX: true,
     paging: false,
-    searching: false,
+    searching: true,
     ordering: true,
     info: false,
     order: [[5, "desc"]]
