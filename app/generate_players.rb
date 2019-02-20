@@ -167,6 +167,7 @@ def compute_season_stats(logs)
 
       totals[k] = 0 if totals[k].nil?
       totals[k] += v
+      totals[k] = totals[k].round(1)
     end
   end
 

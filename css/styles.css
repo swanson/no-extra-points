@@ -358,6 +358,16 @@ body {
   @apply text-2xl font-extrabold text-black leading-tight mt-4;
 }
 
+.datatable td,
+.datatable th {
+  @apply text-right;
+}
+
+.datatable td:first-child,
+.datatable th:first-child {
+  @apply text-left font-bold;
+}
+
 .markdown {
   font-size: 1.125rem;
   color: #3d4852;
