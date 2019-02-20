@@ -14,6 +14,7 @@ permalink: /leaderboards/fantasy
     <thead>
       <tr>
         <th>Player</th>
+        <th>Position</th>
         <th>FPts</th>
         <th>Passing Yds</th>
         <th>Passing TDs</th>
@@ -36,6 +37,7 @@ permalink: /leaderboards/fantasy
               {{ player.full_name }}
             </a>
           </td>
+          <td>{{ player.position }}</td>
           <td>{{ player.season_stats.fpts }}</td>
           <td>{{ player.season_stats.pass_yards }}</td>
           <td>{{ player.season_stats.pass_td }}</td>
