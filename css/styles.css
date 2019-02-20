@@ -163,7 +163,7 @@ body {
 }
 
 .boxscore-table .name {
-  @apply px-4 text-blue-dark text-left;
+  @apply px-2 text-blue-dark text-left;
 }
 
 .boxscore-table .game {
@@ -182,6 +182,10 @@ body {
   @apply hidden;
 }
 
+.boxscore-table span.inline-number {
+  @apply text-grey hidden font-medium text-right w-4 mr-2;
+}
+
 @screen md {
   .boxscore-table .hide-mobile {
     @apply table-cell;
@@ -189,6 +193,10 @@ body {
 
   .boxscore-table tr.hide-mobile {
     @apply table-row;
+  }
+
+  .boxscore-table span.inline-number {
+    @apply inline-block;
   }
 }
 

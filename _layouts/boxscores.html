@@ -239,6 +239,7 @@ nav: boxscores
                   {% if stats.pass_attempts > 0 %}
                     <tr>
                       <td class="name">
+                        <span class="inline-number">{{ stats.player.number }}</span>
                         <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                       </td>
                       <td>{{ stats.pass_complete }}/{{ stats.pass_attempts }}</td>
@@ -284,6 +285,7 @@ nav: boxscores
                   {% if stats.rush_attempts > 0 %}
                     <tr>
                       <td class="name">
+                        <span class="inline-number">{{ stats.player.number }}</span>
                         <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                       </td>
                       <td>{{ stats.rush_attempts }}</td>
@@ -332,7 +334,8 @@ nav: boxscores
                   {% if stats.targets > 0 or stats.catches > 0 %}
                     <tr>
                       <td class="name">
-                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name}}</a>
+                        <span class="inline-number">{{ stats.player.number }}</span>
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                       </td>
                       <td>{{ stats.catches }}</td>
                       <td>{{ stats.targets }}</td>
@@ -385,9 +388,8 @@ nav: boxscores
                 {% for stats in d_stats %}
                   <tr>
                     <td class="name">
-                        <a href="/players/{{ stats.player.slug }}">
-                          {{ stats.player.name }}
-                        </a>
+                      <span class="inline-number">{{ stats.player.number }}</span>
+                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                     </td>
                     <td>{{ stats.tackles }}</td>
                     <td>{{ stats.solo_tackles }}</td>
@@ -434,7 +436,8 @@ nav: boxscores
                     {% assign k_any = true %}
                     <tr>
                       <td class="name">
-                        {{ stats.player.name }}
+                        <span class="inline-number">{{ stats.player.number }}</span>
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                       </td>
                       <td>
                         {{ stats.field_goals_made }} /
@@ -488,7 +491,8 @@ nav: boxscores
                   {% if stats.punts_attempted > 0 %}
                     <tr>
                       <td class="name">
-                        {{ stats.player.name }}
+                        <span class="inline-number">{{ stats.player.number }}</span>
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
                       </td>
                       <td>{{ stats.punts_attempted }}</td>
                       <td>{{ stats.punting_yards }}</td>
