@@ -54,19 +54,17 @@ nav: boxscores
             <tbody>
               <tr class="text-center border-b">
                 <td class="font-bold text-{{game.away_abbr}}-secondary">{{ game.away_abbr }}</td>
-                <td class="font-mono">{{ game.quarter_scores.away_team["1"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.away_team["2"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.away_team["3"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.away_team["4"] }}</td>
-                <td class="font-mono text-black font-bold">{{ game.quarter_scores.away_team.total }}</td>
+                {% for qtr_score in game.quarter_scores.away_team %}
+                  <td class="font-mono">{{ qtr_score }}</td>
+                {% endfor %}
+                <td class="font-mono text-black font-bold">{{ game.away_score }}</td>
               </tr>
               <tr class="text-center border-b-2">
                 <td class="font-bold text-{{game.home_abbr}}-secondary">{{ game.home_abbr }}</td>
-                <td class="font-mono">{{ game.quarter_scores.home_team["1"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.home_team["2"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.home_team["3"] }}</td>
-                <td class="font-mono">{{ game.quarter_scores.home_team["4"] }}</td>
-                <td class="font-mono text-black font-bold">{{ game.quarter_scores.home_team.total }}</td>
+                {% for qtr_score in game.quarter_scores.home_team %}
+                  <td class="font-mono">{{ qtr_score }}</td>
+                {% endfor %}
+                <td class="font-mono text-black font-bold">{{ game.home_score }}</td>
               </tr>
             </tbody>
           </table>

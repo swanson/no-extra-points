@@ -13,6 +13,8 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
         phase
         awayTeamPoints
         homeTeamPoints
+        awayTeamPointsByQuarter
+        homeTeamPointsByQuarter
       }
       namedTimeRange {
         name
@@ -468,46 +470,6 @@ def get_week_num(week)
   week.tr("^0-9", '').to_i
 end
 
-def quarter_scores(team, plays)
-  scores = {
-    1 => 0, 2 => 0, 3 => 0, 4 => 0, total: 0
-  }
-
-  plays.each do |play|
-    next if play[:nullified]
-
-    defensive_score = (play[:turnover] && play[:touchdown]) || play[:safety]
-
-    if play[:description].include? "2-C.Schmidt punts 33 yards to SL 22," #hack
-      defensive_score = false
-    end
-
-    next if defensive_score && play[:possession] == team
-
-    next if !defensive_score && play[:possession] != team
-
-    if play[:touchdown]
-      scores[play[:quarter]] += 6
-      scores[:total] += 6
-    elsif play[:conversion_success] || play[:safety]
-      scores[play[:quarter]] += 2
-      scores[:total] += 2
-    elsif play[:field_goal_made]
-      scores[play[:quarter]] += 3
-      scores[:total] += 3
-    end
-  end
-
-  scores
-end
-
-def generate_quarter_scores(node, plays)
-  {
-    home_team: quarter_scores(node.home_team.abbreviation, plays),
-    away_team: quarter_scores(node.away_team.abbreviation, plays),
-  }
-end
-
 def generate_scoring_plays(node, plays)
   plays.select do |play|
     !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success] || play[:safety])
@@ -550,7 +512,10 @@ def add_boxscore(node)
     team_stats: extract_teams_stats(node),
     home_stats: extract_player_stats(node.players_connection.edges, home, plays, week_num),
     away_stats: extract_player_stats(node.players_connection.edges, away, plays, week_num),
-    quarter_scores: generate_quarter_scores(node, plays),
+    quarter_scores:   {
+      home_team: node.status&.home_team_points_by_quarter,
+      away_team: node.status&.away_team_points_by_quarter,
+    },
     scoring_plays: generate_scoring_plays(node, plays),
   }
 end
