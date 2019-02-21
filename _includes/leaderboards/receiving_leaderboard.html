@@ -1,0 +1,87 @@
+<table class="nowrap stripe w-full datatable">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Position</th>
+      <th>REC</th>
+      <th>TAR</th>
+      <th>YDS</th>
+      <th>LONG</th>
+      <th>TD</th>
+      <th>2PT</th>
+      <th>YAC</th>
+      <th>FPts</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign leaders = site.data.players.players | sort: "receiving_yards" |
+reverse %}
+    {% if page.week == "all" %}
+      {% for player in leaders %}
+        {% if player.season_stats.targets > 0 %}
+        <tr>
+          <td>
+            <a href="/players/{{ player.slug }}" class="no-underline text-black font-semibold hover:text-blue">
+              {{ player.full_name }}
+            </a>
+          </td>
+          <td>{{ player.team_abbr }}</td>
+          <td>{{ player.position }}</td>
+          <td>{{ player.season_stats.catches }}</td>
+          <td>{{ player.season_stats.targets }}</td>
+          <td>{{ player.season_stats.receiving_yards }}</td>
+          <td>{{ player.season_stats.receiving_long }}</td>
+          <td>{{ player.season_stats.receiving_td }}</td>
+          <td>{{ player.season_stats.receiving_2pc }}</td>
+          <td>{{ player.season_stats.yac }}</td>
+          <td>{{ player.season_stats.fpts }}</td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% for player in leaders %}
+        {% for gamelog in player.game_logs %}
+          {% if gamelog.week_num != page.week %}{% continue %}{% endif %}
+
+          {% if gamelog.targets > 0 %}
+            <tr>
+              <td>
+                <a href="/players/{{ player.slug}}" class="no-underline text-black font-semibold hover:text-blue">
+                  {{ player.full_name }}
+                </a>
+              </td>
+              <td>{{ player.team_abbr }}</td>
+              <td>{{ player.position }}</td>
+              <td>{{ gamelog.catches }}</td>
+              <td>{{ gamelog.targets }}</td>
+              <td>{{ gamelog.receiving_yards }}</td>
+              <td>{{ gamelog.receiving_long }}</td>
+              <td>{{ gamelog.receiving_td }}</td>
+              <td>{{ gamelog.receiving_2pc }}</td>
+              <td>{{ gamelog.yac }}</td>
+              <td>{{ gamelog.fpts }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  </tbody>
+</table>
+
+
+<script>
+  $("table").DataTable({
+    autoWidth: false,
+    fixedColumns: true,
+    scrollX: true,
+    scrollY: "600px",
+    paging: false,
+    searching: true,
+    ordering: true,
+    info: false,
+    order: [[5, "desc"]],
+    dom: "iptl<'datatable-actions'fB>",
+    buttons: ['csv']
+  });
+</script>

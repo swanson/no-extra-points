@@ -368,6 +368,24 @@ body {
   @apply text-left font-bold;
 }
 
+.datatable-actions {
+  @apply hidden items-center justify-end rounded-b-lg bg-grey-lighter px-4 flex-wrap;
+}
+
+@screen md {
+  .datatable-actions {
+    @apply flex;
+  }
+}
+
+.datatable-actions .dt-button {
+  @apply text-white bg-blue border-blue border-2 rounded px-4 py-2 text-base;
+}
+
+.datatable-actions .dt-button:hover {
+  @apply bg-blue-dark border-blue-dark;
+}
+
 .leaderboard {
   @apply bg-white max-w-full mx-auto;
 }

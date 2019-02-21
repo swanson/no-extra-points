@@ -17,6 +17,12 @@ page_gen:
     name: slug
     page_title: title
     dir: projections
+  - index_files: false
+    data: leaderboards
+    template: leaderboard
+    name: slug
+    page_title: title
+    dir: leaderboards
 
 exclude:
   - Gemfile
@@ -51,3 +57,5 @@ twitter:
   username: NoExtraPoints
   card: summary
 google_analytics: UA-13005539-4
+
+current_week: 3

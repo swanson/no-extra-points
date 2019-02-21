@@ -1,0 +1,85 @@
+<table class="nowrap stripe w-full datatable">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Position</th>
+      <th>ATT</th>
+      <th>YDS</th>
+      <th>YDS/A</th>
+      <th>LONG</th>
+      <th>TD</th>
+      <th>2PT</th>
+      <th>FUM</th>
+      <th>FPts</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign leaders = site.data.players.players | sort: "rush_yards" | reverse %}
+  {% if page.week == "all" %}
+    {% for player in leaders %}
+      {% if player.season_stats.rush_attempts > 0 %}
+        <tr>
+          <td>
+            <a href="/players/{{ player.slug}}" class="no-underline text-black font-semibold hover:text-blue">
+              {{ player.full_name }}
+            </a>
+          </td>
+          <td>{{ player.team_abbr }}</td>
+          <td>{{ player.position }}</td>
+          <td>{{ player.season_stats.rush_attempts }}</td>
+          <td>{{ player.season_stats.rush_yards }}</td>
+          <td>{{ player.season_stats.rush_ypc }}</td>
+          <td>{{ player.season_stats.rush_long }}</td>
+          <td>{{ player.season_stats.rush_td }}</td>
+          <td>{{ player.season_stats.rushing_2pc }}</td>
+          <td>{{ player.season_stats.fumbles }}</td>
+          <td>{{ player.season_stats.fpts }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% for player in leaders %}
+      {% for gamelog in player.game_logs %}
+        {% if gamelog.week_num != page.week %}{% continue %}{% endif %}
+
+        {% if gamelog.rush_attempts > 0 %}
+          <tr>
+            <td>
+              <a href="/players/{{ player.slug}}" class="no-underline text-black font-semibold hover:text-blue">
+                {{ player.full_name }}
+              </a>
+            </td>
+            <td>{{ player.team_abbr }}</td>
+            <td>{{ player.position }}</td>
+            <td>{{ gamelog.rush_attempts }}</td>
+            <td>{{ gamelog.rush_yards }}</td>
+            <td>{{ gamelog.rush_ypc }}</td>
+            <td>{{ gamelog.rush_long }}</td>
+            <td>{{ gamelog.rush_td }}</td>
+            <td>{{ gamelog.rushing_2pc }}</td>
+            <td>{{ gamelog.fumbles }}</td>
+            <td>{{ gamelog.fpts }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+  </tbody>
+</table>
+
+<script>
+  $('table').DataTable({
+    autoWidth: false,
+    fixedColumns: true,
+    scrollX: true,
+    scrollY: "600px",
+    paging: false,
+    searching: true,
+    ordering: true,
+    info: false,
+    order: [[ 4, "desc"]],
+    dom: "iptl<'datatable-actions'fB>",
+    buttons: ['csv']
+  });
+</script>

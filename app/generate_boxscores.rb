@@ -349,7 +349,6 @@ def extract_player_stats(edges, team_name, plays, week_num)
       punting_yards: edge.stats.punting_yards,
       punting_yards_net: edge.stats.punting_yards_net,
       punting_longest_kick: edge.stats.punting_longest_kick,
-
     }
 
     player_stats = calculate_averages(player_stats)
@@ -367,8 +366,10 @@ def calculate_averages(stats)
 
   if stats[:pass_attempts] > 0
     stats[:pass_ypa] = (stats[:pass_yards].to_f / stats[:pass_attempts]).round(1)
+    stats[:completion_percentage] = (stats[:pass_complete].to_f / stats[:pass_attempts].to_f).round(1)
   else
     stats[:pass_ypa] = 0
+    stats[:completion_percentage] = 0
   end
 
   if stats[:rush_attempts] > 0
@@ -546,3 +547,34 @@ boxscores.each do |bs|
   redirects["/boxscores/#{bs[:guid]}"] = "/boxscores/#{bs[:slug]}"
 end
 File.write(path, JSON.pretty_generate(redirects))
+
+
+path = File.join(File.dirname(__FILE__), '../_data', 'leaderboards.json')
+leaderboards = []
+[
+  "fantasy",
+  "passing",
+  "rushing",
+  "receiving",
+  "defense"
+].each do |t|
+  leaderboards << {
+    type: t,
+    display_type: t.capitalize,
+    week: "all",
+    slug: t + "/all",
+    permalink: "/leaderboards/#{t}/all",
+    title: "AAF #{t.capitalize} Season Leaderboard"
+  }
+  (1..CURRENT_WEEK).each do |i|
+    leaderboards << {
+      type: t,
+      display_type: t.capitalize,
+      week: i,
+      slug: t + "/" + i.to_s,
+      permalink: "/leaderboards/#{t}/#{i}",
+      title: "AAF Week #{i} #{t.capitalize} Leaderboard"
+    }
+  end
+end
+File.write(path, JSON.pretty_generate(leaderboards))

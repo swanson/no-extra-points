@@ -1,0 +1,31 @@
+---
+layout: default
+nav: leaderboards
+---
+
+<div class="team-header aaf-header rounded-t-lg flex items-center justify-between flex-wrap">
+  <h3 class="text-2xl tracking-wide my-2">AAF {{ page.display_type }} Leaders</h3>
+  <div class="text-white my-2">
+    <span class="select-none">Week:</span>
+
+    <a href="/leaderboards/{{ page.type }}/all" class="text-white no-underline {% if page.week == 'all' %}border-b-4 border-white{% endif %}no-underline hover:text-blue mx-2">All</a>
+    {% assign last_played = site.current_week | minus: 1 %}
+    {% for week in (1..last_played) %}
+      <a href="/leaderboards/{{ page.type }}/{{week}}" class="font-mono text-white no-underline {% if page.week == week %}border-b-4 border-white{% endif %} hover:text-blue mx-2">{{ week }}</a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="leaderboard shadow-lg rounded-b-lg">
+  {% if page.type == "passing" %}
+    {% include leaderboards/passing_leaderboard.html %}
+  {% elsif page.type == "rushing" %}
+    {% include leaderboards/rushing_leaderboard.html %}
+  {% elsif page.type == "receiving" %}
+    {% include leaderboards/receiving_leaderboard.html %}
+  {% elsif page.type == "fantasy" %}
+    {% include leaderboards/fantasy_leaderboard.html %}
+  {% elsif page.type == "defense" %}
+    {% include leaderboards/defense_leaderboard.html %}
+  {% endif %}
+</div>

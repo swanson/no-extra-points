@@ -1,0 +1,97 @@
+
+
+<table class="nowrap stripe w-full datatable">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Team</th>
+      <th>Position</th>
+      <th>FPts</th>
+      <th>Passing Yds</th>
+      <th>Passing TDs</th>
+      <th>Passing 2PT</th>
+      <th>Rushing Yds</th>
+      <th>Rushing TDs</th>
+      <th>Rushing 2PT</th>
+      <th>Receptions</th>
+      <th>Receiving Yds</th>
+      <th>Receiving TDs</th>
+      <th>Receiving 2PT</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign leaders = site.data.players.players | sort: "fantasy_points" | reverse %}
+  {% if page.week == "all" %}
+    {% for player in leaders %}
+      {% if player.season_stats.fpts > 0 %}
+        <tr>
+          <td>
+            <a href="/players/{{ player.slug}}" class="no-underline text-black font-semibold hover:text-blue">
+              {{ player.full_name }}
+            </a>
+          </td>
+          <td>{{ player.team_abbr }}</td>
+          <td>{{ player.position }}</td>
+          <td>{{ player.season_stats.fpts }}</td>
+          <td>{{ player.season_stats.pass_yards }}</td>
+          <td>{{ player.season_stats.pass_td }}</td>
+          <td>{{ player.season_stats.passing_2pc }}</td>
+          <td>{{ player.season_stats.rush_yards }}</td>
+          <td>{{ player.season_stats.rush_td }}</td>
+          <td>{{ player.season_stats.rushing_2pc }}</td>
+          <td>{{ player.season_stats.catches }}</td>
+          <td>{{ player.season_stats.receiving_yards }}</td>
+          <td>{{ player.season_stats.receiving_td }}</td>
+          <td>{{ player.season_stats.receiving_2pc }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% for player in leaders %}
+      {% for gamelog in player.game_logs %}
+        {% if gamelog.week_num != page.week %}{% continue %}{% endif %}
+
+        {% if gamelog.fpts > 0 %}
+          <tr>
+            <td>
+              <a href="/players/{{ player.slug}}" class="no-underline text-black font-semibold hover:text-blue">
+                {{ player.full_name }}
+              </a>
+            </td>
+            <td>{{ player.team_abbr }}</td>
+            <td>{{ player.position }}</td>
+            <td>{{ gamelog.fpts }}</td>
+            <td>{{ gamelog.pass_yards }}</td>
+            <td>{{ gamelog.pass_td }}</td>
+            <td>{{ gamelog.passing_2pc }}</td>
+            <td>{{ gamelog.rush_yards }}</td>
+            <td>{{ gamelog.rush_td }}</td>
+            <td>{{ gamelog.rushing_2pc }}</td>
+            <td>{{ gamelog.catches }}</td>
+            <td>{{ gamelog.receiving_yards }}</td>
+            <td>{{ gamelog.receiving_td }}</td>
+            <td>{{ gamelog.receiving_2pc }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+  </tbody>
+</table>
+
+
+<script>
+  $('table').DataTable({
+    autoWidth: false,
+    fixedColumns: true,
+    scrollX: true,
+    scrollY: "600px",
+    paging: false,
+    searching: true,
+    ordering: true,
+    info: false,
+    order: [[ 3, "desc"]],
+    dom: "iptl<'datatable-actions'fB>",
+    buttons: ['csv']
+  });
+</script>

@@ -1,0 +1,162 @@
+[
+  {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": "all",
+    "slug": "fantasy/all",
+    "permalink": "/leaderboards/fantasy/all",
+    "title": "AAF Fantasy Season Leaderboard"
+  },
+  {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": 1,
+    "slug": "fantasy/1",
+    "permalink": "/leaderboards/fantasy/1",
+    "title": "AAF Week 1 Fantasy Leaderboard"
+  },
+  {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": 2,
+    "slug": "fantasy/2",
+    "permalink": "/leaderboards/fantasy/2",
+    "title": "AAF Week 2 Fantasy Leaderboard"
+  },
+  {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": 3,
+    "slug": "fantasy/3",
+    "permalink": "/leaderboards/fantasy/3",
+    "title": "AAF Week 3 Fantasy Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": "all",
+    "slug": "passing/all",
+    "permalink": "/leaderboards/passing/all",
+    "title": "AAF Passing Season Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": 1,
+    "slug": "passing/1",
+    "permalink": "/leaderboards/passing/1",
+    "title": "AAF Week 1 Passing Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": 2,
+    "slug": "passing/2",
+    "permalink": "/leaderboards/passing/2",
+    "title": "AAF Week 2 Passing Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": 3,
+    "slug": "passing/3",
+    "permalink": "/leaderboards/passing/3",
+    "title": "AAF Week 3 Passing Leaderboard"
+  },
+  {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": "all",
+    "slug": "rushing/all",
+    "permalink": "/leaderboards/rushing/all",
+    "title": "AAF Rushing Season Leaderboard"
+  },
+  {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": 1,
+    "slug": "rushing/1",
+    "permalink": "/leaderboards/rushing/1",
+    "title": "AAF Week 1 Rushing Leaderboard"
+  },
+  {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": 2,
+    "slug": "rushing/2",
+    "permalink": "/leaderboards/rushing/2",
+    "title": "AAF Week 2 Rushing Leaderboard"
+  },
+  {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": 3,
+    "slug": "rushing/3",
+    "permalink": "/leaderboards/rushing/3",
+    "title": "AAF Week 3 Rushing Leaderboard"
+  },
+  {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": "all",
+    "slug": "receiving/all",
+    "permalink": "/leaderboards/receiving/all",
+    "title": "AAF Receiving Season Leaderboard"
+  },
+  {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": 1,
+    "slug": "receiving/1",
+    "permalink": "/leaderboards/receiving/1",
+    "title": "AAF Week 1 Receiving Leaderboard"
+  },
+  {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": 2,
+    "slug": "receiving/2",
+    "permalink": "/leaderboards/receiving/2",
+    "title": "AAF Week 2 Receiving Leaderboard"
+  },
+  {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": 3,
+    "slug": "receiving/3",
+    "permalink": "/leaderboards/receiving/3",
+    "title": "AAF Week 3 Receiving Leaderboard"
+  },
+  {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": "all",
+    "slug": "defense/all",
+    "permalink": "/leaderboards/defense/all",
+    "title": "AAF Defense Season Leaderboard"
+  },
+  {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": 1,
+    "slug": "defense/1",
+    "permalink": "/leaderboards/defense/1",
+    "title": "AAF Week 1 Defense Leaderboard"
+  },
+  {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": 2,
+    "slug": "defense/2",
+    "permalink": "/leaderboards/defense/2",
+    "title": "AAF Week 2 Defense Leaderboard"
+  },
+  {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": 3,
+    "slug": "defense/3",
+    "permalink": "/leaderboards/defense/3",
+    "title": "AAF Week 3 Defense Leaderboard"
+  }
+]
