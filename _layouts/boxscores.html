@@ -384,21 +384,26 @@ nav: boxscores
                 {% assign key = prefix | append: "_stats" %}
                 {% assign d_stats = game[key] | sort: "tackles" | reverse %}
                 {% for stats in d_stats %}
-                  <tr>
-                    <td class="name">
-                      <span class="inline-number">{{ stats.player.number }}</span>
-                      <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
-                    </td>
-                    <td>{{ stats.tackles }}</td>
-                    <td>{{ stats.solo_tackles }}</td>
-                    <td>{{ stats.tackles_for_loss }}</td>
-                    <td>{{ stats.sacks }}</td>
-                    <td class="divider">{{ stats.quarterback_hits }}</td>
-                    <td>{{ stats.pass_defenses }}</td>
-                    <td>{{ stats.interception_returns }}</td>
-                    <td>{{ stats.opponent_fumbles_forced }}</td>
-                    <td>{{ stats.opponent_fumbles_recovered }}</td>
-                  </tr>
+                  {% if stats.tackles > 0 or stats.solo_tackles > 0 or stats.tackles_for_loss > 0
+                      or stats.sacks > 0 or stats.quarterback_hits > 0 or stats.pass_defenses > 0
+                      or stats.interception_returns > 0 or stats.opponent_fumbles_forced > 0
+                      or stats.opponent_fumbles_recovered > 0 %}
+                    <tr>
+                      <td class="name">
+                        <span class="inline-number">{{ stats.player.number }}</span>
+                        <a href="/players/{{ stats.player.slug }}">{{ stats.player.name }}</a>
+                      </td>
+                      <td>{{ stats.tackles }}</td>
+                      <td>{{ stats.solo_tackles }}</td>
+                      <td>{{ stats.tackles_for_loss }}</td>
+                      <td>{{ stats.sacks }}</td>
+                      <td class="divider">{{ stats.quarterback_hits }}</td>
+                      <td>{{ stats.pass_defenses }}</td>
+                      <td>{{ stats.interception_returns }}</td>
+                      <td>{{ stats.opponent_fumbles_forced }}</td>
+                      <td>{{ stats.opponent_fumbles_recovered }}</td>
+                    </tr>
+                  {% endif %}
                 {% endfor %}
               </tbody>
             </table>
