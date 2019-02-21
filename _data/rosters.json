@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-02-05 20:30:38 -0500"
+    "last_modified": "2019-02-21 13:56:50 -0500"
   },
   "rosters": [
     {
@@ -66,18 +66,6 @@
           "short_name": "J. Pressley",
           "last_name": "Pressley",
           "first_name": "Jhurell",
-          "starting": false
-        },
-        {
-          "guid": "MgiboeFU3bSFzK6KxPa-Xr10FHAw",
-          "slug": "larry-rose",
-          "name": "Larry Rose",
-          "position": "RB",
-          "number": 32,
-          "team": "ARI",
-          "short_name": "L. Rose",
-          "last_name": "Rose",
-          "first_name": "Larry",
           "starting": false
         },
         {
@@ -186,18 +174,6 @@
           "short_name": "C. Hamlett",
           "last_name": "Hamlett",
           "first_name": "Connor",
-          "starting": false
-        },
-        {
-          "guid": "MvRJwCF7_74J3VsAWRubhjoJgHM5",
-          "slug": "bryce-williams",
-          "name": "Bryce Williams",
-          "position": "TE",
-          "number": 85,
-          "team": "ARI",
-          "short_name": "B. Williams",
-          "last_name": "Williams",
-          "first_name": "Bryce",
           "starting": false
         }
       ]
@@ -376,27 +352,27 @@
           "starting": false
         },
         {
-          "guid": "Mqz4RQPwnByj6JuzUIzmWhzhiSZw",
-          "slug": "garrett-hudson",
-          "name": "Garrett Hudson",
-          "position": "TE",
-          "number": 87,
-          "team": "ATL",
-          "short_name": "G. Hudson",
-          "last_name": "Hudson",
-          "first_name": "Garrett",
-          "starting": false
-        },
-        {
           "guid": "Mm2ZwVxSGkw3OqT1GyqzErHBxJeK",
           "slug": "charles-standberryjr",
-          "name": "Charles Standberry, Jr.",
+          "name": "Charles Standberry Jr.",
           "position": "TE",
           "number": 80,
           "team": "ATL",
-          "short_name": "C. Standberry, Jr.",
-          "last_name": "Standberry, Jr.",
+          "short_name": "C. Standberry Jr.",
+          "last_name": "Standberry Jr.",
           "first_name": "Charles",
+          "starting": false
+        },
+        {
+          "guid": "MrC4LfT3GwLOnCAWsvExRaRLyldW",
+          "slug": "jake-sutherland",
+          "name": "Jake Sutherland",
+          "position": "TE",
+          "number": 83,
+          "team": "ATL",
+          "short_name": "J. Sutherland",
+          "last_name": "Sutherland",
+          "first_name": "Jake",
           "starting": false
         },
         {
@@ -471,7 +447,7 @@
           "slug": "ladarius-perkins",
           "name": "Ladarius Perkins",
           "position": "RB",
-          "number": 41,
+          "number": 24,
           "team": "BIR",
           "short_name": "L. Perkins",
           "last_name": "Perkins",
@@ -507,7 +483,7 @@
           "slug": "quan-bray",
           "name": "Quan Bray",
           "position": "WR",
-          "number": 81,
+          "number": 15,
           "team": "BIR",
           "short_name": "Q. Bray",
           "last_name": "Bray",
@@ -543,7 +519,7 @@
           "slug": "tobias-palmer",
           "name": "Tobias Palmer",
           "position": "WR",
-          "number": 16,
+          "number": 10,
           "team": "BIR",
           "short_name": "T. Palmer",
           "last_name": "Palmer",
@@ -555,7 +531,7 @@
           "slug": "quinton-patton",
           "name": "Quinton Patton",
           "position": "WR",
-          "number": 18,
+          "number": 11,
           "team": "BIR",
           "short_name": "Q. Patton",
           "last_name": "Patton",
@@ -567,7 +543,7 @@
           "slug": "ldamian-washington",
           "name": "L'Damian Washington",
           "position": "WR",
-          "number": 85,
+          "number": 17,
           "team": "BIR",
           "short_name": "L. Washington",
           "last_name": "Washington",
@@ -579,7 +555,7 @@
           "slug": "busta-anderson",
           "name": "Busta Anderson",
           "position": "TE",
-          "number": 89,
+          "number": 81,
           "team": "BIR",
           "short_name": "B. Anderson",
           "last_name": "Anderson",
@@ -587,27 +563,39 @@
           "starting": false
         },
         {
-          "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
-          "slug": "braedon-bowman",
-          "name": "Braedon Bowman",
+          "guid": "MqGR0OsIc73esNR_54QUDDV-b4cW",
+          "slug": "weslye-saunders",
+          "name": "Weslye Saunders",
           "position": "TE",
-          "number": 80,
+          "number": 82,
           "team": "BIR",
-          "short_name": "B. Bowman",
-          "last_name": "Bowman",
-          "first_name": "Braedon",
+          "short_name": "W. Saunders",
+          "last_name": "Saunders",
+          "first_name": "Weslye",
           "starting": false
         },
         {
-          "guid": "MhEdk0XQnfjfHbj3AB3JlgfakHH9",
-          "slug": "connor-davis",
-          "name": "Connor Davis",
+          "guid": "MkXtS_Yu0mkc3BP5bNBQeSCOTJvC",
+          "slug": "wes-saxtonjr",
+          "name": "Wes Saxton, Jr. ",
           "position": "TE",
-          "number": 88,
+          "number": 83,
           "team": "BIR",
-          "short_name": "C. Davis",
-          "last_name": "Davis",
-          "first_name": "Connor",
+          "short_name": "W. Saxton, Jr. ",
+          "last_name": "Saxton, Jr. ",
+          "first_name": "Wes",
+          "starting": false
+        },
+        {
+          "guid": "Mg1HYIc4h7TNc18_eROYoQ_2IyJC",
+          "slug": "colin-thompson",
+          "name": "Colin Thompson",
+          "position": "TE",
+          "number": "0",
+          "team": "BIR",
+          "short_name": "C. Thompson",
+          "last_name": "Thompson",
+          "first_name": "Colin",
           "starting": false
         }
       ]
@@ -654,6 +642,18 @@
           "starting": false
         },
         {
+          "guid": "MoMLwv0BMkB3spUFMbLxO_bsFEQ3",
+          "slug": "sherman-badie",
+          "name": "Sherman Badie",
+          "position": "RB",
+          "number": "0",
+          "team": "MEM",
+          "short_name": "S. Badie",
+          "last_name": "Badie",
+          "first_name": "Sherman",
+          "starting": false
+        },
+        {
           "guid": "Mv5aLcnX86bjZaa2ms87A1SdYdZd",
           "slug": "terrence-magee",
           "name": "Terrence Magee",
@@ -675,30 +675,6 @@
           "short_name": "A. Manzo-Lewis",
           "last_name": "Manzo-Lewis",
           "first_name": "Anthony",
-          "starting": false
-        },
-        {
-          "guid": "Mul2mvkoQSqrfJpTvU04gOWesuV-",
-          "slug": "cordon-moog",
-          "name": "Cordon Moog",
-          "position": "RB",
-          "number": 85,
-          "team": "MEM",
-          "short_name": "C. Moog",
-          "last_name": "Moog",
-          "first_name": "Cordon",
-          "starting": false
-        },
-        {
-          "guid": "MpcFBQh6-Fg1SlkG43E2ZJu4F13w",
-          "slug": "rajion-neal",
-          "name": "Rajion Neal",
-          "position": "RB",
-          "number": 34,
-          "team": "MEM",
-          "short_name": "R. Neal",
-          "last_name": "Neal",
-          "first_name": "Rajion",
           "starting": false
         },
         {
@@ -766,7 +742,7 @@
           "slug": "devin-lucien",
           "name": "Devin Lucien",
           "position": "WR",
-          "number": 13,
+          "number": 15,
           "team": "MEM",
           "short_name": "D. Lucien",
           "last_name": "Lucien",
@@ -786,15 +762,15 @@
           "starting": false
         },
         {
-          "guid": "Mjwho2KhxUh6xpMCmX3U-V_km0UF",
-          "slug": "damoreea-stringfellow",
-          "name": "Damore'ea Stringfellow",
+          "guid": "Mpc5pPtq5oFQrAk8nDVXnbKV4P1D",
+          "slug": "gerrard-sheppard",
+          "name": "Gerrard Sheppard",
           "position": "WR",
           "number": 82,
           "team": "MEM",
-          "short_name": "D. Stringfellow",
-          "last_name": "Stringfellow",
-          "first_name": "Damore'ea",
+          "short_name": "G. Sheppard",
+          "last_name": "Sheppard",
+          "first_name": "Gerrard",
           "starting": false
         },
         {
@@ -810,11 +786,23 @@
           "starting": false
         },
         {
+          "guid": "Mul2mvkoQSqrfJpTvU04gOWesuV-",
+          "slug": "cordon-moog",
+          "name": "Cordon Moog",
+          "position": "TE",
+          "number": 85,
+          "team": "MEM",
+          "short_name": "C. Moog",
+          "last_name": "Moog",
+          "first_name": "Cordon",
+          "starting": false
+        },
+        {
           "guid": "MmMr1PqQzXo0ZVHk39O2j4ktgFhu",
           "slug": "adrien-robinson",
           "name": "Adrien Robinson",
           "position": "TE",
-          "number": 47,
+          "number": 89,
           "team": "MEM",
           "short_name": "A. Robinson",
           "last_name": "Robinson",
@@ -869,7 +857,7 @@
           "slug": "ryan-green",
           "name": "Ryan Green",
           "position": "RB",
-          "number": 20,
+          "number": 32,
           "team": "ORL",
           "short_name": "R. Green",
           "last_name": "Green",
@@ -913,18 +901,6 @@
           "starting": false
         },
         {
-          "guid": "MoMrGcVxY9-wFwve2Zt5mI2-zP6U",
-          "slug": "marvin-bracywilliamsjr",
-          "name": "Marvin Bracy-Williams Jr.",
-          "position": "WR",
-          "number": 10,
-          "team": "ORL",
-          "short_name": "M. Bracy-Williams Jr.",
-          "last_name": "Bracy-Williams Jr.",
-          "first_name": "Marvin",
-          "starting": false
-        },
-        {
           "guid": "MrxsVJwCGFXBajsksqfAYwPZbFtK",
           "slug": "donteea-dyejr",
           "name": "Donteea Dye Jr.",
@@ -965,7 +941,7 @@
           "slug": "charles-johnson",
           "name": "Charles Johnson",
           "position": "WR",
-          "number": 19,
+          "number": 12,
           "team": "ORL",
           "short_name": "C. Johnson",
           "last_name": "Johnson",
@@ -982,6 +958,18 @@
           "short_name": "J. Marshall",
           "last_name": "Marshall",
           "first_name": "Jalin",
+          "starting": false
+        },
+        {
+          "guid": "MuV61fWM6sA0uQR9zlLTFTE5KrTp",
+          "slug": "willie-quinn",
+          "name": "Willie Quinn",
+          "position": "WR",
+          "number": 15,
+          "team": "ORL",
+          "short_name": "W. Quinn",
+          "last_name": "Quinn",
+          "first_name": "Willie",
           "starting": false
         },
         {
@@ -1124,18 +1112,6 @@
           "starting": false
         },
         {
-          "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",
-          "slug": "dres-anderson",
-          "name": "Dres Anderson",
-          "position": "WR",
-          "number": 16,
-          "team": "SL",
-          "short_name": "D. Anderson",
-          "last_name": "Anderson",
-          "first_name": "Dres",
-          "starting": false
-        },
-        {
           "guid": "MuShKYY0K9EeX6CMhI3AqqdV8t4e",
           "slug": "kenny-bell",
           "name": "Kenny Bell",
@@ -1205,6 +1181,18 @@
           "short_name": "D. Pierson-El",
           "last_name": "Pierson-El",
           "first_name": "De'Mornay",
+          "starting": false
+        },
+        {
+          "guid": "MhfUsZoRzun-PJwfaZuaJS10nFTd",
+          "slug": "brian-tyms",
+          "name": "Brian Tyms",
+          "position": "WR",
+          "number": 18,
+          "team": "SL",
+          "short_name": "B. Tyms",
+          "last_name": "Tyms",
+          "first_name": "Brian",
           "starting": false
         },
         {
@@ -1499,14 +1487,14 @@
         },
         {
           "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
-          "slug": "phillip-nelson",
-          "name": "Phillip Nelson",
+          "slug": "philip-nelson",
+          "name": "Philip Nelson",
           "position": "QB",
           "number": 9,
           "team": "SD",
           "short_name": "P. Nelson",
           "last_name": "Nelson",
-          "first_name": "Phillip",
+          "first_name": "Philip",
           "starting": false
         },
         {
@@ -1519,6 +1507,18 @@
           "short_name": "A. Ross",
           "last_name": "Ross",
           "first_name": "Alex",
+          "starting": false
+        },
+        {
+          "guid": "Mso-Sk88_bEryhmiW_TmsarMRb5M",
+          "slug": "greg-ducre",
+          "name": "Greg Ducre",
+          "position": "RB",
+          "number": 26,
+          "team": "SD",
+          "short_name": "G. Ducre",
+          "last_name": "Ducre",
+          "first_name": "Greg",
           "starting": false
         },
         {

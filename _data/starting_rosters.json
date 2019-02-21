@@ -587,27 +587,15 @@
           "starting": false
         },
         {
-          "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
-          "slug": "braedon-bowman",
-          "name": "Braedon Bowman",
+          "guid": "MqGR0OsIc73esNR_54QUDDV-b4cW",
+          "slug": "weslye-saunders",
+          "name": "Weslye Saunders",
           "position": "TE",
-          "number": 80,
+          "number": 82,
           "team": "BIR",
-          "short_name": "B. Bowman",
-          "last_name": "Bowman",
-          "first_name": "Braedon",
-          "starting": false
-        },
-        {
-          "guid": "MhEdk0XQnfjfHbj3AB3JlgfakHH9",
-          "slug": "connor-davis",
-          "name": "Connor Davis",
-          "position": "TE",
-          "number": 88,
-          "team": "BIR",
-          "short_name": "C. Davis",
-          "last_name": "Davis",
-          "first_name": "Connor",
+          "short_name": "W. Saunders",
+          "last_name": "Saunders",
+          "first_name": "Weslye",
           "starting": true
         }
       ]
@@ -690,15 +678,15 @@
           "starting": false
         },
         {
-          "guid": "MpcFBQh6-Fg1SlkG43E2ZJu4F13w",
-          "slug": "rajion-neal",
-          "name": "Rajion Neal",
+          "guid": "MoMLwv0BMkB3spUFMbLxO_bsFEQ3",
+          "slug": "sherman-badie",
+          "name": "Sherman Badie",
           "position": "RB",
-          "number": 34,
+          "number": "0",
           "team": "MEM",
-          "short_name": "R. Neal",
-          "last_name": "Neal",
-          "first_name": "Rajion",
+          "short_name": "S. Badie",
+          "last_name": "Badie",
+          "first_name": "Sherman",
           "starting": false
         },
         {
@@ -1049,7 +1037,7 @@
           "short_name": "A. Allen",
           "last_name": "Allen",
           "first_name": "Austin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvvjScH-3vsslt5_WLNxjEcYd7wj",
@@ -1073,7 +1061,7 @@
           "short_name": "J. Woodrum",
           "last_name": "Woodrum",
           "first_name": "Josh",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mop_drX-yj7HIefEAlUHoDVCH_iA",
