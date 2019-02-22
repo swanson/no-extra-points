@@ -8,6 +8,8 @@ twitter: Matt_Gajewski
 
 The **_Wide Receiver Slant_** series that focuses on identifying offense specific roles and high volume fantasy options at the WR position.
 
+**Updated: Friday, Feb 22**
+
 <h3 class="team-header aaf-header">Alpha Status</h3>
 
 **Charles Johnson – Orlando (\$7,400)**
@@ -24,9 +26,9 @@ While the Iron remain a tier below the high-octane offense of the Apollos or Com
 
 <h3 class="team-header aaf-header">On the Come Up</h3>
 
-**Richard Mullaney – Arizona (\$4,400)**
+**Francis Owusu – San Diego (\$4,300)**
 
-After reeling in 5 catches for 57 yards in Week 1, Richard Mullaney disappointed in Week 2 with only 11 yards on 2 catches. However, Mullaney’s snap share crested 90%, playing only behind Rashad Ross in the Arizona offense. Also noteworthy, Mullaney appears to have carved out a role as the Hotshot’s primary red zone receiver. Standing 6-3, Mullaney’s 3 red zone targets currently lead the team. With a Week 1 rematch on deck against the Stallions, who the Hotshots flamed for 275 passing yards, Mullaney looks like a solid bounce-back candidate in Week 3.
+Formerly pegged as the San Diego Fleets’ number one receiver, Francis Owusu has disappointed through two weeks of game action with only 2 catches for 12 yards. However, the Fleet recently moved Kameron Kelly to defensive back, opening snaps for Owusu. Listed behind Kelly on the depth chart last week, Owusu should step into a full time role on the AAF’s pass heaviest offense.
 
 **De’Markus Ayers – San Antonio (\$6,000)**
 
@@ -48,6 +50,6 @@ This play remains highly dependent on the injury situation surrounding Salt Lake
 
 With Orlando’s offense absolutely sizzling, Chris Thompson has contributed with a strong 6 catches for 100 receiving yards, currently ranking 7th overall in the AAF. However, despite the strong start, Thompson looks primed for regression after failing to reach a 20% snap share in Week 2. Orlando seems to prefer Rannell Hall as their third receiver, with Thompson playing as a situational deep threat (2 deep targets). In such a niche role, Thompson remains unlikely to contribute on a week-to-week basis.
 
-**Francis Owusu – San Diego (\$4,300)**
+**De’Mornay Pierson-EL – Salt Lake (\$4,500)**
 
-Formerly pegged as the San Diego Fleets’ number one receiver, Francis Owusu has disappointed through two weeks of game action with only 2 catches for 12 yards. More disappointing yet, Owusu has yet to crest 50% of the Fleets’ snaps, playing behind Brian Brown and Kameron Kelly. Also troubling for Owusu, neither Philip Nelson nor Mike Bercovici has been able to complete even 50% of their passes. Without competent quarterback play or a full-time role in the San Diego offense, Owusu looks like a mere dart throw for fantasy purposes.
+While Pierson-El does not enter the week as a standout play, his role could be reduced with Salt Lake’s pass catcher getting healthier. Last week, Kenny Bell and Kaelin Clay both missed game action, thrusting Pierson-El into the starting lineup. With both likely to return, Pierson-El’s role may be scaled back. Treat this week as a wait-and-see opportunity for Pierson-El.
