@@ -1591,7 +1591,7 @@
           "short_name": "K. Kelly",
           "last_name": "Kelly",
           "first_name": "Kameron",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
@@ -1603,7 +1603,7 @@
           "short_name": "F. Owusu",
           "last_name": "Owusu",
           "first_name": "Francis",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
