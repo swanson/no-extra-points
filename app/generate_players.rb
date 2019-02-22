@@ -173,8 +173,16 @@ def compute_season_stats(logs)
 
   if totals["pass_attempts"] && totals["pass_attempts"] > 0
     totals["completion_percentage"] = ((totals["pass_complete"].to_f / totals["pass_attempts"].to_f) * 100).round(1)
+    totals["pass_ypa"] = (totals["pass_yards"].to_f / totals["pass_attempts"].to_f).round(1)
   else
     totals["completion_percentage"] = 0
+    totals["pass_ypa"] = 0
+  end
+
+  if totals["rush_attempts"] && totals["rush_attempts"] > 0
+    totals["rush_ypc"] = (totals["rush_yards"].to_f / totals["rush_attempts"].to_f).round(1)
+  else
+    totals["rush_ypc"] = 0
   end
 
   totals
