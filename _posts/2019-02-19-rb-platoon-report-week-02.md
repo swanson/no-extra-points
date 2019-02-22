@@ -10,6 +10,8 @@ The weekly **_RB Platoon Report_** series goes beyond the boxscores and tries to
 
 _Note: all snap counts and routes run data comes from game film analysis and are unofficial. All data is Through Week 02 for the season._
 
+**Update (Friday Feb 22): Larry Rose and Rajion Neal have both been waived.**
+
 {% assign week_key = "week-02" %}
 
 <div>
