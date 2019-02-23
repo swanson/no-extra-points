@@ -52,6 +52,15 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
           yardsToGo
           quarter
           possession
+          stats {
+            player {
+              id
+            }
+            type
+            subtype
+            isNullified
+            value
+          }
         }
       }
       playersConnection(first: 500) {
@@ -84,6 +93,9 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
             receivingYards
             receivingTouchdowns
             receivingLongestGain
+            airYardsAttempted
+            airYardsCompleted
+            airYardsIncomplete
             timesSacked
             twoPointConversionPassReceptionsGood
             twoPointConversionPassesGood
@@ -295,7 +307,22 @@ def extract_player_details(node, team)
   }
 end
 
-def extract_player_stats(edges, team_name, plays, week_num)
+def extract_air_yards(player, plays)
+  ay = 0
+
+  plays.each do |p|
+    if p.stats.any?{|s| s.player&.id == player[:guid] && s.type == "PASS_TARGET"}
+      air_yard_stat = p.stats.find{|s| s.type == "AIR_YARDS_COMPLETE" || s.type == "AIR_YARDS_INCOMPLETE" }
+      if air_yard_stat
+        ay += air_yard_stat.value.to_i unless air_yard_stat.is_nullified?
+      end
+    end
+  end
+
+  ay
+end
+
+def extract_player_stats(node, edges, team_name, plays, week_num)
   stats = []
   last_player = nil
 
@@ -345,6 +372,8 @@ def extract_player_stats(edges, team_name, plays, week_num)
       targets: edge.stats.pass_targets,
       week_num: week_num,
       yac: edge.stats.yards_after_catches,
+      passing_air_yards: edge.stats.air_yards_attempted,
+      receiving_air_yards: extract_air_yards(player, node.plays_connection.nodes),
       punts_attempted: edge.stats.punts_attempted,
       punting_yards: edge.stats.punting_yards,
       punting_yards_net: edge.stats.punting_yards_net,
@@ -511,8 +540,8 @@ def add_boxscore(node)
     timestamp: node.time,
     play_by_play: plays,
     team_stats: extract_teams_stats(node),
-    home_stats: extract_player_stats(node.players_connection.edges, home, plays, week_num),
-    away_stats: extract_player_stats(node.players_connection.edges, away, plays, week_num),
+    home_stats: extract_player_stats(node, node.players_connection.edges, home, plays, week_num),
+    away_stats: extract_player_stats(node, node.players_connection.edges, away, plays, week_num),
     quarter_scores:   {
       home_team: node.status&.home_team_points_by_quarter,
       away_team: node.status&.away_team_points_by_quarter,

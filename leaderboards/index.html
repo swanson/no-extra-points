@@ -143,6 +143,33 @@ title: AAF Statistical Leaders
   <div class="w-full md:w-1/3 mb-6">
     <div class="card md:ml-3">
       <div class="card-header bg-blue-dark border-b-4 border-blue font-medium tracking-wide text-white text-xl">
+        Air Yard Leaders
+      </div>
+      <ol class="list-reset py-4">
+        {% assign leaders = site.data.players.players | sort: "season_stats.receiving_air_yards" | reverse %}
+
+        {% for player in leaders %}
+          {% if forloop.index > 5 %}{% break %}{% endif %}
+          <li class="flex items-center justify-between">
+            <div class="flex-shrink font-mono text-lg mr-2 font-bold">{{ forloop.index }}.</div>
+            <div class="flex-shrink jersey jersey-{{ player.team_abbr }} mr-2">{{ player.number }}</div>
+            <div class="flex-grow">
+              <a href="/players/{{ player.slug }}" class="no-underline text-black font-semibold hover:text-blue text-lg">
+                {{ player.full_name }}
+              </a>
+            </div>
+            <div class="flex-shrink text-grey font-thin">{{ player.season_stats.receiving_air_yards }} yds</div>
+          </li>
+        {% endfor %}
+      </ol>
+      <div class="flex justify-center border-grey-light border-t pt-4">
+        <a href="/leaderboards/receiving/all" class="text-black font-semibold no-underline hover:text-blue">Complete Leaders</a>
+      </div>
+    </div>
+  </div>
+  <div class="w-full md:w-1/3 mb-6">
+    <div class="card md:mr-3">
+      <div class="card-header bg-blue-dark border-b-4 border-blue font-medium tracking-wide text-white text-xl">
         Tackle Leaders
       </div>
       <ol class="list-reset py-4">
@@ -168,7 +195,7 @@ title: AAF Statistical Leaders
     </div>
   </div>
   <div class="w-full md:w-1/3 mb-6">
-    <div class="card md:mr-3">
+    <div class="card md:mx-3">
       <div class="card-header bg-blue-dark border-b-4 border-blue font-medium tracking-wide text-white text-xl">
         Sack Leaders
       </div>
@@ -195,7 +222,7 @@ title: AAF Statistical Leaders
     </div>
   </div>
   <div class="w-full md:w-1/3 mb-6">
-    <div class="card md:mx-3">
+    <div class="card md:ml-3">
       <div class="card-header bg-blue-dark border-b-4 border-blue font-medium tracking-wide text-white text-xl">
         Interception Leaders
       </div>

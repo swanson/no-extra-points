@@ -288,10 +288,10 @@ nav: players
       <p class="leading-loose">
         {{ player.biography | newline_to_br }}
         {% if player.college_history.size > 0 %}
-          <div class="font-bold my-2">College History</div>
+          <div class="font-bold my-4">College History</div>
           <ul class="list-reset">
           {% for season in player.college_history %}
-            <li class="my-2">
+            <li class="my-4">
               {{ season.year }}: {{ season.teams | map: "name" }}
             </li>
           {% endfor %}
