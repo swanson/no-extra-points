@@ -47,7 +47,7 @@ nav: boxscores
         {% endif %}
       </div>
       <div class="flex mt-6">
-        {% if game.status == "COMPLETED" or game.status == "PLAYING" %}
+        {% if game.status == "COMPLETE" or game.status == "PLAYING" %}
           <a href="/boxscores/{{game.slug}}" class="btn btn-small">
             Boxscore
           </a>
