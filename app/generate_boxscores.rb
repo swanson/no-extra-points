@@ -472,8 +472,8 @@ def extract_team_stats(team, stats)
 
   base["third_downs"] = base["third_downs_converted"] + base["third_downs_unconverted"]
   base["fourth_downs"] = base["fourth_downs_converted"] + base["fourth_downs_unconverted"]
-  base["yards_per_pass"] = base["passing_yards_net"].to_f / base["passes_attempted"]
-  base["yards_per_rush"] = base["rushing_yards_net"].to_f / base["rushing_plays"]
+  base["yards_per_pass"] = base["passing_yards_net"].to_f / base["passes_attempted"] if base["passes_attempted"] > 0
+  base["yards_per_rush"] = base["rushing_yards_net"].to_f / base["rushing_plays"] if base["rushing_plays"] > 0
 
   base.transform_values{|v| if v.is_a? Numeric; v.round(2); else; v; end}
 end
