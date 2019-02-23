@@ -8,6 +8,7 @@
       <th>PCT</th>
       <th>YDS</th>
       <th>YDS/A</th>
+      <th>AIR YDS</th>
       <th>TD</th>
       <th>2PT</th>
       <th>INT</th>
@@ -32,6 +33,7 @@
           <td>{{ player.season_stats.completion_percentage }}</td>
           <td>{{ player.season_stats.pass_yards }}</td>
           <td>{{ player.season_stats.pass_ypa }}</td>
+          <td>{{ player.season_stats.passing_air_yards}}</td>
           <td>{{ player.season_stats.pass_td }}</td>
           <td>{{ player.season_stats.passing_2pc }}</td>
           <td>{{ player.season_stats.interceptions }}</td>
@@ -58,6 +60,7 @@
             <td>{{ gamelog.completion_percentage }}</td>
             <td>{{ gamelog.pass_yards }}</td>
             <td>{{ gamelog.pass_ypa }}</td>
+            <td>{{ gamelog.passing_air_yards }}</td>
             <td>{{ gamelog.pass_td }}</td>
             <td>{{ gamelog.passing_2pc }}</td>
             <td>{{ gamelog.interceptions }}</td>
