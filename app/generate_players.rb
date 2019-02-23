@@ -1,6 +1,7 @@
 require_relative "./aaf"
 require "pry"
 require "csv"
+require "plissken"
 
 $salaries = {}
 Dir.glob("app/data/fanball-salaries/*.csv").each do |f|
@@ -36,7 +37,30 @@ ALL_PLAYERS = AAF::Client.parse <<-'GRAPHQL'
         }
         heightMillimeters
         weightGrams
-        rosterStatus
+        biography
+        ncaaFBCareer {
+          seasons {
+            teams {
+              nickname
+              regionName
+              stats {
+                receptions
+                receivingYards
+                receivingTouchdowns
+                tackles
+                sacks
+                interceptionReturns
+                rushingYards
+                rushesAttempted
+                rushingTouchdowns
+                passingYards
+                passingTouchdowns
+                passesIntercepted
+              }
+            }
+            year
+          }
+        }
       }
     }
   }
@@ -209,7 +233,17 @@ def add_player(players, node, boxscores)
     starting: false,
     game_logs: logs,
     season_stats: compute_season_stats(logs),
-    platoon: node.platoon
+    platoon: node.platoon,
+    biography: node.biography,
+    college_history: (node.ncaa_fb_career&.seasons || []).map{|s| {
+      year: s.year,
+      teams: s.teams.map{|t|
+        {
+          name: t.region_name + " " + t.nickname,
+          stats: t.stats.to_h.dup.to_snake_keys
+        }
+      }
+    }},
   }
 end
 
