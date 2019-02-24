@@ -9,8 +9,7 @@ nav: leaderboards
     <span class="select-none">Week:</span>
 
     <a href="/leaderboards/{{ page.type }}/all" class="text-white no-underline {% if page.week == 'all' %}border-b-4 border-white{% endif %}no-underline hover:text-blue mx-2">All</a>
-    {% assign last_played = site.current_week | minus: 1 %}
-    {% for week in (1..last_played) %}
+    {% for week in (1..site.current_week) %}
       <a href="/leaderboards/{{ page.type }}/{{week}}" class="font-mono text-white no-underline {% if page.week == week %}border-b-4 border-white{% endif %} hover:text-blue mx-2">{{ week }}</a>
     {% endfor %}
   </div>
