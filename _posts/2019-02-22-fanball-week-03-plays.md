@@ -46,7 +46,7 @@ Priced at \$1,000 less than Bouagnon, Oliver remains the preferred option among 
 
 ## Rannell Hall – (\$4,300) – Orlando
 
-While many with gravitate towards Chris Thompson and Ishmael Hyman in the same offense, Rannell Hall actually worked as Orlando’s third wide receiver. While he only has 2 receptions for 19 yards on the year, Hall has seen adequate usage in the Orlando receiving game. On the year he has 2 red zone targets, 1 red zone carry, and two deep targets.
+While many will gravitate towards Chris Thompson and Ishmael Hyman in the same offense, Rannell Hall actually worked as Orlando’s third wide receiver. While he only has 2 receptions for 19 yards on the year, Hall has seen adequate usage in the Orlando receiving game. On the year he has 2 red zone targets, 1 red zone carry, and two deep targets.
 
 While he doesn’t bring a solid floor like some cheaper receivers, Hall’s role in Orlando’s high-octane offense brings enough upside to warrant GPP consideration.
 
