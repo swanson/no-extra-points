@@ -1,0 +1,5 @@
+#!/bin/sh
+
+bundle exec rescue app/generate_boxscores.rb
+bundle exec rescue app/generate_players.rb
+bundle exec rescue app/generate_airyards.rb

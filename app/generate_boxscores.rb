@@ -407,6 +407,18 @@ def calculate_averages(stats)
     stats[:rush_ypc] = 0
   end
 
+  if stats[:targets] > 0
+    stats[:average_depth_of_target] = (stats[:receiving_air_yards].to_f / stats[:targets]).round(1)
+  else
+    stats[:average_depth_of_target] = 0
+  end
+
+  if stats[:receiving_air_yards] > 0
+    stats[:racr] = (stats[:receiving_yards].to_f / stats[:receiving_air_yards]).round(2)
+  else
+    stats[:racr] = 0
+  end
+
   stats
 end
 
