@@ -37,8 +37,8 @@ boxscores.each do |bx|
         air_yards_pg: ps["receiving_air_yards"],
         aypt: ps["average_depth_of_target"],
         racr: ps["racr"],
-        ms_air_yards: ps["air_yards_market_share"] || 0,
-        target_share: ps["target_share"] || 0,
+        ms_air_yards: ps["air_yards_market_share"],
+        target_share: ps["target_market_share"],
         ppr_fpts: ps["fpts"],
       }
     end
@@ -47,5 +47,5 @@ boxscores.each do |bx|
 end
 
 
-path = File.join(File.dirname(__FILE__), '../_data', 'air_yards_buy_low.json')
+path = File.join(File.dirname(__FILE__), '../air_yards', 'air_yards_buy_low.json')
 File.write(path, JSON.pretty_generate(airyards_model))

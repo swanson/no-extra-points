@@ -378,6 +378,8 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
       punting_yards: edge.stats.punting_yards,
       punting_yards_net: edge.stats.punting_yards_net,
       punting_longest_kick: edge.stats.punting_longest_kick,
+      target_market_share: 0,
+      air_yard_market_share: 0
     }
 
     player_stats = calculate_averages(player_stats)
@@ -385,6 +387,30 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
 
     stats << player_stats
     last_player = edge.node.id
+  end
+
+  stats = compute_market_share_stats(stats)
+
+  stats
+end
+
+def compute_market_share_stats(stats)
+  total_targets = 0
+  total_air_yards = 0
+
+  stats.each do |s|
+    total_targets += s[:targets]
+    total_air_yards += s[:receiving_air_yards]
+  end
+
+  stats.each do |s|
+    if s[:targets] > 0 && total_targets > 0
+      s[:target_market_share] = (s[:targets] / total_targets.to_f).round(2)
+    end
+
+    if s[:receiving_air_yards] > 0 && total_air_yards > 0
+      s[:air_yards_market_share] = (s[:receiving_air_yards] / total_air_yards.to_f).round(2)
+    end
   end
 
   stats
