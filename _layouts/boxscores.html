@@ -188,6 +188,11 @@ nav: boxscores
                   <td>{{ game.team_stats.away_team.yards_per_rush }}</td>
                 </tr>
                 <tr>
+                  <td>Penalties</td>
+                  <td>{{ game.team_stats.home_team.penalties }}-{{ game.team_stats.home_team.penalty_yards }}</td>
+                  <td>{{ game.team_stats.away_team.penalties }}-{{ game.team_stats.away_team.penalty_yards }}</td>
+                </tr>
+                <tr>
                   <td>Turnovers</td>
                   <td>{{ game.team_stats.home_team.turnovers }}</td>
                   <td>{{ game.team_stats.away_team.turnovers }}</td>

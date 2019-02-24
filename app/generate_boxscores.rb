@@ -153,6 +153,8 @@ fragment teamStats on GameTeamEdge {
       twoPointConversionsAttempted
       twoPointConversionsCompleted
       twoPointConversionCompletionPercentage
+      penalties
+      penaltyYards
     }
   }
 GRAPHQL
