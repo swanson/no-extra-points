@@ -219,6 +219,21 @@ def clean_issues(description)
     .gsub("20O-R.Green", "20-R.Green")
 end
 
+def conversion_success(desc)
+  conv_success = /ATTEMPT SUCCEEDS/m
+  conv_failed = /ATTEMPT FAILS/m
+
+  unless desc.match?(conv_success)
+    return false
+  end
+
+  unless desc.match?(conv_failed)
+    return true
+  end
+
+  return desc.index(conv_success) > desc.index(conv_failed)
+end
+
 def extract_play_by_play(plays, game, all_players)
   run_play = /left|right/mi
   pass_play = /pass/mi
@@ -249,7 +264,7 @@ def extract_play_by_play(plays, game, all_players)
       nullified: node.has_penalty && desc.include?("No Play") || desc.include?("NULLIFIED"),
       touchdown: desc.match?(td_play),
       conversion_attempt: desc.match?(conv_play),
-      conversion_success: desc.match?(conv_success),
+      conversion_success: conversion_success(desc),
       yardage: get_yardage(desc),
       interception: desc.match?(interception),
       field_goal_made: desc.match?(field_goal),
