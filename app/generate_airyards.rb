@@ -5,7 +5,7 @@ require "csv"
 path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
 boxscores = JSON.parse(File.open(path).read)["boxscores"]
 
-WEEK = 2
+WEEK = 3
 
 airyards_model = {}
 (1..WEEK).each do |i|
