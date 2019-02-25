@@ -70,7 +70,7 @@ Tim Cook is the most egregious error, honestly not sure what I was thinking ther
 
 I poisoned every lineup with these flimsy plays. When they predictably didn't hit and the guys I went heavy on also busted, it was over. After both ARI and ORL stacks failed on Saturday, I tilted and maxed out the Sunday slate to chase my expected losses. Bad emotional control.
 
-After Gardner bailed me out last week, I went with a 100% fade this week -- thinking that Terrell Watson would eat into his production and that he could not sustain his efficiency (in week 02, he had two touchdowns on only three snaps). Watson vultured two 2pt conversions and siphoned 14 touches -- but Gardner hit an 83-yard TD run anyways and was a must-have to win on the Sunday slate.
+After Gardner bailed me out last week, I went with a 100% fade this week -- thinking that Terrell Watson would eat into his production and that he could not sustain his efficiency (in week 02, he had two touchdowns on only three red zone snaps). Watson vultured two 2pt conversions and siphoned 14 touches -- but Gardner hit an 83-yard TD run anyways and was a must-have to win on the Sunday slate.
 
 A few positives to take away:
 
