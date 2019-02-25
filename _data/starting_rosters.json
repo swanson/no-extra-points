@@ -102,7 +102,7 @@
           "short_name": "M. Bundy",
           "last_name": "Bundy",
           "first_name": "Marquis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MqZf-3qxsCos4Y7zFSAGW72De8Qa",
@@ -138,7 +138,7 @@
           "short_name": "R. Mullaney",
           "last_name": "Mullaney",
           "first_name": "Richard",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
@@ -174,7 +174,7 @@
           "short_name": "T. Duarte",
           "last_name": "Duarte",
           "first_name": "Thomas",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
@@ -397,7 +397,7 @@
           "short_name": "C. Standberry, Jr.",
           "last_name": "Standberry, Jr.",
           "first_name": "Charles",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mof0DIIcKBs9BlqLq7I1kGSR4pnx",
@@ -409,7 +409,7 @@
           "short_name": "K. Towbridge",
           "last_name": "Towbridge",
           "first_name": "Keith",
-          "starting": false
+          "starting": true
         }
       ]
     },
@@ -784,6 +784,18 @@
           "last_name": "Ross",
           "first_name": "Kayaune",
           "starting": false
+        },
+        {
+          "guid": "Mpc5pPtq5oFQrAk8nDVXnbKV4P1D",
+          "slug": "gerrard-sheppard",
+          "name": "Gerrard Sheppard",
+          "position": "WR",
+          "number": 82,
+          "team": "MEM",
+          "short_name": "G. Sheppard",
+          "last_name": "Sheppard",
+          "first_name": "Gerrard",
+          "starting": true
         },
         {
           "guid": "Mjwho2KhxUh6xpMCmX3U-V_km0UF",
@@ -1169,7 +1181,7 @@
           "short_name": "A. Jennings",
           "last_name": "Jennings",
           "first_name": "Adonis",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MnvL6-GbEKvM2KNii88YtoXpeeCF",
@@ -1205,6 +1217,18 @@
           "short_name": "D. Pierson-El",
           "last_name": "Pierson-El",
           "first_name": "De'Mornay",
+          "starting": true
+        },
+        {
+          "guid": "MhfUsZoRzun-PJwfaZuaJS10nFTd",
+          "slug": "brian-tyms",
+          "name": "Brian Tyms",
+          "position": "WR",
+          "number": 18,
+          "team": "SL",
+          "short_name": "B. Tyms",
+          "last_name": "Tyms",
+          "first_name": "Brian",
           "starting": true
         },
         {
@@ -1452,7 +1476,7 @@
           "short_name": "C. Hunt",
           "last_name": "Hunt",
           "first_name": "Cole",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mgb_UtvY7qtHpPKINg1QkU5ov9OJ",
