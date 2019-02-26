@@ -67,7 +67,7 @@ Getting air yards data also unlocks another advanced metric that describes recei
 
 The naive efficiency measure of a receiver is how many of their targets they caught. But intuitively, we know that we expect receivers to catch fewer deep bombs than screen passes. A deep threat will catch fewer of their targets, but the catches will go for more yards than someone running 4-yard crossing routes all game.
 
-RACR -- receiving air yards conversion ratio -- is a metric developed by [Josh Hermsmeyer](https://twitter.com/friscojosh) to account for this. Per Josh: "RACR measures how many receiving yards a player creates for every air yard thrown at him".
+RACR -- receiver air conversion ratio -- is a metric developed by [Josh Hermsmeyer](https://twitter.com/friscojosh) to account for this. Per Josh: "RACR measures how many receiving yards a player creates for every air yard thrown at him".
 
 The formula is: RACR = Receiving Yards / Air Yards
 
