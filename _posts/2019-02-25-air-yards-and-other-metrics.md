@@ -103,7 +103,7 @@ From this intent, we can derive a better efficiency metric than catch rate (RACR
 
 Air yards help us understand WR usage on a much finer level of detail than traditional boxscore data (or even metrics like snap count or routes run).
 
-I'll be working with Josh for the rest of the season to implement his predictive "Buy Low Model".
+I'll be working with Josh for the rest of the season to implement his predictive "Air Yards Buy Low Model".
 
 It's a machine learning model that uses air yards data to predict situations where a player has under-performed expectations (based on opportunity) and may be due for a spiked production week. It's been very successful for NFL and we're excited to see if the results will carry over into the AAF!
 
