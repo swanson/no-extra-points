@@ -6,12 +6,17 @@
       <th>Position</th>
       <th>REC</th>
       <th>TAR</th>
+      <th>TAR MS</th>
       <th>YDS</th>
       <th>LONG</th>
       <th>TD</th>
       <th>2PT</th>
       <th>AIR YD</th>
+      <th>AIR MS</th>
       <th>YAC</th>
+      <th>aDOT</th>
+      <th>RACR</th>
+      <th>WOPR</th>
       <th>FPts</th>
     </tr>
   </thead>
@@ -31,12 +36,17 @@ reverse %}
           <td>{{ player.position }}</td>
           <td>{{ player.season_stats.catches }}</td>
           <td>{{ player.season_stats.targets }}</td>
+          <td>{{ player.season_stats.target_market_share }}</td>
           <td>{{ player.season_stats.receiving_yards }}</td>
           <td>{{ player.season_stats.receiving_long }}</td>
           <td>{{ player.season_stats.receiving_td }}</td>
           <td>{{ player.season_stats.receiving_2pc }}</td>
           <td>{{ player.season_stats.receiving_air_yards }}</td>
+          <td>{{ player.season_stats.air_yards_market_share }}</td>
           <td>{{ player.season_stats.yac }}</td>
+          <td>{{ player.season_stats.average_depth_of_target }}</td>
+          <td>{{ player.season_stats.racr }}</td>
+          <td>{{ player.season_stats.wopr }}</td>
           <td>{{ player.season_stats.fpts }}</td>
         </tr>
         {% endif %}
@@ -57,12 +67,17 @@ reverse %}
               <td>{{ player.position }}</td>
               <td>{{ gamelog.catches }}</td>
               <td>{{ gamelog.targets }}</td>
+              <td>{{ gamelog.target_market_share }}</td>
               <td>{{ gamelog.receiving_yards }}</td>
               <td>{{ gamelog.receiving_long }}</td>
               <td>{{ gamelog.receiving_td }}</td>
               <td>{{ gamelog.receiving_2pc }}</td>
               <td>{{ gamelog.receiving_air_yards }}</td>
+              <td>{{ gamelog.air_yards_market_share }}</td>
               <td>{{ gamelog.yac }}</td>
+              <td>{{ gamelog.average_depth_of_target }}</td>
+              <td>{{ gamelog.racr }}</td>
+              <td>{{ gamelog.wopr }}</td>
               <td>{{ gamelog.fpts }}</td>
             </tr>
           {% endif %}

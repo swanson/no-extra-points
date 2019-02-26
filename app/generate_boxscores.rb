@@ -2,7 +2,7 @@ require_relative "./aaf"
 require "pry"
 require "time"
 
-CURRENT_WEEK = 3
+CURRENT_WEEK = 4
 
 ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
 {
@@ -55,6 +55,10 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
           stats {
             player {
               id
+              name{
+                familyName
+                givenName
+              }
             }
             type
             subtype
@@ -272,7 +276,8 @@ def extract_play_by_play(plays, game, all_players)
       field_goal_made: desc.match?(field_goal),
       lost_fumble: desc.match?(lost_fumble),
       turnover: desc.match?(interception) || desc.match?(lost_fumble),
-      safety: desc.match?(safety)
+      safety: desc.match?(safety),
+      stats: node.stats&.map(&:to_h),
     }
 
     if desc.match?(run_play) && !desc.match?(pass_play)
@@ -331,7 +336,7 @@ def extract_air_yards(player, plays)
     if p.stats.any?{|s| s.player&.id == player[:guid] && s.type == "PASS_TARGET"}
       air_yard_stat = p.stats.find{|s| s.type == "AIR_YARDS_COMPLETE" || s.type == "AIR_YARDS_INCOMPLETE" }
       if air_yard_stat
-        ay += air_yard_stat.value.to_i unless air_yard_stat.is_nullified?
+        ay += air_yard_stat.value.to_i unless air_yard_stat.is_nullified? || air_yard_stat.value.to_i < 0
       end
     end
   end
@@ -396,7 +401,7 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
       punting_yards_net: edge.stats.punting_yards_net,
       punting_longest_kick: edge.stats.punting_longest_kick,
       target_market_share: 0,
-      air_yard_market_share: 0
+      air_yards_market_share: 0,
     }
 
     player_stats = calculate_averages(player_stats)
@@ -423,11 +428,17 @@ def compute_market_share_stats(stats)
   stats.each do |s|
     if s[:targets] > 0 && total_targets > 0
       s[:target_market_share] = (s[:targets] / total_targets.to_f).round(2)
+    else
+      s[:target_market_share] = 0
     end
 
     if s[:receiving_air_yards] > 0 && total_air_yards > 0
       s[:air_yards_market_share] = (s[:receiving_air_yards] / total_air_yards.to_f).round(2)
+    else
+      s[:air_yards_market_share] = 0
     end
+
+    s[:wopr] = (s[:target_market_share] * 1.5 + s[:air_yards_market_share] * 0.7).round(2)
   end
 
   stats
