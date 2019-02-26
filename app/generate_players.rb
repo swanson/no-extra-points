@@ -182,7 +182,7 @@ def get_game_logs(player, boxscores)
   logs
 end
 
-def compute_season_stats(logs)
+def compute_season_stats(logs, team_stats)
   totals = {}
   logs.each do |log|
     next if log["week_num"] < 1
@@ -209,10 +209,28 @@ def compute_season_stats(logs)
     totals["rush_ypc"] = 0
   end
 
+  if totals["targets"] && totals["targets"] > 0
+    totals["average_depth_of_target"] = (totals["receiving_air_yards"].to_f / totals["targets"].to_f).round(1)
+    totals["target_market_share"] = (totals["targets"].to_f / team_stats[:targets].to_f).round(2)
+    totals["air_yards_market_share"] = (totals["receiving_air_yards"].to_f / team_stats[:air_yards].to_f).round(2)
+    totals["wopr"] = (totals["target_market_share"] * 1.5 + totals["air_yards_market_share"] * 0.7).round(2)
+  else
+    totals["average_depth_of_target"] = 0
+    totals["target_market_share"] = 0
+    totals["air_yards_market_share"] = 0
+    totals["wopr"] = 0
+  end
+
+  if totals["receiving_air_yards"] && totals["receiving_air_yards"] > 0
+    totals["racr"] = (totals["receiving_yards"].to_f / totals["receiving_air_yards"]).round(1)
+  else
+    totals["racr"] = 0
+  end
+
   totals
 end
 
-def add_player(players, node, boxscores)
+def add_player(players, node, boxscores, team_stats)
   logs = get_game_logs(node, boxscores)
 
   players << {
@@ -232,7 +250,7 @@ def add_player(players, node, boxscores)
     status: get_status(node.roster_status),
     starting: false,
     game_logs: logs,
-    season_stats: compute_season_stats(logs),
+    season_stats: compute_season_stats(logs, team_stats[node.team&.abbreviation.to_sym]),
     platoon: node.platoon,
     biography: node.biography,
     college_history: (node.ncaa_fb_career&.seasons || []).map{|s| {
@@ -247,14 +265,70 @@ def add_player(players, node, boxscores)
   }
 end
 
+def compute_team_stats(boxscores)
+  team_stats = {
+    "BIR": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "ATL": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "ARI": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "MEM": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "ORL": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "SL": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "SD": {
+      targets: 0,
+      air_yards: 0,
+    },
+    "SA": {
+      targets: 0,
+      air_yards: 0,
+    },
+  }
+
+  boxscores.each do |bs|
+    next if bs["week_num"] < 1
+
+    [
+      "home_stats",
+      "away_stats"
+    ].each do |k|
+      bs[k].each do |s|
+        key = s["player"]["team"].to_sym
+        team_stats[key][:targets] += s["targets"]
+        team_stats[key][:air_yards] += s["receiving_air_yards"]
+      end
+    end
+  end
+
+  team_stats
+end
+
 path = File.join(File.dirname(__FILE__), '../_data', 'boxscores.json')
 boxscores = JSON.parse(File.open(path).read)["boxscores"]
+
+team_stats = compute_team_stats(boxscores)
 
 result = AAF::Client.query(ALL_PLAYERS)
 result.data.players_connection.nodes.each do |node|
   next unless node.team
 
-  add_player(players, node, boxscores)
+  add_player(players, node, boxscores, team_stats)
 end
 
 sort_order = {
