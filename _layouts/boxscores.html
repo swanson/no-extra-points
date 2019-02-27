@@ -519,7 +519,17 @@ nav: boxscores
     <div class="px-4">
       <h3>Full Play-by-Play</h3>
       <ul class="list-reset mt-4 text-sm">
+        {% assign quarter = 1 %}
         {% for play in game.play_by_play %}
+          {% if play.quarter != quarter %}
+            <div class="font-bold py-2 text-lg text-center border-t border-b my-2">END OF
+              {% if play.quarter == 3 %}
+                HALF
+              {% else %}
+                QUARTER
+              {% endif %}
+            </div>
+          {% endif %}
           <li class="flex p-2 items-center">
             <span class="w-12 py-2 px-1 rounded text-center text-white bg-{{ play.possession }}-secondary">{{ play.possession }}</span>
             <p class="flex-1 inline-block word-wrap ml-4">
@@ -531,6 +541,7 @@ nav: boxscores
                | Q{{play.quarter}} | {{ play.description }}
             </p>
           </li>
+          {% assign quarter = play.quarter %}
         {% endfor %}
       </ul>
     </div>
