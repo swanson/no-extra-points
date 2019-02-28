@@ -1,0 +1,263 @@
+---
+layout: default
+title: Team Stats
+permalink: /team-stats
+nav: team-stats
+---
+
+{% assign modes = "allowed, generated" | split: ", " %}
+
+{% for mode in modes %}
+  <div class="team-header aaf-header rounded-t-lg flex items-center justify-between flex-wrap">
+    <h3 class="text-2xl tracking-wide my-2">Quarterback &ndash; Production {{ mode | capitalize }}</h3>
+  </div>
+  <div class="leaderboard shadow-lg rounded-b-lg mb-16">
+    <table class="stripe w-full nowrap">
+      <thead>
+        <tr class="text-xs bg-blue-lightest">
+          <th></th>
+          <th colspan="7" class="border-r border-grey-light">Per Game</th>
+          <th colspan="7" class="border-r border-grey-light">Season Totals</th>
+        </tr>
+        <tr class="text-xs text-center">
+          <th class="border-r border-grey-light">Team</th>
+          <th>Fantasy Pts</th>
+          <th>Attempts</th>
+          <th>Completions</th>
+          <th>Passing Yards</th>
+          <th>Passing TD</th>
+          <th>Passing 2PT</th>
+          <th class="border-r border-grey-light">Passing Air Yards</th>
+          <th>Fantasy Pts</th>
+          <th>Attempts</th>
+          <th>Completions</th>
+          <th>Passing Yards</th>
+          <th>Passing TD</th>
+          <th>Passing 2PT</th>
+          <th>Passing Air Yards</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team_stats in site.data.team_stats.data %}
+          <tr class="text-sm text-center">
+            <td class="border-r border-grey-light">{{ team_stats.team }}</td>
+            <td>{{ team_stats.totals[mode].qb.fpts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_attempts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_complete_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_td_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_2pc_per_game }}</td>
+            <td class="border-r border-grey-light">{{ team_stats.totals[mode].qb.passing_air_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].qb.fpts }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_attempts }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_complete }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_yards }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_td }}</td>
+            <td>{{ team_stats.totals[mode].qb.pass_2pc }}</td>
+            <td>{{ team_stats.totals[mode].qb.passing_air_yards }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endfor %}
+
+{% for mode in modes %}
+  <div class="team-header aaf-header rounded-t-lg flex items-center justify-between flex-wrap">
+    <h3 class="text-2xl tracking-wide my-2">Running Back &ndash; Production {{ mode | capitalize }}</h3>
+  </div>
+  <div class="leaderboard shadow-lg rounded-b-lg mb-16">
+    <table class="stripe w-full nowrap">
+      <thead>
+        <tr class="text-xs bg-blue-lightest">
+          <th></th>
+          <th colspan="10" class="border-r border-grey-light">Per Game</th>
+          <th colspan="10" class="border-r border-grey-light">Season Totals</th>
+        </tr>
+        <tr class="text-xs text-center">
+          <th class="border-r border-grey-light">Team</th>
+          <th>Fantasy Pts</th>
+          <th>Carries</th>
+          <th>Rushing Yards</th>
+          <th>Rushing TD</th>
+          <th>Rushing 2PT</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Receiving TD</th>
+          <th class="border-r border-grey-light">Receiving 2PT</th>
+          <th>Fantasy Pts</th>
+          <th>Carries</th>
+          <th>Rushing Yards</th>
+          <th>Rushing TD</th>
+          <th>Rushing 2PT</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Receiving TD</th>
+          <th>Receiving 2PT</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team_stats in site.data.team_stats.data %}
+          <tr class="text-sm text-center">
+            <td class="border-r border-grey-light">{{ team_stats.team }}</td>
+            <td>{{ team_stats.totals[mode].rb.fpts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_attempts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_td_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.rushing_2pc_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.catches_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.targets_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.receiving_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.receiving_td_per_game }}</td>
+            <td class="border-r border-grey-light">{{ team_stats.totals[mode].rb.receiving_2pc_per_game }}</td>
+            <td>{{ team_stats.totals[mode].rb.fpts }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_attempts }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_yards }}</td>
+            <td>{{ team_stats.totals[mode].rb.rush_td }}</td>
+            <td>{{ team_stats.totals[mode].rb.rushing_2pc }}</td>
+            <td>{{ team_stats.totals[mode].rb.catches }}</td>
+            <td>{{ team_stats.totals[mode].rb.targets }}</td>
+            <td>{{ team_stats.totals[mode].rb.receiving_yards }}</td>
+            <td>{{ team_stats.totals[mode].rb.receiving_td }}</td>
+            <td>{{ team_stats.totals[mode].rb.receiving_2pc }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endfor %}
+
+{% for mode in modes %}
+  <div class="team-header aaf-header rounded-t-lg flex items-center justify-between flex-wrap">
+    <h3 class="text-2xl tracking-wide my-2">Wide Receiver &ndash; Production {{ mode | capitalize }}</h3>
+  </div>
+  <div class="leaderboard shadow-lg rounded-b-lg mb-16">
+    <table class="stripe w-full nowrap">
+      <thead>
+        <tr class="text-xs bg-blue-lightest">
+          <th></th>
+          <th colspan="8" class="border-r border-grey-light">Per Game</th>
+          <th colspan="8" class="border-r border-grey-light">Season Totals</th>
+        </tr>
+        <tr class="text-xs text-center">
+          <th class="border-r border-grey-light">Team</th>
+          <th>Fantasy Pts</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Air Yards</th>
+          <th>YAC</th>
+          <th>Receiving TD</th>
+          <th class="border-r border-grey-light">Receiving 2PT</th>
+          <th>Fantasy Pts</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Air Yards</th>
+          <th>YAC</th>
+          <th>Receiving TD</th>
+          <th>Receiving 2PT</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team_stats in site.data.team_stats.data %}
+          <tr class="text-sm text-center">
+            <td class="border-r border-grey-light">{{ team_stats.team }}</td>
+            <td>{{ team_stats.totals[mode].wr.fpts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.catches_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.targets_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_air_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.yac_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_td_per_game }}</td>
+            <td class="border-r border-grey-light">{{ team_stats.totals[mode].wr.receiving_2pc_per_game }}</td>
+            <td>{{ team_stats.totals[mode].wr.fpts }}</td>
+            <td>{{ team_stats.totals[mode].wr.catches }}</td>
+            <td>{{ team_stats.totals[mode].wr.targets }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_yards }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_air_yards }}</td>
+            <td>{{ team_stats.totals[mode].wr.yac }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_td }}</td>
+            <td>{{ team_stats.totals[mode].wr.receiving_2pc }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endfor %}
+
+{% for mode in modes %}
+  <div class="team-header aaf-header rounded-t-lg flex items-center justify-between flex-wrap">
+    <h3 class="text-2xl tracking-wide my-2">Tight End &ndash; Production {{ mode | capitalize }}</h3>
+  </div>
+  <div class="leaderboard shadow-lg rounded-b-lg mb-16">
+    <table class="stripe w-full nowrap">
+      <thead>
+        <tr class="text-xs bg-blue-lightest">
+          <th></th>
+          <th colspan="8" class="border-r border-grey-light">Per Game</th>
+          <th colspan="8" class="border-r border-grey-light">Season Totals</th>
+        </tr>
+        <tr class="text-xs text-center">
+          <th class="border-r border-grey-light">Team</th>
+          <th>Fantasy Pts</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Air Yards</th>
+          <th>YAC</th>
+          <th>Receiving TD</th>
+          <th class="border-r border-grey-light">Receiving 2PT</th>
+          <th>Fantasy Pts</th>
+          <th>Receptions</th>
+          <th>Targets</th>
+          <th>Receiving Yards</th>
+          <th>Air Yards</th>
+          <th>YAC</th>
+          <th>Receiving TD</th>
+          <th>Receiving 2PT</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team_stats in site.data.team_stats.data %}
+          <tr class="text-sm text-center">
+            <td class="border-r border-grey-light">{{ team_stats.team }}</td>
+            <td>{{ team_stats.totals[mode].te.fpts_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.catches_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.targets_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_air_yards_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.yac_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_td_per_game }}</td>
+            <td class="border-r border-grey-light">{{ team_stats.totals[mode].te.receiving_2pc_per_game }}</td>
+            <td>{{ team_stats.totals[mode].te.fpts }}</td>
+            <td>{{ team_stats.totals[mode].te.catches }}</td>
+            <td>{{ team_stats.totals[mode].te.targets }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_yards }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_air_yards }}</td>
+            <td>{{ team_stats.totals[mode].te.yac }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_td }}</td>
+            <td>{{ team_stats.totals[mode].te.receiving_2pc }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endfor %}
+
+<script>
+  $('table').DataTable({
+    autoWidth: false,
+    fixedColumns: true,
+    scrollX: true,
+    paging: false,
+    searching: true,
+    ordering: true,
+    info: false,
+    order: [[ 1, "desc"]],
+    dom: "iptl<'datatable-actions'fB>",
+    buttons: ['csv']
+  });
+</script>
