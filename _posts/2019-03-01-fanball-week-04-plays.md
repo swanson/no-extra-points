@@ -40,15 +40,13 @@ With Memphis’ offense looking primed to see an increase in production, many of
 
 <h3 class="team-header aaf-header">GPP Pairing</h3>
 
-## John Wolford ($5,700) / Mekale McKay ($6,300)
-
-It's not a traditional QB/WR stack from the same team, but building lineups around these two core plays is my favorite way to start GPP lineups this week.
+## John Wolford ($5,700) / Rashad Ross ($6,900)
 
 After leaving Week 3 with an injury, John Wolford looks on track to suit up for Week 4. Severely dropping in price, Wolford comes in as the sixth-most expensive quarterback on the slate. Unlike most quarterbacks in the AAF, Wolford brings a decent rushing floor, leading the league with 17 carries. As a passer, Wolford 63% completion percentage comes in near the top of the league, making him a solid value play on the slate.
 
-Mekale McKay stands out from volume perspective. McKay leagues the league in both targets (27) and red zone targets (9). Mckay has also seen the fourth-most air yards (302), showing the ability to make plays on the ball down the field.
+Rashad Ross stands out from volume perspective. He's coming a game where he tied for the team league in targets (8), including three in the redzone. With Arizona WR Richard Mullaney ruled out for the second week in a row, expect a repeat of last week from the AAF's receiving touchdown leader
 
-Fire these two up with confidence -- together -- in GPPs for Week 4.
+The Atlanta Legends present arguably the best possible matchup on the entire slate for an opposing offense. Fire these two up with confidence in GPPs for Week 4.
 
 ---
 
