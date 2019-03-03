@@ -239,7 +239,7 @@ nav: boxscores
                 {% assign passing_stats = game[key] | sort: "pass_yards" | reverse %}
 
                 {% for stats in passing_stats %}
-                  {% if stats.pass_attempts > 0 %}
+                  {% if stats.pass_attempts > 0 or stats.passing_2pc > 0 %}
                     <tr>
                       <td class="name">
                         <span class="inline-number">{{ stats.player.number }}</span>
