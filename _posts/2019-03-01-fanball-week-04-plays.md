@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAF Fanball DFS Rundown - Week 03
+title: AAF Fanball DFS Rundown - Week 04
 nav: articles
 author: Matt Gajewski
 twitter: Matt_Gajewski
