@@ -217,7 +217,7 @@
           "short_name": "A. Murray",
           "last_name": "Murray",
           "first_name": "Aaron",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MkpKbd9cizc4HjHP8RKBiKXmRtUz",
@@ -241,7 +241,7 @@
           "short_name": "M. Simms",
           "last_name": "Simms",
           "first_name": "Matt",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mr5k7hAZFnvFAoDhfOnpMECSCZeC",
@@ -1519,7 +1519,7 @@
           "short_name": "M. Bercovici",
           "last_name": "Bercovici",
           "first_name": "Mike",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MmmuFoG-vnNtsk7UNiIQVAlP6iFp",
@@ -1531,7 +1531,7 @@
           "short_name": "P. Nelson",
           "last_name": "Nelson",
           "first_name": "Philip",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmvHKLCRyZq-N-Gt2TxaMx3PtX1B",
