@@ -19,7 +19,7 @@ _Note: all snap counts and routes run data comes from game film analysis and are
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -30,6 +30,7 @@ _Note: all snap counts and routes run data comes from game film analysis and are
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -57,6 +58,7 @@ _Note: all snap counts and routes run data comes from game film analysis and are
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -91,7 +93,7 @@ I expected Stockton to be involved and to put up more than 14 total yards. Stock
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -102,6 +104,7 @@ I expected Stockton to be involved and to put up more than 14 total yards. Stock
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -129,6 +132,7 @@ I expected Stockton to be involved and to put up more than 14 total yards. Stock
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -167,7 +171,7 @@ Hunt remains a highly volatile RB2/3 option in season long and DFS at \$5100 but
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -178,6 +182,7 @@ Hunt remains a highly volatile RB2/3 option in season long and DFS at \$5100 but
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -205,6 +210,7 @@ Hunt remains a highly volatile RB2/3 option in season long and DFS at \$5100 but
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -249,7 +255,7 @@ Isaac did not receive a snap and barring an injury probably won’t see the fiel
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -260,6 +266,7 @@ Isaac did not receive a snap and barring an injury probably won’t see the fiel
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -287,6 +294,7 @@ Isaac did not receive a snap and barring an injury probably won’t see the fiel
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -329,7 +337,7 @@ Green was inactive again, but with Cobb only playing 1 snap maybe he sees anothe
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -340,6 +348,7 @@ Green was inactive again, but with Cobb only playing 1 snap maybe he sees anothe
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -367,6 +376,7 @@ Green was inactive again, but with Cobb only playing 1 snap maybe he sees anothe
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -405,7 +415,7 @@ Newby just seems to be along for the ride and will never be fantasy viable. He r
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -416,6 +426,7 @@ Newby just seems to be along for the ride and will never be fantasy viable. He r
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -443,6 +454,7 @@ Newby just seems to be along for the ride and will never be fantasy viable. He r
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -489,7 +501,7 @@ Sankey possesses upside based on his NFL pedigree, but is still a high risk play
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -500,6 +512,7 @@ Sankey possesses upside based on his NFL pedigree, but is still a high risk play
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -527,6 +540,7 @@ Sankey possesses upside based on his NFL pedigree, but is still a high risk play
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
@@ -565,7 +579,7 @@ Magee fell to third on the depth chart, but did catch a TD to salvage his fantas
       <tr class="text-xs bg-blue-lightest">
         <th></th>
         <th colspan="2" class="border-l border-r border-grey-light">Boxscores</th>
-        <th colspan="4" class="border-r border-grey-light">Usage</th>
+        <th colspan="5" class="border-r border-grey-light">Usage</th>
         <th colspan="2" class="border-r border-grey-light">3rd Down</th>
         <th colspan="2" class="border-r border-grey-light">Red Zone</th>
         <th colspan="2" class="border-r border-grey-light">Goal Line / 2PT</th>
@@ -576,6 +590,7 @@ Magee fell to third on the depth chart, but did catch a TD to salvage his fantas
         <th class="border-r border-grey-light">Receiving</th>
         <th>Snaps</th>
         <th>Snap %</th>
+        <th>Drives</th>
         <th>Routes</th>
         <th class="border-r border-grey-light">Touch %</th>
         <th>Snaps</th>
@@ -603,6 +618,7 @@ Magee fell to third on the depth chart, but did catch a TD to salvage his fantas
             </td>
             <td>{{ rb.snap_count }}</td>
             <td>{{ rb.snap_percentage }}</td>
+            <td>{{ rb.drives_played }}</td>
             <td>{{ rb.routes_ran }}</td>
             <td class="border-r border-grey-light">{{ rb.touch_percentage }}</td>
             <td>{{ rb.third_down_snaps }}</td>
