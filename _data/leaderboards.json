@@ -40,6 +40,14 @@
     "title": "AAF Week 4 Fantasy Leaderboard"
   },
   {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": 5,
+    "slug": "fantasy/5",
+    "permalink": "/leaderboards/fantasy/5",
+    "title": "AAF Week 5 Fantasy Leaderboard"
+  },
+  {
     "type": "passing",
     "display_type": "Passing",
     "week": "all",
@@ -78,6 +86,14 @@
     "slug": "passing/4",
     "permalink": "/leaderboards/passing/4",
     "title": "AAF Week 4 Passing Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": 5,
+    "slug": "passing/5",
+    "permalink": "/leaderboards/passing/5",
+    "title": "AAF Week 5 Passing Leaderboard"
   },
   {
     "type": "rushing",
@@ -120,6 +136,14 @@
     "title": "AAF Week 4 Rushing Leaderboard"
   },
   {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": 5,
+    "slug": "rushing/5",
+    "permalink": "/leaderboards/rushing/5",
+    "title": "AAF Week 5 Rushing Leaderboard"
+  },
+  {
     "type": "receiving",
     "display_type": "Receiving",
     "week": "all",
@@ -160,6 +184,14 @@
     "title": "AAF Week 4 Receiving Leaderboard"
   },
   {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": 5,
+    "slug": "receiving/5",
+    "permalink": "/leaderboards/receiving/5",
+    "title": "AAF Week 5 Receiving Leaderboard"
+  },
+  {
     "type": "defense",
     "display_type": "Defense",
     "week": "all",
@@ -198,5 +230,13 @@
     "slug": "defense/4",
     "permalink": "/leaderboards/defense/4",
     "title": "AAF Week 4 Defense Leaderboard"
+  },
+  {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": 5,
+    "slug": "defense/5",
+    "permalink": "/leaderboards/defense/5",
+    "title": "AAF Week 5 Defense Leaderboard"
   }
 ]
