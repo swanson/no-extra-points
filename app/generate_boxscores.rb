@@ -67,6 +67,17 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
           }
         }
       }
+      officialsConnection {
+        edges {
+          position
+          node {
+            name {
+              givenName
+              familyName
+            }
+          }
+        }
+      }
       playersConnection(first: 500) {
         edges {
           node {
@@ -577,6 +588,17 @@ def get_network(node)
   node.availability.first.short_name
 end
 
+def extract_officials(node)
+  refs = []
+  node.officials_connection.edges.each do |edge|
+    refs << {
+      position: edge.position.humanize,
+      name: edge.node.name.given_name + " " + edge.node.name.family_name
+    }
+  end
+  refs
+end
+
 def add_boxscore(node)
   home = node.home_team.name
   away = node.away_team.name
@@ -613,6 +635,7 @@ def add_boxscore(node)
       away_team: node.status&.away_team_points_by_quarter,
     },
     scoring_plays: generate_scoring_plays(node, plays),
+    officials: extract_officials(node)
   }
 end
 

@@ -517,7 +517,7 @@ nav: boxscores
     </div>
 
     <div class="px-4">
-      <h3>Full Play-by-Play</h3>
+      <h3 class="boxscore-section-title">Full Play-by-Play</h3>
       <ul class="list-reset mt-4 text-sm">
         {% assign quarter = 1 %}
         {% for play in game.play_by_play %}
@@ -542,6 +542,20 @@ nav: boxscores
             </p>
           </li>
           {% assign quarter = play.quarter %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="px-4">
+      <h3 class="boxscore-section-title">Game Information</h3>
+      <p class="py-2"><span class="font-bold">Stadium:</span> {{ game.stadium }}</p>
+      <p class="py-2"><span class="font-bold">TV:</span> {{ game.watch_on }}</p>
+
+      <h4 class="py-2">Officiating Crew</h4>
+      <ul class="list-reset px-2">
+        {% assign refs = game.officials | sort: "position" %}
+        {% for ref in refs %}
+          <li class="py-1">{{ ref.name }} ({{ ref.position }})</li>
         {% endfor %}
       </ul>
     </div>
