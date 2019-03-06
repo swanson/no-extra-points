@@ -276,7 +276,7 @@ def extract_play_by_play(plays, game, all_players)
       distance: node.yards_to_go.to_i,
       possession: possessing_team(node, game),
       quarter: node.quarter,
-      yard_line: node.yard_line,
+      yard_line: node.yard_line.round(0),
       yard_side: yard_side(node, game),
       nullified: node.has_penalty && desc.include?("No Play") || desc.include?("NULLIFIED"),
       touchdown: desc.match?(td_play),
@@ -338,6 +338,18 @@ def extract_player_details(node, team)
     id: player_id(node),
     short_name: node.name.given_name.chars.first + ". " + node.name.family_name,
   }
+end
+
+def extract_rz_targets(player, team_name, plays)
+  rzt = 0
+  plays.each do |p|
+    if p[:stats].any?{|s| s["player"] && s["player"]["id"] == player[:guid] && s["type"] == "PASS_TARGET"}
+      if p[:yard_side] != team_name && p[:yard_line] <= 20
+        rzt += 1
+      end
+    end
+  end
+  rzt
 end
 
 def extract_air_yards(player, plays)
@@ -407,6 +419,7 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
       yac: edge.stats.yards_after_catches,
       passing_air_yards: edge.stats.air_yards_attempted,
       receiving_air_yards: extract_air_yards(player, node.plays_connection.nodes),
+      redzone_targets: extract_rz_targets(player, edge.team.abbreviation, plays),
       punts_attempted: edge.stats.punts_attempted,
       punting_yards: edge.stats.punting_yards,
       punting_yards_net: edge.stats.punting_yards_net,

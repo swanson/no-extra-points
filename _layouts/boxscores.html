@@ -536,7 +536,7 @@ nav: boxscores
               {% if play.conversion_attempt or play.down == "0th" %}
                 2PT
               {% else%}
-                {{ play.down }} & {{ play.distance }}
+                {{ play.yard_side}} {{ play.yard_line }} | {{ play.down }} & {{ play.distance }}
               {% endif %}
                | Q{{play.quarter}} | {{ play.description }}
             </p>
