@@ -189,9 +189,17 @@ def compute_season_stats(logs, team_stats)
     log.each do |k, v|
       next unless v.is_a? Numeric
 
-      totals[k] = 0 if totals[k].nil?
-      totals[k] += v
-      totals[k] = totals[k].round(1)
+      if k == "rush_long" || k == "receiving_long"
+        if v >= (totals[k] || 0)
+          totals[k] = v
+        else
+          totals[k] = totals[k] || 0
+        end
+      else
+        totals[k] = 0 if totals[k].nil?
+        totals[k] += v
+        totals[k] = totals[k].round(1)
+      end
     end
   end
 
