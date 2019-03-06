@@ -6,7 +6,7 @@ author: Matt Gajewski
 twitter: Matt_Gajewski
 ---
 
-The **_Wide Receiver Slant_** series that focuses on identifying offense specific roles and high volume fantasy options at the WR position.
+The **_Wide Receiver Slant_** is a weekly series that focuses on identifying offense specific roles and high volume fantasy options at the WR position.
 
 With three games of AAF action in the books, team roles look more certain. Receivers now have a three-game sample of targets and air yards, giving AAF enthusiasts a better idea who to target in fantasy and DFS. Here are a few workload notes that stood out following Week 3’s game action.
 

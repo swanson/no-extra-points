@@ -6,7 +6,7 @@ author: Matt Gajewski
 twitter: Matt_Gajewski
 ---
 
-The **_Wide Receiver Slant_** series that focuses on identifying offense specific roles and high volume fantasy options at the WR position.
+The **_Wide Receiver Slant_** is a weekly series that focuses on identifying offense specific roles and high volume fantasy options at the WR position.
 
 **Updated: Friday, Feb 22**
 
