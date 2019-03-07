@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AAF Trendspotting - Three Weeks In
+title: AAF Trendspotting - Four Weeks In
 nav: articles
 author: JR Reynolds
 twitter: JR_Reynolds17
