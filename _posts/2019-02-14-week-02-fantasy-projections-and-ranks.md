@@ -3,7 +3,7 @@ layout: post
 title: AAF Fantasy Projections and Rankings - Week 02
 nav: articles
 author: Anders Eagleson
-twitter: Anders157
+twitter: AndersEagleson
 ---
 
 <p class="italic">Access the full player projections here: <a href="/projections/2019-week-02">Week 02 AAF Fantasy Projections</a></p>
