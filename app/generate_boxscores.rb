@@ -614,8 +614,10 @@ def generate_scoring_plays(node, plays)
   end
 
   scoring_plays.each do |p|
-    if p[:int_td] || p[:fumble_td] || (p[:fumble_td] && p[:punt])
-      p[:possession] = p[:defending_team]
+    if p[:int_td] || p[:punt_td] || (p[:fumble_td] && !p[:punt_play])
+      dteam = p[:defending_team]
+      p[:defending_team] = p[:possession]
+      p[:possession] = dteam
     end
   end
 
