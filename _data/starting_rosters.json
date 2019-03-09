@@ -114,7 +114,7 @@
           "short_name": "J. Huff",
           "last_name": "Huff",
           "first_name": "Josh",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvMPK87RjthDpgkxi-5PMRJI56FG",
@@ -150,7 +150,7 @@
           "short_name": "R. Mullaney",
           "last_name": "Mullaney",
           "first_name": "Richard",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
@@ -1121,7 +1121,7 @@
           "short_name": "B. Oliver",
           "last_name": "Oliver",
           "first_name": "Branden",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MoIfI6pzRT6PEupCPEz5uDPNSp9E",
@@ -1145,7 +1145,7 @@
           "short_name": "T. Newby",
           "last_name": "Newby",
           "first_name": "Terrell",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MgVmCgzjMvE-XO-J-zjrGbi-rCOd",

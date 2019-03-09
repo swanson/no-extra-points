@@ -166,19 +166,34 @@
       "ppr_fpts": 3.1
     },
     {
+      "id": "Mnc8xISXCM-ArpeuLVABzhBG1xBr",
+      "player": "Ben Johnson",
+      "tar_pg": 1,
+      "td": 0,
+      "rec": 1,
+      "rec_yards_pg": 18,
+      "yac": 1,
+      "air_yards_pg": 17,
+      "aypt": 17.0,
+      "racr": 1.06,
+      "ms_air_yards": 0.04,
+      "target_share": 0.03,
+      "ppr_fpts": 2.8
+    },
+    {
       "id": "MpWMIkFb1L5PEgV4vYswWm1p0gEO",
       "player": "Gavin Escobar",
-      "tar_pg": 5,
+      "tar_pg": 4,
       "td": 0,
-      "rec": 4,
-      "rec_yards_pg": 66,
-      "yac": 15,
-      "air_yards_pg": 66,
-      "aypt": 13.2,
-      "racr": 1.0,
-      "ms_air_yards": 0.17,
-      "target_share": 0.14,
-      "ppr_fpts": 10.6
+      "rec": 3,
+      "rec_yards_pg": 48,
+      "yac": 14,
+      "air_yards_pg": 49,
+      "aypt": 12.3,
+      "racr": 0.98,
+      "ms_air_yards": 0.13,
+      "target_share": 0.11,
+      "ppr_fpts": 7.8
     },
     {
       "id": "Ms7obZS7dFXxIdQMVfg1WsQJeF3y",
@@ -1651,7 +1666,7 @@
       "aypt": 4.1,
       "racr": 2.73,
       "ms_air_yards": 0.17,
-      "target_share": 0.26,
+      "target_share": 0.27,
       "ppr_fpts": 25.0
     },
     {
@@ -1696,7 +1711,7 @@
       "aypt": 19.0,
       "racr": 0.0,
       "ms_air_yards": 0.2,
-      "target_share": 0.06,
+      "target_share": 0.07,
       "ppr_fpts": 0.0
     },
     {
@@ -1747,17 +1762,17 @@
     {
       "id": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
       "player": "Kaelin Clay",
-      "tar_pg": 7,
+      "tar_pg": 6,
       "td": 0,
-      "rec": 5,
-      "rec_yards_pg": 27,
-      "yac": 23,
+      "rec": 4,
+      "rec_yards_pg": 28,
+      "yac": 21,
       "air_yards_pg": 66,
-      "aypt": 9.4,
-      "racr": 0.41,
+      "aypt": 11.0,
+      "racr": 0.42,
       "ms_air_yards": 0.34,
-      "target_share": 0.23,
-      "ppr_fpts": 7.7
+      "target_share": 0.2,
+      "ppr_fpts": 6.7
     },
     {
       "id": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
@@ -2152,16 +2167,16 @@
     {
       "id": "MkXtS_Yu0mkc3BP5bNBQeSCOTJvC",
       "player": "Wes Saxton, Jr. ",
-      "tar_pg": 5,
+      "tar_pg": 4,
       "td": 0,
       "rec": 3,
       "rec_yards_pg": 25,
       "yac": 10,
-      "air_yards_pg": 38,
-      "aypt": 7.6,
-      "racr": 0.66,
-      "ms_air_yards": 0.15,
-      "target_share": 0.17,
+      "air_yards_pg": 31,
+      "aypt": 7.8,
+      "racr": 0.81,
+      "ms_air_yards": 0.13,
+      "target_share": 0.14,
       "ppr_fpts": 5.5
     },
     {
@@ -2205,7 +2220,7 @@
       "air_yards_pg": 49,
       "aypt": 16.3,
       "racr": 0.0,
-      "ms_air_yards": 0.19,
+      "ms_air_yards": 0.2,
       "target_share": 0.1,
       "ppr_fpts": 0.0
     },
@@ -2235,7 +2250,7 @@
       "air_yards_pg": 29,
       "aypt": 14.5,
       "racr": 1.07,
-      "ms_air_yards": 0.11,
+      "ms_air_yards": 0.12,
       "target_share": 0.07,
       "ppr_fpts": 5.1
     },
@@ -2250,7 +2265,7 @@
       "air_yards_pg": 57,
       "aypt": 11.4,
       "racr": 1.02,
-      "ms_air_yards": 0.22,
+      "ms_air_yards": 0.23,
       "target_share": 0.17,
       "ppr_fpts": 9.8
     },
