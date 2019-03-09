@@ -193,6 +193,14 @@ def possessing_team(node, game)
   end
 end
 
+def defending_team(node, game, punt)
+  if node.possession == "HOME_TEAM"
+    game.away_team.abbreviation
+  else
+    game.home_team.abbreviation
+  end
+end
+
 def yard_side(node, game)
   if node.yard_line_team == "HOME_TEAM"
     game.home_team.abbreviation
@@ -251,9 +259,14 @@ def conversion_success(desc)
   return desc.index(conv_success) > desc.index(conv_failed)
 end
 
+def special_td?(node, type)
+  node.stats && node.stats.any?{|s| s.type == type}
+end
+
 def extract_play_by_play(plays, game, all_players)
   run_play = /left|right/mi
   pass_play = /pass/mi
+  punt_play = /punts/mi
   td_play = /TOUCHDOWN/m
   conv_play = /CONVERSION ATTEMPT/m
   conv_success = /ATTEMPT SUCCEEDS/m
@@ -275,6 +288,7 @@ def extract_play_by_play(plays, game, all_players)
       down: ordinal(node.down),
       distance: node.yards_to_go.to_i,
       possession: possessing_team(node, game),
+      defending_team: defending_team(node, game, desc.match?(punt_play)),
       quarter: node.quarter,
       yard_line: node.yard_line.round(0),
       yard_side: yard_side(node, game),
@@ -289,6 +303,10 @@ def extract_play_by_play(plays, game, all_players)
       turnover: desc.match?(interception) || desc.match?(lost_fumble),
       safety: desc.match?(safety),
       stats: node.stats&.map(&:to_h),
+      punt_play: desc.match?(punt_play),
+      int_td: special_td?(node, "INTERCEPTION_RETURN_YARDS_FOR_TOUCHDOWN"),
+      fumble_td: special_td?(node, "OPPONENT_FUMBLE_RECOVERY_YARDS_FOR_TOUCHDOWN"),
+      punt_td: special_td?(node, "PUNT_RETURN_YARDS_FOR_TOUCHDOWN"),
     }
 
     if desc.match?(run_play) && !desc.match?(pass_play)
@@ -356,7 +374,7 @@ def extract_air_yards(player, plays)
   ay = 0
 
   plays.each do |p|
-    if p.stats.any?{|s| s.player&.id == player[:guid] && s.type == "PASS_TARGET"}
+    if p.stats && p.stats.any?{|s| s.player&.id == player[:guid] && s.type == "PASS_TARGET"}
       air_yard_stat = p.stats.find{|s| s.type == "AIR_YARDS_COMPLETE" || s.type == "AIR_YARDS_INCOMPLETE" }
       if air_yard_stat
         ay += air_yard_stat.value.to_i unless air_yard_stat.is_nullified? || air_yard_stat.value.to_i < 0
@@ -591,9 +609,17 @@ def get_week_num(week)
 end
 
 def generate_scoring_plays(node, plays)
-  plays.select do |play|
+  scoring_plays = plays.select do |play|
     !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success] || play[:safety])
   end
+
+  scoring_plays.each do |p|
+    if p[:int_td] || p[:fumble_td] || (p[:fumble_td] && p[:punt])
+      p[:possession] = p[:defending_team]
+    end
+  end
+
+  scoring_plays
 end
 
 def get_network(node)

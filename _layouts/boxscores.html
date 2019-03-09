@@ -54,15 +54,15 @@ nav: boxscores
             <tbody>
               <tr class="text-center border-b">
                 <td class="font-bold text-{{game.away_abbr}}-secondary">{{ game.away_abbr }}</td>
-                {% for qtr_score in game.quarter_scores.away_team %}
-                  <td class="font-mono">{{ qtr_score }}</td>
+                {% for num in (0..3) %}
+                  <td class="font-mono">{{ game.quarter_scores.away_team[num] }}</td>
                 {% endfor %}
                 <td class="font-mono text-black font-bold">{{ game.away_score }}</td>
               </tr>
               <tr class="text-center border-b-2">
                 <td class="font-bold text-{{game.home_abbr}}-secondary">{{ game.home_abbr }}</td>
-                {% for qtr_score in game.quarter_scores.home_team %}
-                  <td class="font-mono">{{ qtr_score }}</td>
+                {% for num in (0..3) %}
+                  <td class="font-mono">{{ game.quarter_scores.home_team[num] }}</td>
                 {% endfor %}
                 <td class="font-mono text-black font-bold">{{ game.home_score }}</td>
               </tr>
