@@ -136,21 +136,6 @@
       "ppr_fpts": 3.2
     },
     {
-      "id": "Mm0slpmHcp2rAoyy_YujtIOMalki",
-      "player": "Kameron Kelly",
-      "tar_pg": 3,
-      "td": 0,
-      "rec": 1,
-      "rec_yards_pg": 5,
-      "yac": 0,
-      "air_yards_pg": 19,
-      "aypt": 6.3,
-      "racr": 0.26,
-      "ms_air_yards": 0.05,
-      "target_share": 0.09,
-      "ppr_fpts": 1.5
-    },
-    {
       "id": "MnSbN3NKTWGgbhSjjM2pzQ_20YJd",
       "player": "Marcus Baugh",
       "tar_pg": 4,
@@ -1486,21 +1471,6 @@
       "ms_air_yards": 0.13,
       "target_share": 0.1,
       "ppr_fpts": 0.0
-    },
-    {
-      "id": "Mm0slpmHcp2rAoyy_YujtIOMalki",
-      "player": "Kameron Kelly",
-      "tar_pg": 3,
-      "td": 0,
-      "rec": 2,
-      "rec_yards_pg": 17,
-      "yac": 2,
-      "air_yards_pg": 24,
-      "aypt": 8.0,
-      "racr": 0.71,
-      "ms_air_yards": 0.09,
-      "target_share": 0.1,
-      "ppr_fpts": 3.7
     },
     {
       "id": "MnSbN3NKTWGgbhSjjM2pzQ_20YJd",
