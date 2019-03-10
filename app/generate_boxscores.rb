@@ -663,7 +663,7 @@ def add_boxscore(node)
     week: node.named_time_range.name,
     week_num: week_num,
     time: node.named_time_range.time,
-    kickoff: Time.parse(node.time).getlocal("-05:00").strftime("%A %b %e, %l:%M %p"),
+    kickoff: Time.parse(node.time).getlocal("-04:00").strftime("%A %b %e, %l:%M %p"),
     stadium: node.stadium.name,
     watch_on: get_network(node),
     timestamp: node.time,
