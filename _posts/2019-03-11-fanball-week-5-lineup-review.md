@@ -31,7 +31,7 @@ This league would be great for grinding cash games, but the limited action on Fa
 
 <h3 class="aaf-header-small">My Main Slate Exposure</h3>
 
-I built ten lineups with ended up with these exposures:
+I built ten lineups and ended up with these exposures:
 
 ### QB Pool
 
