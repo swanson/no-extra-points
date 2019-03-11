@@ -24,7 +24,7 @@ One thing I wanted to do differently than last week was to take a stand on stron
 
 <h3 class="aaf-header-small">My Main Slate Exposure</h3>
 
-I built ten lineups with ended up with these exposures:
+I built ten lineups and ended up with these exposures:
 
 ### QB Pool
 

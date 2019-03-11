@@ -24,7 +24,7 @@ The Big GPP was a 10-max (the largest entry size allowed on Fanball) so I built 
 
 <h3 class="aaf-header-small">My Main Slate Exposure</h3>
 
-I built ten lineups with ended up with these exposures:
+I built ten lineups and ended up with these exposures:
 
 ### QB Pool
 
