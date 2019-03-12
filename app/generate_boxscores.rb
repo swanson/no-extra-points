@@ -55,7 +55,7 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
           stats {
             player {
               id
-              name{
+              name {
                 familyName
                 givenName
               }
@@ -82,7 +82,7 @@ ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
         edges {
           node {
             id
-            name{
+            name {
               familyName
               givenName
             }
@@ -263,6 +263,36 @@ def special_td?(node, type)
   node.stats && node.stats.any?{|s| s.type == type}
 end
 
+def get_scoring_team(node, game)
+  team = ""
+  if node.possession == "HOME_TEAM"
+    team = game.home_team.abbreviation
+  else
+    team = game.away_team.abbreviation
+  end
+
+  if node.stats
+    node.stats.each do |s|
+      if s.type.include? "TOUCHDOWN"
+        if s.type.include?("OPPONENT") || s.type.include?("INTERCEPTION")
+          if node.possession == "HOME_TEAM"
+            return game.away_team.abbreviation
+          else
+            return game.home_team.abbreviation
+          end
+        else
+          if node.possession == "HOME_TEAM"
+            return game.home_team.abbreviation
+          else
+            return game.away_team.abbreviation
+          end
+        end
+      end
+    end
+  end
+  team
+end
+
 def extract_play_by_play(plays, game, all_players)
   run_play = /left|right/mi
   pass_play = /pass/mi
@@ -307,6 +337,7 @@ def extract_play_by_play(plays, game, all_players)
       int_td: special_td?(node, "INTERCEPTION_RETURN_YARDS_FOR_TOUCHDOWN"),
       fumble_td: special_td?(node, "OPPONENT_FUMBLE_RECOVERY_YARDS_FOR_TOUCHDOWN"),
       punt_td: special_td?(node, "PUNT_RETURN_YARDS_FOR_TOUCHDOWN"),
+      scoring_team: get_scoring_team(node, game)
     }
 
     if desc.match?(run_play) && !desc.match?(pass_play)
@@ -609,19 +640,9 @@ def get_week_num(week)
 end
 
 def generate_scoring_plays(node, plays)
-  scoring_plays = plays.select do |play|
+  plays.select do |play|
     !play[:nullified] && (play[:touchdown] || play[:field_goal_made] || play[:conversion_success] || play[:safety])
   end
-
-  scoring_plays.each do |p|
-    if p[:int_td] || p[:punt_td] || (p[:fumble_td] && !p[:punt_play])
-      dteam = p[:defending_team]
-      p[:defending_team] = p[:possession]
-      p[:possession] = dteam
-    end
-  end
-
-  scoring_plays
 end
 
 def get_network(node)
