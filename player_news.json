@@ -1,0 +1,22 @@
+---
+layout: none
+---
+
+{% assign news_items = site.data["blurbs"]["week-05"] %}
+
+[
+{% for news_item in news_items %}
+  {% if news_item.blurb == "" or news_item.blurb == nil %}
+    {% continue %}
+  {% endif %}
+  {% assign id = news_item.aaf_id | append: news_item.date %}
+  {
+    "noextrapoints_story_id": "{{ id | md5 }}",
+    "aaf_player_ids": ["{{ news_item.aaf_id }}"],
+    "headline": "{{ news_item.headline }}",
+    "analysis": "{{ news_item.blurb }}",
+    "date": "{{ news_item.date | date: "%Y-%m-%d" }}"
+  }
+  {% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
