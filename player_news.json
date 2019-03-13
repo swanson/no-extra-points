@@ -13,8 +13,8 @@ layout: none
   {
     "noextrapoints_story_id": "{{ id | md5 }}",
     "aaf_player_ids": ["{{ news_item.aaf_id }}"],
-    "headline": "{{ news_item.headline }}",
-    "analysis": "{{ news_item.blurb }}",
+    "headline": "{{ news_item.headline | escape }}",
+    "analysis": "{{ news_item.blurb | escape }}",
     "date": "{{ news_item.date | date: "%Y-%m-%d" }}"
   }
   {% unless forloop.last %},{% endunless %}
