@@ -112,6 +112,8 @@ def map_position(position)
     "SS"
   when "FREE_SAFETY"
     "FS"
+  when "NOSE_TACKLE"
+    "NT"
   else
     throw "Unknown position: #{position}"
   end
@@ -189,7 +191,7 @@ def compute_season_stats(logs, team_stats)
     log.each do |k, v|
       next unless v.is_a? Numeric
 
-      if k == "rush_long" || k == "receiving_long"
+      if k == "rush_long" || k == "receiving_long" || k == "field_goals_longest_made" || k == "punting_longest_kick"
         if v >= (totals[k] || 0)
           totals[k] = v
         else
@@ -217,7 +219,7 @@ def compute_season_stats(logs, team_stats)
     totals["rush_ypc"] = 0
   end
 
-  if totals["targets"] && totals["targets"] > 0
+  if totals["targets"] && totals["targets"] > 0 && team_stats
     totals["average_depth_of_target"] = (totals["receiving_air_yards"].to_f / totals["targets"].to_f).round(1)
     totals["target_market_share"] = (totals["targets"].to_f / team_stats[:targets].to_f).round(2)
     totals["air_yards_market_share"] = (totals["receiving_air_yards"].to_f / team_stats[:air_yards].to_f).round(2)
@@ -233,6 +235,12 @@ def compute_season_stats(logs, team_stats)
     totals["racr"] = (totals["receiving_yards"].to_f / totals["receiving_air_yards"]).round(1)
   else
     totals["racr"] = 0
+  end
+
+  if totals["field_goals_attempted"] && totals["field_goals_attempted"] > 0
+    totals["field_goal_percentage"] = (totals["field_goals_made"].to_f / totals["field_goals_attempted"].to_f * 100).round(1)
+  else
+    totals["field_goal_percentage"] = 0
   end
 
   totals
@@ -258,7 +266,7 @@ def add_player(players, node, boxscores, team_stats)
     status: get_status(node.roster_status),
     starting: false,
     game_logs: logs,
-    season_stats: compute_season_stats(logs, team_stats[node.team&.abbreviation.to_sym]),
+    season_stats: compute_season_stats(logs, team_stats[node.team&.abbreviation&.to_sym]),
     platoon: node.platoon,
     biography: node.biography,
     college_history: (node.ncaa_fb_career&.seasons || []).map{|s| {
@@ -334,8 +342,6 @@ team_stats = compute_team_stats(boxscores)
 
 result = AAF::Client.query(ALL_PLAYERS)
 result.data.players_connection.nodes.each do |node|
-  next unless node.team
-
   add_player(players, node, boxscores, team_stats)
 end
 

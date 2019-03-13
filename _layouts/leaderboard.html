@@ -26,5 +26,9 @@ nav: leaderboards
     {% include leaderboards/fantasy_leaderboard.html %}
   {% elsif page.type == "defense" %}
     {% include leaderboards/defense_leaderboard.html %}
+  {% elsif page.type == "kicking" %}
+    {% include leaderboards/kicking_leaderboard.html %}
+  {% elsif page.type == "punting" %}
+    {% include leaderboards/punting_leaderboard.html %}
   {% endif %}
 </div>

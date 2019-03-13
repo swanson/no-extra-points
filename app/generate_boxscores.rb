@@ -459,7 +459,7 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
       sacks: edge.stats.sacks,
       quarterback_hits: edge.stats.quarterback_hits,
       interception_returns: edge.stats.interception_returns,
-      field_goals_attempted: edge.stats.field_goals_attempted,
+      field_goals_attempted: edge.stats.field_goals_attempted || 0,
       field_goals_blocked: edge.stats.field_goals_blocked,
       field_goals_made: edge.stats.field_goals_made,
       field_goals_longest_made: edge.stats.field_goals_longest_made,
@@ -544,6 +544,12 @@ def calculate_averages(stats)
     stats[:racr] = (stats[:receiving_yards].to_f / stats[:receiving_air_yards]).round(2)
   else
     stats[:racr] = 0
+  end
+
+  if stats[:field_goals_attempted] > 0
+    stats[:field_goal_percentage] = (stats[:field_goals_made].to_f / stats[:field_goals_attempted].to_f * 100).round(1)
+  else
+    stats[:field_goal_percentage] = 0
   end
 
   stats
@@ -736,7 +742,9 @@ leaderboards = []
   "passing",
   "rushing",
   "receiving",
-  "defense"
+  "defense",
+  "kicking",
+  "punting"
 ].each do |t|
   leaderboards << {
     type: t,

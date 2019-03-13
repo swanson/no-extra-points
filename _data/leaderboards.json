@@ -278,5 +278,117 @@
     "slug": "defense/6",
     "permalink": "/leaderboards/defense/6",
     "title": "AAF Week 6 Defense Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": "all",
+    "slug": "kicking/all",
+    "permalink": "/leaderboards/kicking/all",
+    "title": "AAF Kicking Season Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 1,
+    "slug": "kicking/1",
+    "permalink": "/leaderboards/kicking/1",
+    "title": "AAF Week 1 Kicking Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 2,
+    "slug": "kicking/2",
+    "permalink": "/leaderboards/kicking/2",
+    "title": "AAF Week 2 Kicking Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 3,
+    "slug": "kicking/3",
+    "permalink": "/leaderboards/kicking/3",
+    "title": "AAF Week 3 Kicking Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 4,
+    "slug": "kicking/4",
+    "permalink": "/leaderboards/kicking/4",
+    "title": "AAF Week 4 Kicking Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 5,
+    "slug": "kicking/5",
+    "permalink": "/leaderboards/kicking/5",
+    "title": "AAF Week 5 Kicking Leaderboard"
+  },
+  {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 6,
+    "slug": "kicking/6",
+    "permalink": "/leaderboards/kicking/6",
+    "title": "AAF Week 6 Kicking Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": "all",
+    "slug": "punting/all",
+    "permalink": "/leaderboards/punting/all",
+    "title": "AAF Punting Season Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 1,
+    "slug": "punting/1",
+    "permalink": "/leaderboards/punting/1",
+    "title": "AAF Week 1 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 2,
+    "slug": "punting/2",
+    "permalink": "/leaderboards/punting/2",
+    "title": "AAF Week 2 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 3,
+    "slug": "punting/3",
+    "permalink": "/leaderboards/punting/3",
+    "title": "AAF Week 3 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 4,
+    "slug": "punting/4",
+    "permalink": "/leaderboards/punting/4",
+    "title": "AAF Week 4 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 5,
+    "slug": "punting/5",
+    "permalink": "/leaderboards/punting/5",
+    "title": "AAF Week 5 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 6,
+    "slug": "punting/6",
+    "permalink": "/leaderboards/punting/6",
+    "title": "AAF Week 6 Punting Leaderboard"
   }
 ]
