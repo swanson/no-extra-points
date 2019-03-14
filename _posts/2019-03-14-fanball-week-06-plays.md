@@ -34,7 +34,7 @@ With a lack of value options at running back this week, paying all the way down 
 
 ## Greg Ward Jr. – San Antonio (\$4,300)
 
-While the injury statuses of Richard Mullaney and Amba Etta-Tawo could tilt this slate, Greg Ward, Jr. looks like a supreme value as the fourth-most expensive receiver on his own team. Despite the mispricing, Ward has seen adequate volume this season with 25 targets, 254 air yards, and 10 red zone targets. With this game feature two of the highest scoring offenses in recent weeks, Ward should benefit from a pass friendly approach. Still working as the number two option in the passing game, Ward remains a cheap flier in GPPs.
+While the injury statuses of Richard Mullaney and Amba Etta-Tawo could tilt this slate, Greg Ward, Jr. looks like a supreme value as the fourth-most expensive receiver on his own team. Despite the mispricing, Ward has seen adequate volume this season with 25 targets, 254 air yards, and 10 red zone targets. With this game featuring a healthy 40 point Vegas total (2nd highest on the week), Ward should benefit from a pass friendly approach. Still working as the number two option in the passing game, Ward remains a cheap flier in GPPs.
 
 <h3 class="team-header aaf-header">GPP Stack</h3>
 
