@@ -45,18 +45,6 @@
           "starting": true
         },
         {
-          "guid": "Mhbe28QXW-wYnR-q3KPOP8y4ydgD",
-          "slug": "tim-cook",
-          "name": "Tim Cook",
-          "position": "RB",
-          "number": 20,
-          "team": "ARI",
-          "short_name": "T. Cook",
-          "last_name": "Cook",
-          "first_name": "Tim",
-          "starting": false
-        },
-        {
           "guid": "Mqov-trF95R18wq3KsfAxd4YinmG",
           "slug": "jhurell-pressley",
           "name": "Jhurell Pressley",
@@ -66,6 +54,18 @@
           "short_name": "J. Pressley",
           "last_name": "Pressley",
           "first_name": "Jhurell",
+          "starting": true
+        },
+        {
+          "guid": "Mhbe28QXW-wYnR-q3KPOP8y4ydgD",
+          "slug": "tim-cook",
+          "name": "Tim Cook",
+          "position": "RB",
+          "number": 20,
+          "team": "ARI",
+          "short_name": "T. Cook",
+          "last_name": "Cook",
+          "first_name": "Tim",
           "starting": true
         },
         {
