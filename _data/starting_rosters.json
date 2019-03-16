@@ -117,18 +117,6 @@
           "starting": false
         },
         {
-          "guid": "MvMPK87RjthDpgkxi-5PMRJI56FG",
-          "slug": "marquis-bundy",
-          "name": "Marquis Bundy",
-          "position": "WR",
-          "number": 18,
-          "team": "ARI",
-          "short_name": "M. Bundy",
-          "last_name": "Bundy",
-          "first_name": "Marquis",
-          "starting": true
-        },
-        {
           "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
           "slug": "freddie-martino",
           "name": "Freddie Martino",
@@ -138,7 +126,7 @@
           "short_name": "F. Martino",
           "last_name": "Martino",
           "first_name": "Freddie",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MkJMaeehojJ_G2FTn43DdskqOBtE",
@@ -150,6 +138,18 @@
           "short_name": "R. Mullaney",
           "last_name": "Mullaney",
           "first_name": "Richard",
+          "starting": true
+        },
+        {
+          "guid": "MvMPK87RjthDpgkxi-5PMRJI56FG",
+          "slug": "marquis-bundy",
+          "name": "Marquis Bundy",
+          "position": "WR",
+          "number": 18,
+          "team": "ARI",
+          "short_name": "M. Bundy",
+          "last_name": "Bundy",
+          "first_name": "Marquis",
           "starting": true
         },
         {
@@ -174,7 +174,7 @@
           "short_name": "T. Duarte",
           "last_name": "Duarte",
           "first_name": "Thomas",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MsuqKLUycZ4oZeSa_8mp-GpOy_Gd",
@@ -277,7 +277,7 @@
           "short_name": "D. Robinson",
           "last_name": "Robinson",
           "first_name": "Denard",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpewpcPmXWw7dlR2o48Yu7NOKPbQ",
@@ -440,7 +440,7 @@
           "short_name": "L. Perez",
           "last_name": "Perez",
           "first_name": "Luis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MseOmwcB9ERo5Yb_5ejbYhmFxa5b",
@@ -452,7 +452,7 @@
           "short_name": "K. Price",
           "last_name": "Price",
           "first_name": "Keith",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mu4gOaZiYHNFV7pyrOxZm92AjVLZ",
@@ -503,15 +503,15 @@
           "starting": true
         },
         {
-          "guid": "Mg5pmFv_IbDbejfUsLji-uwwKVUv",
-          "slug": "ladarius-perkins",
-          "name": "Ladarius Perkins",
+          "guid": "MpF9nUlq2CazMaVnaXVN9Cxnes98",
+          "slug": "marshaun-coprich",
+          "name": "Marshaun Coprich",
           "position": "RB",
-          "number": 41,
+          "number": 24,
           "team": "BIR",
-          "short_name": "L. Perkins",
-          "last_name": "Perkins",
-          "first_name": "Ladarius",
+          "short_name": "M. Coprich",
+          "last_name": "Coprich",
+          "first_name": "Marshaun",
           "starting": true
         },
         {
@@ -524,18 +524,6 @@
           "short_name": "Q. Bray",
           "last_name": "Bray",
           "first_name": "Quan",
-          "starting": false
-        },
-        {
-          "guid": "Ml9cOZHecV3pc9mEGX4ZR4Y6ZkMB",
-          "slug": "amba-ettatawo",
-          "name": "Amba Etta-Tawo",
-          "position": "WR",
-          "number": 14,
-          "team": "BIR",
-          "short_name": "A. Etta-Tawo",
-          "last_name": "Etta-Tawo",
-          "first_name": "Amba",
           "starting": false
         },
         {
@@ -575,6 +563,18 @@
           "starting": true
         },
         {
+          "guid": "Ml9cOZHecV3pc9mEGX4ZR4Y6ZkMB",
+          "slug": "amba-ettatawo",
+          "name": "Amba Etta-Tawo",
+          "position": "WR",
+          "number": 14,
+          "team": "BIR",
+          "short_name": "A. Etta-Tawo",
+          "last_name": "Etta-Tawo",
+          "first_name": "Amba",
+          "starting": true
+        },
+        {
           "guid": "Mumm8PK_wY3MZXSOMTik0hsIp6Ly",
           "slug": "tobias-palmer",
           "name": "Tobias Palmer",
@@ -584,7 +584,7 @@
           "short_name": "T. Palmer",
           "last_name": "Palmer",
           "first_name": "Tobias",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MkXtS_Yu0mkc3BP5bNBQeSCOTJvC",
@@ -711,7 +711,7 @@
           "short_name": "S. Badie",
           "last_name": "Badie",
           "first_name": "Sherman",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mv5aLcnX86bjZaa2ms87A1SdYdZd",
@@ -1193,7 +1193,7 @@
           "short_name": "K. Clay",
           "last_name": "Clay",
           "first_name": "Kaelin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MnhMeRsiWw6LMqSeT11jQLPbC19v",
@@ -1289,7 +1289,7 @@
           "short_name": "N. Truesdell",
           "last_name": "Truesdell",
           "first_name": "Nick",
-          "starting": false
+          "starting": true
         }
       ]
     },
@@ -1359,18 +1359,6 @@
           "starting": true
         },
         {
-          "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
-          "slug": "aaron-green",
-          "name": "Aaron Green",
-          "position": "RB",
-          "number": 22,
-          "team": "SA",
-          "short_name": "A. Green",
-          "last_name": "Green",
-          "first_name": "Aaron",
-          "starting": false
-        },
-        {
           "guid": "Mv1x5oSVJFjxcBN5MwJ58Fp7WOcf",
           "slug": "trey-williams",
           "name": "Trey Williams",
@@ -1380,6 +1368,18 @@
           "short_name": "T. Williams",
           "last_name": "Williams",
           "first_name": "Trey",
+          "starting": true
+        },
+        {
+          "guid": "MsbPuETToV8YVFQPwTrERk9SgJlw",
+          "slug": "aaron-green",
+          "name": "Aaron Green",
+          "position": "RB",
+          "number": 22,
+          "team": "SA",
+          "short_name": "A. Green",
+          "last_name": "Green",
+          "first_name": "Aaron",
           "starting": true
         },
         {
@@ -1476,7 +1476,7 @@
           "short_name": "C. Clear",
           "last_name": "Clear",
           "first_name": "Cam",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
@@ -1594,6 +1594,18 @@
           "starting": true
         },
         {
+          "guid": "MvqJnkN5sh8Byg8HsPF622BBTKGd",
+          "slug": "bishop-sankey",
+          "name": "Bishop Sankey",
+          "position": "RB",
+          "number": 20,
+          "team": "SD",
+          "short_name": "B. Sankey",
+          "last_name": "Sankey",
+          "first_name": "Bishop",
+          "starting": true
+        },
+        {
           "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
           "slug": "brian-brown",
           "name": "Brian Brown",
@@ -1687,6 +1699,18 @@
           "short_name": "G. Escobar",
           "last_name": "Escobar",
           "first_name": "Gavin",
+          "starting": true
+        },
+        {
+          "guid": "MnSbN3NKTWGgbhSjjM2pzQ_20YJd",
+          "slug": "marcus-baugh",
+          "name": "Marcus Baugh",
+          "position": "TE",
+          "number": 85,
+          "team": "SD",
+          "short_name": "M. Baugh",
+          "last_name": "Baugh",
+          "first_name": "Marcus",
           "starting": true
         },
         {
