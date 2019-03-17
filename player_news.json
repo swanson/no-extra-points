@@ -2,7 +2,12 @@
 layout: none
 ---
 
-{%- assign news_items = site.data["blurbs"]["week-05"] -%}
+{%- assign news_items = '' | split: '' -%}
+{%- for week in site.data.blurbs -%}
+  {%- assign news_items = news_items | concat: week[1] -%}
+{%- endfor -%}
+
+{%- assign news_items = news_items | sort: "date" | reverse -%}
 
 [
 {%- for news_item in news_items -%}
@@ -13,8 +18,8 @@ layout: none
   {
     "noextrapoints_story_id": "{{ id | md5 }}",
     "aaf_player_ids": ["{{ news_item.aaf_id }}"],
-    "headline": "{{ news_item.headline }}",
-    "analysis": "{{ news_item.blurb }}",
+    "headline": "{{ news_item.headline | replace: '"', '' }}",
+    "analysis": "{{ news_item.blurb | replace: '"', '' }}",
     "date": "{{ news_item.date | date: "%Y-%m-%d" }}"
   }
   {%- unless forloop.last %},{% endunless -%}
