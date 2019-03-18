@@ -80,7 +80,7 @@ Air ball. My "best" lineup finished in 191st (out of 400) in the Big GPP.
 
 Entered $230, Won $0
 
-![](/images/fanball-week-5-results.png)
+![](/images/fanball-week-6-results.png)
 
 Back to reality after a nice two week stretch!
 
