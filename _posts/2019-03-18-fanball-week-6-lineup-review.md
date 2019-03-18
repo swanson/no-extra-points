@@ -64,11 +64,15 @@ I stacked Aaron Murray with Seantavius Jones -- who quietly is in the top 5 in t
 
 ## My Lineups
 
+![](/images/fanball-week-6-lineups.png)
+
 It was an anti-climatic week. Going into the Sunday night game, I was already guaranteed a down week -- but having basically zero exposure to the Iron and Fleet (outside of Quinton Patton) whipped out my remaining winnings. Complete airball.
 
 In a league where every week is a four game slate, I picked the wrong teams to stack and, since I went it hard on that limited player pool, the results were going to be lopsided. Last week I hit and won big, this week I missed and lost every contest.
 
 I wish I had the conviction to play Mullaney in all my lineups where I went Magee. I was okay with Newby -- it was a strange result that Salt Lake threw the ball almost 40 times and no running backs caught passes. Magee was a bad play in retrospect -- he basically needed a touchdown to hit. I told myself a story that he could catch a few balls out of the backfield and get 10-12 touches, when in reality, he has never gotten more than 2 targets per game. It didn't help that Mettenberger was hurt on the first play of the game.
+
+Looking back, I didn't realize I had so much D'Ernest Johnson. I liked him as a play, but I think his range of outcomes was very similar to Pressley, Farrow, and Richardson. Especially with Akeem Hunt still getting snaps and De'Veon Smith playing the short-yardage role, I should have tempered my expectations a bit.
 
 <h3 class="aaf-header-small">The Numbers</h3>
 
@@ -78,9 +82,7 @@ Entered $230, Won $0
 
 ![](/images/fanball-week-5-results.png)
 
-+\$663.75
-
-Building a nice cushion for the second half of the season!
+Back to reality after a nice two week stretch!
 
 **Season Results**
 
