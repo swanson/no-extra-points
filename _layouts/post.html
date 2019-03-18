@@ -8,7 +8,11 @@ nav: articles
   {% if page.author %}
     <div class="text-lg text-grey-dark pt-4 pb-8">
       {{ page.author }}
-      (<a class="no-underline text-blue-dark border-b-2 border-dotted border-blue-dark hover:text-blue hover:border-blue" href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>)
+      {% if page.twitter %}
+        (<a class="no-underline text-blue-dark border-b-2 border-dotted border-blue-dark hover:text-blue hover:border-blue" href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>)
+      {% else %}
+        (<a class="no-underline text-blue-dark border-b-2 border-dotted border-blue-dark hover:text-blue hover:border-blue" href="https://www.reddit.com/user/{{ page.reddit }}">/u/{{ page.reddit }}</a>)
+      {% endif %}
     </div>
   {% endif %}
 
