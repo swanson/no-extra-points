@@ -56,6 +56,14 @@
     "title": "AAF Week 6 Fantasy Leaderboard"
   },
   {
+    "type": "fantasy",
+    "display_type": "Fantasy",
+    "week": 7,
+    "slug": "fantasy/7",
+    "permalink": "/leaderboards/fantasy/7",
+    "title": "AAF Week 7 Fantasy Leaderboard"
+  },
+  {
     "type": "passing",
     "display_type": "Passing",
     "week": "all",
@@ -110,6 +118,14 @@
     "slug": "passing/6",
     "permalink": "/leaderboards/passing/6",
     "title": "AAF Week 6 Passing Leaderboard"
+  },
+  {
+    "type": "passing",
+    "display_type": "Passing",
+    "week": 7,
+    "slug": "passing/7",
+    "permalink": "/leaderboards/passing/7",
+    "title": "AAF Week 7 Passing Leaderboard"
   },
   {
     "type": "rushing",
@@ -168,6 +184,14 @@
     "title": "AAF Week 6 Rushing Leaderboard"
   },
   {
+    "type": "rushing",
+    "display_type": "Rushing",
+    "week": 7,
+    "slug": "rushing/7",
+    "permalink": "/leaderboards/rushing/7",
+    "title": "AAF Week 7 Rushing Leaderboard"
+  },
+  {
     "type": "receiving",
     "display_type": "Receiving",
     "week": "all",
@@ -222,6 +246,14 @@
     "slug": "receiving/6",
     "permalink": "/leaderboards/receiving/6",
     "title": "AAF Week 6 Receiving Leaderboard"
+  },
+  {
+    "type": "receiving",
+    "display_type": "Receiving",
+    "week": 7,
+    "slug": "receiving/7",
+    "permalink": "/leaderboards/receiving/7",
+    "title": "AAF Week 7 Receiving Leaderboard"
   },
   {
     "type": "defense",
@@ -280,6 +312,14 @@
     "title": "AAF Week 6 Defense Leaderboard"
   },
   {
+    "type": "defense",
+    "display_type": "Defense",
+    "week": 7,
+    "slug": "defense/7",
+    "permalink": "/leaderboards/defense/7",
+    "title": "AAF Week 7 Defense Leaderboard"
+  },
+  {
     "type": "kicking",
     "display_type": "Kicking",
     "week": "all",
@@ -336,6 +376,14 @@
     "title": "AAF Week 6 Kicking Leaderboard"
   },
   {
+    "type": "kicking",
+    "display_type": "Kicking",
+    "week": 7,
+    "slug": "kicking/7",
+    "permalink": "/leaderboards/kicking/7",
+    "title": "AAF Week 7 Kicking Leaderboard"
+  },
+  {
     "type": "punting",
     "display_type": "Punting",
     "week": "all",
@@ -390,5 +438,13 @@
     "slug": "punting/6",
     "permalink": "/leaderboards/punting/6",
     "title": "AAF Week 6 Punting Leaderboard"
+  },
+  {
+    "type": "punting",
+    "display_type": "Punting",
+    "week": 7,
+    "slug": "punting/7",
+    "permalink": "/leaderboards/punting/7",
+    "title": "AAF Week 7 Punting Leaderboard"
   }
 ]
