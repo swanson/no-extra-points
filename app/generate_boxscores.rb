@@ -6,7 +6,7 @@ CURRENT_WEEK = 7
 
 ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
 {
-  gamesConnection {
+  gamesConnection(first: 50) {
     nodes {
       id
       status {
@@ -642,6 +642,8 @@ end
 
 def get_week_num(week)
   return 0 if week.include? "Pre"
+  return 11 if week.include? "Playoffs"
+  return 12 if week.include? "Championship"
   week.tr("^0-9", '').to_i
 end
 
