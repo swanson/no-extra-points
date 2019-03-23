@@ -150,7 +150,7 @@
           "short_name": "M. Bundy",
           "last_name": "Bundy",
           "first_name": "Marquis",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MrC-mlcr-mSePbIBVLTOeXgH2s6b",
@@ -385,7 +385,7 @@
           "short_name": "J. Thomas",
           "last_name": "Thomas",
           "first_name": "Justin",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mqz4RQPwnByj6JuzUIzmWhzhiSZw",
@@ -440,7 +440,7 @@
           "short_name": "L. Perez",
           "last_name": "Perez",
           "first_name": "Luis",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MseOmwcB9ERo5Yb_5ejbYhmFxa5b",
@@ -452,7 +452,7 @@
           "short_name": "K. Price",
           "last_name": "Price",
           "first_name": "Keith",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mu4gOaZiYHNFV7pyrOxZm92AjVLZ",
@@ -500,7 +500,7 @@
           "short_name": "B. Ross",
           "last_name": "Ross",
           "first_name": "Brandon",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MpF9nUlq2CazMaVnaXVN9Cxnes98",
@@ -651,7 +651,7 @@
           "short_name": "Z. Mettenberger",
           "last_name": "Mettenberger",
           "first_name": "Zach",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mnkh1iQb4Y5isX532bIn6EImwKO-",
@@ -663,7 +663,19 @@
           "short_name": "B. Silvers",
           "last_name": "Silvers",
           "first_name": "Brandon",
-          "starting": false
+          "starting": true
+        },
+        {
+          "guid": "MmRe-7NBO9YIy6K94hDWw8-mvOXf",
+          "slug": "johnny-manziel",
+          "name": "Johnny Manziel",
+          "position": "QB",
+          "number": 2,
+          "team": "MEM",
+          "short_name": "J. Manziel",
+          "last_name": "Manziel",
+          "first_name": "Johnny",
+          "starting": true
         },
         {
           "guid": "MsSW7k2bvNdN0P0l5GxNqN339QSX",
@@ -774,6 +786,18 @@
           "starting": true
         },
         {
+          "guid": "Mg_iWUx6iDiql9d09kaUxijp2Qvy",
+          "slug": "daniel-williams",
+          "name": "Daniel Williams",
+          "position": "WR",
+          "number": 86,
+          "team": "MEM",
+          "short_name": "D. Williams",
+          "last_name": "Williams",
+          "first_name": "Daniel",
+          "starting": true
+        },
+        {
           "guid": "Mg8t9oQKqwdsKIyXSmqRSW_X70cM",
           "slug": "devin-lucien",
           "name": "Devin Lucien",
@@ -831,7 +855,7 @@
           "short_name": "B. Barnes",
           "last_name": "Barnes",
           "first_name": "Brandon",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MmMr1PqQzXo0ZVHk39O2j4ktgFhu",
@@ -1172,18 +1196,6 @@
           "starting": true
         },
         {
-          "guid": "MuShKYY0K9EeX6CMhI3AqqdV8t4e",
-          "slug": "kenny-bell",
-          "name": "Kenny Bell",
-          "position": "WR",
-          "number": 80,
-          "team": "SL",
-          "short_name": "K. Bell",
-          "last_name": "Bell",
-          "first_name": "Kenny",
-          "starting": true
-        },
-        {
           "guid": "Mv78XJQcm2iMIRm38XWREbfs4rvz",
           "slug": "kaelin-clay",
           "name": "Kaelin Clay",
@@ -1205,7 +1217,7 @@
           "short_name": "A. Jennings",
           "last_name": "Jennings",
           "first_name": "Adonis",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MnvL6-GbEKvM2KNii88YtoXpeeCF",
@@ -1241,6 +1253,18 @@
           "short_name": "B. Tyms",
           "last_name": "Tyms",
           "first_name": "Brian",
+          "starting": true
+        },
+        {
+          "guid": "MuShKYY0K9EeX6CMhI3AqqdV8t4e",
+          "slug": "kenny-bell",
+          "name": "Kenny Bell",
+          "position": "WR",
+          "number": 80,
+          "team": "SL",
+          "short_name": "K. Bell",
+          "last_name": "Bell",
+          "first_name": "Kenny",
           "starting": true
         },
         {
@@ -1476,18 +1500,6 @@
           "short_name": "C. Clear",
           "last_name": "Clear",
           "first_name": "Cam",
-          "starting": true
-        },
-        {
-          "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
-          "slug": "cole-hunt",
-          "name": "Cole Hunt",
-          "position": "TE",
-          "number": 83,
-          "team": "SA",
-          "short_name": "C. Hunt",
-          "last_name": "Hunt",
-          "first_name": "Cole",
           "starting": false
         },
         {
@@ -1513,7 +1525,19 @@
           "last_name": "Rodriguez",
           "first_name": "Evan",
           "starting": true
-        }
+        },
+        {
+          "guid": "MvipIa5L9gbYdZQ29j_alrn4nZHC",
+          "slug": "cole-hunt",
+          "name": "Cole Hunt",
+          "position": "TE",
+          "number": 83,
+          "team": "SA",
+          "short_name": "C. Hunt",
+          "last_name": "Hunt",
+          "first_name": "Cole",
+          "starting": true
+        },
       ]
     },
     {
@@ -1558,6 +1582,18 @@
           "starting": false
         },
         {
+          "guid": "MkpRgd5SNWd31jHiLxntSELkwYKP",
+          "slug": "terrell-watson",
+          "name": "Terrell Watson",
+          "position": "RB",
+          "number": 39,
+          "team": "SD",
+          "short_name": "T. Watson",
+          "last_name": "Watson",
+          "first_name": "Terrell",
+          "starting": true
+        },
+        {
           "guid": "Mqs-U1gQrf9_eTiz3LS8GR68hjsZ",
           "slug": "jaquan-gardner",
           "name": "Ja'Quan Gardner",
@@ -1580,18 +1616,6 @@
           "last_name": "James",
           "first_name": "Paul",
           "starting": false
-        },
-        {
-          "guid": "MkpRgd5SNWd31jHiLxntSELkwYKP",
-          "slug": "terrell-watson",
-          "name": "Terrell Watson",
-          "position": "RB",
-          "number": 39,
-          "team": "SD",
-          "short_name": "T. Watson",
-          "last_name": "Watson",
-          "first_name": "Terrell",
-          "starting": true
         },
         {
           "guid": "MvqJnkN5sh8Byg8HsPF622BBTKGd",
@@ -1627,7 +1651,7 @@
           "short_name": "D. Ford",
           "last_name": "Ford",
           "first_name": "Dontez",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mvj-Md_UANIB0mUeSN6xIge4-xEg",

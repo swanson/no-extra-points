@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_modified": "2019-03-15 22:12:44 -0400"
+    "last_modified": "2019-03-22 22:32:02 -0400"
   },
   "rosters": [
     {
@@ -376,18 +376,6 @@
           "starting": false
         },
         {
-          "guid": "MrC4LfT3GwLOnCAWsvExRaRLyldW",
-          "slug": "jake-sutherland",
-          "name": "Jake Sutherland",
-          "position": "TE",
-          "number": 83,
-          "team": "ATL",
-          "short_name": "J. Sutherland",
-          "last_name": "Sutherland",
-          "first_name": "Jake",
-          "starting": false
-        },
-        {
           "guid": "Mof0DIIcKBs9BlqLq7I1kGSR4pnx",
           "slug": "keith-towbridge",
           "name": "Keith Towbridge",
@@ -563,15 +551,15 @@
           "starting": false
         },
         {
-          "guid": "MqGR0OsIc73esNR_54QUDDV-b4cW",
-          "slug": "weslye-saunders",
-          "name": "Weslye Saunders",
+          "guid": "Mpe260WopCdu04wdxKraGyNjuaTT",
+          "slug": "braedon-bowman",
+          "name": "Braedon Bowman",
           "position": "TE",
-          "number": 82,
+          "number": 80,
           "team": "BIR",
-          "short_name": "W. Saunders",
-          "last_name": "Saunders",
-          "first_name": "Weslye",
+          "short_name": "B. Bowman",
+          "last_name": "Bowman",
+          "first_name": "Braedon",
           "starting": false
         },
         {
@@ -618,15 +606,15 @@
           "starting": false
         },
         {
-          "guid": "MjnRSiLQsYyZvE5hxod1B0h_Ignj",
-          "slug": "zach-mettenberger",
-          "name": "Zach Mettenberger",
+          "guid": "MmRe-7NBO9YIy6K94hDWw8-mvOXf",
+          "slug": "johnny-manziel",
+          "name": "Johnny Manziel",
           "position": "QB",
-          "number": 8,
+          "number": 2,
           "team": "MEM",
-          "short_name": "Z. Mettenberger",
-          "last_name": "Mettenberger",
-          "first_name": "Zach",
+          "short_name": "J. Manziel",
+          "last_name": "Manziel",
+          "first_name": "Johnny",
           "starting": false
         },
         {
@@ -639,6 +627,18 @@
           "short_name": "B. Silvers",
           "last_name": "Silvers",
           "first_name": "Brandon",
+          "starting": false
+        },
+        {
+          "guid": "MmdtBPUESCj6etrJlxQqHVJwRPKO",
+          "slug": "kenny-hilliard",
+          "name": "Kenny Hilliard",
+          "position": "RB",
+          "number": 32,
+          "team": "MEM",
+          "short_name": "K. Hilliard",
+          "last_name": "Hilliard",
+          "first_name": "Kenny",
           "starting": false
         },
         {
@@ -675,18 +675,6 @@
           "short_name": "Z. Stacy",
           "last_name": "Stacy",
           "first_name": "Zac",
-          "starting": false
-        },
-        {
-          "guid": "MifcVNUPmkPBkNJNCxsnoFmIi0mj",
-          "slug": "daryl-virgies",
-          "name": "Daryl Virgies",
-          "position": "RB",
-          "number": 32,
-          "team": "MEM",
-          "short_name": "D. Virgies",
-          "last_name": "Virgies",
-          "first_name": "Daryl",
           "starting": false
         },
         {
@@ -1176,7 +1164,7 @@
           "slug": "brandon-shippen",
           "name": "Brandon Shippen",
           "position": "WR",
-          "number": 87,
+          "number": 12,
           "team": "SL",
           "short_name": "B. Shippen",
           "last_name": "Shippen",
@@ -1395,18 +1383,6 @@
           "starting": false
         },
         {
-          "guid": "MhhKX-OyeMe8z_-2mAeojTPQur7g",
-          "slug": "riley-smith",
-          "name": "Riley Smith",
-          "position": "WR",
-          "number": 11,
-          "team": "SA",
-          "short_name": "R. Smith",
-          "last_name": "Smith",
-          "first_name": "Riley",
-          "starting": false
-        },
-        {
           "guid": "MgT56rsYAvlu70T8IUGLqULDIn4W",
           "slug": "josh-stewart",
           "name": "Josh Stewart",
@@ -1579,6 +1555,18 @@
           "short_name": "B. Brown",
           "last_name": "Brown",
           "first_name": "Brian",
+          "starting": false
+        },
+        {
+          "guid": "MvmXJXKw6X1sDtKBXVWEmd2Z0-kA",
+          "slug": "shay-fields",
+          "name": "Shay Fields",
+          "position": "WR",
+          "number": 16,
+          "team": "SD",
+          "short_name": "S. Fields",
+          "last_name": "Fields",
+          "first_name": "Shay",
           "starting": false
         },
         {
