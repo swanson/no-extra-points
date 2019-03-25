@@ -57,7 +57,9 @@ Watson has been operating as a co-starter for the Fleet, outplayed Gardner and g
 
 There was a bit of uncertainty heading into the week due to injuries. Rashad Ross has been beat up -- struggling after every big tackle and missing snaps as he gets medical attention. Knowing that Ross may be limited and that Mullaney was still not priced correctly, I went all-in on Mullaney.
 
-Mekale McKay was also questionable after missing some practice time. Additionally, DeMarcus Ayers was announced as doubtful -- potentially opening up a few more looks for Greg Ward Jr. Ward was priced way down after failing to eclipse 30 yards since week 01, but he was seeing a consistent ~4 targets and had an explosive punt return touchdown last week. Between Mullaney and Ward, you could jam in any of the high priced guys you wanted.
+Mekale McKay was also questionable after missing some practice time. Additionally, DeMarcus Ayers was announced as doubtful -- potentially opening up a few more looks for Greg Ward Jr. 
+
+Ward was priced way down after failing to eclipse 30 yards since week 01, but he was seeing a consistent ~4 targets and had an explosive punt return touchdown last week. Between Mullaney and Ward, you could jam in any of the high priced guys you wanted.
 
 I splashed in some exposure to the Salt Lake and Birmingham passing games -- both of which were coming off big games.
 
@@ -67,7 +69,7 @@ I splashed in some exposure to the Salt Lake and Birmingham passing games -- bot
 
 I wrote in my notes "Game stack ARI-SD" but I ended up playing a bunch of ORL players instead. It's hard to deal with the Apollos -- they are clearly the best team, but the fantasy production is often spread out and they can take their feet of the gas since they rarely are playing from behind.
 
-Being overweight on Wolford (QB1 on the week) was not enough to eek out a small profit. I had no shares of De'Veon Smith or Nelson Spruce so a win was basically out of the question. Reece Horn coming up with a huge TD late bumped me off the bubble.
+Being overweight on Wolford (QB1 on the week) was not enough to eek out a small profit. I had no shares of De'Veon Smith or Nelson Spruce so a win was basically out of the question. Reece Horn coming up with a huge TD late bumped me off the bubble in the $20 tournament.
 
 Overall, I wish I would have game-stacked a bit more and been more bold on some of my lower-owned calls (Watson, Truesdell).
 
@@ -77,7 +79,7 @@ Entered: $215, Won: $134.67
 
 ![](/images/fanball-week-7-results.png)
 
-Back to reality after a nice two week stretch!
+Foiled by the Memphis comeback!
 
 **Season Results**
 
@@ -87,6 +89,6 @@ Back to reality after a nice two week stretch!
 - Week 04: +\$367.50
 - Week 05: +\$663.75
 - Week 06: -\$230.00
-- Week 07: -$80.33
+- Week 07: -\$80.33
 
-**Total: +\$557.84.17**
+**Total: +\$557.84**
