@@ -2,7 +2,7 @@ require_relative "./aaf"
 require "pry"
 require "time"
 
-CURRENT_WEEK = 7
+CURRENT_WEEK = 8
 
 ALL_GAMES = AAF::Client.parse <<-'GRAPHQL'
 {
