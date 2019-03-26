@@ -606,7 +606,7 @@ Magee again continues to put some good tape together and really impressed with t
 
 ### Lead back: Tarean Folston
 
-Folston was nearing 50% of the snaps this week but low play volume for the game really hurt him. The legends got behind early and unfortunately Folston was not able to take advantage of that as he only caught 2 targets on 13 routes run. Folston did have an efficient game on the ground posting a 8/37/4.6 line. Folston did split time on passing downs and in the red zone/short yardage but he’s still playing significant snaps in all those facets of the game. All-in-all this seemed like a floor game for Folston and should still remain one of the better fantasy RBs going forward.
+Folston was nearing 50% of the snaps this week but low play volume for the game really hurt him. The Legends got behind early and unfortunately Folston was not able to take advantage of that as he only caught 2 targets on 13 routes run. Folston did have an efficient game on the ground posting a 8/37/4.6 line. Folston did split time on passing downs and in the red zone/short yardage but he’s still playing significant snaps in all those facets of the game. All-in-all this seemed like a floor game for Folston and should still remain one of the better fantasy RBs going forward.
 
 ### Rotational Back: Brandon Ratcliff
 
