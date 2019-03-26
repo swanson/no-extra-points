@@ -36,7 +36,7 @@ nav: projections
             <td>{{ projection.position }}</td>
             <td>{{ projection.team }}</td>
             <td>${{ projection.fb_salary }}</td>
-            <td>{{ projection.projection }}</td>
+            <td>{{ projection.projection | round: 1 }}</td>
           </tr>
         {% endfor %}
       </tbody>
