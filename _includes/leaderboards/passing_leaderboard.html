@@ -13,6 +13,7 @@
       <th>2PT</th>
       <th>INT</th>
       <th>SACK</th>
+      <th>QBR</th>
       <th>FPts</th>
     </tr>
   </thead>
@@ -38,6 +39,7 @@
           <td>{{ player.season_stats.passing_2pc }}</td>
           <td>{{ player.season_stats.interceptions }}</td>
           <td>{{ player.season_stats.times_sacked }}</td>
+          <td>{{ player.season_stats.qbr }}</td>
           <td>{{ player.season_stats.fpts }}</td>
         </tr>
       {% endif %}
@@ -65,6 +67,7 @@
             <td>{{ gamelog.passing_2pc }}</td>
             <td>{{ gamelog.interceptions }}</td>
             <td>{{ gamelog.times_sacked }}</td>
+            <td>{{ gamelog.qbr }}</td>
             <td>{{ gamelog.fpts }}</td>
           </tr>
         {% endif %}

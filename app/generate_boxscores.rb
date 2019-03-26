@@ -429,6 +429,7 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
 
     player_stats = {
       player: player,
+      passer_eligible: edge.stats.passes_attempted > 0 ? 1 : 0,
       pass_attempts: edge.stats.passes_attempted,
       pass_complete: edge.stats.passes_completed,
       pass_yards: edge.stats.passing_yards,
@@ -474,7 +475,7 @@ def extract_player_stats(node, edges, team_name, plays, week_num)
       punting_yards_net: edge.stats.punting_yards_net,
       punting_longest_kick: edge.stats.punting_longest_kick,
       target_market_share: 0,
-      air_yards_market_share: 0,
+      air_yards_market_share: 0
     }
 
     player_stats = calculate_averages(player_stats)
@@ -517,15 +518,29 @@ def compute_market_share_stats(stats)
   stats
 end
 
+def clamp(v)
+  v.clamp(0, 2.375)
+end
+
+def qbr(stats)
+  a = clamp(5 * ((stats[:pass_complete].to_f / stats[:pass_attempts].to_f) - 0.3))
+  b = clamp(0.25 * ((stats[:pass_yards].to_f / stats[:pass_attempts].to_f) - 3))
+  c = clamp(20 * (stats[:pass_td].to_f / stats[:pass_attempts].to_f))
+  d = clamp(2.375 - ((stats[:interceptions].to_f / stats[:pass_attempts].to_f) * 25))
+  (((a+b+c+d).to_f / 6.0) * 100).round(1)
+end
+
 def calculate_averages(stats)
   return nil unless stats
 
   if stats[:pass_attempts] > 0
     stats[:pass_ypa] = (stats[:pass_yards].to_f / stats[:pass_attempts]).round(1)
     stats[:completion_percentage] = (stats[:pass_complete].to_f / stats[:pass_attempts].to_f).round(1)
+    stats[:qbr] = qbr(stats)
   else
     stats[:pass_ypa] = 0
     stats[:completion_percentage] = 0
+    stats[:qbr] = 0
   end
 
   if stats[:rush_attempts] > 0

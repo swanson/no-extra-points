@@ -243,6 +243,12 @@ def compute_season_stats(logs, team_stats)
     totals["field_goal_percentage"] = 0
   end
 
+  if totals["qbr"] && totals["qbr"] > 0
+    totals["qbr"] = (totals["qbr"].to_f / totals["passer_eligible"].to_f).round(1)
+  else
+    totals["qbr"] = 0
+  end
+
   totals
 end
 
