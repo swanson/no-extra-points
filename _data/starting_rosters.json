@@ -90,7 +90,7 @@
           "short_name": "J. Stockton",
           "last_name": "Stockton",
           "first_name": "Justin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mm7snAx05W5tu1iKEJZ1r5GxNG-z",
@@ -117,18 +117,6 @@
           "starting": false
         },
         {
-          "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
-          "slug": "freddie-martino",
-          "name": "Freddie Martino",
-          "position": "WR",
-          "number": 84,
-          "team": "ARI",
-          "short_name": "F. Martino",
-          "last_name": "Martino",
-          "first_name": "Freddie",
-          "starting": true
-        },
-        {
           "guid": "MkJMaeehojJ_G2FTn43DdskqOBtE",
           "slug": "richard-mullaney",
           "name": "Richard Mullaney",
@@ -138,6 +126,18 @@
           "short_name": "R. Mullaney",
           "last_name": "Mullaney",
           "first_name": "Richard",
+          "starting": true
+        },
+         {
+          "guid": "MrbAjODhVSr6W7hTaAmC8u0WN9pK",
+          "slug": "freddie-martino",
+          "name": "Freddie Martino",
+          "position": "WR",
+          "number": 84,
+          "team": "ARI",
+          "short_name": "F. Martino",
+          "last_name": "Martino",
+          "first_name": "Freddie",
           "starting": true
         },
         {
@@ -241,7 +241,7 @@
           "short_name": "M. Simms",
           "last_name": "Simms",
           "first_name": "Matt",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "Mr5k7hAZFnvFAoDhfOnpMECSCZeC",
@@ -807,7 +807,7 @@
           "short_name": "D. Lucien",
           "last_name": "Lucien",
           "first_name": "Devin",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MvRhbzA3GEwC-zxSrwZWFZV76v8-",
@@ -855,7 +855,7 @@
           "short_name": "B. Barnes",
           "last_name": "Barnes",
           "first_name": "Brandon",
-          "starting": false
+          "starting": true
         },
         {
           "guid": "MmMr1PqQzXo0ZVHk39O2j4ktgFhu",
@@ -1289,7 +1289,7 @@
           "short_name": "A. Denham",
           "last_name": "Denham",
           "first_name": "Anthony",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MruASXlN9ksMnvFg3zcDg_6dISTx",
@@ -1404,7 +1404,7 @@
           "short_name": "A. Green",
           "last_name": "Green",
           "first_name": "Aaron",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "Mouig89pVdE03nmLvHe4S9gpJ01y",
@@ -1603,7 +1603,7 @@
           "short_name": "J. Gardner",
           "last_name": "Gardner",
           "first_name": "Ja'Quan",
-          "starting": true
+          "starting": false
         },
         {
           "guid": "MlZbM0ABiwcViZmr5VvEVRo-Ic5k",
@@ -1629,18 +1629,7 @@
           "first_name": "Bishop",
           "starting": true
         },
-        {
-          "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
-          "slug": "brian-brown",
-          "name": "Brian Brown",
-          "position": "WR",
-          "number": 83,
-          "team": "SD",
-          "short_name": "B. Brown",
-          "last_name": "Brown",
-          "first_name": "Brian",
-          "starting": true
-        },
+       
         {
           "guid": "Ms7obZS7dFXxIdQMVfg1WsQJeF3y",
           "slug": "dontez-ford",
@@ -1678,18 +1667,6 @@
           "starting": false
         },
         {
-          "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
-          "slug": "francis-owusu",
-          "name": "Francis Owusu",
-          "position": "WR",
-          "number": 82,
-          "team": "SD",
-          "short_name": "F. Owusu",
-          "last_name": "Owusu",
-          "first_name": "Francis",
-          "starting": false
-        },
-        {
           "guid": "MtpaAkW1xD2OB6d8qJ8wyp5wSx5_",
           "slug": "nelson-spruce",
           "name": "Nelson Spruce",
@@ -1699,6 +1676,30 @@
           "short_name": "N. Spruce",
           "last_name": "Spruce",
           "first_name": "Nelson",
+          "starting": true
+        },
+         {
+          "guid": "MjQdQplRusHyVzncTteLcd_4RdB4",
+          "slug": "brian-brown",
+          "name": "Brian Brown",
+          "position": "WR",
+          "number": 83,
+          "team": "SD",
+          "short_name": "B. Brown",
+          "last_name": "Brown",
+          "first_name": "Brian",
+          "starting": true
+        },
+        {
+          "guid": "MluzUXObHhe2cAWPPHcb4G54tlKb",
+          "slug": "francis-owusu",
+          "name": "Francis Owusu",
+          "position": "WR",
+          "number": 82,
+          "team": "SD",
+          "short_name": "F. Owusu",
+          "last_name": "Owusu",
+          "first_name": "Francis",
           "starting": true
         },
         {
