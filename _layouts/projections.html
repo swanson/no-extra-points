@@ -11,8 +11,13 @@ nav: projections
   <div class="max-w-sm">
     <div class="italics bg-blue-light rounded p-4 my-4 text-blue-lightest leading-normal">
       <p class="text-left">
-        Weekly AAF Fantasy projections provided by Anders Eagleson
-        (<a class="no-underline text-white border-b border-white border-dotted font-bold" href="https://twitter.com/AndersEagleson">@AndersEagleson</a>)
+        {% if page.week == "week-08" %}
+          Weekly AAF Fantasy projections provided by Matthew M Stevens
+          (<a class="no-underline text-white border-b border-white border-dotted font-bold" href="https://twitter.com/stevens_mms">@stevens_mms</a>)
+        {% else %}
+          Weekly AAF Fantasy projections provided by Anders Eagleson
+          (<a class="no-underline text-white border-b border-white border-dotted font-bold" href="https://twitter.com/AndersEagleson">@AndersEagleson</a>)
+        {% endif %}
       </p>
       <p class="mt-4 text-left text-xs">
         Projections are based on player usage, efficiency, Vegas totals, market share, and other secret sauce.
