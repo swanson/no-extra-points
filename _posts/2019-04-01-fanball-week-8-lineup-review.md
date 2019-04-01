@@ -90,6 +90,7 @@ Better luck next time!
 - Week 04: +\$367.50
 - Week 05: +\$663.75
 - Week 06: -\$230.00
-- Week 07: -\$32.50
+- Week 07: -\$80.33
+- Week 08: -\$32.50
 
 **Total: +\$525.34**
