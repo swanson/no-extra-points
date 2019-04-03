@@ -248,7 +248,7 @@ body {
   background-position-y: -176px;
 }
 
-.footer a {
+.footer a, .banner a {
   @apply border-b-2 border-dotted border-white no-underline text-lg;
 }
 
